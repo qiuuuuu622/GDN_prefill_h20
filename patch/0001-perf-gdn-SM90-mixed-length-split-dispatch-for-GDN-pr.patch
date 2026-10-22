@@ -1,0 +1,522 @@
+From c7517d77ea138090fba2f74bfd98e9e5a6073887 Mon Sep 17 00:00:00 2001
+From: qiuuuu622 <q17762079638@outlook.com>
+Date: Thu, 22 Oct 2026 13:42:50 +0800
+Subject: [PATCH] perf(gdn): SM90 mixed-length split dispatch for GDN prefill
+
+When one sequence dominates an unsaturated varlen batch, run it through the
+CP kernel on a side stream while the rest run through the non-CP kernel.
+Groups are contiguous slices, so no tensors are copied. Gated on host
+lengths (cu_seqlens_cpu) to avoid a device sync; disable with
+FLASHINFER_GDN_SM90_SPLIT=0.
+
+H20, Qwen3.5-122B TP4 shape (Hq=4, Hv=16, D=128), CUDA-graph device time:
+8192+3x1024 0.753->0.519ms (1.45x), 16384+3x1024 1.500->0.884ms (1.70x),
+32768+3x1024 2.999->1.605ms (1.87x). Gate fitted on 54 shapes: every accepted
+case >=1.11x, every rejected case <=1.02x.
+
+AI-assisted.
+---
+ flashinfer/gdn_prefill.py            | 137 +++++++++++++++++++++-
+ flashinfer/gdn_split.py              | 166 +++++++++++++++++++++++++++
+ tests/gdn/test_prefill_sm90_split.py | 147 ++++++++++++++++++++++++
+ 3 files changed, 449 insertions(+), 1 deletion(-)
+ create mode 100644 flashinfer/gdn_split.py
+ create mode 100644 tests/gdn/test_prefill_sm90_split.py
+
+diff --git a/flashinfer/gdn_prefill.py b/flashinfer/gdn_prefill.py
+index b3f461cce..10cc6bee7 100644
+--- a/flashinfer/gdn_prefill.py
++++ b/flashinfer/gdn_prefill.py
+@@ -49,6 +49,7 @@ from .gdn_kernels.delta_rule_dsl.varlen_helper import (
+     is_integer_dtype,
+     should_use_cp_host,
+ )
++from . import gdn_split as _gdn_split
+ 
+ 
+ _STATE_DTYPES: tuple[torch.dtype, ...] = (
+@@ -1012,6 +1013,106 @@ def _is_cudnn_gdn_auto_eligible(
+     return True
+ 
+ 
++def _sm90_split_plan(
++    *,
++    use_cp,
++    cu_seqlens_cpu,
++    num_seqs: int,
++    total_seq_len: int,
++    num_sab_heads: int,
++    sm_count: int,
++    state_indices,
++    checkpoint_every_n_tokens: int,
++    cp_available: bool,
++):
++    """Plan for the SM90 mixed-length split, or ``None`` to keep one launch.
++
++    Needs the host lengths (``cu_seqlens_cpu``) so the decision costs no
++    device synchronization; pooled states and checkpoints keep the single
++    launch since the split has not been qualified with them.
++    """
++    if (
++        use_cp != "auto"
++        or cu_seqlens_cpu is None
++        or not cp_available
++        or num_seqs < 2
++        or state_indices is not None
++        or checkpoint_every_n_tokens > 0
++        or os.environ.get("FLASHINFER_GDN_SM90_SPLIT", "1") == "0"
++    ):
++        return None
++    if isinstance(cu_seqlens_cpu, torch.Tensor):
++        if cu_seqlens_cpu.device.type != "cpu":
++            return None
++        offsets = cu_seqlens_cpu.tolist()
++    else:
++        offsets = [int(value) for value in cu_seqlens_cpu]
++    if (
++        len(offsets) != num_seqs + 1
++        or offsets[0] != 0
++        or offsets[-1] != total_seq_len
++    ):
++        return None
++    lengths = [end - start for start, end in zip(offsets, offsets[1:])]
++    if any(length < 0 for length in lengths):
++        return None
++    plan = _gdn_split.plan_split(lengths, num_sab_heads, sm_count)
++    return None if plan is None else (plan, lengths)
++
++
++def _run_sm90_split(
++    split_plan,
++    *,
++    q,
++    k,
++    v,
++    g,
++    beta,
++    cu_seqlens,
++    scale: float,
++    output,
++    initial_state,
++    output_state,
++) -> None:
++    plan, lengths = split_plan
++    total, heads = q.size(0), output.size(1)
++    if g is None:
++        g = torch.ones(total, heads, dtype=torch.float32, device=q.device)
++    if beta is None:
++        beta = torch.ones(total, heads, dtype=torch.float32, device=q.device)
++
++    def cp_fn(*, q, k, v, g, beta, cu_seqlens, initial_state, output_state,
++              output, max_seqlen, cp_chunk_len):
++        cp_delta_rule_dsl_sm90(
++            output, output_state, q, k, v, g, beta, cu_seqlens, scale,
++            initial_state=initial_state, max_seqlen=max_seqlen,
++            cp_chunk_len=cp_chunk_len,
++        )
++
++    def noncp_fn(*, q, k, v, g, beta, cu_seqlens, initial_state, output_state,
++                 output, max_seqlen):
++        chunk_gated_delta_rule_sm90(
++            output, output_state, q, k, v, initial_state, g, beta, cu_seqlens,
++            scale, None, None, 0,
++        )
++
++    _gdn_split.execute_split(
++        plan,
++        lengths=lengths,
++        q=q,
++        k=k,
++        v=v,
++        g=g,
++        beta=beta,
++        cu_seqlens=cu_seqlens.to(torch.int64),
++        output=output,
++        initial_state=initial_state,
++        output_state=output_state,
++        cp_fn=cp_fn,
++        noncp_fn=noncp_fn,
++    )
++
++
+ @flashinfer_api(trace=gdn_prefill_trace)
+ def chunk_gated_delta_rule(
+     q: torch.Tensor,
+@@ -1238,7 +1339,12 @@ def chunk_gated_delta_rule(
+         or a sequence of Python ints of length ``num_seqs + 1`` holding the
+         same values (vLLM's ``query_start_loc_cpu``, the prefix sums of
+         SGLang's ``extend_seq_lens_cpu``). Used by ``backend="cake_gdn"``
+-        without CP and ignored by every other route. When given, the Cake
++        without CP and, on SM90 with ``use_cp="auto"``, by the mixed-length
++        split (``flashinfer/gdn_split.py``): when one sequence dominates an
++        unsaturated batch it runs through CP on a side stream while the rest
++        run through the non-CP kernel, writing the same output and final
++        state (disable with ``FLASHINFER_GDN_SM90_SPLIT=0``; pooled states
++        and checkpoints keep the single launch). When given, the Cake
+         route validates it on the host (non-decreasing, first entry ``0``,
+         last entry ``total_seq_len``; a mismatch raises before any launch),
+         takes the exact longest sequence as the bound for variant selection,
+@@ -1874,6 +1980,35 @@ def chunk_gated_delta_rule(
+                 device=device,
+             )
+ 
++        split_plan = _sm90_split_plan(
++            use_cp=use_cp,
++            cu_seqlens_cpu=cu_seqlens_cpu,
++            num_seqs=num_seqs,
++            total_seq_len=total_seq_len,
++            num_sab_heads=num_sab_heads,
++            sm_count=_sm_count,
++            state_indices=state_indices,
++            checkpoint_every_n_tokens=checkpoint_every_n_tokens,
++            cp_available=cp_delta_rule_dsl_sm90 is not None,
++        )
++        if split_plan is not None:
++            _run_sm90_split(
++                split_plan,
++                q=q,
++                k=k,
++                v=v,
++                g=g,
++                beta=beta,
++                cu_seqlens=cu_seqlens,
++                scale=_scale,
++                output=output,
++                initial_state=initial_state,
++                output_state=output_state,
++            )
++            if output_final_state:
++                return output, output_state
++            return output
++
+         chunk_gated_delta_rule_sm90(
+             output,
+             output_state,
+diff --git a/flashinfer/gdn_split.py b/flashinfer/gdn_split.py
+new file mode 100644
+index 000000000..f1a86502c
+--- /dev/null
++++ b/flashinfer/gdn_split.py
+@@ -0,0 +1,166 @@
++"""Mixed-length split dispatch for the chunked GDN prefill kernel (SM90).
++
++The non-CP kernel launches one CTA per ``(sequence, value head)`` and each CTA
++walks its whole sequence, so a batch with one long sequence finishes only when
++that sequence's ``num_v_heads`` CTAs do; every other SM idles.  The CP kernel
++splits a sequence into chunks and fills the machine, but pays a second state
++pass, so running it over a whole balanced batch loses.
++
++The split runs the longest sequence through CP on a side stream and the rest
++through the non-CP kernel on the current stream, concurrently.  Packed varlen
++layout makes every group a contiguous slice (prefix | long | suffix), so no
++tensor is copied: each kernel reads input views and writes output views.
++"""
++
++from __future__ import annotations
++
++from dataclasses import dataclass
++from typing import Callable, Optional, Sequence
++
++import torch
++
++__all__ = ["SplitPlan", "plan_split", "execute_split"]
++
++_BLOCK = 64
++# Below this the longest sequence has too few chunks to pay for CP's second
++# state pass (smallest length measured to win on H20).
++_MIN_LONG_TOKENS = 4096
++# SM-time of CP on one sequence, in units of "one CTA walking it once": two
++# state passes at ~74% of the non-CP kernel's per-CTA efficiency.
++_CP_WORK_FACTOR = 2.7
++# Fraction of the machine the two concurrent launches can actually fill.
++_SATURATION = 0.86
++
++
++@dataclass(frozen=True)
++class SplitPlan:
++    long_idx: int
++    cp_chunk_len: int
++
++
++def _cp_chunk_len(longest: int, num_v_heads: int, num_sms: int) -> int:
++    """Smallest power-of-two multiple of 64 keeping CP CTAs within one wave."""
++    chunk_len = _BLOCK
++    while -(-longest // chunk_len) * num_v_heads > num_sms:
++        chunk_len *= 2
++    return chunk_len
++
++
++def plan_split(
++    lengths: Sequence[int],
++    num_v_heads: int,
++    num_sms: int,
++    min_gain: float = 1.1,
++) -> Optional[SplitPlan]:
++    """Return a plan when splitting the longest sequence out should win.
++
++    Cost model in units of "one CTA advancing one token":
++
++    * non-CP: the batch ends when the longest sequence's CTAs do, or when the
++      machine has drained every CTA, whichever is later:
++      ``max(L, total * Hv / SMs)``.
++    * split: CP spends ``_CP_WORK_FACTOR * L * Hv`` and the short sequences
++      ``rest * Hv``, shared by ``SMs * _SATURATION``; no short CTA can finish
++      before its own sequence, so the second-longest length is a floor.
++
++    Fitted on H20 (78 SMs) over ``Hv in {8, 16}``, ``L in {4k, 8k, 16k}``,
++    1-7 short sequences of ``L/8`` to ``L/2``: every case it accepts measured
++    >= 1.11x, every case it rejects measured <= 1.02x.
++    """
++    if len(lengths) < 2:
++        return None
++    long_idx = max(range(len(lengths)), key=lambda i: lengths[i])
++    longest = lengths[long_idx]
++    if longest < _MIN_LONG_TOKENS:
++        return None
++    rest = sum(lengths) - longest
++    second = max(length for i, length in enumerate(lengths) if i != long_idx)
++
++    base = max(longest, (longest + rest) * num_v_heads / num_sms)
++    split = max(
++        (_CP_WORK_FACTOR * longest + rest) * num_v_heads / (num_sms * _SATURATION),
++        second,
++    )
++    if split * min_gain >= base:
++        return None
++    return SplitPlan(long_idx, _cp_chunk_len(longest, num_v_heads, num_sms))
++
++
++_side_streams: dict[int, torch.cuda.Stream] = {}
++
++
++def _side_stream(device: torch.device) -> torch.cuda.Stream:
++    index = torch.cuda.current_device() if device.index is None else device.index
++    stream = _side_streams.get(index)
++    if stream is None:
++        stream = torch.cuda.Stream(device=index)
++        _side_streams[index] = stream
++    return stream
++
++
++def execute_split(
++    plan: SplitPlan,
++    *,
++    lengths: Sequence[int],
++    q: torch.Tensor,
++    k: torch.Tensor,
++    v: torch.Tensor,
++    g: torch.Tensor,
++    beta: torch.Tensor,
++    cu_seqlens: torch.Tensor,
++    output: torch.Tensor,
++    initial_state: Optional[torch.Tensor],
++    output_state: Optional[torch.Tensor],
++    cp_fn: Callable[..., None],
++    noncp_fn: Callable[..., None],
++) -> None:
++    """Run ``plan`` and write results into ``output`` / ``output_state``.
++
++    ``cp_fn`` and ``noncp_fn`` receive keyword arguments ``q, k, v, g, beta,
++    cu_seqlens, initial_state, output_state, output, max_seqlen`` (plus
++    ``cp_chunk_len`` for ``cp_fn``) describing one contiguous group.  States
++    are packed per sequence (``[num_seqs, H, V, K]``), so group rows are
++    contiguous slices too.
++    """
++    li = plan.long_idx
++    num_seqs = len(lengths)
++    starts = [0]
++    for length in lengths:
++        starts.append(starts[-1] + length)
++    s, e = starts[li], starts[li + 1]
++
++    def rows(t: Optional[torch.Tensor], lo: int, hi: int) -> Optional[torch.Tensor]:
++        return None if t is None else t[lo:hi]
++
++    def group(lo: int, hi: int) -> dict:
++        tok_lo, tok_hi = starts[lo], starts[hi]
++        cu = cu_seqlens[lo : hi + 1]
++        if tok_lo:
++            cu = cu - cu_seqlens[lo]
++        return dict(
++            q=q[tok_lo:tok_hi],
++            k=k[tok_lo:tok_hi],
++            v=v[tok_lo:tok_hi],
++            g=g[tok_lo:tok_hi],
++            beta=beta[tok_lo:tok_hi],
++            cu_seqlens=cu,
++            initial_state=rows(initial_state, lo, hi),
++            output_state=rows(output_state, lo, hi),
++            output=output[tok_lo:tok_hi],
++            max_seqlen=max(lengths[lo:hi]),
++        )
++
++    long_group = group(li, li + 1)
++    short_groups = [group(lo, hi) for lo, hi in ((0, li), (li + 1, num_seqs)) if hi > lo]
++
++    device = q.device
++    side = _side_stream(device)
++    current = torch.cuda.current_stream(device)
++    side.wait_stream(current)
++    with torch.cuda.stream(side):
++        cp_fn(**long_group, cp_chunk_len=plan.cp_chunk_len)
++    # cu_seqlens of the long group may be a fresh tensor from the main stream.
++    long_group["cu_seqlens"].record_stream(side)
++    for short in short_groups:
++        noncp_fn(**short)
++    current.wait_stream(side)
+diff --git a/tests/gdn/test_prefill_sm90_split.py b/tests/gdn/test_prefill_sm90_split.py
+new file mode 100644
+index 000000000..f7be7b001
+--- /dev/null
++++ b/tests/gdn/test_prefill_sm90_split.py
+@@ -0,0 +1,147 @@
++"""
++Copyright (c) 2026 by FlashInfer team.
++
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++
++  http://www.apache.org/licenses/LICENSE-2.0
++
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++
++SM90 mixed-length split dispatch (flashinfer/gdn_split.py): planner decisions
++on the host, and GPU equivalence of the split route against the single
++non-CP launch.
++"""
++
++from __future__ import annotations
++
++import pytest
++import torch
++import torch.nn.functional as F
++
++from flashinfer import gdn_split
++
++
++# ---------------------------------------------------------------- planner ---
++
++# (lengths, num_v_heads, expect_split) measured on H20 (78 SMs).
++_PLANS = [
++    ([8192, 1024, 1024, 1024], 16, True),  # 1.45x
++    ([1024, 8192, 1024], 16, True),  # long sequence in the middle
++    ([16384, 2048, 2048, 2048], 16, True),  # 1.54x
++    ([8192] + [1024] * 7, 16, True),  # 1.22x
++    ([8192, 4096, 4096, 4096], 16, False),  # 0.98x
++    ([8192] + [2048] * 7, 16, False),  # 0.95x
++    ([8192, 8192, 1024, 1024], 16, False),  # two long sequences
++    ([2048] * 4, 16, False),  # balanced
++    ([2048, 256], 16, False),  # longest too short for CP
++    ([8192], 16, False),  # single sequence: CP heuristic's job
++]
++
++
++@pytest.mark.parametrize("lengths,num_v_heads,expect_split", _PLANS)
++def test_plan_split_decisions(lengths, num_v_heads, expect_split):
++    plan = gdn_split.plan_split(lengths, num_v_heads, 78)
++    assert (plan is not None) == expect_split
++    if plan is not None:
++        assert lengths[plan.long_idx] == max(lengths)
++        chunks = -(-max(lengths) // plan.cp_chunk_len)
++        assert chunks * num_v_heads <= 78
++        assert plan.cp_chunk_len % 64 == 0
++
++
++def test_plan_split_chunk_is_smallest_one_wave():
++    plan = gdn_split.plan_split([16384, 1024, 1024, 1024], 16, 78)
++    assert plan is not None and plan.cp_chunk_len == 4096
++
++
++# ------------------------------------------------------------------- GPU ---
++
++
++def _skip_unless_sm90():
++    if not torch.cuda.is_available() or torch.cuda.get_device_capability()[0] != 9:
++        pytest.skip("SM90 split dispatch requires Hopper")
++    from flashinfer.gdn_kernels import cp_delta_rule_dsl_sm90
++
++    if cp_delta_rule_dsl_sm90 is None:
++        pytest.skip("SM90 CP delta-rule kernel is unavailable")
++
++
++def _inputs(lengths, num_q_heads, num_v_heads, head_size, seed=0):
++    torch.manual_seed(seed)
++    device = "cuda"
++    total = sum(lengths)
++    dtype = torch.bfloat16
++    q = torch.randn(total, num_q_heads, head_size, dtype=dtype, device=device)
++    k = F.normalize(
++        torch.randn(total, num_q_heads, head_size, device=device), p=2, dim=-1
++    ).to(dtype)
++    v = torch.randn(total, num_v_heads, head_size, dtype=dtype, device=device)
++    g = torch.rand(total, num_v_heads, device=device).clamp_min(1e-30)
++    beta = torch.rand(total, num_v_heads, device=device).sigmoid()
++    h0 = 0.1 * torch.randn(
++        len(lengths), num_v_heads, head_size, head_size, device=device
++    )
++    offsets = [0]
++    for length in lengths:
++        offsets.append(offsets[-1] + length)
++    cu = torch.tensor(offsets, dtype=torch.int64, device=device)
++    return q, k, v, g, beta, h0, cu, offsets
++
++
++@pytest.mark.parametrize(
++    "lengths",
++    [
++        [8192, 1024, 1024, 1024],
++        [1024, 1024, 8192],
++        [512, 8192, 0, 1024],
++        [16384, 2048, 2048],
++    ],
++)
++def test_split_matches_single_launch(lengths, monkeypatch):
++    _skip_unless_sm90()
++    from flashinfer.gdn_prefill import chunk_gated_delta_rule
++    from flashinfer.utils import get_device_sm_count
++
++    num_q_heads, num_v_heads, head_size = 4, 16, 128
++    if gdn_split.plan_split(lengths, num_v_heads, get_device_sm_count("cuda")) is None:
++        pytest.skip("planner keeps a single launch on this device")
++    q, k, v, g, beta, h0, cu, offsets = _inputs(
++        lengths, num_q_heads, num_v_heads, head_size
++    )
++
++    def run(split: bool):
++        monkeypatch.setenv("FLASHINFER_GDN_SM90_SPLIT", "1" if split else "0")
++        return chunk_gated_delta_rule(
++            q, k, v, g, beta, initial_state=h0, output_final_state=True,
++            cu_seqlens=cu, cu_seqlens_cpu=offsets,
++        )
++
++    ref_out, ref_state = run(split=False)
++    out, state = run(split=True)
++    torch.cuda.synchronize()
++    torch.testing.assert_close(out.float(), ref_out.float(), atol=2e-2, rtol=2e-2)
++    # Neither route writes the final state of a zero-length sequence (the
++    # single launch leaves that row of the auto-allocated buffer untouched).
++    live = [i for i, length in enumerate(lengths) if length > 0]
++    torch.testing.assert_close(state[live], ref_state[live], atol=1e-2, rtol=1e-2)
++
++
++def test_split_needs_host_lengths(monkeypatch):
++    """Without cu_seqlens_cpu the split would need a device sync: stay single."""
++    _skip_unless_sm90()
++    from flashinfer import gdn_prefill
++
++    calls = []
++    monkeypatch.setattr(
++        gdn_prefill, "_run_sm90_split", lambda *a, **kw: calls.append(1)
++    )
++    lengths = [8192, 1024, 1024, 1024]
++    q, k, v, g, beta, h0, cu, _ = _inputs(lengths, 4, 16, 128)
++    gdn_prefill.chunk_gated_delta_rule(q, k, v, g, beta, cu_seqlens=cu)
++    assert not calls
+-- 
+2.39.5 (Apple Git-154)
+
