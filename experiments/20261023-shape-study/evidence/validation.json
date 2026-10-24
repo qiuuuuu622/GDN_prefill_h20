@@ -1,0 +1,3218 @@
+[
+  {
+    "lengths": [
+      1
+    ],
+    "gate": "uniform",
+    "initial_state": false,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.00014995411038398743,
+    "output_rms": 1.4171963812259492e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0031675100326538086,
+    "output_state_rms": 0.0001315403205808252,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      1
+    ],
+    "gate": "uniform",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      63
+    ],
+    "gate": "uniform",
+    "initial_state": false,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0003880597651004791,
+    "output_rms": 1.7428616047254764e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.004237055778503418,
+    "output_state_rms": 0.00014874717453494668,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      63
+    ],
+    "gate": "uniform",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      64
+    ],
+    "gate": "uniform",
+    "initial_state": false,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0004489123821258545,
+    "output_rms": 1.7072990885935724e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0022467970848083496,
+    "output_state_rms": 0.0001535795454401523,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      64
+    ],
+    "gate": "uniform",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      65
+    ],
+    "gate": "uniform",
+    "initial_state": false,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0003132261335849762,
+    "output_rms": 1.635549597267527e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0028717517852783203,
+    "output_state_rms": 0.0001551411405671388,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65
+    ],
+    "gate": "uniform",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      257
+    ],
+    "gate": "uniform",
+    "initial_state": false,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0004678070545196533,
+    "output_rms": 1.7525166185805574e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.005606293678283691,
+    "output_state_rms": 0.0001607039594091475,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      257
+    ],
+    "gate": "uniform",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      4097
+    ],
+    "gate": "uniform",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "gate": "uniform",
+    "initial_state": false,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.000373058021068573,
+    "output_rms": 1.6892234270926565e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.003786444664001465,
+    "output_state_rms": 0.00015353293565567583,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "gate": "uniform",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "gate": "uniform",
+    "initial_state": false,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1023,
+      8193,
+      0,
+      513
+    ],
+    "gate": "uniform",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1023,
+      8193,
+      0,
+      513
+    ],
+    "gate": "uniform",
+    "initial_state": false,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "uniform",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "uniform",
+    "initial_state": false,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "gate": "uniform",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "gate": "uniform",
+    "initial_state": false,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1
+    ],
+    "gate": "uniform",
+    "initial_state": true,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.00013256631791591644,
+    "output_rms": 1.949722718563862e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0030472278594970703,
+    "output_state_rms": 0.0001541701058158651,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      1
+    ],
+    "gate": "uniform",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      63
+    ],
+    "gate": "uniform",
+    "initial_state": true,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0003443323075771332,
+    "output_rms": 1.761416206136346e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.004237055778503418,
+    "output_state_rms": 0.00014874717453494668,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      63
+    ],
+    "gate": "uniform",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      64
+    ],
+    "gate": "uniform",
+    "initial_state": true,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0004489123821258545,
+    "output_rms": 1.729036375763826e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0022467970848083496,
+    "output_state_rms": 0.0001535795454401523,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      64
+    ],
+    "gate": "uniform",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      65
+    ],
+    "gate": "uniform",
+    "initial_state": true,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.00027738139033317566,
+    "output_rms": 1.6492298527737148e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0028717517852783203,
+    "output_state_rms": 0.0001551411405671388,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65
+    ],
+    "gate": "uniform",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      257
+    ],
+    "gate": "uniform",
+    "initial_state": true,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0004678070545196533,
+    "output_rms": 1.757235440891236e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.005606293678283691,
+    "output_state_rms": 0.0001607039594091475,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      257
+    ],
+    "gate": "uniform",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      4097
+    ],
+    "gate": "uniform",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "gate": "uniform",
+    "initial_state": true,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.000373058021068573,
+    "output_rms": 1.7087872038246132e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.003786444664001465,
+    "output_state_rms": 0.00015578781312797219,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "gate": "uniform",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "gate": "uniform",
+    "initial_state": true,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1023,
+      8193,
+      0,
+      513
+    ],
+    "gate": "uniform",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1023,
+      8193,
+      0,
+      513
+    ],
+    "gate": "uniform",
+    "initial_state": true,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "uniform",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "uniform",
+    "initial_state": true,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "gate": "uniform",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "gate": "uniform",
+    "initial_state": true,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1
+    ],
+    "gate": "slow",
+    "initial_state": false,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.00014995411038398743,
+    "output_rms": 1.4171963812259492e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0031675100326538086,
+    "output_state_rms": 0.0001315403205808252,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      1
+    ],
+    "gate": "slow",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      63
+    ],
+    "gate": "slow",
+    "initial_state": false,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.000438101589679718,
+    "output_rms": 4.651898052543402e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.004421710968017578,
+    "output_state_rms": 0.0005034417263232172,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      63
+    ],
+    "gate": "slow",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      64
+    ],
+    "gate": "slow",
+    "initial_state": false,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.00041345879435539246,
+    "output_rms": 4.558574437396601e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.004985690116882324,
+    "output_state_rms": 0.0004991890164092183,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      64
+    ],
+    "gate": "slow",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      65
+    ],
+    "gate": "slow",
+    "initial_state": false,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0004048384726047516,
+    "output_rms": 4.615823127096519e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.004092395305633545,
+    "output_state_rms": 0.0005075794761069119,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65
+    ],
+    "gate": "slow",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      257
+    ],
+    "gate": "slow",
+    "initial_state": false,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0007040947675704956,
+    "output_rms": 5.4694071877747774e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.004952788352966309,
+    "output_state_rms": 0.0005643564509227872,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      257
+    ],
+    "gate": "slow",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      4097
+    ],
+    "gate": "slow",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "gate": "slow",
+    "initial_state": false,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0004657059907913208,
+    "output_rms": 4.939444988849573e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.005475878715515137,
+    "output_state_rms": 0.00044728198554366827,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "gate": "slow",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "gate": "slow",
+    "initial_state": false,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1023,
+      8193,
+      0,
+      513
+    ],
+    "gate": "slow",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1023,
+      8193,
+      0,
+      513
+    ],
+    "gate": "slow",
+    "initial_state": false,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "slow",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "slow",
+    "initial_state": false,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "gate": "slow",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "gate": "slow",
+    "initial_state": false,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1
+    ],
+    "gate": "slow",
+    "initial_state": true,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.00017962604761123657,
+    "output_rms": 2.5789602659642696e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.004060268402099609,
+    "output_state_rms": 0.00015842464927118272,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      1
+    ],
+    "gate": "slow",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      63
+    ],
+    "gate": "slow",
+    "initial_state": true,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0006552934646606445,
+    "output_rms": 5.252228584140539e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0049970149993896484,
+    "output_state_rms": 0.0005826125852763653,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      63
+    ],
+    "gate": "slow",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      64
+    ],
+    "gate": "slow",
+    "initial_state": true,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0006418954581022263,
+    "output_rms": 5.1868912123609334e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.00476817786693573,
+    "output_state_rms": 0.0005741876666434109,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      64
+    ],
+    "gate": "slow",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      65
+    ],
+    "gate": "slow",
+    "initial_state": true,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.000545211136341095,
+    "output_rms": 5.2125647926004604e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.004655212163925171,
+    "output_state_rms": 0.0005791160510852933,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65
+    ],
+    "gate": "slow",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      257
+    ],
+    "gate": "slow",
+    "initial_state": true,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0006844159215688705,
+    "output_rms": 5.634979243041016e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.004968225955963135,
+    "output_state_rms": 0.000564672751352191,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      257
+    ],
+    "gate": "slow",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      4097
+    ],
+    "gate": "slow",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "gate": "slow",
+    "initial_state": true,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0005115717649459839,
+    "output_rms": 5.278610115055926e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.006167113780975342,
+    "output_state_rms": 0.00046779593685641885,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "gate": "slow",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "gate": "slow",
+    "initial_state": true,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1023,
+      8193,
+      0,
+      513
+    ],
+    "gate": "slow",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1023,
+      8193,
+      0,
+      513
+    ],
+    "gate": "slow",
+    "initial_state": true,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "slow",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "slow",
+    "initial_state": true,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "gate": "slow",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "gate": "slow",
+    "initial_state": true,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1
+    ],
+    "gate": "near_one",
+    "initial_state": false,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0001703444868326187,
+    "output_rms": 1.139321830123663e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.002180933952331543,
+    "output_state_rms": 0.00010628654854372144,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      1
+    ],
+    "gate": "near_one",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      63
+    ],
+    "gate": "near_one",
+    "initial_state": false,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0005865022540092468,
+    "output_rms": 7.821240433258936e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.00693434476852417,
+    "output_state_rms": 0.001087019918486476,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      63
+    ],
+    "gate": "near_one",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      64
+    ],
+    "gate": "near_one",
+    "initial_state": false,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0006559938192367554,
+    "output_rms": 7.79353576945141e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.006387829780578613,
+    "output_state_rms": 0.0010856002336367965,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      64
+    ],
+    "gate": "near_one",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      65
+    ],
+    "gate": "near_one",
+    "initial_state": false,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.000665619969367981,
+    "output_rms": 8.017577783903107e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0066571831703186035,
+    "output_state_rms": 0.0010974734323099256,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65
+    ],
+    "gate": "near_one",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      257
+    ],
+    "gate": "near_one",
+    "initial_state": false,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0010875537991523743,
+    "output_rms": 0.00015338601951953024,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.011404216289520264,
+    "output_state_rms": 0.002021406777203083,
+    "output_state_finite": true,
+    "output_state_close": false,
+    "valid": false
+  },
+  {
+    "lengths": [
+      257
+    ],
+    "gate": "near_one",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      4097
+    ],
+    "gate": "near_one",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "gate": "near_one",
+    "initial_state": false,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0009329468011856079,
+    "output_rms": 0.00011184212053194642,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.008485913276672363,
+    "output_state_rms": 0.0011478433152660728,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "gate": "near_one",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "gate": "near_one",
+    "initial_state": false,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1023,
+      8193,
+      0,
+      513
+    ],
+    "gate": "near_one",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1023,
+      8193,
+      0,
+      513
+    ],
+    "gate": "near_one",
+    "initial_state": false,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "near_one",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "near_one",
+    "initial_state": false,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "gate": "near_one",
+    "initial_state": false,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "gate": "near_one",
+    "initial_state": false,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1
+    ],
+    "gate": "near_one",
+    "initial_state": true,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.00011121854186058044,
+    "output_rms": 2.454605419188738e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0028166770935058594,
+    "output_state_rms": 0.00013241560372989625,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      1
+    ],
+    "gate": "near_one",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      63
+    ],
+    "gate": "near_one",
+    "initial_state": true,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0006816387176513672,
+    "output_rms": 8.948262984631583e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0076787471771240234,
+    "output_state_rms": 0.0012405985035002232,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      63
+    ],
+    "gate": "near_one",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      64
+    ],
+    "gate": "near_one",
+    "initial_state": true,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0007557645440101624,
+    "output_rms": 8.86305351741612e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.007679253816604614,
+    "output_state_rms": 0.0012356126680970192,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      64
+    ],
+    "gate": "near_one",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      65
+    ],
+    "gate": "near_one",
+    "initial_state": true,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0006734542548656464,
+    "output_rms": 9.107912774197757e-05,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.008497476577758789,
+    "output_state_rms": 0.0012431135401129723,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65
+    ],
+    "gate": "near_one",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      257
+    ],
+    "gate": "near_one",
+    "initial_state": true,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.001001119613647461,
+    "output_rms": 0.00015873277152422816,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.011720821261405945,
+    "output_state_rms": 0.002053206553682685,
+    "output_state_finite": true,
+    "output_state_close": false,
+    "valid": false
+  },
+  {
+    "lengths": [
+      257
+    ],
+    "gate": "near_one",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      4097
+    ],
+    "gate": "near_one",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "gate": "near_one",
+    "initial_state": true,
+    "method": "noncp_vs_fp32_recurrence",
+    "output_max_abs": 0.0008828528225421906,
+    "output_rms": 0.00012042897287756205,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.009122014045715332,
+    "output_state_rms": 0.001203563529998064,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "gate": "near_one",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "gate": "near_one",
+    "initial_state": true,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1023,
+      8193,
+      0,
+      513
+    ],
+    "gate": "near_one",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1023,
+      8193,
+      0,
+      513
+    ],
+    "gate": "near_one",
+    "initial_state": true,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "near_one",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "near_one",
+    "initial_state": true,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "gate": "near_one",
+    "initial_state": true,
+    "method": "dvsplit",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  },
+  {
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "gate": "near_one",
+    "initial_state": true,
+    "method": "dv_long_only",
+    "output_max_abs": 0.0,
+    "output_rms": 0.0,
+    "output_finite": true,
+    "output_close": true,
+    "output_state_max_abs": 0.0,
+    "output_state_rms": 0.0,
+    "output_state_finite": true,
+    "output_state_close": true,
+    "valid": true,
+    "empty_state_unwritten": true,
+    "graph_check": {
+      "output_max_abs": 0.0,
+      "output_rms": 0.0,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.0,
+      "output_state_rms": 0.0,
+      "output_state_finite": true,
+      "output_state_close": true,
+      "valid": true
+    }
+  }
+]

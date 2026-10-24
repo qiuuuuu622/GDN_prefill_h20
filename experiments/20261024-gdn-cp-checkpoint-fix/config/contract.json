@@ -1,0 +1,47 @@
+{
+  "host": "h20-2",
+  "gpu": 6,
+  "software": "Torch2.13.0+cu130, FlashInfer0.6.18, SGLang0.5.20",
+  "geometry": {
+    "122b_tp4": [
+      4,
+      16
+    ],
+    "35b_tp1": [
+      16,
+      32
+    ]
+  },
+  "dtype": "bf16",
+  "state": "fp32",
+  "seed": 20261024,
+  "cp_chunk": 2048,
+  "targets": [
+    64,
+    1280,
+    2048,
+    4096,
+    8128,
+    8192
+  ],
+  "gates": [
+    "slow",
+    "near_one"
+  ],
+  "objectives": [
+    "selected CP checkpoint equals original CP prefix final state",
+    "token output and final state unchanged for default arithmetic",
+    "audit difference to original nonCP with unchanged tolerances",
+    "graph replay and memcheck"
+  ],
+  "noncp_tolerances": {
+    "output": [
+      0.02,
+      0.02
+    ],
+    "state": [
+      0.01,
+      0.01
+    ]
+  }
+}

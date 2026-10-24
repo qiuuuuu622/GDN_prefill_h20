@@ -1,0 +1,27 @@
+CASE [8192] H 16 32
+READY noncp True 0.11
+READY public_auto True 7.67
+READY cp_auto_total True 0.01
+READY cp_auto_exact True 0.01
+READY cp_c512 True 0.01
+READY cp_c1024 True 0.01
+READY cp_c2048 True 0.01
+READY cp_c4096 True 0.01
+READY cp_c8192 True 0.01
+Traceback (most recent call last):
+  File "/root/gdn35/20261023-shape-study/scripts/benchmark.py", line 190, in <module>
+    main()
+  File "/root/gdn35/20261023-shape-study/scripts/benchmark.py", line 172, in main
+    times[name].append(graph_time(graphs[name], args.iterations))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/gdn35/20261023-shape-study/scripts/benchmark.py", line 80, in graph_time
+    b.synchronize()
+  File "/opt/sglang/lib/python3.12/site-packages/torch/cuda/streams.py", line 254, in synchronize
+    super().synchronize()
+torch.AcceleratorError: CUDA error: an illegal memory access was encountered
+Search for `cudaErrorIllegalAddress' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+
+[W1023 07:25:08.583432311 CUDAEvent.h:57] Warning: CUDA warning: an illegal memory access was encountered (function ~CUDAEvent)
+[W1023 07:25:08.583489948 CUDAEvent.h:57] Warning: CUDA warning: an illegal memory access was encountered (function ~CUDAEvent)

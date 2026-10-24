@@ -1,0 +1,32 @@
+{
+  "command": [
+    "/opt/sglang/bin/python",
+    "-m",
+    "dynamo.frontend",
+    "--http-host",
+    "0.0.0.0",
+    "--http-port",
+    "18000",
+    "--router-mode",
+    "round-robin",
+    "--enforce-disagg"
+  ],
+  "env": {
+    "DYN_NAMESPACE": "gdn35-chunk16k-1024",
+    "ETCD_ENDPOINTS": "http://127.0.0.1:12379",
+    "DYN_DISCOVERY_BACKEND": "etcd",
+    "DYN_REQUEST_PLANE": "tcp",
+    "DYN_EVENT_PLANE": "zmq",
+    "DYN_TOPOLOGY_ENABLED": "true",
+    "DYN_TOPOLOGY_MOUNT_PATH": "/root/gdn35/20261024-gdn-chunk16k/topology",
+    "DYN_KV_TRANSFER_DOMAIN": "host",
+    "DYN_KV_TRANSFER_ENFORCEMENT": "required",
+    "UCX_CUDA_IPC_CACHE": "n",
+    "DYN_SYSTEM_STARTING_HEALTH_STATUS": "notready",
+    "DYN_SYSTEM_USE_ENDPOINT_HEALTH_STATUS": "[\"generate\"]",
+    "PYTHONPATH": "/root/gdn35/20261024-gdn-chunk16k/scripts",
+    "CUDA_VISIBLE_DEVICES": "",
+    "DYN_SYSTEM_PORT": "18080"
+  },
+  "pid": 285950
+}

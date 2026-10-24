@@ -1,0 +1,914 @@
+{
+  "path": "/local/gdn35-experiments/20261024-gdn-ttft-investigation/profiles/sample03_optimized/sample03_optimized-1792811098.4824593-TP-0.trace.json.gz",
+  "categories": {
+    "user_annotation": 6223,
+    "cpu_op": 6249,
+    "python_function": 673787,
+    "overhead": 1,
+    "gpu_memcpy": 293,
+    "cuda_runtime": 923,
+    "kernel": 1760,
+    "cuda_driver": 159,
+    "gpu_memset": 4,
+    "gpu_user_annotation": 78,
+    "Trace": 1
+  },
+  "kernel_count": 1760,
+  "kernel_total_ms": 189.4954289999999,
+  "kernel_union_ms": 187.90960620117187,
+  "kernel_span_ms": 260.21052099609375,
+  "kernel_groups": [
+    {
+      "name": "void cutlass::device_kernel<flash::enable_sm90_or_later<flash::FlashAttnFwdSm90<flash::CollectiveMainloopFwdSm90<2, cute::tuple<cute::C<1>, cute::C<1>, cute::C<1> >, cute::tuple<cute::C<128>, cute::C<80>, cute::C<256> >, 256, cutlass::bfloat16_t, float, cutlass::arch::Sm90, true, false, false, true, true, false, false, false, true, true, true, false, false, cutlass::bfloat16_t, false, 1>, flash::CollectiveEpilogueFwd<cute::tuple<cute::C<128>, cute::C<256>, cute::C<80> >, cute::tuple<cute::C<1>, cute::C<1>, cute::C<1> >, cutlass::bfloat16_t, cutlass::arch::Sm90, 256, true, true, false, false>, flash::VarlenDynamicPersistentTileScheduler<128, 80, 256, 128, false, true, true, true, true, true> > > >(flash::enable_sm90_or_later<flash::FlashAttnFwdSm90<flash::CollectiveMainloopFwdSm90<2, cute::tuple<cute::C<1>, cute::C<1>, cute::C<1> >, cute::tuple<cute::C<128>, cute::C<80>, cute::C<256> >, 256, cutlass::bfloat16_t, float, cutlass::arch::Sm90, true, false, false, true, true, false, false, false, true, true, true, false, false, cutlass::bfloat16_t, false, 1>, flash::CollectiveEpilogueFwd<cute::tuple<cute::C<128>, cute::C<256>, cute::C<80> >, cute::tuple<cute::C<1>, cute::C<1>, cute::C<1> >, cutlass::bfloat16_t, cutlass::arch::Sm90, 256, true, true, false, false>, flash::VarlenDynamicPersistentTileScheduler<128, 80, 256, 128, false, true, true, true, true, true> > >::Params)",
+      "count": 10,
+      "sum_ms": 76.92090999999999,
+      "mean_us": 7692.0909999999985
+    },
+    {
+      "name": "void deep_gemm::sm90_fp8_gemm_1d2d_impl<(cute::UMMA::Major)0, 0u, 0u, 0u, 1u, 256u, 128u, 128u, 128u, 128u, 128u, 3u, 128u, 256u, 1u, false, 78u, (deep_gemm::GemmType)0, cutlass::bfloat16_t, deep_gemm::epilogue::transform::EpilogueIdentity>(float*, int*, unsigned int, unsigned int, unsigned int, CUtensorMap_st, CUtensorMap_st, CUtensorMap_st, CUtensorMap_st)",
+      "count": 120,
+      "sum_ms": 43.68889899999999,
+      "mean_us": 364.07415833333323
+    },
+    {
+      "name": "fused_moe_kernel",
+      "count": 80,
+      "sum_ms": 34.86295099999999,
+      "mean_us": 435.7868874999998
+    },
+    {
+      "name": "kernel_cutlass_kernel_flashinfergdn_kernelsdelta_rule_dsldelta_rule_sm90_FullyFusedDeltaRuleSm90_object_at__tensorptrf32gmemalign16o1_tensorptrf32gmemalign16o1_CopyAtom_ThrID10_TVLayoutSr_0",
+      "count": 30,
+      "sum_ms": 9.926875,
+      "mean_us": 330.8958333333333
+    },
+    {
+      "name": "void deep_gemm::sm90_fp8_gemm_1d2d_impl<(cute::UMMA::Major)0, 0u, 1024u, 0u, 1u, 128u, 192u, 128u, 128u, 128u, 128u, 4u, 128u, 256u, 1u, false, 78u, (deep_gemm::GemmType)0, cutlass::bfloat16_t, deep_gemm::epilogue::transform::EpilogueIdentity>(float*, int*, unsigned int, unsigned int, unsigned int, CUtensorMap_st, CUtensorMap_st, CUtensorMap_st, CUtensorMap_st)",
+      "count": 40,
+      "sum_ms": 2.4440319999999995,
+      "mean_us": 61.10079999999999
+    },
+    {
+      "name": "_causal_conv1d_fwd_kernel",
+      "count": 30,
+      "sum_ms": 2.3846409999999993,
+      "mean_us": 79.4880333333333
+    },
+    {
+      "name": "void sglang::act_and_mul_kernel<__nv_bfloat16, (sglang::ActivationKind)0, true, false, false, false>(sglang::ActivationParams)",
+      "count": 80,
+      "sum_ms": 1.598205,
+      "mean_us": 19.9775625
+    },
+    {
+      "name": "nvjet_sm90_tst_256x112_64x4_2x1_v_bz_coopA_TNT",
+      "count": 1,
+      "sum_ms": 1.557791,
+      "mean_us": 1557.791
+    },
+    {
+      "name": "void moe_sum_reduce_warp_per_token_vec_kernel<8>(c10::BFloat16 const*, c10::BFloat16*, long, long, long, long, long, long, float)",
+      "count": 40,
+      "sum_ms": 1.4864609999999998,
+      "mean_us": 37.161525
+    },
+    {
+      "name": "void sglang::per_token_group_quant_flat_kernel<sglang::QuantTrait<__nv_bfloat16, __nv_fp8_e4m3, 128u, false, true, true, false>, true>(sglang::QuantKernelParams)",
+      "count": 80,
+      "sum_ms": 1.2263670000000002,
+      "mean_us": 15.329587500000002
+    },
+    {
+      "name": "nvjet_sm90_tst_192x192_64x3_2x1_v_bz_coopB_NNN",
+      "count": 1,
+      "sum_ms": 1.170015,
+      "mean_us": 1170.015
+    },
+    {
+      "name": "nvjet_sm90_tst_88x128_64x7_1x2_h_bz_TNN",
+      "count": 40,
+      "sum_ms": 1.1655959999999999,
+      "mean_us": 29.139899999999994
+    },
+    {
+      "name": "void sglang::per_token_group_quant_flat_kernel<sglang::QuantTrait<__nv_bfloat16, __nv_fp8_e4m3, 128u, false, false, true, false>, true>(sglang::QuantKernelParams)",
+      "count": 160,
+      "sum_ms": 1.0791400000000002,
+      "mean_us": 6.744625000000001
+    },
+    {
+      "name": "_layer_norm_fwd_1pass_kernel",
+      "count": 30,
+      "sum_ms": 1.059838,
+      "mean_us": 35.327933333333334
+    },
+    {
+      "name": "kernel_cutlass_kernel_flashinfernormkernelsfused_add_rmsnormFusedAddRMSNormKernel_object_at__tensorptrbf16gmemalign128oi64204820481_tensorptrbf16gmemalign128oi64204820481_tensorptrbf16gme_0",
+      "count": 80,
+      "sum_ms": 1.0510709999999996,
+      "mean_us": 13.138387499999997
+    },
+    {
+      "name": "_fused_qk_rmsnorm_rope_gate_kernel",
+      "count": 10,
+      "sum_ms": 1.023871,
+      "mean_us": 102.38709999999999
+    },
+    {
+      "name": "fused_qkv_split_gdn_prefill_kernel",
+      "count": 30,
+      "sum_ms": 0.8245119999999998,
+      "mean_us": 27.483733333333326
+    },
+    {
+      "name": "void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1}>(long, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1})",
+      "count": 67,
+      "sum_ms": 0.6079359999999998,
+      "mean_us": 9.073671641791043
+    },
+    {
+      "name": "l2norm_fwd_kernel",
+      "count": 60,
+      "sum_ms": 0.5611489999999999,
+      "mean_us": 9.352483333333332
+    },
+    {
+      "name": "_fused_gate_sigmoid_mul_add_kernel",
+      "count": 40,
+      "sum_ms": 0.548419,
+      "mean_us": 13.710474999999999
+    },
+    {
+      "name": "void count_and_sort_expert_tokens_kernel<int>(int const*, int*, int*, unsigned long, bool)",
+      "count": 40,
+      "sum_ms": 0.5106529999999999,
+      "mean_us": 12.766324999999998
+    },
+    {
+      "name": "void moe_align_block_size_kernel<int>(int const*, int*, int*, int*, int, int, unsigned long, int*, bool, bool, int, int)",
+      "count": 40,
+      "sum_ms": 0.388544,
+      "mean_us": 9.7136
+    },
+    {
+      "name": "_router_triton_kernel",
+      "count": 40,
+      "sum_ms": 0.37478500000000015,
+      "mean_us": 9.369625000000003
+    },
+    {
+      "name": "memcpy128",
+      "count": 57,
+      "sum_ms": 0.36118600000000006,
+      "mean_us": 6.336596491228071
+    },
+    {
+      "name": "nvjet_sm90_tst_64x48_64x15_1x2_h_bz_TNT",
+      "count": 30,
+      "sum_ms": 0.31923300000000004,
+      "mean_us": 10.641100000000002
+    },
+    {
+      "name": "void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_put_kernel_impl<at::native::OpaqueType<4> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_put_kernel_impl<at::native::OpaqueType<4> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1}>(long, at::native::gpu_index_kernel<at::native::index_put_kernel_impl<at::native::OpaqueType<4> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_put_kernel_impl<at::native::OpaqueType<4> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1})",
+      "count": 35,
+      "sum_ms": 0.3030050000000001,
+      "mean_us": 8.657285714285715
+    },
+    {
+      "name": "fused_gdn_gating_kernel",
+      "count": 30,
+      "sum_ms": 0.292575,
+      "mean_us": 9.7525
+    },
+    {
+      "name": "nvjet_sm90_tst_128x8_64x12_2x1_v_bz_TNT",
+      "count": 1,
+      "sum_ms": 0.277312,
+      "mean_us": 277.312
+    },
+    {
+      "name": "_fused_norm_rope_kernel_stacked",
+      "count": 1,
+      "sum_ms": 0.201983,
+      "mean_us": 201.983
+    },
+    {
+      "name": "_fused_sigmoid_mul_kernel",
+      "count": 10,
+      "sum_ms": 0.19715200000000002,
+      "mean_us": 19.715200000000003
+    },
+    {
+      "name": "void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<2> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_kernel_impl<at::native::OpaqueType<2> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1}>(long, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<2> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_kernel_impl<at::native::OpaqueType<2> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1})",
+      "count": 39,
+      "sum_ms": 0.165024,
+      "mean_us": 4.2313846153846155
+    },
+    {
+      "name": "void at::native::index_elementwise_kernel<128, 4, at::native::index_copy_kernel_impl<at::native::OpaqueType<4> >(at::TensorIterator&, long, long, long)::{lambda(int)#1}>(long, at::native::index_copy_kernel_impl<at::native::OpaqueType<4> >(at::TensorIterator&, long, long, long)::{lambda(int)#1})",
+      "count": 30,
+      "sum_ms": 0.11353700000000003,
+      "mean_us": 3.7845666666666675
+    },
+    {
+      "name": "void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_put_kernel_impl<at::native::OpaqueType<2> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_put_kernel_impl<at::native::OpaqueType<2> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1}>(long, at::native::gpu_index_kernel<at::native::index_put_kernel_impl<at::native::OpaqueType<2> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_put_kernel_impl<at::native::OpaqueType<2> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1})",
+      "count": 30,
+      "sum_ms": 0.103106,
+      "mean_us": 3.436866666666667
+    },
+    {
+      "name": "void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}, std::array<char*, 2ul>, 4, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1> >(int, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}, std::array<char*, 2ul>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1>)",
+      "count": 67,
+      "sum_ms": 0.098303,
+      "mean_us": 1.4672089552238805
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<8, at::native::compare_scalar_kernel<int>(at::TensorIteratorBase&, at::native::(anonymous namespace)::OpType, int)::{lambda(int)#1}, std::array<char*, 2ul> >(int, at::native::compare_scalar_kernel<int>(at::TensorIteratorBase&, at::native::(anonymous namespace)::OpType, int)::{lambda(int)#1}, std::array<char*, 2ul>)",
+      "count": 60,
+      "sum_ms": 0.07321799999999999,
+      "mean_us": 1.2202999999999997
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_vectorized<at::native::(anonymous namespace)::OpaqueType<2u>, unsigned int, 2, 128, 1, 16, 8>(char*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<2u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+      "count": 1,
+      "sum_ms": 0.064928,
+      "mean_us": 64.928
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::exp_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#2}::operator()() const::{lambda(float)#1}, std::array<char*, 2ul> >(int, at::native::exp_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#2}::operator()() const::{lambda(float)#1}, std::array<char*, 2ul>)",
+      "count": 30,
+      "sum_ms": 0.06179,
+      "mean_us": 2.0596666666666668
+    },
+    {
+      "name": "void sglang::store_kvcache<1024l, 1024l, 2, true, long>(sglang::StoreKVCacheParams)",
+      "count": 10,
+      "sum_ms": 0.05465599999999999,
+      "mean_us": 5.465599999999999
+    },
+    {
+      "name": "void sglang::store_kvcache<2048l, 2048l, 4, true, long>(sglang::StoreKVCacheParams)",
+      "count": 6,
+      "sum_ms": 0.054144,
+      "mean_us": 9.024
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<8, at::native::FillFunctor<c10::BFloat16>, std::array<char*, 1ul> >(int, at::native::FillFunctor<c10::BFloat16>, std::array<char*, 1ul>)",
+      "count": 41,
+      "sum_ms": 0.04672099999999999,
+      "mean_us": 1.1395365853658534
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::where_kernel_impl(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#3}::operator()() const::{lambda(bool, unsigned int, unsigned int)#1}, std::array<char*, 4ul> >(int, at::native::(anonymous namespace)::where_kernel_impl(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#3}::operator()() const::{lambda(bool, unsigned int, unsigned int)#1}, std::array<char*, 4ul>)",
+      "count": 30,
+      "sum_ms": 0.04016200000000001,
+      "mean_us": 1.3387333333333338
+    },
+    {
+      "name": "void flash::prepare_varlen_num_blocks_kernel<1, true>(int, int, int, int const*, int const*, int const*, int const*, int const*, int const*, int, int, int, int, int, cutlass::FastDivmod, cutlass::FastDivmod, int*, int*, int*, int*, int*, bool, bool, bool, int)",
+      "count": 10,
+      "sum_ms": 0.030911999999999995,
+      "mean_us": 3.0911999999999997
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul> >(int, at::native::FillFunctor<int>, std::array<char*, 1ul>)",
+      "count": 32,
+      "sum_ms": 0.024416000000000004,
+      "mean_us": 0.7630000000000001
+    },
+    {
+      "name": "kernel_cutlass_kernel_flashinfernormkernelsrmsnormRMSNormKernel_object_at__tensorptrbf16gmemalign128oi64204820481_tensorptrbf16gmemalign16o20481_tensorptrbf16gmemalign128oi64204820481___T_0",
+      "count": 2,
+      "sum_ms": 0.018272,
+      "mean_us": 9.136
+    },
+    {
+      "name": "_fused_slot_copy_kernel",
+      "count": 1,
+      "sum_ms": 0.01392,
+      "mean_us": 13.92
+    },
+    {
+      "name": "write_req_to_token_pool_triton",
+      "count": 1,
+      "sum_ms": 0.009504,
+      "mean_us": 9.504
+    },
+    {
+      "name": "void at::native::vectorized_gather_kernel<16, long>(char*, char*, long*, int, long, long, long, long, bool)",
+      "count": 1,
+      "sum_ms": 0.009087999999999999,
+      "mean_us": 9.088
+    },
+    {
+      "name": "void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::ArgMaxOps<float>, unsigned int, long, 4, 4> >(at::native::ReduceOp<float, at::native::ArgMaxOps<float>, unsigned int, long, 4, 4>)",
+      "count": 1,
+      "sum_ms": 0.007647999999999999,
+      "mean_us": 7.648
+    },
+    {
+      "name": "void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#3}::operator()() const::{lambda(int)#1}, std::array<char*, 2ul>, 4, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1> >(int, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#3}::operator()() const::{lambda(int)#1}, std::array<char*, 2ul>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1>)",
+      "count": 4,
+      "sum_ms": 0.005696,
+      "mean_us": 1.424
+    },
+    {
+      "name": "void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<8> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_kernel_impl<at::native::OpaqueType<8> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1}>(long, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<8> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_kernel_impl<at::native::OpaqueType<8> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1})",
+      "count": 2,
+      "sum_ms": 0.005599,
+      "mean_us": 2.7995
+    },
+    {
+      "name": "void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_put_kernel_impl<at::native::OpaqueType<8> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_put_kernel_impl<at::native::OpaqueType<8> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1}>(long, at::native::gpu_index_kernel<at::native::index_put_kernel_impl<at::native::OpaqueType<8> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_put_kernel_impl<at::native::OpaqueType<8> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1})",
+      "count": 3,
+      "sum_ms": 0.004992,
+      "mean_us": 1.664
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_vectorized<at::native::(anonymous namespace)::OpaqueType<8u>, unsigned int, 1, 128, 1, 16, 2>(char*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<8u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+      "count": 3,
+      "sum_ms": 0.004639,
+      "mean_us": 1.5463333333333333
+    },
+    {
+      "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::BUnaryFunctor<int, int, int, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#3}::operator()() const::{lambda(int, int)#1}> >(at::TensorIteratorBase&, at::native::BUnaryFunctor<int, int, int, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#3}::operator()() const::{lambda(int, int)#1}> const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::BUnaryFunctor<int, int, int, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#3}::operator()() const::{lambda(int, int)#1}> >(at::TensorIteratorBase&, at::native::BUnaryFunctor<int, int, int, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#3}::operator()() const::{lambda(int, int)#1}> const&)::{lambda(int)#1})",
+      "count": 3,
+      "sum_ms": 0.0044800000000000005,
+      "mean_us": 1.4933333333333334
+    },
+    {
+      "name": "void at::native::unrolled_elementwise_kernel<at::native::CUDAFunctor_add<long>, std::array<char*, 3ul>, 4, TrivialOffsetCalculator<2, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<2>, at::native::memory::StoreWithCast<1> >(int, at::native::CUDAFunctor_add<long>, std::array<char*, 3ul>, TrivialOffsetCalculator<2, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<2>, at::native::memory::StoreWithCast<1>)",
+      "count": 2,
+      "sum_ms": 0.004383,
+      "mean_us": 2.1915
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<2, at::native::FillFunctor<long>, std::array<char*, 1ul> >(int, at::native::FillFunctor<long>, std::array<char*, 1ul>)",
+      "count": 4,
+      "sum_ms": 0.004064,
+      "mean_us": 1.016
+    },
+    {
+      "name": "compute_position_kernel",
+      "count": 2,
+      "sum_ms": 0.003936,
+      "mean_us": 1.968
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<2, at::native::CUDAFunctorOnSelf_add<long>, std::array<char*, 2ul> >(int, at::native::CUDAFunctorOnSelf_add<long>, std::array<char*, 2ul>)",
+      "count": 3,
+      "sum_ms": 0.003934999999999999,
+      "mean_us": 1.3116666666666665
+    },
+    {
+      "name": "void at_cuda_detail::cub::detail::select::DeviceSelectSweepKernel<at_cuda_detail::cub::detail::select::policy_hub<long, bool, int, false, (at_cuda_detail::cub::SelectImpl)0>::Policy1000, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::counting_iterator<long, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default>, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::transform_iterator<at::native::(anonymous namespace)::NonZeroOp<bool>, bool const*, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default>, long*, int*, at_cuda_detail::cub::ScanTileState<int, true>, at_cuda_detail::cub::NullType, at_cuda_detail::cub::NullType, int, at_cuda_detail::cub::detail::select::streaming_context_t<long, true>, (at_cuda_detail::cub::SelectImpl)0>(thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::counting_iterator<long, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default>, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::transform_iterator<at::native::(anonymous namespace)::NonZeroOp<bool>, bool const*, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default>, long*, int*, at_cuda_detail::cub::ScanTileState<int, true>, at_cuda_detail::cub::NullType, at_cuda_detail::cub::NullType, int, int, at_cuda_detail::cub::detail::select::streaming_context_t<long, true>, at_cuda_detail::cub::detail::vsmem_t)",
+      "count": 2,
+      "sum_ms": 0.003714,
+      "mean_us": 1.857
+    },
+    {
+      "name": "void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}, std::array<char*, 2ul>, 4, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1> >(int, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}, std::array<char*, 2ul>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1>)",
+      "count": 1,
+      "sum_ms": 0.003648,
+      "mean_us": 3.648
+    },
+    {
+      "name": "void at_cuda_detail::cub::detail::reduce::DeviceReduceSingleTileKernel<at_cuda_detail::cub::detail::reduce::policy_hub<int, unsigned long long, cuda::std::__4::plus<void> >::Policy1000, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::transform_iterator<at::native::(anonymous namespace)::NonZeroOp<bool>, bool const*, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default>, int*, unsigned long long, cuda::std::__4::plus<void>, int, int, cuda::std::__4::__identity>(thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::transform_iterator<at::native::(anonymous namespace)::NonZeroOp<bool>, bool const*, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default>, int*, unsigned long long, cuda::std::__4::plus<void>, int, cuda::std::__4::__identity)",
+      "count": 2,
+      "sum_ms": 0.003519,
+      "mean_us": 1.7595
+    },
+    {
+      "name": "void (anonymous namespace)::elementwise_kernel_with_index<int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Tensor&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}>(int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Tensor&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}, function_traits<at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Tensor&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}>::result_type*)",
+      "count": 2,
+      "sum_ms": 0.002784,
+      "mean_us": 1.392
+    },
+    {
+      "name": "void at_cuda_detail::cub::detail::scan::DeviceScanKernel<at_cuda_detail::cub::detail::scan::policy_hub<int, int, int, unsigned int, std::plus<int> >::Policy1000, int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int, int, false, at_cuda_detail::cub::NullType>(int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, int, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int)",
+      "count": 2,
+      "sum_ms": 0.0026559999999999995,
+      "mean_us": 1.3279999999999998
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<2, at::native::BUnaryFunctor<long, long, long, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long, long)#1}>, std::array<char*, 2ul> >(int, at::native::BUnaryFunctor<long, long, long, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long, long)#1}>, std::array<char*, 2ul>)",
+      "count": 1,
+      "sum_ms": 0.002624,
+      "mean_us": 2.624
+    },
+    {
+      "name": "alloc_extend_kernel",
+      "count": 1,
+      "sum_ms": 0.0024,
+      "mean_us": 2.4
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::BUnaryFunctor<int, int, int, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#3}::operator()() const::{lambda(int, int)#1}>, std::array<char*, 2ul> >(int, at::native::BUnaryFunctor<int, int, int, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#3}::operator()() const::{lambda(int, int)#1}>, std::array<char*, 2ul>)",
+      "count": 1,
+      "sum_ms": 0.002368,
+      "mean_us": 2.368
+    },
+    {
+      "name": "void at_cuda_detail::cub::detail::scan::DeviceCompactInitKernel<at_cuda_detail::cub::ScanTileState<int, true>, int*>(at_cuda_detail::cub::ScanTileState<int, true>, int, int*)",
+      "count": 2,
+      "sum_ms": 0.0023039999999999996,
+      "mean_us": 1.152
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::multi_tensor_apply_kernel<at::native::(anonymous namespace)::TensorListMetadata<2>, at::native::(anonymous namespace)::UnaryOpFunctor<bool, 2, 1, 1>, at::native::Copy<bool, bool> >(at::native::(anonymous namespace)::TensorListMetadata<2>, at::native::(anonymous namespace)::UnaryOpFunctor<bool, 2, 1, 1>, at::native::Copy<bool, bool>)",
+      "count": 1,
+      "sum_ms": 0.002303,
+      "mean_us": 2.303
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<2, at::native::AUnaryFunctor<long, long, long, at::native::binary_internal::MulFunctor<long> >, std::array<char*, 2ul> >(int, at::native::AUnaryFunctor<long, long, long, at::native::binary_internal::MulFunctor<long> >, std::array<char*, 2ul>)",
+      "count": 1,
+      "sum_ms": 0.0020800000000000003,
+      "mean_us": 2.08
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_alignedK_contig<at::native::(anonymous namespace)::OpaqueType<8u>, unsigned int, 1, 128, 1, 16>(at::native::(anonymous namespace)::OpaqueType<8u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<8u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+      "count": 1,
+      "sum_ms": 0.0020800000000000003,
+      "mean_us": 2.08
+    },
+    {
+      "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::FillFunctor<long> >(at::TensorIteratorBase&, at::native::FillFunctor<long> const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::FillFunctor<long> >(at::TensorIteratorBase&, at::native::FillFunctor<long> const&)::{lambda(int)#1})",
+      "count": 1,
+      "sum_ms": 0.001984,
+      "mean_us": 1.984
+    },
+    {
+      "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1} const&)::{lambda(int)#1})",
+      "count": 1,
+      "sum_ms": 0.001984,
+      "mean_us": 1.984
+    },
+    {
+      "name": "void at_cuda_detail::cub::detail::scan::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<int, true> >(at_cuda_detail::cub::ScanTileState<int, true>, int)",
+      "count": 2,
+      "sum_ms": 0.001984,
+      "mean_us": 0.992
+    },
+    {
+      "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::CUDAFunctor_add<long> >(at::TensorIteratorBase&, at::native::CUDAFunctor_add<long> const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::CUDAFunctor_add<long> >(at::TensorIteratorBase&, at::native::CUDAFunctor_add<long> const&)::{lambda(int)#1})",
+      "count": 1,
+      "sum_ms": 0.001952,
+      "mean_us": 1.952
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::CUDAFunctor_add<int>, std::array<char*, 3ul> >(int, at::native::CUDAFunctor_add<int>, std::array<char*, 3ul>)",
+      "count": 1,
+      "sum_ms": 0.00176,
+      "mean_us": 1.76
+    },
+    {
+      "name": "void at_cuda_detail::cub::detail::scan::DeviceScanKernel<at_cuda_detail::cub::detail::scan::policy_hub<long, long, long, unsigned int, std::plus<long> >::Policy1000, long const*, long*, at_cuda_detail::cub::ScanTileState<long, true>, std::plus<long>, at_cuda_detail::cub::NullType, unsigned int, long, false, at_cuda_detail::cub::NullType>(long const*, long*, at_cuda_detail::cub::ScanTileState<long, true>, int, std::plus<long>, at_cuda_detail::cub::NullType, unsigned int)",
+      "count": 1,
+      "sum_ms": 0.001504,
+      "mean_us": 1.504
+    },
+    {
+      "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::BUnaryFunctor<long, long, long, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long, long)#1}> >(at::TensorIteratorBase&, at::native::BUnaryFunctor<long, long, long, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long, long)#1}> const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::BUnaryFunctor<long, long, long, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long, long)#1}> >(at::TensorIteratorBase&, at::native::BUnaryFunctor<long, long, long, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long, long)#1}> const&)::{lambda(int)#1})",
+      "count": 1,
+      "sum_ms": 0.0014730000000000001,
+      "mean_us": 1.473
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<2, at::native::(anonymous namespace)::launch_clamp_scalar(at::TensorIteratorBase&, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}, std::array<char*, 2ul> >(int, at::native::(anonymous namespace)::launch_clamp_scalar(at::TensorIteratorBase&, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}, std::array<char*, 2ul>)",
+      "count": 1,
+      "sum_ms": 0.0013440000000000001,
+      "mean_us": 1.344
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::multi_tensor_apply_kernel<at::native::(anonymous namespace)::TensorListMetadata<2>, at::native::(anonymous namespace)::CopyFunctor<int, long, 2, 1, 1>, at::native::Copy<int, long> >(at::native::(anonymous namespace)::TensorListMetadata<2>, at::native::(anonymous namespace)::CopyFunctor<int, long, 2, 1, 1>, at::native::Copy<int, long>)",
+      "count": 1,
+      "sum_ms": 0.00128,
+      "mean_us": 1.28
+    },
+    {
+      "name": "void at::native::unrolled_elementwise_kernel<at::native::CUDAFunctorOnSelf_add<int>, std::array<char*, 2ul>, 4, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, at::native::CUDAFunctorOnSelf_add<int>, std::array<char*, 2ul>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast)",
+      "count": 1,
+      "sum_ms": 0.000832,
+      "mean_us": 0.832
+    },
+    {
+      "name": "void at_cuda_detail::cub::detail::scan::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<long, true> >(at_cuda_detail::cub::ScanTileState<long, true>, int)",
+      "count": 1,
+      "sum_ms": 0.0006720000000000001,
+      "mean_us": 0.672
+    }
+  ],
+  "scope_stats": {
+    "GDN35/original/tokens=3230/cp=64": {
+      "count": 30,
+      "total_cpu_ms": 24.06838200000001,
+      "min_us": 745.114,
+      "max_us": 1284.409
+    }
+  },
+  "cuda_api": {
+    "cudaStreamSynchronize": {
+      "count": 25,
+      "total_ms": 97.594565,
+      "max_ms": 97.45375800000001
+    },
+    "cudaMemcpyAsync": {
+      "count": 73,
+      "total_ms": 6.800892999999999,
+      "max_ms": 0.852549
+    },
+    "cudaLaunchKernel": {
+      "count": 526,
+      "total_ms": 6.577671999999994,
+      "max_ms": 0.659601
+    },
+    "cudaGraphLaunch": {
+      "count": 41,
+      "total_ms": 2.7111460000000003,
+      "max_ms": 0.09417199999999999
+    },
+    "cuLaunchKernelEx": {
+      "count": 159,
+      "total_ms": 1.4629760000000003,
+      "max_ms": 0.13760499999999998
+    },
+    "cudaLaunchKernelExC": {
+      "count": 57,
+      "total_ms": 0.9433680000000003,
+      "max_ms": 0.11198699999999999
+    },
+    "cudaDeviceSynchronize": {
+      "count": 1,
+      "total_ms": 0.845851,
+      "max_ms": 0.845851
+    },
+    "cudaEventQuery": {
+      "count": 16,
+      "total_ms": 0.05905599999999999,
+      "max_ms": 0.011526
+    },
+    "cudaMemsetAsync": {
+      "count": 4,
+      "total_ms": 0.050836,
+      "max_ms": 0.016308
+    },
+    "cudaFuncSetAttribute": {
+      "count": 10,
+      "total_ms": 0.04719400000000001,
+      "max_ms": 0.007368
+    },
+    "cudaStreamIsCapturing": {
+      "count": 64,
+      "total_ms": 0.043893000000000015,
+      "max_ms": 0.003458
+    },
+    "cudaEventRecordWithFlags": {
+      "count": 20,
+      "total_ms": 0.034234,
+      "max_ms": 0.004708
+    },
+    "cudaGetDriverEntryPointByVersion": {
+      "count": 50,
+      "total_ms": 0.022635999999999996,
+      "max_ms": 0.002181
+    },
+    "cudaPointerGetAttributes": {
+      "count": 1,
+      "total_ms": 0.011628,
+      "max_ms": 0.011628
+    },
+    "cudaOccupancyMaxActiveBlocksPerMultiprocessorWithFlags": {
+      "count": 3,
+      "total_ms": 0.010728999999999999,
+      "max_ms": 0.0046760000000000005
+    },
+    "cudaStreamWaitEvent": {
+      "count": 3,
+      "total_ms": 0.010128999999999999,
+      "max_ms": 0.004889999999999999
+    },
+    "cudaEventSynchronize": {
+      "count": 1,
+      "total_ms": 0.009707,
+      "max_ms": 0.009707
+    },
+    "cudaDeviceGetAttribute": {
+      "count": 3,
+      "total_ms": 0.005847,
+      "max_ms": 0.0023769999999999998
+    },
+    "cudaPeekAtLastError": {
+      "count": 24,
+      "total_ms": 0.003973,
+      "max_ms": 0.000395
+    },
+    "cudaEventRecord": {
+      "count": 1,
+      "total_ms": 0.001971,
+      "max_ms": 0.001971
+    }
+  },
+  "steps": [
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072528202.51,
+      "dur_ms": 1.2844090000000001
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072532140.282,
+      "dur_ms": 0.839637
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072534900.211,
+      "dur_ms": 0.774295
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072538514.542,
+      "dur_ms": 0.800126
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072541212.384,
+      "dur_ms": 0.786722
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072543886.319,
+      "dur_ms": 0.7651939999999999
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072547189.747,
+      "dur_ms": 0.7981180000000001
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072549962.123,
+      "dur_ms": 0.7600410000000001
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072552619.253,
+      "dur_ms": 0.7817240000000001
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072555939.691,
+      "dur_ms": 0.7568250000000001
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072558608.763,
+      "dur_ms": 0.7864220000000001
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072561286.657,
+      "dur_ms": 0.783736
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072564572.475,
+      "dur_ms": 0.7822619999999999
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072567240.176,
+      "dur_ms": 0.792338
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072569951.794,
+      "dur_ms": 0.763887
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072573252.324,
+      "dur_ms": 0.808843
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072575945.831,
+      "dur_ms": 0.7562000000000001
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072578596.656,
+      "dur_ms": 0.7906409999999999
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072582032.319,
+      "dur_ms": 0.7829729999999999
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072584691.966,
+      "dur_ms": 0.785929
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072587348.13,
+      "dur_ms": 0.788396
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072590670.65,
+      "dur_ms": 0.7933450000000001
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072593366.317,
+      "dur_ms": 0.785526
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072596022.658,
+      "dur_ms": 0.745114
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072599314.049,
+      "dur_ms": 0.787745
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072602117.995,
+      "dur_ms": 0.789753
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072604761.243,
+      "dur_ms": 0.7955829999999999
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072608085.831,
+      "dur_ms": 0.7841119999999999
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072610734.126,
+      "dur_ms": 0.819466
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072613536.756,
+      "dur_ms": 0.79902
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072702461.434,
+      "dur_ms": 0.33158499999999996
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072699589.755,
+      "dur_ms": 0.331778
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072696726.333,
+      "dur_ms": 0.329954
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072683940.805,
+      "dur_ms": 0.330754
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072572850.189,
+      "dur_ms": 0.32950599999999997
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072548596.829,
+      "dur_ms": 0.331649
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072569979.919,
+      "dur_ms": 0.33005
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072591349.217,
+      "dur_ms": 0.33024200000000004
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072554334.425,
+      "dur_ms": 0.331874
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072529420.489,
+      "dur_ms": 0.334626
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072551470.939,
+      "dur_ms": 0.33149
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072585602.341,
+      "dur_ms": 0.330626
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072609878.677,
+      "dur_ms": 0.330914
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072532981.159,
+      "dur_ms": 0.331297
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072535855.973,
+      "dur_ms": 0.33027300000000004
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072678236.713,
+      "dur_ms": 0.333154
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072567115.152,
+      "dur_ms": 0.32957
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072622637.165,
+      "dur_ms": 0.33024200000000004
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072646898.141,
+      "dur_ms": 0.33072199999999996
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072588469.443,
+      "dur_ms": 0.332002
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072604124.761,
+      "dur_ms": 0.329186
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072628385.417,
+      "dur_ms": 0.330306
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072607004.247,
+      "dur_ms": 0.32861
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072625505.099,
+      "dur_ms": 0.329858
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072641146.401,
+      "dur_ms": 0.33072199999999996
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072665457.138,
+      "dur_ms": 0.330721
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072644017.183,
+      "dur_ms": 0.33216199999999996
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072659699.413,
+      "dur_ms": 0.330594
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072662579.859,
+      "dur_ms": 0.33117
+    },
+    {
+      "name": "GDN35/original/tokens=3230/cp=64",
+      "ts": 1954072681068.487,
+      "dur_ms": 0.331298
+    }
+  ]
+}

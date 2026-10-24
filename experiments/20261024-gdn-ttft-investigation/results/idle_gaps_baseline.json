@@ -1,0 +1,382 @@
+[
+  {
+    "relative_ms": 707.6646728515625,
+    "duration_ms": 6.2945302734375,
+    "active": [
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/events.py(48): enqueue",
+        "duration_ms": 0.002563
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/events.py(106): record_store",
+        "duration_ms": 7.122625
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_cache/unified_tree_core.py(1404): _add_new_node",
+        "duration_ms": 7.252756000000001
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_cache/unified_tree_core.py(1267): _insert_commit_step",
+        "duration_ms": 7.3018860000000005
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_cache/unified_tree_core.py(1156): _advance_insert",
+        "duration_ms": 7.441639
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_cache/unified_tree_core.py(1037): begin_insert",
+        "duration_ms": 7.503077
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_radix_cache.py(579): insert",
+        "duration_ms": 7.520358
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_radix_cache.py(1097): cache_unfinished_req",
+        "duration_ms": 8.663955
+      }
+    ]
+  },
+  {
+    "relative_ms": 868.4088588867188,
+    "duration_ms": 6.178882080078125,
+    "active": [
+      {
+        "name": "prometheus_client/metrics.py(138): labels",
+        "duration_ms": 0.01303
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/observability/metrics_collector.py(1161): _log_gauge",
+        "duration_ms": 0.024375
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/observability/metrics_collector.py(1363): log_stats",
+        "duration_ms": 1.4180570000000001
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/managers/scheduler_components/metrics_reporter.py(646): report_prefill_stats",
+        "duration_ms": 2.2506779999999997
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/prefill.py(705): process_batch_result_disagg_prefill",
+        "duration_ms": 2.698016
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/managers/scheduler.py(4593): process_batch_result",
+        "duration_ms": 3.2222649999999997
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/utils/nvtx_utils.py(106): wrapper",
+        "duration_ms": 3.927526
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/observability/scheduler_stage_metrics.py(143): wrapper",
+        "duration_ms": 3.943976
+      }
+    ]
+  },
+  {
+    "relative_ms": 890.8235869140625,
+    "duration_ms": 4.5852822265625,
+    "active": [
+      {
+        "name": "aten::to",
+        "duration_ms": 0.000579
+      },
+      {
+        "name": "<built-in method tensor of type object at 0x7f6e255f4f20>",
+        "duration_ms": 0.029753
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/utils.py(230): _all_reduce_polls",
+        "duration_ms": 0.118157
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/utils.py(237): poll_and_all_reduce",
+        "duration_ms": 0.131271
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/utils.py(252): poll_and_all_reduce_attn_cp_tp_group",
+        "duration_ms": 0.269563
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/prefill.py(946): process_disagg_prefill_inflight_queue",
+        "duration_ms": 0.31396199999999996
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/utils/nvtx_utils.py(106): wrapper",
+        "duration_ms": 0.372423
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/observability/scheduler_stage_metrics.py(143): wrapper",
+        "duration_ms": 0.377837
+      }
+    ]
+  },
+  {
+    "relative_ms": 877.462333984375,
+    "duration_ms": 3.619170166015625,
+    "active": [
+      {
+        "name": "<built-in method _record_function_enter_new of pybind11_builtins.pybind11_detail_function_record_v1_system_libstdcpp_gxx_abi_1xxx_use_cxx11_abi_1 object at 0x7f6df473f790>",
+        "duration_ms": 0.25855700000000004
+      },
+      {
+        "name": "torch/_ops.py(1267): __call__",
+        "duration_ms": 0.259578
+      },
+      {
+        "name": "torch/autograd/profiler.py(918): __enter__",
+        "duration_ms": 0.267449
+      },
+      {
+        "name": "contextlib.py(511): enter_context",
+        "duration_ms": 0.27389600000000003
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/utils/nvtx_utils.py(70): _profile_range_impl",
+        "duration_ms": 0.283822
+      },
+      {
+        "name": "<built-in function next>",
+        "duration_ms": 0.28468
+      },
+      {
+        "name": "contextlib.py(132): __enter__",
+        "duration_ms": 0.28609500000000004
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/utils/nvtx_utils.py(106): wrapper",
+        "duration_ms": 1.708112
+      }
+    ]
+  },
+  {
+    "relative_ms": 905.5663449707031,
+    "duration_ms": 3.050529052734375,
+    "active": [
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/utils/nvtx_utils.py(106): wrapper",
+        "duration_ms": 0.093541
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/observability/scheduler_stage_metrics.py(143): wrapper",
+        "duration_ms": 0.09883
+      },
+      {
+        "name": "<built-in function sleep>",
+        "duration_ms": 0.930881
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/nixl/conn.py(690): _await_handles",
+        "duration_ms": 5.420831
+      },
+      {
+        "name": "<built-in method acquire of _thread.lock object at 0x7f6994566580>",
+        "duration_ms": 102.186481
+      },
+      {
+        "name": "threading.py(323): wait",
+        "duration_ms": 102.214424
+      },
+      {
+        "name": "queue.py(154): get",
+        "duration_ms": 102.244527
+      },
+      {
+        "name": "zmq/sugar/socket.py(785): recv_multipart",
+        "duration_ms": 1107.387538
+      }
+    ]
+  },
+  {
+    "relative_ms": 899.2366459960938,
+    "duration_ms": 1.556609130859375,
+    "active": [
+      {
+        "name": "<built-in method wait of pybind11_builtins.pybind11_detail_function_record_v1_system_libstdcpp_gxx_abi_1xxx_use_cxx11_abi_1 object at 0x7f6df52fe390>",
+        "duration_ms": 3.364876
+      },
+      {
+        "name": "torch/distributed/distributed_c10d.py(3155): all_reduce",
+        "duration_ms": 3.403954
+      },
+      {
+        "name": "torch/distributed/c10d_logger.py(80): wrapper",
+        "duration_ms": 3.410149
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/utils.py(230): _all_reduce_polls",
+        "duration_ms": 3.4378629999999997
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/utils.py(237): poll_and_all_reduce",
+        "duration_ms": 3.4498510000000002
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/utils.py(252): poll_and_all_reduce_attn_cp_tp_group",
+        "duration_ms": 3.554894
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/prefill.py(946): process_disagg_prefill_inflight_queue",
+        "duration_ms": 3.595935
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/utils/nvtx_utils.py(106): wrapper",
+        "duration_ms": 3.6495949999999997
+      }
+    ]
+  },
+  {
+    "relative_ms": 875.1678371582032,
+    "duration_ms": 1.40348876953125,
+    "active": [
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/events.py(48): enqueue",
+        "duration_ms": 0.0025830000000000002
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/events.py(106): record_store",
+        "duration_ms": 1.0393189999999999
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_cache/unified_tree_core.py(1404): _add_new_node",
+        "duration_ms": 1.16388
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_cache/unified_tree_core.py(1267): _insert_commit_step",
+        "duration_ms": 1.2002840000000001
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_cache/unified_tree_core.py(1156): _advance_insert",
+        "duration_ms": 1.445643
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_cache/unified_tree_core.py(1037): begin_insert",
+        "duration_ms": 1.496305
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_radix_cache.py(579): insert",
+        "duration_ms": 1.510665
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_radix_cache.py(1097): cache_unfinished_req",
+        "duration_ms": 2.593298
+      }
+    ]
+  },
+  {
+    "relative_ms": 896.6758449707031,
+    "duration_ms": 1.36505712890625,
+    "active": [
+      {
+        "name": "<built-in method allreduce of pybind11_builtins.pybind11_detail_function_record_v1_system_libstdcpp_gxx_abi_1xxx_use_cxx11_abi_1 object at 0x7f6df52fc0d0>",
+        "duration_ms": 0.028026
+      },
+      {
+        "name": "torch/distributed/distributed_c10d.py(3155): all_reduce",
+        "duration_ms": 3.403954
+      },
+      {
+        "name": "torch/distributed/c10d_logger.py(80): wrapper",
+        "duration_ms": 3.410149
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/utils.py(230): _all_reduce_polls",
+        "duration_ms": 3.4378629999999997
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/utils.py(237): poll_and_all_reduce",
+        "duration_ms": 3.4498510000000002
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/utils.py(252): poll_and_all_reduce_attn_cp_tp_group",
+        "duration_ms": 3.554894
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/prefill.py(946): process_disagg_prefill_inflight_queue",
+        "duration_ms": 3.595935
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/utils/nvtx_utils.py(106): wrapper",
+        "duration_ms": 3.6495949999999997
+      }
+    ]
+  },
+  {
+    "relative_ms": 727.0075920410156,
+    "duration_ms": 1.337280029296875,
+    "active": [
+      {
+        "name": "cudaMemcpyAsync",
+        "duration_ms": 1.850435
+      },
+      {
+        "name": "aten::copy_",
+        "duration_ms": 1.882282
+      },
+      {
+        "name": "aten::_to_copy",
+        "duration_ms": 1.904781
+      },
+      {
+        "name": "aten::to",
+        "duration_ms": 1.9083610000000002
+      },
+      {
+        "name": "<built-in method cpu of Tensor object at 0x7f690e160230>",
+        "duration_ms": 1.924923
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/layers/attention/hybrid_linear_attn_backend.py(374): _init_track_ssm_indices",
+        "duration_ms": 4.89979
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/layers/attention/hybrid_linear_attn_backend.py(121): _forward_metadata",
+        "duration_ms": 7.1566719999999995
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/layers/attention/hybrid_linear_attn_backend.py(322): init_forward_metadata",
+        "duration_ms": 7.1844399999999995
+      }
+    ]
+  },
+  {
+    "relative_ms": 886.28841796875,
+    "duration_ms": 1.267583984375,
+    "active": [
+      {
+        "name": "torch/distributed/distributed_c10d.py(3155): all_reduce",
+        "duration_ms": 0.080628
+      },
+      {
+        "name": "torch/distributed/c10d_logger.py(80): wrapper",
+        "duration_ms": 0.08960800000000001
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/utils.py(230): _all_reduce_polls",
+        "duration_ms": 0.118772
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/utils.py(237): poll_and_all_reduce",
+        "duration_ms": 0.132823
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/utils.py(252): poll_and_all_reduce_attn_cp_tp_group",
+        "duration_ms": 0.300188
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/prefill.py(946): process_disagg_prefill_inflight_queue",
+        "duration_ms": 0.348748
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/utils/nvtx_utils.py(106): wrapper",
+        "duration_ms": 0.391894
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/observability/scheduler_stage_metrics.py(143): wrapper",
+        "duration_ms": 0.397393
+      }
+    ]
+  }
+]

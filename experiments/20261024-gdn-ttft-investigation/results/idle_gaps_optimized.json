@@ -1,0 +1,382 @@
+[
+  {
+    "relative_ms": 714.5926369628907,
+    "duration_ms": 14.567363037109375,
+    "active": [
+      {
+        "name": "cudaMemcpyAsync",
+        "duration_ms": 14.537993
+      },
+      {
+        "name": "aten::copy_",
+        "duration_ms": 14.547450000000001
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/layers/attention/hybrid_linear_attn_backend.py(121): _forward_metadata",
+        "duration_ms": 26.988561
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/layers/attention/hybrid_linear_attn_backend.py(322): init_forward_metadata",
+        "duration_ms": 27.145937999999997
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/layers/attention/linear/gdn_backend.py(535): init_forward_metadata",
+        "duration_ms": 27.964846
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/layers/attention/hybrid_linear_attn_backend.py(1176): init_forward_metadata",
+        "duration_ms": 29.553335999999998
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/model_executor/runner/prefill_cuda_graph_runner.py(1076): _prepare_forward_metadata_for_replay",
+        "duration_ms": 29.560235000000002
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/model_executor/runner/prefill_cuda_graph_runner.py(1548): load_batch",
+        "duration_ms": 31.512748
+      }
+    ]
+  },
+  {
+    "relative_ms": 895.4145998535156,
+    "duration_ms": 12.79817919921875,
+    "active": [
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/managers/scheduler_components/request_receiver.py(170): _broadcast_reqs_across_ranks",
+        "duration_ms": 0.0046500000000000005
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/managers/scheduler_components/request_receiver.py(88): recv_requests",
+        "duration_ms": 0.071873
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/utils/nvtx_utils.py(106): wrapper",
+        "duration_ms": 0.124633
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/observability/scheduler_stage_metrics.py(143): wrapper",
+        "duration_ms": 0.131609
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/managers/scheduler.py(2066): ingest_requests",
+        "duration_ms": 0.195707
+      },
+      {
+        "name": "<built-in method postXferReq of pybind11_builtins.pybind11_detail_function_record_v1_system_libstdcpp_gxx_abi_1xxx_use_cxx11_abi_1 object at 0x7f699451f930>",
+        "duration_ms": 19.305179
+      },
+      {
+        "name": "nixl_cu13/_api.py(648): transfer",
+        "duration_ms": 19.311261
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/nixl/conn.py(2286): _send_mamba_state",
+        "duration_ms": 20.590252
+      }
+    ]
+  },
+  {
+    "relative_ms": 696.6953198242187,
+    "duration_ms": 7.19760205078125,
+    "active": [
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/events.py(106): record_store",
+        "duration_ms": 7.133269
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_cache/unified_tree_core.py(1404): _add_new_node",
+        "duration_ms": 7.246896
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_cache/unified_tree_core.py(1267): _insert_commit_step",
+        "duration_ms": 7.361107
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_cache/unified_tree_core.py(1156): _advance_insert",
+        "duration_ms": 7.506556
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_cache/unified_tree_core.py(1037): begin_insert",
+        "duration_ms": 7.566429
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_radix_cache.py(579): insert",
+        "duration_ms": 7.583792000000001
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_radix_cache.py(1097): cache_unfinished_req",
+        "duration_ms": 8.731888999999999
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/common.py(157): maybe_cache_unfinished_req",
+        "duration_ms": 8.744921
+      }
+    ]
+  },
+  {
+    "relative_ms": 732.9000649414063,
+    "duration_ms": 6.33526513671875,
+    "active": [
+      {
+        "name": "cudaMemcpyAsync",
+        "duration_ms": 6.358669
+      },
+      {
+        "name": "aten::copy_",
+        "duration_ms": 6.372328
+      },
+      {
+        "name": "aten::_to_copy",
+        "duration_ms": 6.380892
+      },
+      {
+        "name": "aten::to",
+        "duration_ms": 6.383069000000001
+      },
+      {
+        "name": "<built-in method cpu of Tensor object at 0x7f6945982490>",
+        "duration_ms": 6.3903
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/layers/attention/hybrid_linear_attn_backend.py(374): _init_track_ssm_indices",
+        "duration_ms": 9.157734
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/layers/attention/hybrid_linear_attn_backend.py(121): _forward_metadata",
+        "duration_ms": 26.988561
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/layers/attention/hybrid_linear_attn_backend.py(322): init_forward_metadata",
+        "duration_ms": 27.145937999999997
+      }
+    ]
+  },
+  {
+    "relative_ms": 876.2724521484375,
+    "duration_ms": 4.107296875,
+    "active": [
+      {
+        "name": "torch/_ops.py(1140): _contains_fake_script_object",
+        "duration_ms": 0.003354
+      },
+      {
+        "name": "torch/_ops.py(1155): <genexpr>",
+        "duration_ms": 0.004151
+      },
+      {
+        "name": "<built-in function any>",
+        "duration_ms": 0.005444
+      },
+      {
+        "name": "torch/_ops.py(1154): _must_dispatch_in_python",
+        "duration_ms": 0.006875
+      },
+      {
+        "name": "torch/_ops.py(1089): __call__",
+        "duration_ms": 0.49295999999999995
+      },
+      {
+        "name": "torch/autograd/profiler.py(932): __exit__",
+        "duration_ms": 0.504111
+      },
+      {
+        "name": "contextlib.py(567): __exit__",
+        "duration_ms": 0.509476
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/utils/nvtx_utils.py(81): _profile_range_impl",
+        "duration_ms": 0.516205
+      }
+    ]
+  },
+  {
+    "relative_ms": 883.2652219238281,
+    "duration_ms": 3.277568115234375,
+    "active": [
+      {
+        "name": "zmq/sugar/socket.py(638): send",
+        "duration_ms": 0.259533
+      },
+      {
+        "name": "zmq/sugar/socket.py(973): send_pyobj",
+        "duration_ms": 0.281302
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/managers/io_struct.py(2485): sock_send",
+        "duration_ms": 0.284728
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/managers/scheduler_components/kv_events_publisher.py(75): emit_kv_metrics",
+        "duration_ms": 0.29841
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/managers/scheduler_components/metrics_reporter.py(646): report_prefill_stats",
+        "duration_ms": 1.6863320000000002
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/prefill.py(705): process_batch_result_disagg_prefill",
+        "duration_ms": 5.061072
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/managers/scheduler.py(4593): process_batch_result",
+        "duration_ms": 5.34571
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/utils/nvtx_utils.py(106): wrapper",
+        "duration_ms": 5.444208
+      }
+    ]
+  },
+  {
+    "relative_ms": 909.5271801757813,
+    "duration_ms": 1.805311767578125,
+    "active": [
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/utils.py(230): _all_reduce_polls",
+        "duration_ms": 0.12512
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/utils.py(252): poll_and_all_reduce_attn_cp_tp_group",
+        "duration_ms": 0.227492
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/prefill.py(946): process_disagg_prefill_inflight_queue",
+        "duration_ms": 0.273426
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/utils/nvtx_utils.py(106): wrapper",
+        "duration_ms": 0.31607799999999997
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/observability/scheduler_stage_metrics.py(143): wrapper",
+        "duration_ms": 0.321547
+      },
+      {
+        "name": "<built-in method postXferReq of pybind11_builtins.pybind11_detail_function_record_v1_system_libstdcpp_gxx_abi_1xxx_use_cxx11_abi_1 object at 0x7f699451f930>",
+        "duration_ms": 19.305179
+      },
+      {
+        "name": "nixl_cu13/_api.py(648): transfer",
+        "duration_ms": 19.311261
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/nixl/conn.py(2286): _send_mamba_state",
+        "duration_ms": 20.590252
+      }
+    ]
+  },
+  {
+    "relative_ms": 916.2478220214844,
+    "duration_ms": 1.53481591796875,
+    "active": [
+      {
+        "name": "torch/autograd/profiler.py(932): __exit__",
+        "duration_ms": 0.010214
+      },
+      {
+        "name": "contextlib.py(567): __exit__",
+        "duration_ms": 0.012426
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/utils/nvtx_utils.py(81): _profile_range_impl",
+        "duration_ms": 0.013994
+      },
+      {
+        "name": "<built-in function next>",
+        "duration_ms": 0.014927
+      },
+      {
+        "name": "contextlib.py(141): __exit__",
+        "duration_ms": 0.015481
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/utils/nvtx_utils.py(106): wrapper",
+        "duration_ms": 0.047457
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/observability/scheduler_stage_metrics.py(143): wrapper",
+        "duration_ms": 0.053039
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/managers/scheduler.py(2066): ingest_requests",
+        "duration_ms": 0.201377
+      }
+    ]
+  },
+  {
+    "relative_ms": 881.0293168945312,
+    "duration_ms": 1.459328125,
+    "active": [
+      {
+        "name": "<built-in function isinstance>",
+        "duration_ms": 0.000129
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/events.py(48): enqueue",
+        "duration_ms": 0.002765
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/events.py(106): record_store",
+        "duration_ms": 1.048385
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_cache/unified_tree_core.py(1404): _add_new_node",
+        "duration_ms": 1.1558689999999998
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_cache/unified_tree_core.py(1267): _insert_commit_step",
+        "duration_ms": 1.191253
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_cache/unified_tree_core.py(1156): _advance_insert",
+        "duration_ms": 1.4563320000000002
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_cache/unified_tree_core.py(1037): begin_insert",
+        "duration_ms": 1.509444
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/unified_radix_cache.py(579): insert",
+        "duration_ms": 1.523932
+      }
+    ]
+  },
+  {
+    "relative_ms": 908.2160439453125,
+    "duration_ms": 1.29235205078125,
+    "active": [
+      {
+        "name": "<frozen os>(762): encode",
+        "duration_ms": 0.00133
+      },
+      {
+        "name": "<frozen os>(680): __getitem__",
+        "duration_ms": 0.002859
+      },
+      {
+        "name": "<frozen _collections_abc>(804): get",
+        "duration_ms": 0.0037949999999999998
+      },
+      {
+        "name": "<frozen os>(779): getenv",
+        "duration_ms": 0.004355
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/environ.py(67): get",
+        "duration_ms": 0.0062039999999999994
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/utils.py(196): _poll_with_failure_injection",
+        "duration_ms": 0.011141
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/utils.py(237): poll_and_all_reduce",
+        "duration_ms": 0.106786
+      },
+      {
+        "name": "/sgl-workspace/sglang/python/sglang/srt/disaggregation/utils.py(252): poll_and_all_reduce_attn_cp_tp_group",
+        "duration_ms": 0.216454
+      }
+    ]
+  }
+]

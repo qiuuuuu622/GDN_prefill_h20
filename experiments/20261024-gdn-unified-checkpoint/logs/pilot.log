@@ -1,0 +1,21 @@
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [8192], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [8192], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [8192], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [8192], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [8192], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [8192], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [8192], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [8192], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [8192], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [8192], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+COMPLETE_CORRECTNESS 20

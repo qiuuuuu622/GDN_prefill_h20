@@ -1,0 +1,1578 @@
+[
+  {
+    "lengths": [
+      1
+    ],
+    "gate": "slow",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0
+      },
+      "valid": true
+    },
+    "restart": null,
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      63
+    ],
+    "gate": "slow",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0
+      },
+      "valid": true
+    },
+    "restart": null,
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      64
+    ],
+    "gate": "slow",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": null,
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      65
+    ],
+    "gate": "slow",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      127
+    ],
+    "gate": "slow",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      128
+    ],
+    "gate": "slow",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      129
+    ],
+    "gate": "slow",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      257
+    ],
+    "gate": "slow",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      2239
+    ],
+    "gate": "slow",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true,
+    "baseline": {
+      "graph_median_ms": 0.2272991975148519,
+      "graph_samples_ms": [
+        0.22758506139119467,
+        0.22731092770894368,
+        0.22707413037618002,
+        0.2271733283996582,
+        0.2272991975148519
+      ],
+      "eager_event_ms": 0.2389237403869629,
+      "eager_wall_ms": 0.24039645989735922
+    },
+    "dvsplit": {
+      "graph_median_ms": 0.16730987230936686,
+      "graph_samples_ms": [
+        0.1674784024556478,
+        0.1672885258992513,
+        0.1672394593556722,
+        0.16730987230936686,
+        0.1673151969909668
+      ],
+      "eager_event_ms": 0.2618666648864746,
+      "eager_wall_ms": 0.2629595498243968
+    },
+    "speedup": 1.3585522143879283
+  },
+  {
+    "lengths": [
+      3230
+    ],
+    "gate": "slow",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true,
+    "baseline": {
+      "graph_median_ms": 0.3342506726582845,
+      "graph_samples_ms": [
+        0.33442452748616536,
+        0.3336874643961589,
+        0.3342506726582845,
+        0.33422934214274086,
+        0.33459946314493816
+      ],
+      "eager_event_ms": 0.3501749356587728,
+      "eager_wall_ms": 0.35184845328330994
+    },
+    "dvsplit": {
+      "graph_median_ms": 0.24128212928771972,
+      "graph_samples_ms": [
+        0.24137280782063802,
+        0.24127039909362794,
+        0.24103253682454426,
+        0.24128212928771972,
+        0.2414975961049398
+      ],
+      "eager_event_ms": 0.24892479578653973,
+      "eager_wall_ms": 0.24981064101060232
+    },
+    "speedup": 1.3853105227685691
+  },
+  {
+    "lengths": [
+      8191
+    ],
+    "gate": "slow",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      8192
+    ],
+    "gate": "slow",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true,
+    "baseline": {
+      "graph_median_ms": 0.8173344294230144,
+      "graph_samples_ms": [
+        0.8172981262207031,
+        0.8172128041585286,
+        0.8173344294230144,
+        0.8183327992757161,
+        0.8194431940714518
+      ],
+      "eager_event_ms": 0.8536095937093099,
+      "eager_wall_ms": 0.8549559861421585
+    },
+    "dvsplit": {
+      "graph_median_ms": 0.6002474466959635,
+      "graph_samples_ms": [
+        0.602077865600586,
+        0.6003082911173503,
+        0.6002474466959635,
+        0.6002421061197917,
+        0.6001482645670573
+      ],
+      "eager_event_ms": 0.6079850514729818,
+      "eager_wall_ms": 0.6090442339579264
+    },
+    "speedup": 1.3616624842337888
+  },
+  {
+    "lengths": [
+      8193
+    ],
+    "gate": "slow",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "gate": "slow",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": null,
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      1024,
+      512
+    ],
+    "gate": "slow",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": null,
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "slow",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": null,
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true,
+    "baseline": {
+      "graph_median_ms": 0.8367008209228516,
+      "graph_samples_ms": [
+        0.8368074417114257,
+        0.8367008209228516,
+        0.8360565185546875,
+        0.8366794586181641,
+        0.8371477127075195
+      ],
+      "eager_event_ms": 0.8643733342488606,
+      "eager_wall_ms": 0.8656507978836695
+    },
+    "dvsplit": {
+      "graph_median_ms": 1.1905226389567056,
+      "graph_samples_ms": [
+        1.1906859079996746,
+        1.1882709503173827,
+        1.189294942220052,
+        1.1905226389567056,
+        1.19114990234375
+      ],
+      "eager_event_ms": 1.216433080037435,
+      "eager_wall_ms": 1.2176956981420517
+    },
+    "speedup": 0.7028012685723307
+  },
+  {
+    "lengths": [
+      1
+    ],
+    "gate": "near_one",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0
+      },
+      "valid": true
+    },
+    "restart": null,
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      63
+    ],
+    "gate": "near_one",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0
+      },
+      "valid": true
+    },
+    "restart": null,
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      64
+    ],
+    "gate": "near_one",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": null,
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      65
+    ],
+    "gate": "near_one",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      127
+    ],
+    "gate": "near_one",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      128
+    ],
+    "gate": "near_one",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      129
+    ],
+    "gate": "near_one",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      257
+    ],
+    "gate": "near_one",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      2239
+    ],
+    "gate": "near_one",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      3230
+    ],
+    "gate": "near_one",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      8191
+    ],
+    "gate": "near_one",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      8192
+    ],
+    "gate": "near_one",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      8193
+    ],
+    "gate": "near_one",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "gate": "near_one",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": null,
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      1024,
+      512
+    ],
+    "gate": "near_one",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": null,
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "near_one",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": null,
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  }
+]

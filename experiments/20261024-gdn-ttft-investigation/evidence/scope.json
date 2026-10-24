@@ -1,0 +1,10 @@
+{
+  "purpose": "Diagnose contradictory kernel versus end-to-end performance",
+  "gpu": [
+    6,
+    7
+  ],
+  "change": "record_function CPU scopes around original or dvsplit call only; no installed source modifications",
+  "source_run": "/local/gdn35-experiments/20261024-e2e-sequential-1p1d",
+  "profile_request": "sample_01 after sample_00, reproducing same prefix history"
+}

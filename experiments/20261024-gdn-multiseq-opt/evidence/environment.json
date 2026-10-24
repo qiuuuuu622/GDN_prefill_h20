@@ -1,0 +1,9 @@
+{
+  "versions": {
+    "torch": "2.13.0+cu130",
+    "sglang": "0.5.20",
+    "flashinfer-python": "0.6.18",
+    "ai-dynamo": "1.5.0"
+  },
+  "fixed10_sha256": "d5e8c10e433ea5952eaba44346489dd9161637bd1ed94060f45347f32717b30e"
+}

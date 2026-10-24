@@ -1,0 +1,146 @@
+[
+  {
+    "tokens": 65,
+    "target": 64,
+    "initial_nonzero": false,
+    "valid": true
+  },
+  {
+    "tokens": 129,
+    "target": 64,
+    "initial_nonzero": false,
+    "valid": true
+  },
+  {
+    "tokens": 129,
+    "target": 128,
+    "initial_nonzero": false,
+    "valid": true
+  },
+  {
+    "tokens": 513,
+    "target": 64,
+    "initial_nonzero": false,
+    "valid": true
+  },
+  {
+    "tokens": 513,
+    "target": 256,
+    "initial_nonzero": false,
+    "valid": true
+  },
+  {
+    "tokens": 513,
+    "target": 512,
+    "initial_nonzero": false,
+    "valid": true
+  },
+  {
+    "tokens": 1025,
+    "target": 64,
+    "initial_nonzero": false,
+    "valid": true
+  },
+  {
+    "tokens": 1025,
+    "target": 512,
+    "initial_nonzero": false,
+    "valid": true
+  },
+  {
+    "tokens": 1025,
+    "target": 1024,
+    "initial_nonzero": false,
+    "valid": true
+  },
+  {
+    "tokens": 8192,
+    "target": 64,
+    "initial_nonzero": false,
+    "valid": true
+  },
+  {
+    "tokens": 8192,
+    "target": 4096,
+    "initial_nonzero": false,
+    "valid": true
+  },
+  {
+    "tokens": 8192,
+    "target": 8192,
+    "initial_nonzero": false,
+    "valid": true
+  },
+  {
+    "tokens": 65,
+    "target": 64,
+    "initial_nonzero": true,
+    "valid": true
+  },
+  {
+    "tokens": 129,
+    "target": 64,
+    "initial_nonzero": true,
+    "valid": true
+  },
+  {
+    "tokens": 129,
+    "target": 128,
+    "initial_nonzero": true,
+    "valid": true
+  },
+  {
+    "tokens": 513,
+    "target": 64,
+    "initial_nonzero": true,
+    "valid": true
+  },
+  {
+    "tokens": 513,
+    "target": 256,
+    "initial_nonzero": true,
+    "valid": true
+  },
+  {
+    "tokens": 513,
+    "target": 512,
+    "initial_nonzero": true,
+    "valid": true
+  },
+  {
+    "tokens": 1025,
+    "target": 64,
+    "initial_nonzero": true,
+    "valid": true
+  },
+  {
+    "tokens": 1025,
+    "target": 512,
+    "initial_nonzero": true,
+    "valid": true
+  },
+  {
+    "tokens": 1025,
+    "target": 1024,
+    "initial_nonzero": true,
+    "valid": true
+  },
+  {
+    "tokens": 8192,
+    "target": 64,
+    "initial_nonzero": true,
+    "valid": true
+  },
+  {
+    "tokens": 8192,
+    "target": 4096,
+    "initial_nonzero": true,
+    "valid": true
+  },
+  {
+    "tokens": 8192,
+    "target": 8192,
+    "initial_nonzero": true,
+    "valid": true
+  }
+]

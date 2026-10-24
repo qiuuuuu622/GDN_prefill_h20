@@ -1,0 +1,193 @@
+[
+  {
+    "lengths": [
+      65
+    ],
+    "gate": "slow",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true
+  },
+  {
+    "lengths": [
+      512
+    ],
+    "gate": "slow",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true,
+    "baseline": {
+      "graph_median_ms": 0.05759679873784383,
+      "graph_samples_ms": [
+        0.058014933268229166,
+        0.057608532905578616,
+        0.05759679873784383,
+        0.05755093495051066,
+        0.05754986604054769
+      ],
+      "eager_event_ms": 0.18232533137003581,
+      "eager_wall_ms": 0.18360664447148642
+    },
+    "dvsplit": {
+      "graph_median_ms": 0.04117759863535563,
+      "graph_samples_ms": [
+        0.04138346513112386,
+        0.041138132413228355,
+        0.04119146664937337,
+        0.04117759863535563,
+        0.04114240010579427
+      ],
+      "eager_event_ms": 0.16741226514180502,
+      "eager_wall_ms": 0.16832190255324045
+    },
+    "speedup": 1.3987410788056605
+  },
+  {
+    "lengths": [
+      8192
+    ],
+    "gate": "slow",
+    "check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "restart": {
+      "output_exact": true,
+      "state_exact": true
+    },
+    "graph_check": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0
+      },
+      "valid": true
+    },
+    "valid": true,
+    "baseline": {
+      "graph_median_ms": 0.8154901504516602,
+      "graph_samples_ms": [
+        0.8162389119466146,
+        0.8154901504516602,
+        0.8151264190673828,
+        0.8155210494995118,
+        0.815442148844401
+      ],
+      "eager_event_ms": 0.8253173192342123,
+      "eager_wall_ms": 0.826546922326088
+    },
+    "dvsplit": {
+      "graph_median_ms": 0.600713602701823,
+      "graph_samples_ms": [
+        0.6007509231567383,
+        0.6007146835327148,
+        0.6005738576253256,
+        0.6004981358846029,
+        0.600713602701823
+      ],
+      "eager_event_ms": 0.6112927754720052,
+      "eager_wall_ms": 0.6126269698143005
+    },
+    "speedup": 1.3575356822017
+  }
+]

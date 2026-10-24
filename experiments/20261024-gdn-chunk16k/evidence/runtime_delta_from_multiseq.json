@@ -1,0 +1,30 @@
+{
+  "sitecustomize.py": {
+    "byte_identical": true,
+    "same_after_experiment_root_replacement": true
+  },
+  "service_patch.py": {
+    "byte_identical": false,
+    "same_after_experiment_root_replacement": true
+  },
+  "dispatch.py": {
+    "byte_identical": true,
+    "same_after_experiment_root_replacement": true
+  },
+  "dvsplit.py": {
+    "byte_identical": true,
+    "same_after_experiment_root_replacement": true
+  },
+  "dvsplit_kernel.py": {
+    "byte_identical": true,
+    "same_after_experiment_root_replacement": true
+  },
+  "selected.py": {
+    "byte_identical": true,
+    "same_after_experiment_root_replacement": true
+  },
+  "selected_kernel.py": {
+    "byte_identical": true,
+    "same_after_experiment_root_replacement": true
+  }
+}

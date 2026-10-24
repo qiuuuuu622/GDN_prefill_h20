@@ -1,0 +1,68 @@
+uniform False [1] PASS
+uniform False [63] PASS
+uniform False [64] PASS
+uniform False [65] PASS
+uniform False [257] PASS
+uniform False [4097] PASS
+uniform False [0, 129, 7] PASS
+uniform False [1023, 8193, 0, 513] PASS
+uniform False [8192, 8192] PASS
+uniform False [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024] PASS
+uniform True [1] PASS
+uniform True [63] PASS
+uniform True [64] PASS
+uniform True [65] PASS
+uniform True [257] PASS
+uniform True [4097] PASS
+uniform True [0, 129, 7] PASS
+uniform True [1023, 8193, 0, 513] PASS
+uniform True [8192, 8192] PASS
+uniform True [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024] PASS
+slow False [1] PASS
+slow False [63] PASS
+slow False [64] PASS
+slow False [65] PASS
+slow False [257] PASS
+slow False [4097] PASS
+slow False [0, 129, 7] PASS
+slow False [1023, 8193, 0, 513] PASS
+slow False [8192, 8192] PASS
+slow False [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024] PASS
+slow True [1] PASS
+slow True [63] PASS
+slow True [64] PASS
+slow True [65] PASS
+slow True [257] PASS
+slow True [4097] PASS
+slow True [0, 129, 7] PASS
+slow True [1023, 8193, 0, 513] PASS
+slow True [8192, 8192] PASS
+slow True [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024] PASS
+near_one False [1] PASS
+near_one False [63] PASS
+near_one False [64] PASS
+near_one False [65] PASS
+near_one False [257] FAIL
+near_one False [4097] FAIL
+near_one False [0, 129, 7] FAIL
+near_one False [1023, 8193, 0, 513] FAIL
+near_one False [8192, 8192] FAIL
+near_one False [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024] FAIL
+near_one True [1] FAIL
+near_one True [63] FAIL
+near_one True [64] FAIL
+near_one True [65] FAIL
+near_one True [257] FAIL
+near_one True [4097] FAIL
+near_one True [0, 129, 7] FAIL
+near_one True [1023, 8193, 0, 513] FAIL
+near_one True [8192, 8192] FAIL
+near_one True [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024] FAIL
+Traceback (most recent call last):
+  File "/root/gdn35/20261023-shape-study/scripts/validate.py", line 82, in <module>
+    if __name__ == "__main__": main()
+                               ^^^^^^
+  File "/root/gdn35/20261023-shape-study/scripts/validate.py", line 78, in main
+    assert all(r["valid"] for r in rows), "Numerical check failed; see saved errors"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Numerical check failed; see saved errors

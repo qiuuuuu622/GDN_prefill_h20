@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel>=0.41"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gdn-prefill-h20"
+version = "0.1.0"
+description = "Evidence-backed H20 GDN prefill dispatch and checkpoint experiments"
+requires-python = ">=3.10"
+readme = "README.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]

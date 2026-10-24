@@ -1,0 +1,32 @@
+[
+  {
+    "file": "captures/t1541_cp64.pt",
+    "size": 92796405,
+    "sha256": "43a60215055288cf57b906294e2f6908ff53d7e609147cfb3f9e6c97bd42c719"
+  },
+  {
+    "file": "captures/t2201_cp64.pt",
+    "size": 130157109,
+    "sha256": "919d1f9a685d74dd38c67aba955c01452b20665ffdcfd17b3f64e70d43216553"
+  },
+  {
+    "file": "captures/t2655_cp64.pt",
+    "size": 156110901,
+    "sha256": "bb4d080bd920276e42fdd89185d34a52a6be9cfed8dd76ea0a7a5dcaab06c7b6"
+  },
+  {
+    "file": "captures/t3230_cp64.pt",
+    "size": 189263669,
+    "sha256": "035e1e82d7e29294605ce0b7c26d5ba1eb2ac39d53624aa7ee27605d63128ced"
+  },
+  {
+    "file": "captures/t8192_cp0.pt",
+    "size": 207621927,
+    "sha256": "f1a9d06d29b281fbacfe75936a90e364ac1898a3be27279edc4c64c6e16375f7"
+  },
+  {
+    "file": "captures/t8192_cp64.pt",
+    "size": 476057909,
+    "sha256": "72f2fd5a7f9b3c48026d7e8e73701f0f7739acfd086a5aa974831224a14ca0f7"
+  }
+]

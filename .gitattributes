@@ -1,0 +1,8 @@
+# Preserve historical patches, CSV line endings and diagnostic log whitespace.
+experiments/**/*.patch whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+experiments/**/*.diff whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+experiments/**/*.log whitespace=-blank-at-eol,-blank-at-eof
+experiments/**/*.csv -text whitespace=-blank-at-eol,-blank-at-eof
+src/gdn_prefill/_kernels/*_kernel.py linguist-generated=true whitespace=-blank-at-eof
+src/gdn_prefill/backends/split_plan.py whitespace=-blank-at-eof
+experiments/**/scripts/*_kernel.py whitespace=-blank-at-eof

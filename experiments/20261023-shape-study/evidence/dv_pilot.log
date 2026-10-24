@@ -1,0 +1,21 @@
+CASE [257] H 16 32
+READY noncp True 0.12
+READY public_auto True 7.67
+READY dvsplit True 3.3
+RESULT [257] [(0.023545920848846436, 'dvsplit'), (0.03430176019668579, 'noncp'), (0.06782336235046386, 'public_auto')]
+CASE [8192] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.01
+READY dvsplit True 0.0
+RESULT [8192] [(0.5067478561401367, 'dvsplit'), (0.7511766052246094, 'noncp'), (0.7662537384033203, 'public_auto')]
+CASE [8192, 1024, 1024, 1024] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.01
+READY dvsplit True 0.01
+RESULT [8192, 1024, 1024, 1024] [(0.6314003372192383, 'dvsplit'), (0.751977310180664, 'public_auto'), (0.7521644592285156, 'noncp')]
+CASE [8192, 8192] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.01
+READY dvsplit True 0.01
+RESULT [8192, 8192] [(0.753476791381836, 'noncp'), (0.7535011291503906, 'public_auto'), (1.0067417907714844, 'dvsplit')]
+COMPLETED evidence/dv_pilot.jsonl

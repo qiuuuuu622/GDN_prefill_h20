@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+# Private inference payloads and captures must stay outside this public archive.
+fixed10.json
+*.sse.json
+*.pt
+*.trace.json
+*.trace.json.gz
+build/
+dist/
+*.egg-info/
+*.whl

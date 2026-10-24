@@ -1,0 +1,362 @@
+[
+  {
+    "tag": "gc_observed_fullbatch_r1_baseline_sample_00",
+    "mode": "baseline",
+    "rep": 1,
+    "sample_id": "sample_00",
+    "ttft_ms": 852.3058667778969,
+    "gc_ms": 0.342689,
+    "max_gc_ms": 0.342689
+  },
+  {
+    "tag": "gc_observed_fullbatch_r1_baseline_sample_01",
+    "mode": "baseline",
+    "rep": 1,
+    "sample_id": "sample_01",
+    "ttft_ms": 903.6493077874184,
+    "gc_ms": 2.363174,
+    "max_gc_ms": 2.363174
+  },
+  {
+    "tag": "gc_observed_fullbatch_r1_baseline_sample_02",
+    "mode": "baseline",
+    "rep": 1,
+    "sample_id": "sample_02",
+    "ttft_ms": 940.1573278009892,
+    "gc_ms": 0.203317,
+    "max_gc_ms": 0.203317
+  },
+  {
+    "tag": "gc_observed_fullbatch_r1_baseline_sample_03",
+    "mode": "baseline",
+    "rep": 1,
+    "sample_id": "sample_03",
+    "ttft_ms": 258.7932087481022,
+    "gc_ms": 0,
+    "max_gc_ms": 0
+  },
+  {
+    "tag": "gc_observed_fullbatch_r1_baseline_sample_04",
+    "mode": "baseline",
+    "rep": 1,
+    "sample_id": "sample_04",
+    "ttft_ms": 196.11139968037605,
+    "gc_ms": 0.211262,
+    "max_gc_ms": 0.211262
+  },
+  {
+    "tag": "gc_observed_fullbatch_r1_baseline_sample_05",
+    "mode": "baseline",
+    "rep": 1,
+    "sample_id": "sample_05",
+    "ttft_ms": 398.07772263884544,
+    "gc_ms": 0,
+    "max_gc_ms": 0
+  },
+  {
+    "tag": "gc_observed_fullbatch_r1_baseline_sample_06",
+    "mode": "baseline",
+    "rep": 1,
+    "sample_id": "sample_06",
+    "ttft_ms": 417.6763445138931,
+    "gc_ms": 0.215046,
+    "max_gc_ms": 0.215046
+  },
+  {
+    "tag": "gc_observed_fullbatch_r1_baseline_sample_07",
+    "mode": "baseline",
+    "rep": 1,
+    "sample_id": "sample_07",
+    "ttft_ms": 1171.536061912775,
+    "gc_ms": 0,
+    "max_gc_ms": 0
+  },
+  {
+    "tag": "gc_observed_fullbatch_r1_baseline_sample_08",
+    "mode": "baseline",
+    "rep": 1,
+    "sample_id": "sample_08",
+    "ttft_ms": 932.3275499045849,
+    "gc_ms": 0.328851,
+    "max_gc_ms": 0.328851
+  },
+  {
+    "tag": "gc_observed_fullbatch_r1_baseline_sample_09",
+    "mode": "baseline",
+    "rep": 1,
+    "sample_id": "sample_09",
+    "ttft_ms": 2005.9981793165207,
+    "gc_ms": 0.298805,
+    "max_gc_ms": 0.298805
+  },
+  {
+    "tag": "gc_observed_fullbatch_r1_optimized_sample_00",
+    "mode": "optimized",
+    "rep": 1,
+    "sample_id": "sample_00",
+    "ttft_ms": 832.1604952216148,
+    "gc_ms": 0.251076,
+    "max_gc_ms": 0.251076
+  },
+  {
+    "tag": "gc_observed_fullbatch_r1_optimized_sample_01",
+    "mode": "optimized",
+    "rep": 1,
+    "sample_id": "sample_01",
+    "ttft_ms": 903.5378433763981,
+    "gc_ms": 0.248344,
+    "max_gc_ms": 0.248344
+  },
+  {
+    "tag": "gc_observed_fullbatch_r1_optimized_sample_02",
+    "mode": "optimized",
+    "rep": 1,
+    "sample_id": "sample_02",
+    "ttft_ms": 915.111567825079,
+    "gc_ms": 0.276674,
+    "max_gc_ms": 0.276674
+  },
+  {
+    "tag": "gc_observed_fullbatch_r1_optimized_sample_03",
+    "mode": "optimized",
+    "rep": 1,
+    "sample_id": "sample_03",
+    "ttft_ms": 251.61122530698776,
+    "gc_ms": 0,
+    "max_gc_ms": 0
+  },
+  {
+    "tag": "gc_observed_fullbatch_r1_optimized_sample_04",
+    "mode": "optimized",
+    "rep": 1,
+    "sample_id": "sample_04",
+    "ttft_ms": 192.57552549242973,
+    "gc_ms": 0,
+    "max_gc_ms": 0
+  },
+  {
+    "tag": "gc_observed_fullbatch_r1_optimized_sample_05",
+    "mode": "optimized",
+    "rep": 1,
+    "sample_id": "sample_05",
+    "ttft_ms": 366.0528063774109,
+    "gc_ms": 0.266369,
+    "max_gc_ms": 0.266369
+  },
+  {
+    "tag": "gc_observed_fullbatch_r1_optimized_sample_06",
+    "mode": "optimized",
+    "rep": 1,
+    "sample_id": "sample_06",
+    "ttft_ms": 416.584063321352,
+    "gc_ms": 0,
+    "max_gc_ms": 0
+  },
+  {
+    "tag": "gc_observed_fullbatch_r1_optimized_sample_07",
+    "mode": "optimized",
+    "rep": 1,
+    "sample_id": "sample_07",
+    "ttft_ms": 522.9836292564869,
+    "gc_ms": 1.100739,
+    "max_gc_ms": 1.100739
+  },
+  {
+    "tag": "gc_observed_fullbatch_r1_optimized_sample_08",
+    "mode": "optimized",
+    "rep": 1,
+    "sample_id": "sample_08",
+    "ttft_ms": 928.2320290803909,
+    "gc_ms": 0,
+    "max_gc_ms": 0
+  },
+  {
+    "tag": "gc_observed_fullbatch_r1_optimized_sample_09",
+    "mode": "optimized",
+    "rep": 1,
+    "sample_id": "sample_09",
+    "ttft_ms": 1537.7255380153656,
+    "gc_ms": 0.300157,
+    "max_gc_ms": 0.300157
+  },
+  {
+    "tag": "gc_observed_fullbatch_r2_optimized_sample_00",
+    "mode": "optimized",
+    "rep": 2,
+    "sample_id": "sample_00",
+    "ttft_ms": 835.0030779838562,
+    "gc_ms": 0.448313,
+    "max_gc_ms": 0.448313
+  },
+  {
+    "tag": "gc_observed_fullbatch_r2_optimized_sample_01",
+    "mode": "optimized",
+    "rep": 2,
+    "sample_id": "sample_01",
+    "ttft_ms": 868.4195168316364,
+    "gc_ms": 0.263665,
+    "max_gc_ms": 0.263665
+  },
+  {
+    "tag": "gc_observed_fullbatch_r2_optimized_sample_02",
+    "mode": "optimized",
+    "rep": 2,
+    "sample_id": "sample_02",
+    "ttft_ms": 907.1945063769817,
+    "gc_ms": 0.216026,
+    "max_gc_ms": 0.216026
+  },
+  {
+    "tag": "gc_observed_fullbatch_r2_optimized_sample_03",
+    "mode": "optimized",
+    "rep": 2,
+    "sample_id": "sample_03",
+    "ttft_ms": 262.1355168521404,
+    "gc_ms": 0.230925,
+    "max_gc_ms": 0.230925
+  },
+  {
+    "tag": "gc_observed_fullbatch_r2_optimized_sample_04",
+    "mode": "optimized",
+    "rep": 2,
+    "sample_id": "sample_04",
+    "ttft_ms": 222.09467366337776,
+    "gc_ms": 0,
+    "max_gc_ms": 0
+  },
+  {
+    "tag": "gc_observed_fullbatch_r2_optimized_sample_05",
+    "mode": "optimized",
+    "rep": 2,
+    "sample_id": "sample_05",
+    "ttft_ms": 369.6783296763897,
+    "gc_ms": 0.24032,
+    "max_gc_ms": 0.24032
+  },
+  {
+    "tag": "gc_observed_fullbatch_r2_optimized_sample_06",
+    "mode": "optimized",
+    "rep": 2,
+    "sample_id": "sample_06",
+    "ttft_ms": 404.86208721995354,
+    "gc_ms": 0,
+    "max_gc_ms": 0
+  },
+  {
+    "tag": "gc_observed_fullbatch_r2_optimized_sample_07",
+    "mode": "optimized",
+    "rep": 2,
+    "sample_id": "sample_07",
+    "ttft_ms": 534.3847870826721,
+    "gc_ms": 0,
+    "max_gc_ms": 0
+  },
+  {
+    "tag": "gc_observed_fullbatch_r2_optimized_sample_08",
+    "mode": "optimized",
+    "rep": 2,
+    "sample_id": "sample_08",
+    "ttft_ms": 940.1263743638992,
+    "gc_ms": 0.318988,
+    "max_gc_ms": 0.318988
+  },
+  {
+    "tag": "gc_observed_fullbatch_r2_optimized_sample_09",
+    "mode": "optimized",
+    "rep": 2,
+    "sample_id": "sample_09",
+    "ttft_ms": 1562.8181509673595,
+    "gc_ms": 0.399405,
+    "max_gc_ms": 0.399405
+  },
+  {
+    "tag": "gc_observed_fullbatch_r2_baseline_sample_00",
+    "mode": "baseline",
+    "rep": 2,
+    "sample_id": "sample_00",
+    "ttft_ms": 959.6343040466309,
+    "gc_ms": 0.457724,
+    "max_gc_ms": 0.457724
+  },
+  {
+    "tag": "gc_observed_fullbatch_r2_baseline_sample_01",
+    "mode": "baseline",
+    "rep": 2,
+    "sample_id": "sample_01",
+    "ttft_ms": 871.6938458383083,
+    "gc_ms": 0,
+    "max_gc_ms": 0
+  },
+  {
+    "tag": "gc_observed_fullbatch_r2_baseline_sample_02",
+    "mode": "baseline",
+    "rep": 2,
+    "sample_id": "sample_02",
+    "ttft_ms": 923.6145503818989,
+    "gc_ms": 0.305119,
+    "max_gc_ms": 0.305119
+  },
+  {
+    "tag": "gc_observed_fullbatch_r2_baseline_sample_03",
+    "mode": "baseline",
+    "rep": 2,
+    "sample_id": "sample_03",
+    "ttft_ms": 316.4608106017113,
+    "gc_ms": 0,
+    "max_gc_ms": 0
+  },
+  {
+    "tag": "gc_observed_fullbatch_r2_baseline_sample_04",
+    "mode": "baseline",
+    "rep": 2,
+    "sample_id": "sample_04",
+    "ttft_ms": 199.61973279714584,
+    "gc_ms": 1.492844,
+    "max_gc_ms": 1.492844
+  },
+  {
+    "tag": "gc_observed_fullbatch_r2_baseline_sample_05",
+    "mode": "baseline",
+    "rep": 2,
+    "sample_id": "sample_05",
+    "ttft_ms": 376.6007423400879,
+    "gc_ms": 0,
+    "max_gc_ms": 0
+  },
+  {
+    "tag": "gc_observed_fullbatch_r2_baseline_sample_06",
+    "mode": "baseline",
+    "rep": 2,
+    "sample_id": "sample_06",
+    "ttft_ms": 405.2661955356598,
+    "gc_ms": 0,
+    "max_gc_ms": 0
+  },
+  {
+    "tag": "gc_observed_fullbatch_r2_baseline_sample_07",
+    "mode": "baseline",
+    "rep": 2,
+    "sample_id": "sample_07",
+    "ttft_ms": 528.3467695116997,
+    "gc_ms": 0.391068,
+    "max_gc_ms": 0.391068
+  },
+  {
+    "tag": "gc_observed_fullbatch_r2_baseline_sample_08",
+    "mode": "baseline",
+    "rep": 2,
+    "sample_id": "sample_08",
+    "ttft_ms": 925.6291650235653,
+    "gc_ms": 0,
+    "max_gc_ms": 0
+  },
+  {
+    "tag": "gc_observed_fullbatch_r2_baseline_sample_09",
+    "mode": "baseline",
+    "rep": 2,
+    "sample_id": "sample_09",
+    "ttft_ms": 1567.2144331037998,
+    "gc_ms": 0.481719,
+    "max_gc_ms": 0.481719
+  }
+]

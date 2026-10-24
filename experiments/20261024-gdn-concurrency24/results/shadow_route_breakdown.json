@@ -1,0 +1,54 @@
+[
+  {
+    "concurrency": 2,
+    "counts": [
+      {
+        "sequences": 1,
+        "checkpoint": false,
+        "selected": false,
+        "calls": 240
+      },
+      {
+        "sequences": 1,
+        "checkpoint": true,
+        "selected": true,
+        "calls": 210
+      },
+      {
+        "sequences": 2,
+        "checkpoint": true,
+        "selected": false,
+        "calls": 90
+      }
+    ]
+  },
+  {
+    "concurrency": 4,
+    "counts": [
+      {
+        "sequences": 1,
+        "checkpoint": false,
+        "selected": false,
+        "calls": 270
+      },
+      {
+        "sequences": 1,
+        "checkpoint": true,
+        "selected": true,
+        "calls": 30
+      },
+      {
+        "sequences": 2,
+        "checkpoint": true,
+        "selected": false,
+        "calls": 180
+      },
+      {
+        "sequences": 3,
+        "checkpoint": true,
+        "selected": false,
+        "calls": 30
+      }
+    ]
+  }
+]

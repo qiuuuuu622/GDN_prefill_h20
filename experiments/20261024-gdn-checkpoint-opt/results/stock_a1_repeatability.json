@@ -1,0 +1,72 @@
+[
+  {
+    "sample": "sample_00",
+    "text_equal": false,
+    "warm_tokens": 276,
+    "measured_tokens": 274,
+    "cache_equal": true
+  },
+  {
+    "sample": "sample_01",
+    "text_equal": false,
+    "warm_tokens": 102,
+    "measured_tokens": 97,
+    "cache_equal": true
+  },
+  {
+    "sample": "sample_02",
+    "text_equal": false,
+    "warm_tokens": 179,
+    "measured_tokens": 212,
+    "cache_equal": true
+  },
+  {
+    "sample": "sample_03",
+    "text_equal": false,
+    "warm_tokens": 332,
+    "measured_tokens": 327,
+    "cache_equal": true
+  },
+  {
+    "sample": "sample_04",
+    "text_equal": false,
+    "warm_tokens": 318,
+    "measured_tokens": 325,
+    "cache_equal": true
+  },
+  {
+    "sample": "sample_05",
+    "text_equal": false,
+    "warm_tokens": 163,
+    "measured_tokens": 164,
+    "cache_equal": true
+  },
+  {
+    "sample": "sample_06",
+    "text_equal": false,
+    "warm_tokens": 390,
+    "measured_tokens": 351,
+    "cache_equal": true
+  },
+  {
+    "sample": "sample_07",
+    "text_equal": false,
+    "warm_tokens": 332,
+    "measured_tokens": 327,
+    "cache_equal": true
+  },
+  {
+    "sample": "sample_08",
+    "text_equal": false,
+    "warm_tokens": 193,
+    "measured_tokens": 198,
+    "cache_equal": true
+  },
+  {
+    "sample": "sample_09",
+    "text_equal": false,
+    "warm_tokens": 512,
+    "measured_tokens": 512,
+    "cache_equal": true
+  }
+]

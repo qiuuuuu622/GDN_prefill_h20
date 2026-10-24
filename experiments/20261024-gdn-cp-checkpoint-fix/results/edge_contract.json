@@ -1,0 +1,236 @@
+{
+  "rows": [
+    {
+      "model": "122b_tp4",
+      "n": 129,
+      "target": 0,
+      "initial_none": true,
+      "checks": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "close": true
+        }
+      },
+      "empty_plan_rows": 0,
+      "pass": true
+    },
+    {
+      "model": "122b_tp4",
+      "n": 129,
+      "target": 64,
+      "initial_none": true,
+      "checks": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "close": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "close": true
+        }
+      },
+      "empty_plan_rows": 1,
+      "pass": true
+    },
+    {
+      "model": "122b_tp4",
+      "n": 8193,
+      "target": 0,
+      "initial_none": true,
+      "checks": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "close": true
+        }
+      },
+      "empty_plan_rows": 0,
+      "pass": true
+    },
+    {
+      "model": "122b_tp4",
+      "n": 8193,
+      "target": 64,
+      "initial_none": true,
+      "checks": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "close": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "close": true
+        }
+      },
+      "empty_plan_rows": 1,
+      "pass": true
+    },
+    {
+      "model": "35b_tp1",
+      "n": 129,
+      "target": 0,
+      "initial_none": true,
+      "checks": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "close": true
+        }
+      },
+      "empty_plan_rows": 0,
+      "pass": true
+    },
+    {
+      "model": "35b_tp1",
+      "n": 129,
+      "target": 64,
+      "initial_none": true,
+      "checks": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "close": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "close": true
+        }
+      },
+      "empty_plan_rows": 1,
+      "pass": true
+    },
+    {
+      "model": "35b_tp1",
+      "n": 8193,
+      "target": 0,
+      "initial_none": true,
+      "checks": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "close": true
+        }
+      },
+      "empty_plan_rows": 0,
+      "pass": true
+    },
+    {
+      "model": "35b_tp1",
+      "n": 8193,
+      "target": 64,
+      "initial_none": true,
+      "checks": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "close": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "close": true
+        }
+      },
+      "empty_plan_rows": 1,
+      "pass": true
+    }
+  ],
+  "invalid": [
+    {
+      "case": "bad_chunk",
+      "rejected": true,
+      "error": "CP chunk must be a positive multiple of 64"
+    },
+    {
+      "case": "wrong_dtype",
+      "rejected": true,
+      "error": "Invalid q shape, dtype, layout, or device"
+    },
+    {
+      "case": "bad_lengths",
+      "rejected": true,
+      "error": "Plan lengths must match cu_seqlens"
+    },
+    {
+      "case": "bad_gate_shape",
+      "rejected": true,
+      "error": "Invalid g shape, dtype, layout, or device"
+    },
+    {
+      "case": "bad_cu_dtype",
+      "rejected": true,
+      "error": "Invalid cu_seqlens or token count"
+    },
+    {
+      "case": "bad_initial",
+      "rejected": true,
+      "error": "Invalid initial state"
+    }
+  ]
+}

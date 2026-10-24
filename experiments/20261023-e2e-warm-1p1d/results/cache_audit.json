@@ -1,0 +1,119 @@
+{
+  "successful_requests": 40,
+  "paired_cache_checks": [
+    {
+      "sample_id": "sample_00",
+      "rep": 1,
+      "cache_equal": true
+    },
+    {
+      "sample_id": "sample_01",
+      "rep": 1,
+      "cache_equal": true
+    },
+    {
+      "sample_id": "sample_02",
+      "rep": 1,
+      "cache_equal": true
+    },
+    {
+      "sample_id": "sample_03",
+      "rep": 1,
+      "cache_equal": true
+    },
+    {
+      "sample_id": "sample_04",
+      "rep": 1,
+      "cache_equal": true
+    },
+    {
+      "sample_id": "sample_05",
+      "rep": 1,
+      "cache_equal": true
+    },
+    {
+      "sample_id": "sample_06",
+      "rep": 1,
+      "cache_equal": true
+    },
+    {
+      "sample_id": "sample_07",
+      "rep": 1,
+      "cache_equal": true
+    },
+    {
+      "sample_id": "sample_08",
+      "rep": 1,
+      "cache_equal": true
+    },
+    {
+      "sample_id": "sample_09",
+      "rep": 1,
+      "cache_equal": true
+    },
+    {
+      "sample_id": "sample_00",
+      "rep": 2,
+      "cache_equal": true
+    },
+    {
+      "sample_id": "sample_01",
+      "rep": 2,
+      "cache_equal": true
+    },
+    {
+      "sample_id": "sample_02",
+      "rep": 2,
+      "cache_equal": true
+    },
+    {
+      "sample_id": "sample_03",
+      "rep": 2,
+      "cache_equal": true
+    },
+    {
+      "sample_id": "sample_04",
+      "rep": 2,
+      "cache_equal": true
+    },
+    {
+      "sample_id": "sample_05",
+      "rep": 2,
+      "cache_equal": true
+    },
+    {
+      "sample_id": "sample_06",
+      "rep": 2,
+      "cache_equal": true
+    },
+    {
+      "sample_id": "sample_07",
+      "rep": 2,
+      "cache_equal": true
+    },
+    {
+      "sample_id": "sample_08",
+      "rep": 2,
+      "cache_equal": true
+    },
+    {
+      "sample_id": "sample_09",
+      "rep": 2,
+      "cache_equal": true
+    }
+  ],
+  "cached_tokens_per_batch": 233344,
+  "new_tokens_per_batch": 6080,
+  "token_cache_hit_rate": 0.9746057203956161,
+  "gdn_route_totals": {
+    "baseline": {
+      "baseline:False": 600
+    },
+    "optimized": {
+      "optimized:True": 480,
+      "optimized:False": 120
+    }
+  },
+  "cache_clear_calls_before_warmup": 4,
+  "cache_clear_calls_during_measurement": 0
+}

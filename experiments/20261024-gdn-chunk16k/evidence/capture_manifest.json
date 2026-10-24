@@ -1,0 +1,26 @@
+{
+  "captures/n2_t16373.pt": {
+    "sha256": "2551e8b1477d198b8a70d6e6589c27136f2ed083cc056a24eed04a635a208a93",
+    "bytes": 419161636
+  },
+  "captures/n2_t16383.pt": {
+    "sha256": "e2724df5881389cb0820262fed0b45c55305dfef87c02703f4b5b7b49035cae9",
+    "bytes": 419409956
+  },
+  "captures/n2_t16382.pt": {
+    "sha256": "ce22e9cbe0a1da4020be2756df8718afa642f7fd3dd2040ce9c0b375d2adf23b",
+    "bytes": 419385124
+  },
+  "captures/n2_t16377.pt": {
+    "sha256": "fa7c58aaeb3f03490ef7dbe1d50ca2d2a85aed15c5383a03423aeccdccabab32",
+    "bytes": 419260964
+  },
+  "captures/n2_t11587.pt": {
+    "sha256": "b76962dca94b528e262cdb197370b82919709f3a90e836fc30686632e0d66898",
+    "bytes": 300315684
+  },
+  "captures/n3_t16381.pt": {
+    "sha256": "4dfb534481520a565aea68d5d37737867a74b8891a94673519e14b9122a74971",
+    "bytes": 425651748
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "torch": "2.13.0+cu130",
+  "sglang": "0.5.20",
+  "ai-dynamo": "1.5.0",
+  "flashinfer-python": "0.6.18",
+  "transformers": "5.12.1",
+  "nixl": "1.4.1",
+  "gpus": "index, name, uuid, memory.total [MiB], memory.used [MiB], utilization.gpu [%]\n0, NVIDIA H20, GPU-820881e4-af08-711e-574b-0c6a659cb26a, 97871 MiB, 30823 MiB, 100 %\n1, NVIDIA H20, GPU-1aa9dac1-8cce-c977-d9f7-9d9009b2219c, 97871 MiB, 30823 MiB, 100 %\n2, NVIDIA H20, GPU-c11d3e06-5df3-6db1-88e8-ab74cf61ccd4, 97871 MiB, 30823 MiB, 100 %\n3, NVIDIA H20, GPU-a3c5e6f4-0ca6-8eeb-31dd-3d9cc8cc3fbb, 97871 MiB, 30823 MiB, 100 %\n4, NVIDIA H20, GPU-ed9442de-189a-186c-8351-c4017f54fd63, 97871 MiB, 0 MiB, 0 %\n5, NVIDIA H20, GPU-246c9350-6ca6-3491-eb9f-da143cd693c3, 97871 MiB, 0 MiB, 0 %\n6, NVIDIA H20, GPU-70ecd83a-e80e-e8e0-f1c8-801d4d9995c0, 97871 MiB, 70249 MiB, 0 %\n7, NVIDIA H20, GPU-2c11d7e5-3772-ec75-d58a-b2b11eeaba72, 97871 MiB, 95537 MiB, 0 %\n",
+  "sglang_commit": "94602c9c2b7cbdb8efd5c52802dac6a1c180089e",
+  "image_digest": "not exposed",
+  "selected_physical_gpus": [
+    6,
+    7
+  ]
+}

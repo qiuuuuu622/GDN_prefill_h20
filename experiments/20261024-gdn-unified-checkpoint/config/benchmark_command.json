@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/opt/sglang/bin/python",
+    "-u",
+    "scripts/01_experiment.py",
+    "--mode",
+    "benchmark",
+    "--repeats",
+    "7",
+    "--replays",
+    "50"
+  ],
+  "CUDA_VISIBLE_DEVICES": "6",
+  "pid": 299253,
+  "started": 1792820492.2905083
+}

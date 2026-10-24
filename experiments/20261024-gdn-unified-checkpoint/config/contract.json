@@ -1,0 +1,54 @@
+{
+  "host": "h20-2",
+  "gpu": 6,
+  "geometry": {
+    "122b_tp4": [
+      4,
+      16
+    ],
+    "35b_tp1": [
+      16,
+      32
+    ]
+  },
+  "seed": 20261024,
+  "dtype": "bf16",
+  "state_dtype": "fp32",
+  "gate": [
+    "slow",
+    "near_one"
+  ],
+  "checkpoint_interval": 64,
+  "repeats": 7,
+  "replays": 50,
+  "output_tolerance": [
+    0.02,
+    0.02
+  ],
+  "state_tolerance": [
+    0.01,
+    0.01
+  ],
+  "exact_required": [
+    "full_dense",
+    "dv_dense",
+    "full_selected",
+    "dv_selected"
+  ],
+  "notes": "Synthetic per-rank kernel comparison only; does not load model weights or start service. CP segmented is a reference implementation, not native CP checkpoint support.",
+  "additional_experiments": {
+    "cp_boundary": "Reuse native corrected boundary workspace; select aligned checkpoints; full-batch and mixed longest-CP variants",
+    "boundary_targets": [
+      4096,
+      1280
+    ],
+    "boundary_chunks": [
+      2048,
+      512,
+      256,
+      64
+    ],
+    "memcheck": "16 cases: both geometries, zero/nonzero initial state, empty sequence row, full/V2/CP/mixed; 7 invalid plans rejected"
+  },
+  "publication": "Publishing paused at user request pending experimental analysis; no commit or push performed"
+}

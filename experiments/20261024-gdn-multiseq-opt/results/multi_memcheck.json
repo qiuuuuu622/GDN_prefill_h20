@@ -1,0 +1,250 @@
+[
+  {
+    "lengths": [
+      0,
+      129,
+      7,
+      65
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      0,
+      64,
+      0,
+      64
+    ],
+    "graph_changed_targets": [
+      0,
+      128,
+      0,
+      64
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7,
+      65
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      0,
+      64,
+      0,
+      64
+    ],
+    "graph_changed_targets": [
+      0,
+      128,
+      0,
+      64
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7,
+      65
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      64,
+      0,
+      64
+    ],
+    "graph_changed_targets": [
+      0,
+      128,
+      0,
+      64
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      7,
+      65
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      64,
+      0,
+      64
+    ],
+    "graph_changed_targets": [
+      0,
+      128,
+      0,
+      64
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65,
+      127,
+      128,
+      513,
+      1025,
+      2047,
+      2207,
+      2080
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      64,
+      64,
+      64,
+      256,
+      512,
+      960,
+      1088,
+      1024
+    ],
+    "graph_changed_targets": [
+      64,
+      64,
+      128,
+      512,
+      1024,
+      1984,
+      2176,
+      2048
+    ],
+    "resumed_sequences": 8,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65,
+      127,
+      128,
+      513,
+      1025,
+      2047,
+      2207,
+      2080
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      64,
+      64,
+      64,
+      256,
+      512,
+      960,
+      1088,
+      1024
+    ],
+    "graph_changed_targets": [
+      64,
+      64,
+      128,
+      512,
+      1024,
+      1984,
+      2176,
+      2048
+    ],
+    "resumed_sequences": 8,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65,
+      127,
+      128,
+      513,
+      1025,
+      2047,
+      2207,
+      2080
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      64,
+      0,
+      256,
+      0,
+      960,
+      0,
+      1024
+    ],
+    "graph_changed_targets": [
+      0,
+      64,
+      0,
+      512,
+      0,
+      1984,
+      0,
+      2048
+    ],
+    "resumed_sequences": 4,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65,
+      127,
+      128,
+      513,
+      1025,
+      2047,
+      2207,
+      2080
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      64,
+      0,
+      256,
+      0,
+      960,
+      0,
+      1024
+    ],
+    "graph_changed_targets": [
+      0,
+      64,
+      0,
+      512,
+      0,
+      1984,
+      0,
+      2048
+    ],
+    "resumed_sequences": 4,
+    "valid": true
+  }
+]

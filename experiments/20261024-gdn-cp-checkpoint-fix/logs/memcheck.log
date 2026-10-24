@@ -1,0 +1,35 @@
+========= COMPUTE-SANITIZER
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "slow", "initial": "random", "phase": "eager", "boundary_pass": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "slow", "initial": "random", "phase": "graph_changed", "boundary_pass": true}
+{"model": "122b_tp4", "lengths": [65, 127, 128, 513, 1025, 2047, 2207, 2080], "gate": "slow", "initial": "random", "phase": "eager", "boundary_pass": true}
+{"model": "122b_tp4", "lengths": [65, 127, 128, 513, 1025, 2047, 2207, 2080], "gate": "slow", "initial": "random", "phase": "graph_changed", "boundary_pass": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "slow", "initial": "zero", "phase": "eager", "boundary_pass": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "slow", "initial": "zero", "phase": "graph_changed", "boundary_pass": true}
+{"model": "122b_tp4", "lengths": [65, 127, 128, 513, 1025, 2047, 2207, 2080], "gate": "slow", "initial": "zero", "phase": "eager", "boundary_pass": true}
+{"model": "122b_tp4", "lengths": [65, 127, 128, 513, 1025, 2047, 2207, 2080], "gate": "slow", "initial": "zero", "phase": "graph_changed", "boundary_pass": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "near_one", "initial": "random", "phase": "eager", "boundary_pass": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "near_one", "initial": "random", "phase": "graph_changed", "boundary_pass": true}
+{"model": "122b_tp4", "lengths": [65, 127, 128, 513, 1025, 2047, 2207, 2080], "gate": "near_one", "initial": "random", "phase": "eager", "boundary_pass": true}
+{"model": "122b_tp4", "lengths": [65, 127, 128, 513, 1025, 2047, 2207, 2080], "gate": "near_one", "initial": "random", "phase": "graph_changed", "boundary_pass": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "near_one", "initial": "zero", "phase": "eager", "boundary_pass": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "near_one", "initial": "zero", "phase": "graph_changed", "boundary_pass": true}
+{"model": "122b_tp4", "lengths": [65, 127, 128, 513, 1025, 2047, 2207, 2080], "gate": "near_one", "initial": "zero", "phase": "eager", "boundary_pass": true}
+{"model": "122b_tp4", "lengths": [65, 127, 128, 513, 1025, 2047, 2207, 2080], "gate": "near_one", "initial": "zero", "phase": "graph_changed", "boundary_pass": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "slow", "initial": "random", "phase": "eager", "boundary_pass": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "slow", "initial": "random", "phase": "graph_changed", "boundary_pass": true}
+{"model": "35b_tp1", "lengths": [65, 127, 128, 513, 1025, 2047, 2207, 2080], "gate": "slow", "initial": "random", "phase": "eager", "boundary_pass": true}
+{"model": "35b_tp1", "lengths": [65, 127, 128, 513, 1025, 2047, 2207, 2080], "gate": "slow", "initial": "random", "phase": "graph_changed", "boundary_pass": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "slow", "initial": "zero", "phase": "eager", "boundary_pass": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "slow", "initial": "zero", "phase": "graph_changed", "boundary_pass": true}
+{"model": "35b_tp1", "lengths": [65, 127, 128, 513, 1025, 2047, 2207, 2080], "gate": "slow", "initial": "zero", "phase": "eager", "boundary_pass": true}
+{"model": "35b_tp1", "lengths": [65, 127, 128, 513, 1025, 2047, 2207, 2080], "gate": "slow", "initial": "zero", "phase": "graph_changed", "boundary_pass": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "near_one", "initial": "random", "phase": "eager", "boundary_pass": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "near_one", "initial": "random", "phase": "graph_changed", "boundary_pass": true}
+{"model": "35b_tp1", "lengths": [65, 127, 128, 513, 1025, 2047, 2207, 2080], "gate": "near_one", "initial": "random", "phase": "eager", "boundary_pass": true}
+{"model": "35b_tp1", "lengths": [65, 127, 128, 513, 1025, 2047, 2207, 2080], "gate": "near_one", "initial": "random", "phase": "graph_changed", "boundary_pass": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "near_one", "initial": "zero", "phase": "eager", "boundary_pass": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "near_one", "initial": "zero", "phase": "graph_changed", "boundary_pass": true}
+{"model": "35b_tp1", "lengths": [65, 127, 128, 513, 1025, 2047, 2207, 2080], "gate": "near_one", "initial": "zero", "phase": "eager", "boundary_pass": true}
+{"model": "35b_tp1", "lengths": [65, 127, 128, 513, 1025, 2047, 2207, 2080], "gate": "near_one", "initial": "zero", "phase": "graph_changed", "boundary_pass": true}
+COMPLETE 32
+========= ERROR SUMMARY: 0 errors

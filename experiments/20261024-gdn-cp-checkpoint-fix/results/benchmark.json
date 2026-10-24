@@ -1,0 +1,5554 @@
+[
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      512
+    ],
+    "targets": [
+      256
+    ],
+    "native_chunk": 2048,
+    "old_chunk": 256,
+    "checks": {
+      "full_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "v2_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "native_cp_selected": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0044026970863342285,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0029812902212142944,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "old_fixup_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004402726888656616,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004990309476852417,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "original_cp_no_checkpoint": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0044026970863342285,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      }
+    },
+    "times": {
+      "full_selected": {
+        "median_ms": 0.05190640091896057,
+        "samples_ms": [
+          0.051951998472213747,
+          0.05188480019569397,
+          0.051919198036193846,
+          0.05190320014953613,
+          0.051920801401138306,
+          0.05190320014953613,
+          0.051910400390625,
+          0.05185999870300293,
+          0.05190640091896057,
+          0.05193439722061157,
+          0.05189679861068726
+        ]
+      },
+      "v2_selected": {
+        "median_ms": 0.03664000034332275,
+        "samples_ms": [
+          0.03666560053825378,
+          0.03664000034332275,
+          0.0366567999124527,
+          0.036627200245857236,
+          0.03662320077419281,
+          0.03667599856853485,
+          0.03659439980983734,
+          0.03664079904556274,
+          0.036671999096870425,
+          0.036627200245857236,
+          0.03657039999961853
+        ]
+      },
+      "native_cp_selected": {
+        "median_ms": 0.11332720518112183,
+        "samples_ms": [
+          0.1133296012878418,
+          0.11331599950790405,
+          0.11335920095443726,
+          0.11332720518112183,
+          0.11332720518112183,
+          0.11331599950790405,
+          0.1133031964302063,
+          0.11334480047225952,
+          0.11331440210342407,
+          0.11333279609680176,
+          0.11332240104675292
+        ]
+      },
+      "old_fixup_extraction": {
+        "median_ms": 0.0797160029411316,
+        "samples_ms": [
+          0.07979519963264466,
+          0.07972959876060486,
+          0.0797160029411316,
+          0.07970799803733826,
+          0.07971680164337158,
+          0.07970240116119384,
+          0.07969520092010499,
+          0.07971839904785157,
+          0.07968239784240723,
+          0.07971760034561157,
+          0.07968639731407165
+        ]
+      },
+      "original_cp_no_checkpoint": {
+        "median_ms": 0.11193439960479737,
+        "samples_ms": [
+          0.11190719604492187,
+          0.11192799806594848,
+          0.11194560527801514,
+          0.11192320585250855,
+          0.11193439960479737,
+          0.11194159984588622,
+          0.11191680431365966,
+          0.11193439960479737,
+          0.11194479465484619,
+          0.11194720268249511,
+          0.11196800470352172
+        ]
+      }
+    },
+    "orders": [
+      [
+        "old_fixup_extraction",
+        "full_selected",
+        "native_cp_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction",
+        "full_selected",
+        "native_cp_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "v2_selected",
+        "full_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "v2_selected",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "v2_selected",
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected"
+      ],
+      [
+        "native_cp_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected"
+      ],
+      [
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "v2_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "native_cp_selected",
+        "v2_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "full_selected",
+        "v2_selected"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected"
+      ]
+    ]
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      8192
+    ],
+    "targets": [
+      1280
+    ],
+    "native_chunk": 2048,
+    "old_chunk": 256,
+    "checks": {
+      "full_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "v2_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "native_cp_selected": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0034232139587402344,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00338137149810791,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "old_fixup_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0034230947494506836,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004364103078842163,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "original_cp_no_checkpoint": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0034232139587402344,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      }
+    },
+    "times": {
+      "full_selected": {
+        "median_ms": 0.7502280235290527,
+        "samples_ms": [
+          0.7488167762756348,
+          0.7484807968139648,
+          0.7502280235290527,
+          0.7503848075866699,
+          0.7498511791229248,
+          0.7504623889923095,
+          0.7502592086791993,
+          0.7504543781280517,
+          0.7500016212463378,
+          0.7505328178405761,
+          0.7502079963684082
+        ]
+      },
+      "v2_selected": {
+        "median_ms": 0.5356135845184327,
+        "samples_ms": [
+          0.5345712184906006,
+          0.5345975875854492,
+          0.5356135845184327,
+          0.5359447956085205,
+          0.5352583885192871,
+          0.5352968215942383,
+          0.5357687950134278,
+          0.5358335971832275,
+          0.5356008052825928,
+          0.535964822769165,
+          0.535865592956543
+        ]
+      },
+      "native_cp_selected": {
+        "median_ms": 0.41355037689208984,
+        "samples_ms": [
+          0.4130112171173096,
+          0.41290879249572754,
+          0.413588809967041,
+          0.4137688159942627,
+          0.41338558197021485,
+          0.4135447978973389,
+          0.41356401443481444,
+          0.4135335922241211,
+          0.4137095928192139,
+          0.41355037689208984,
+          0.41368718147277833
+        ]
+      },
+      "old_fixup_extraction": {
+        "median_ms": 0.6915167808532715,
+        "samples_ms": [
+          0.6910295963287354,
+          0.6912775993347168,
+          0.6914576053619385,
+          0.6912623882293701,
+          0.6918943881988525,
+          0.6914976119995118,
+          0.6922063827514648,
+          0.6923232078552246,
+          0.6915167808532715,
+          0.6926911830902099,
+          0.6917664051055908
+        ]
+      },
+      "original_cp_no_checkpoint": {
+        "median_ms": 0.4127208232879639,
+        "samples_ms": [
+          0.4123688220977783,
+          0.41218957901000974,
+          0.4128255844116211,
+          0.4127664089202881,
+          0.41286959648132326,
+          0.41267762184143064,
+          0.41261920928955076,
+          0.4127208232879639,
+          0.41270718574523924,
+          0.4127664089202881,
+          0.4130688190460205
+        ]
+      }
+    },
+    "orders": [
+      [
+        "old_fixup_extraction",
+        "full_selected",
+        "native_cp_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction",
+        "full_selected",
+        "native_cp_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "v2_selected",
+        "full_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "v2_selected",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "v2_selected",
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected"
+      ],
+      [
+        "native_cp_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected"
+      ],
+      [
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "v2_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "native_cp_selected",
+        "v2_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "full_selected",
+        "v2_selected"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected"
+      ]
+    ]
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      8192
+    ],
+    "targets": [
+      4096
+    ],
+    "native_chunk": 2048,
+    "old_chunk": 2048,
+    "checks": {
+      "full_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "v2_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "native_cp_selected": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0034232139587402344,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004233121871948242,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "old_fixup_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0034232139587402344,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00557902455329895,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "original_cp_no_checkpoint": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0034232139587402344,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      }
+    },
+    "times": {
+      "full_selected": {
+        "median_ms": 0.750219202041626,
+        "samples_ms": [
+          0.750219202041626,
+          0.7513864040374756,
+          0.7489632129669189,
+          0.7484735965728759,
+          0.7500368118286133,
+          0.7504168033599854,
+          0.7505440235137939,
+          0.750113582611084,
+          0.7500256061553955,
+          0.7504199981689453,
+          0.7503543853759765
+        ]
+      },
+      "v2_selected": {
+        "median_ms": 0.5354951858520508,
+        "samples_ms": [
+          0.5359216213226319,
+          0.5369880199432373,
+          0.5354951858520508,
+          0.5347983837127686,
+          0.5354928016662598,
+          0.5352263927459717,
+          0.5353816032409668,
+          0.5352447986602783,
+          0.5359047889709473,
+          0.5363167762756348,
+          0.5364151954650879
+        ]
+      },
+      "native_cp_selected": {
+        "median_ms": 0.41341361999511717,
+        "samples_ms": [
+          0.41347517967224123,
+          0.4126999855041504,
+          0.41277198791503905,
+          0.4128096103668213,
+          0.4135848045349121,
+          0.41349358558654786,
+          0.41341361999511717,
+          0.41336798667907715,
+          0.4131728172302246,
+          0.41359682083129884,
+          0.4134416103363037
+        ]
+      },
+      "old_fixup_extraction": {
+        "median_ms": 0.417080020904541,
+        "samples_ms": [
+          0.41719841957092285,
+          0.417955207824707,
+          0.41634402275085447,
+          0.4168735980987549,
+          0.417080020904541,
+          0.4170080184936523,
+          0.41670241355896,
+          0.4171167850494385,
+          0.4167520046234131,
+          0.4171031951904297,
+          0.41709041595458984
+        ]
+      },
+      "original_cp_no_checkpoint": {
+        "median_ms": 0.41298160552978513,
+        "samples_ms": [
+          0.4141047954559326,
+          0.413864803314209,
+          0.4122608184814453,
+          0.4123832225799561,
+          0.41293678283691404,
+          0.4130743980407715,
+          0.41298160552978513,
+          0.41301679611206055,
+          0.41295599937438965,
+          0.4131152153015137,
+          0.41282238960266116
+        ]
+      }
+    },
+    "orders": [
+      [
+        "old_fixup_extraction",
+        "full_selected",
+        "native_cp_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction",
+        "full_selected",
+        "native_cp_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "v2_selected",
+        "full_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "v2_selected",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "v2_selected",
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected"
+      ],
+      [
+        "native_cp_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected"
+      ],
+      [
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "v2_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "native_cp_selected",
+        "v2_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "full_selected",
+        "v2_selected"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected"
+      ]
+    ]
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      32768
+    ],
+    "targets": [
+      16384
+    ],
+    "native_chunk": 2048,
+    "old_chunk": 2048,
+    "checks": {
+      "full_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "v2_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "native_cp_selected": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0006103515625,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0026694536209106445,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00418679416179657,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "old_fixup_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0006103515625,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0026694536209106445,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.007780849933624268,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "original_cp_no_checkpoint": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0006103515625,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0026694536209106445,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      }
+    },
+    "times": {
+      "full_selected": {
+        "median_ms": 2.9839176177978515,
+        "samples_ms": [
+          2.9905864715576174,
+          2.9849832534790037,
+          2.9863176345825195,
+          2.9839176177978515,
+          2.988800811767578,
+          2.9784624099731447,
+          2.9831384658813476,
+          2.982583236694336,
+          2.984449577331543,
+          2.978464889526367,
+          2.982926368713379
+        ]
+      },
+      "v2_selected": {
+        "median_ms": 2.133566474914551,
+        "samples_ms": [
+          2.129529571533203,
+          2.136960029602051,
+          2.1361320495605467,
+          2.1271743774414062,
+          2.1307823181152346,
+          2.1357383728027344,
+          2.131342315673828,
+          2.1330976486206055,
+          2.133566474914551,
+          2.135032844543457,
+          2.135540771484375
+        ]
+      },
+      "native_cp_selected": {
+        "median_ms": 1.6234296798706054,
+        "samples_ms": [
+          1.6225656509399413,
+          1.6234296798706054,
+          1.6247112274169921,
+          1.6223831176757812,
+          1.6225776672363281,
+          1.6268896102905273,
+          1.6222808837890625,
+          1.6269376754760743,
+          1.6232839584350587,
+          1.627578353881836,
+          1.626875114440918
+        ]
+      },
+      "old_fixup_extraction": {
+        "median_ms": 1.6225383758544922,
+        "samples_ms": [
+          1.6224248886108399,
+          1.6235408782958984,
+          1.6225248336791993,
+          1.6223007202148438,
+          1.624505615234375,
+          1.6224199295043946,
+          1.6248367309570313,
+          1.6227359771728516,
+          1.6203096389770508,
+          1.6225383758544922,
+          1.6252864837646483
+        ]
+      },
+      "original_cp_no_checkpoint": {
+        "median_ms": 1.6188367843627929,
+        "samples_ms": [
+          1.6183448791503907,
+          1.6164295196533203,
+          1.6161951065063476,
+          1.6207504272460938,
+          1.6214208602905273,
+          1.6214832305908202,
+          1.6165952682495117,
+          1.6188367843627929,
+          1.620622444152832,
+          1.621251106262207,
+          1.6183719635009766
+        ]
+      }
+    },
+    "orders": [
+      [
+        "old_fixup_extraction",
+        "full_selected",
+        "native_cp_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction",
+        "full_selected",
+        "native_cp_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "v2_selected",
+        "full_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "v2_selected",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "v2_selected",
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected"
+      ],
+      [
+        "native_cp_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected"
+      ],
+      [
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "v2_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "native_cp_selected",
+        "v2_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "full_selected",
+        "v2_selected"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected"
+      ]
+    ]
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      8192,
+      1024,
+      1024,
+      1024
+    ],
+    "targets": [
+      4096,
+      512,
+      512,
+      512
+    ],
+    "native_chunk": 2048,
+    "old_chunk": 512,
+    "checks": {
+      "full_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "v2_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "native_cp_selected": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004419237375259399,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004862368106842041,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "old_fixup_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0044186413288116455,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0059830546379089355,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "original_cp_no_checkpoint": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004419237375259399,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "mixed_native": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.003995418548583984,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004862368106842041,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "mixed_old_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.003995418548583984,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0059830546379089355,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      }
+    },
+    "times": {
+      "full_selected": {
+        "median_ms": 0.7512216091156005,
+        "samples_ms": [
+          0.753384780883789,
+          0.7516719818115234,
+          0.7517271995544433,
+          0.7518367767333984,
+          0.7508103847503662,
+          0.7512152194976807,
+          0.7513480186462402,
+          0.7512216091156005,
+          0.7499104022979737,
+          0.7509479999542237,
+          0.7510632038116455
+        ]
+      },
+      "v2_selected": {
+        "median_ms": 0.5367807865142822,
+        "samples_ms": [
+          0.535976791381836,
+          0.5379640102386475,
+          0.5367807865142822,
+          0.5363768100738525,
+          0.5367584228515625,
+          0.5362224102020263,
+          0.5376215934753418,
+          0.53640718460083,
+          0.5378600120544433,
+          0.5375775814056396,
+          0.538270378112793
+        ]
+      },
+      "native_cp_selected": {
+        "median_ms": 0.6276743888854981,
+        "samples_ms": [
+          0.629037618637085,
+          0.6266327857971191,
+          0.6276959896087646,
+          0.6275976181030274,
+          0.6276743888854981,
+          0.6275832176208496,
+          0.627618408203125,
+          0.6289624214172364,
+          0.6284647941589355,
+          0.6276800155639648,
+          0.6275455951690674
+        ]
+      },
+      "old_fixup_extraction": {
+        "median_ms": 0.7187672138214112,
+        "samples_ms": [
+          0.7199440002441406,
+          0.7177768230438233,
+          0.7187672138214112,
+          0.7185736179351807,
+          0.7191688060760498,
+          0.718726396560669,
+          0.718779182434082,
+          0.7191544055938721,
+          0.7178023815155029,
+          0.718886423110962,
+          0.7185848236083985
+        ]
+      },
+      "original_cp_no_checkpoint": {
+        "median_ms": 0.6245223999023437,
+        "samples_ms": [
+          0.6233168125152588,
+          0.6243167877197265,
+          0.6245223999023437,
+          0.6241824150085449,
+          0.624556016921997,
+          0.6247799873352051,
+          0.6246263980865479,
+          0.6247879981994628,
+          0.6260583877563477,
+          0.6244887828826904,
+          0.624505615234375
+        ]
+      },
+      "mixed_native": {
+        "median_ms": 0.5061639785766602,
+        "samples_ms": [
+          0.5038343906402588,
+          0.5031752109527587,
+          0.5105735778808593,
+          0.5070799827575684,
+          0.5061639785766602,
+          0.5117415904998779,
+          0.5043191909790039,
+          0.5052248001098633,
+          0.5034080028533936,
+          0.5128767967224122,
+          0.5080992221832276
+        ]
+      },
+      "mixed_old_extraction": {
+        "median_ms": 0.5050144195556641,
+        "samples_ms": [
+          0.5050464153289795,
+          0.5031023979187011,
+          0.5040143966674805,
+          0.5050144195556641,
+          0.5041903972625732,
+          0.5079103946685791,
+          0.5049503803253174,
+          0.5086287975311279,
+          0.5079368114471435,
+          0.5003592014312744,
+          0.5095088005065918
+        ]
+      }
+    },
+    "orders": [
+      [
+        "mixed_native",
+        "mixed_old_extraction",
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "full_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "full_selected",
+        "original_cp_no_checkpoint",
+        "v2_selected"
+      ],
+      [
+        "full_selected",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "mixed_old_extraction",
+        "v2_selected",
+        "mixed_native",
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "v2_selected",
+        "mixed_old_extraction",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction",
+        "mixed_native",
+        "full_selected",
+        "native_cp_selected"
+      ],
+      [
+        "mixed_native",
+        "old_fixup_extraction",
+        "full_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "mixed_old_extraction"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "mixed_native",
+        "mixed_old_extraction",
+        "v2_selected",
+        "native_cp_selected",
+        "full_selected"
+      ],
+      [
+        "mixed_old_extraction",
+        "mixed_native",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "old_fixup_extraction",
+        "full_selected"
+      ],
+      [
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "mixed_old_extraction",
+        "native_cp_selected",
+        "v2_selected",
+        "old_fixup_extraction",
+        "mixed_native"
+      ],
+      [
+        "native_cp_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "mixed_native",
+        "original_cp_no_checkpoint",
+        "mixed_old_extraction",
+        "full_selected"
+      ]
+    ]
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      4096,
+      4096
+    ],
+    "targets": [
+      2048,
+      2048
+    ],
+    "native_chunk": 2048,
+    "old_chunk": 2048,
+    "checks": {
+      "full_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "v2_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "native_cp_selected": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004233121871948242,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004287660121917725,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "old_fixup_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004233121871948242,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004859857261180878,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "original_cp_no_checkpoint": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004233121871948242,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "mixed_native": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004233121871948242,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004287660121917725,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "mixed_old_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004233121871948242,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004859857261180878,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      }
+    },
+    "times": {
+      "full_selected": {
+        "median_ms": 0.37960240840911863,
+        "samples_ms": [
+          0.3807039976119995,
+          0.37880558967590333,
+          0.3797960042953491,
+          0.37961440086364745,
+          0.37960638999938967,
+          0.3795504093170166,
+          0.3795151948928833,
+          0.3796488046646118,
+          0.3794127941131592,
+          0.37960240840911863,
+          0.37956240177154543
+        ]
+      },
+      "v2_selected": {
+        "median_ms": 0.2723367929458618,
+        "samples_ms": [
+          0.27251520156860354,
+          0.27191040515899656,
+          0.27242560386657716,
+          0.2723615884780884,
+          0.2723855972290039,
+          0.2724519968032837,
+          0.2721935987472534,
+          0.2723367929458618,
+          0.2718280076980591,
+          0.27191600799560545,
+          0.27200319766998293
+        ]
+      },
+      "native_cp_selected": {
+        "median_ms": 0.4167367935180664,
+        "samples_ms": [
+          0.41783761978149414,
+          0.4159679889678955,
+          0.41654481887817385,
+          0.41675601005554197,
+          0.4167776107788086,
+          0.41674079895019533,
+          0.4165775775909424,
+          0.4167479991912842,
+          0.41660399436950685,
+          0.41665921211242674,
+          0.4167367935180664
+        ]
+      },
+      "old_fixup_extraction": {
+        "median_ms": 0.4228960037231445,
+        "samples_ms": [
+          0.4237984180450439,
+          0.4221807956695557,
+          0.4227952003479004,
+          0.4229191780090332,
+          0.42278318405151366,
+          0.4229383945465088,
+          0.422922420501709,
+          0.4229623794555664,
+          0.42275681495666506,
+          0.4228960037231445,
+          0.422811222076416
+        ]
+      },
+      "original_cp_no_checkpoint": {
+        "median_ms": 0.4163360118865967,
+        "samples_ms": [
+          0.4169151782989502,
+          0.41558399200439455,
+          0.4162543773651123,
+          0.4167543888092041,
+          0.41625118255615234,
+          0.41636881828308103,
+          0.41640481948852537,
+          0.41625361442565917,
+          0.4163248062133789,
+          0.4163360118865967,
+          0.4165088176727295
+        ]
+      },
+      "mixed_native": {
+        "median_ms": 0.4024367809295654,
+        "samples_ms": [
+          0.4034639835357666,
+          0.40166797637939455,
+          0.4024367809295654,
+          0.40239682197570803,
+          0.40247201919555664,
+          0.40224480628967285,
+          0.40242481231689453,
+          0.4022831916809082,
+          0.40318799018859863,
+          0.4027703762054443,
+          0.4025440216064453
+        ]
+      },
+      "mixed_old_extraction": {
+        "median_ms": 0.40239920616149905,
+        "samples_ms": [
+          0.40340480804443357,
+          0.40143837928771975,
+          0.40245280265808103,
+          0.4023464202880859,
+          0.40254640579223633,
+          0.402783203125,
+          0.40239920616149905,
+          0.402131986618042,
+          0.40216479301452634,
+          0.4024831771850586,
+          0.40227198600769043
+        ]
+      }
+    },
+    "orders": [
+      [
+        "mixed_native",
+        "mixed_old_extraction",
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "full_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "full_selected",
+        "original_cp_no_checkpoint",
+        "v2_selected"
+      ],
+      [
+        "full_selected",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "mixed_old_extraction",
+        "v2_selected",
+        "mixed_native",
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "v2_selected",
+        "mixed_old_extraction",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction",
+        "mixed_native",
+        "full_selected",
+        "native_cp_selected"
+      ],
+      [
+        "mixed_native",
+        "old_fixup_extraction",
+        "full_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "mixed_old_extraction"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "mixed_native",
+        "mixed_old_extraction",
+        "v2_selected",
+        "native_cp_selected",
+        "full_selected"
+      ],
+      [
+        "mixed_old_extraction",
+        "mixed_native",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "old_fixup_extraction",
+        "full_selected"
+      ],
+      [
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "mixed_old_extraction",
+        "native_cp_selected",
+        "v2_selected",
+        "old_fixup_extraction",
+        "mixed_native"
+      ],
+      [
+        "native_cp_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "mixed_native",
+        "original_cp_no_checkpoint",
+        "mixed_old_extraction",
+        "full_selected"
+      ]
+    ]
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      8192,
+      8192
+    ],
+    "targets": [
+      4096,
+      4096
+    ],
+    "native_chunk": 2048,
+    "old_chunk": 2048,
+    "checks": {
+      "full_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "v2_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "native_cp_selected": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0034335851669311523,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004033267498016357,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "old_fixup_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0034335851669311523,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0060083866119384766,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "original_cp_no_checkpoint": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0034335851669311523,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "mixed_native": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0034335851669311523,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0031331777572631836,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "mixed_old_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0034335851669311523,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0060083866119384766,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      }
+    },
+    "times": {
+      "full_selected": {
+        "median_ms": 0.7521088123321533,
+        "samples_ms": [
+          0.7528895854949951,
+          0.7518360137939453,
+          0.7521736145019531,
+          0.7521088123321533,
+          0.7520376205444336,
+          0.7521192073822022,
+          0.7545447826385498,
+          0.7506103992462159,
+          0.7506112098693848,
+          0.7522624015808106,
+          0.7503543853759765
+        ]
+      },
+      "v2_selected": {
+        "median_ms": 0.5395944118499756,
+        "samples_ms": [
+          0.54126877784729,
+          0.5395944118499756,
+          0.5398335933685303,
+          0.5397520065307617,
+          0.5385719776153565,
+          0.5391143798828125,
+          0.5385935783386231,
+          0.5396783828735352,
+          0.5392104148864746,
+          0.5394976139068604,
+          0.5398839950561524
+        ]
+      },
+      "native_cp_selected": {
+        "median_ms": 0.8174032211303711,
+        "samples_ms": [
+          0.8174639701843261,
+          0.8167023658752441,
+          0.8173551559448242,
+          0.8193575859069824,
+          0.8174032211303711,
+          0.8174703598022461,
+          0.8172608375549316,
+          0.8169728279113769,
+          0.8192472457885742,
+          0.8173784255981446,
+          0.8182200431823731
+        ]
+      },
+      "old_fixup_extraction": {
+        "median_ms": 0.8216416358947753,
+        "samples_ms": [
+          0.8214471817016602,
+          0.8236000061035156,
+          0.8215239524841309,
+          0.8232439994812012,
+          0.8211968421936036,
+          0.8216983795166015,
+          0.823583984375,
+          0.8212231636047364,
+          0.820678424835205,
+          0.8216416358947753,
+          0.823365592956543
+        ]
+      },
+      "original_cp_no_checkpoint": {
+        "median_ms": 0.8157039642333984,
+        "samples_ms": [
+          0.8174559593200683,
+          0.8157039642333984,
+          0.8154711723327637,
+          0.8176671981811523,
+          0.8146360397338868,
+          0.8157088279724121,
+          0.8174480438232422,
+          0.8143416404724121,
+          0.8160327911376953,
+          0.8144071578979493,
+          0.814412784576416
+        ]
+      },
+      "mixed_native": {
+        "median_ms": 0.7867591857910157,
+        "samples_ms": [
+          0.7859896183013916,
+          0.78438720703125,
+          0.7863935947418212,
+          0.7875376224517823,
+          0.7867591857910157,
+          0.7866695880889892,
+          0.7862688064575195,
+          0.7894728183746338,
+          0.7895592212677002,
+          0.7872871875762939,
+          0.7888815879821778
+        ]
+      },
+      "mixed_old_extraction": {
+        "median_ms": 0.7850848197937011,
+        "samples_ms": [
+          0.785206413269043,
+          0.7837639808654785,
+          0.7844888210296631,
+          0.7850848197937011,
+          0.7848375797271728,
+          0.7867671966552734,
+          0.784711217880249,
+          0.7886919975280762,
+          0.7873439788818359,
+          0.7866047859191895,
+          0.7834375858306885
+        ]
+      }
+    },
+    "orders": [
+      [
+        "mixed_native",
+        "mixed_old_extraction",
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "full_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "full_selected",
+        "original_cp_no_checkpoint",
+        "v2_selected"
+      ],
+      [
+        "full_selected",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "mixed_old_extraction",
+        "v2_selected",
+        "mixed_native",
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "v2_selected",
+        "mixed_old_extraction",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction",
+        "mixed_native",
+        "full_selected",
+        "native_cp_selected"
+      ],
+      [
+        "mixed_native",
+        "old_fixup_extraction",
+        "full_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "mixed_old_extraction"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "mixed_native",
+        "mixed_old_extraction",
+        "v2_selected",
+        "native_cp_selected",
+        "full_selected"
+      ],
+      [
+        "mixed_old_extraction",
+        "mixed_native",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "old_fixup_extraction",
+        "full_selected"
+      ],
+      [
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "mixed_old_extraction",
+        "native_cp_selected",
+        "v2_selected",
+        "old_fixup_extraction",
+        "mixed_native"
+      ],
+      [
+        "native_cp_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "mixed_native",
+        "original_cp_no_checkpoint",
+        "mixed_old_extraction",
+        "full_selected"
+      ]
+    ]
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "targets": [
+      512,
+      512,
+      512,
+      512,
+      512,
+      512,
+      512,
+      512
+    ],
+    "native_chunk": 2048,
+    "old_chunk": 512,
+    "checks": {
+      "full_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "v2_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "native_cp_selected": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004635274410247803,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004398539662361145,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "old_fixup_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004635214805603027,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.006811618804931641,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "original_cp_no_checkpoint": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004635274410247803,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "mixed_native": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004635274410247803,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004157006740570068,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "mixed_old_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004635214805603027,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.006811618804931641,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      }
+    },
+    "times": {
+      "full_selected": {
+        "median_ms": 0.19995280504226684,
+        "samples_ms": [
+          0.20025360584259033,
+          0.2000040054321289,
+          0.19994319677352906,
+          0.1999583959579468,
+          0.19990559816360473,
+          0.19996000528335572,
+          0.20003681182861327,
+          0.19986239671707154,
+          0.19995280504226684,
+          0.19987200498580932,
+          0.19983600378036498
+        ]
+      },
+      "v2_selected": {
+        "median_ms": 0.2753671884536743,
+        "samples_ms": [
+          0.2750679969787598,
+          0.27529120445251465,
+          0.27547760009765626,
+          0.27516400814056396,
+          0.275439190864563,
+          0.27561919689178466,
+          0.2752824068069458,
+          0.2753671884536743,
+          0.2757535934448242,
+          0.27531280517578127,
+          0.27547760009765626
+        ]
+      },
+      "native_cp_selected": {
+        "median_ms": 0.46697359085083007,
+        "samples_ms": [
+          0.46792240142822267,
+          0.4661064147949219,
+          0.4670695781707764,
+          0.46683921813964846,
+          0.46698880195617676,
+          0.4669248104095459,
+          0.46685199737548827,
+          0.46697359085083007,
+          0.4671192169189453,
+          0.4669936180114746,
+          0.46678719520568845
+        ]
+      },
+      "old_fixup_extraction": {
+        "median_ms": 0.5653759956359863,
+        "samples_ms": [
+          0.5663335800170899,
+          0.5646567821502686,
+          0.5652671813964844,
+          0.5653759956359863,
+          0.5653247833251953,
+          0.5653656005859375,
+          0.5654215812683105,
+          0.5655039787292481,
+          0.5654407978057862,
+          0.5652647972106933,
+          0.565501594543457
+        ]
+      },
+      "original_cp_no_checkpoint": {
+        "median_ms": 0.4633639812469482,
+        "samples_ms": [
+          0.46275601387023924,
+          0.4633480072021484,
+          0.46346478462219237,
+          0.46353440284729003,
+          0.46358160972595214,
+          0.46330962181091306,
+          0.4633376121520996,
+          0.46332559585571287,
+          0.463424015045166,
+          0.4633944034576416,
+          0.4633639812469482
+        ]
+      },
+      "mixed_native": {
+        "median_ms": 0.31693758964538576,
+        "samples_ms": [
+          0.31813840866088866,
+          0.31593921184539797,
+          0.31706240177154543,
+          0.3167736053466797,
+          0.3170111894607544,
+          0.31711840629577637,
+          0.31711759567260744,
+          0.3166991949081421,
+          0.31693758964538576,
+          0.3160504102706909,
+          0.3168632030487061
+        ]
+      },
+      "mixed_old_extraction": {
+        "median_ms": 0.24603440761566162,
+        "samples_ms": [
+          0.24719839096069335,
+          0.24603440761566162,
+          0.24617440700531007,
+          0.24596478939056396,
+          0.2461303949356079,
+          0.24580559730529786,
+          0.24682559967041015,
+          0.24590640068054198,
+          0.24571120738983154,
+          0.24666719436645507,
+          0.2458728075027466
+        ]
+      }
+    },
+    "orders": [
+      [
+        "mixed_native",
+        "mixed_old_extraction",
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "full_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "full_selected",
+        "original_cp_no_checkpoint",
+        "v2_selected"
+      ],
+      [
+        "full_selected",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "mixed_old_extraction",
+        "v2_selected",
+        "mixed_native",
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "v2_selected",
+        "mixed_old_extraction",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction",
+        "mixed_native",
+        "full_selected",
+        "native_cp_selected"
+      ],
+      [
+        "mixed_native",
+        "old_fixup_extraction",
+        "full_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "mixed_old_extraction"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "mixed_native",
+        "mixed_old_extraction",
+        "v2_selected",
+        "native_cp_selected",
+        "full_selected"
+      ],
+      [
+        "mixed_old_extraction",
+        "mixed_native",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "old_fixup_extraction",
+        "full_selected"
+      ],
+      [
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "mixed_old_extraction",
+        "native_cp_selected",
+        "v2_selected",
+        "old_fixup_extraction",
+        "mixed_native"
+      ],
+      [
+        "native_cp_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "mixed_native",
+        "original_cp_no_checkpoint",
+        "mixed_old_extraction",
+        "full_selected"
+      ]
+    ]
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      512
+    ],
+    "targets": [
+      256
+    ],
+    "native_chunk": 2048,
+    "old_chunk": 256,
+    "checks": {
+      "full_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "v2_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "native_cp_selected": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0027975738048553467,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004605710506439209,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "old_fixup_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.000732421875,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0027972757816314697,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.005248844623565674,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "original_cp_no_checkpoint": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0027975738048553467,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      }
+    },
+    "times": {
+      "full_selected": {
+        "median_ms": 0.052567201852798465,
+        "samples_ms": [
+          0.052583998441696166,
+          0.052566397190094,
+          0.052567201852798465,
+          0.05251920223236084,
+          0.05257920026779175,
+          0.052572000026702884,
+          0.05259680151939392,
+          0.05257520079612732,
+          0.05256159901618958,
+          0.05254240036010742,
+          0.052560001611709595
+        ]
+      },
+      "v2_selected": {
+        "median_ms": 0.0375328004360199,
+        "samples_ms": [
+          0.037566399574279784,
+          0.037529599666595456,
+          0.03755840063095093,
+          0.037520000338554384,
+          0.0375328004360199,
+          0.037518399953842166,
+          0.037536001205444335,
+          0.03751679956912994,
+          0.03755599856376648,
+          0.03754799962043762,
+          0.03748399913311005
+        ]
+      },
+      "native_cp_selected": {
+        "median_ms": 0.11845599412918091,
+        "samples_ms": [
+          0.11846319437026978,
+          0.11843600273132324,
+          0.11845279932022094,
+          0.11845599412918091,
+          0.11845040321350098,
+          0.11847039461135864,
+          0.11846719980239868,
+          0.11847039461135864,
+          0.11848239898681641,
+          0.1184440016746521,
+          0.11843760013580322
+        ]
+      },
+      "old_fixup_extraction": {
+        "median_ms": 0.08588640093803405,
+        "samples_ms": [
+          0.08588799834251404,
+          0.08589760065078736,
+          0.08582239747047424,
+          0.08582800030708312,
+          0.08584399819374085,
+          0.08585759997367859,
+          0.08586400151252746,
+          0.08591439723968505,
+          0.08589760065078736,
+          0.08591039776802063,
+          0.08588640093803405
+        ]
+      },
+      "original_cp_no_checkpoint": {
+        "median_ms": 0.1166983962059021,
+        "samples_ms": [
+          0.11671040058135987,
+          0.1166648030281067,
+          0.1166983962059021,
+          0.11668640375137329,
+          0.1166856050491333,
+          0.11664960384368897,
+          0.11670639514923095,
+          0.11671839952468872,
+          0.11670880317687989,
+          0.11673200130462646,
+          0.11669360399246216
+        ]
+      }
+    },
+    "orders": [
+      [
+        "old_fixup_extraction",
+        "full_selected",
+        "native_cp_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction",
+        "full_selected",
+        "native_cp_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "v2_selected",
+        "full_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "v2_selected",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "v2_selected",
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected"
+      ],
+      [
+        "native_cp_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected"
+      ],
+      [
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "v2_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "native_cp_selected",
+        "v2_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "full_selected",
+        "v2_selected"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected"
+      ]
+    ]
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      8192
+    ],
+    "targets": [
+      1280
+    ],
+    "native_chunk": 2048,
+    "old_chunk": 256,
+    "checks": {
+      "full_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "v2_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "native_cp_selected": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004037946462631226,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0044779181480407715,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "old_fixup_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004037976264953613,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0065694451332092285,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "original_cp_no_checkpoint": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004037946462631226,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      }
+    },
+    "times": {
+      "full_selected": {
+        "median_ms": 0.7532792091369629,
+        "samples_ms": [
+          0.7557975769042968,
+          0.7532144069671631,
+          0.7553567886352539,
+          0.7515552043914795,
+          0.753167200088501,
+          0.7547560214996338,
+          0.7533440113067627,
+          0.7553984165191651,
+          0.7532792091369629,
+          0.7532567977905273,
+          0.7529407978057862
+        ]
+      },
+      "v2_selected": {
+        "median_ms": 0.5442135810852051,
+        "samples_ms": [
+          0.5440839767456055,
+          0.5442448139190674,
+          0.5461575984954834,
+          0.5439792156219483,
+          0.5451752185821533,
+          0.5460495948791504,
+          0.5436399936676025,
+          0.5434375762939453,
+          0.5443511962890625,
+          0.5442135810852051,
+          0.5441463947296142
+        ]
+      },
+      "native_cp_selected": {
+        "median_ms": 0.7855639934539795,
+        "samples_ms": [
+          0.7852791786193848,
+          0.7855711936950683,
+          0.7855823993682861,
+          0.7861199855804444,
+          0.785265588760376,
+          0.7843023777008057,
+          0.7840536117553711,
+          0.7841487884521484,
+          0.7855936050415039,
+          0.7855639934539795,
+          0.7864496231079101
+        ]
+      },
+      "old_fixup_extraction": {
+        "median_ms": 0.9788519859313964,
+        "samples_ms": [
+          0.9816904067993164,
+          0.978266429901123,
+          0.9792271614074707,
+          0.9788519859313964,
+          0.9785391807556152,
+          0.9816935539245606,
+          0.9778880119323731,
+          0.9808919906616211,
+          0.9779512405395507,
+          0.9785391807556152,
+          0.9790472030639649
+        ]
+      },
+      "original_cp_no_checkpoint": {
+        "median_ms": 0.7831168174743652,
+        "samples_ms": [
+          0.7819255828857422,
+          0.7830311775207519,
+          0.7850935935974122,
+          0.7817999839782714,
+          0.7831672191619873,
+          0.7839240074157715,
+          0.7832352161407471,
+          0.7853415966033935,
+          0.782962417602539,
+          0.7830239772796631,
+          0.7831168174743652
+        ]
+      }
+    },
+    "orders": [
+      [
+        "old_fixup_extraction",
+        "full_selected",
+        "native_cp_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction",
+        "full_selected",
+        "native_cp_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "v2_selected",
+        "full_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "v2_selected",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "v2_selected",
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected"
+      ],
+      [
+        "native_cp_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected"
+      ],
+      [
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "v2_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "native_cp_selected",
+        "v2_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "full_selected",
+        "v2_selected"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected"
+      ]
+    ]
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      8192
+    ],
+    "targets": [
+      4096
+    ],
+    "native_chunk": 2048,
+    "old_chunk": 2048,
+    "checks": {
+      "full_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "v2_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "native_cp_selected": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004037946462631226,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004295468330383301,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "old_fixup_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004037946462631226,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0054084062576293945,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "original_cp_no_checkpoint": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004037946462631226,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      }
+    },
+    "times": {
+      "full_selected": {
+        "median_ms": 0.7531455993652344,
+        "samples_ms": [
+          0.7532623767852783,
+          0.7530816078186036,
+          0.7530367851257325,
+          0.7531455993652344,
+          0.7560791969299316,
+          0.7524447917938233,
+          0.7535791873931885,
+          0.7533944129943848,
+          0.7527999877929688,
+          0.7528592109680176,
+          0.7532080173492431
+        ]
+      },
+      "v2_selected": {
+        "median_ms": 0.5443912029266358,
+        "samples_ms": [
+          0.5435800075531005,
+          0.5443912029266358,
+          0.5433760166168213,
+          0.5443672180175781,
+          0.5456039905548096,
+          0.5444384098052979,
+          0.5446887969970703,
+          0.5460192203521729,
+          0.5430712223052978,
+          0.5445096015930175,
+          0.5442808151245118
+        ]
+      },
+      "native_cp_selected": {
+        "median_ms": 0.7845784187316894,
+        "samples_ms": [
+          0.7835375785827636,
+          0.783457612991333,
+          0.7840551853179931,
+          0.7848015785217285,
+          0.7839719772338867,
+          0.7848904132843018,
+          0.7848296165466309,
+          0.7850488185882568,
+          0.7834680080413818,
+          0.7845784187316894,
+          0.7847216129302979
+        ]
+      },
+      "old_fixup_extraction": {
+        "median_ms": 0.7885759830474853,
+        "samples_ms": [
+          0.7905255794525147,
+          0.7907192230224609,
+          0.7875207901000977,
+          0.7907167911529541,
+          0.7873295783996582,
+          0.7884575843811035,
+          0.7885759830474853,
+          0.7885623931884765,
+          0.7906576156616211,
+          0.787604808807373,
+          0.7886568069458008
+        ]
+      },
+      "original_cp_no_checkpoint": {
+        "median_ms": 0.7829063892364502,
+        "samples_ms": [
+          0.7820072174072266,
+          0.7847951889038086,
+          0.7832511901855469,
+          0.7830152034759521,
+          0.7817728042602539,
+          0.782919979095459,
+          0.7828680038452148,
+          0.7828991889953614,
+          0.7848199844360352,
+          0.7829063892364502,
+          0.7828720092773438
+        ]
+      }
+    },
+    "orders": [
+      [
+        "old_fixup_extraction",
+        "full_selected",
+        "native_cp_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction",
+        "full_selected",
+        "native_cp_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "v2_selected",
+        "full_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "v2_selected",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "v2_selected",
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected"
+      ],
+      [
+        "native_cp_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected"
+      ],
+      [
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "v2_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "native_cp_selected",
+        "v2_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "full_selected",
+        "v2_selected"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected"
+      ]
+    ]
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      32768
+    ],
+    "targets": [
+      16384
+    ],
+    "native_chunk": 2048,
+    "old_chunk": 2048,
+    "checks": {
+      "full_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "v2_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "native_cp_selected": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.003069967031478882,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004183441400527954,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "old_fixup_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.003069967031478882,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004874885082244873,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "original_cp_no_checkpoint": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.003069967031478882,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      }
+    },
+    "times": {
+      "full_selected": {
+        "median_ms": 2.9956056594848635,
+        "samples_ms": [
+          2.9993743896484375,
+          2.992068862915039,
+          2.9913944244384765,
+          2.999171257019043,
+          2.9956056594848635,
+          2.9964672088623048,
+          2.988899993896484,
+          2.9930023193359374,
+          2.999158477783203,
+          2.9973112106323243,
+          2.99484806060791
+        ]
+      },
+      "v2_selected": {
+        "median_ms": 2.1656871795654298,
+        "samples_ms": [
+          2.163412857055664,
+          2.167942428588867,
+          2.168655204772949,
+          2.161873626708984,
+          2.1678848266601562,
+          2.168560028076172,
+          2.162567138671875,
+          2.1644208908081053,
+          2.1658920288085937,
+          2.163835144042969,
+          2.1656871795654298
+        ]
+      },
+      "native_cp_selected": {
+        "median_ms": 2.7304103851318358,
+        "samples_ms": [
+          2.7279287338256837,
+          2.7326568603515624,
+          2.7304103851318358,
+          2.7369136810302734,
+          2.728127288818359,
+          2.7356088638305662,
+          2.7281431198120116,
+          2.733509635925293,
+          2.72794246673584,
+          2.7287832260131837,
+          2.7320480346679688
+        ]
+      },
+      "old_fixup_extraction": {
+        "median_ms": 2.7325952529907225,
+        "samples_ms": [
+          2.729191207885742,
+          2.7361751556396485,
+          2.732944869995117,
+          2.731781578063965,
+          2.7318424224853515,
+          2.729951286315918,
+          2.736346435546875,
+          2.731185531616211,
+          2.734600830078125,
+          2.733028793334961,
+          2.7325952529907225
+        ]
+      },
+      "original_cp_no_checkpoint": {
+        "median_ms": 2.7263256072998048,
+        "samples_ms": [
+          2.7273944854736327,
+          2.7236440658569334,
+          2.7248552322387694,
+          2.721723937988281,
+          2.726704788208008,
+          2.7231231689453126,
+          2.7300968170166016,
+          2.728607940673828,
+          2.7232488632202148,
+          2.7303943634033203,
+          2.7263256072998048
+        ]
+      }
+    },
+    "orders": [
+      [
+        "old_fixup_extraction",
+        "full_selected",
+        "native_cp_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction",
+        "full_selected",
+        "native_cp_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "v2_selected",
+        "full_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "v2_selected",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "v2_selected",
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected"
+      ],
+      [
+        "native_cp_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected"
+      ],
+      [
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "v2_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "native_cp_selected",
+        "v2_selected"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "full_selected",
+        "v2_selected"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected"
+      ]
+    ]
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      8192,
+      1024,
+      1024,
+      1024
+    ],
+    "targets": [
+      4096,
+      512,
+      512,
+      512
+    ],
+    "native_chunk": 2048,
+    "old_chunk": 512,
+    "checks": {
+      "full_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "v2_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "native_cp_selected": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004258736968040466,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004666239023208618,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "old_fixup_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004258736968040466,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.007069885730743408,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "original_cp_no_checkpoint": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004258736968040466,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "mixed_native": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004091024398803711,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004588425159454346,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "mixed_old_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004091024398803711,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.005610644817352295,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      }
+    },
+    "times": {
+      "full_selected": {
+        "median_ms": 0.75387601852417,
+        "samples_ms": [
+          0.75387601852417,
+          0.7529816150665283,
+          0.756771183013916,
+          0.7552231788635254,
+          0.7528800010681153,
+          0.7526391983032227,
+          0.7533016204833984,
+          0.7556687831878662,
+          0.7546487808227539,
+          0.7572679996490479,
+          0.7534808158874512
+        ]
+      },
+      "v2_selected": {
+        "median_ms": 0.6666103839874268,
+        "samples_ms": [
+          0.6659719944000244,
+          0.6680408000946045,
+          0.6666103839874268,
+          0.6662360191345215,
+          0.6651607990264893,
+          0.6653272151947022,
+          0.6670400142669678,
+          0.6671127796173095,
+          0.6673719882965088,
+          0.6651247978210449,
+          0.6679840087890625
+        ]
+      },
+      "native_cp_selected": {
+        "median_ms": 1.0282367706298827,
+        "samples_ms": [
+          1.0288975715637207,
+          1.028923225402832,
+          1.027233600616455,
+          1.0291959762573242,
+          1.0272775650024415,
+          1.029317569732666,
+          1.0281503677368165,
+          1.025385570526123,
+          1.0282367706298827,
+          1.028752040863037,
+          1.026683235168457
+        ]
+      },
+      "old_fixup_extraction": {
+        "median_ms": 1.1714336395263671,
+        "samples_ms": [
+          1.1735015869140626,
+          1.1730327606201172,
+          1.1713656425476073,
+          1.1699376106262207,
+          1.1723296165466308,
+          1.1734000205993653,
+          1.1714336395263671,
+          1.169816017150879,
+          1.1709480285644531,
+          1.1698344230651856,
+          1.1717608451843262
+        ]
+      },
+      "original_cp_no_checkpoint": {
+        "median_ms": 1.0222359657287599,
+        "samples_ms": [
+          1.0201727867126464,
+          1.0228511810302734,
+          1.0217464447021485,
+          1.0222359657287599,
+          1.023851203918457,
+          1.0207320213317872,
+          1.020366382598877,
+          1.023801612854004,
+          1.0241368293762207,
+          1.021777629852295,
+          1.0235256195068358
+        ]
+      },
+      "mixed_native": {
+        "median_ms": 0.9043671607971191,
+        "samples_ms": [
+          0.903317642211914,
+          0.9043671607971191,
+          0.903994369506836,
+          0.9075551986694336,
+          0.9020376205444336,
+          0.9055791854858398,
+          0.9035136222839355,
+          0.9051183700561524,
+          0.9029472351074219,
+          0.9051575660705566,
+          0.9062423706054688
+        ]
+      },
+      "mixed_old_extraction": {
+        "median_ms": 0.9027815818786621,
+        "samples_ms": [
+          0.9027815818786621,
+          0.9032143592834473,
+          0.9011735916137695,
+          0.9026335716247559,
+          0.9032464027404785,
+          0.903923225402832,
+          0.9049783706665039,
+          0.9009840011596679,
+          0.901529598236084,
+          0.9042927742004394,
+          0.9018112182617187
+        ]
+      }
+    },
+    "orders": [
+      [
+        "mixed_native",
+        "mixed_old_extraction",
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "full_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "full_selected",
+        "original_cp_no_checkpoint",
+        "v2_selected"
+      ],
+      [
+        "full_selected",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "mixed_old_extraction",
+        "v2_selected",
+        "mixed_native",
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "v2_selected",
+        "mixed_old_extraction",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction",
+        "mixed_native",
+        "full_selected",
+        "native_cp_selected"
+      ],
+      [
+        "mixed_native",
+        "old_fixup_extraction",
+        "full_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "mixed_old_extraction"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "mixed_native",
+        "mixed_old_extraction",
+        "v2_selected",
+        "native_cp_selected",
+        "full_selected"
+      ],
+      [
+        "mixed_old_extraction",
+        "mixed_native",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "old_fixup_extraction",
+        "full_selected"
+      ],
+      [
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "mixed_old_extraction",
+        "native_cp_selected",
+        "v2_selected",
+        "old_fixup_extraction",
+        "mixed_native"
+      ],
+      [
+        "native_cp_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "mixed_native",
+        "original_cp_no_checkpoint",
+        "mixed_old_extraction",
+        "full_selected"
+      ]
+    ]
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      4096,
+      4096
+    ],
+    "targets": [
+      2048,
+      2048
+    ],
+    "native_chunk": 2048,
+    "old_chunk": 2048,
+    "checks": {
+      "full_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "v2_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "native_cp_selected": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004333525896072388,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00393947958946228,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "old_fixup_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004333525896072388,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.008553504943847656,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "original_cp_no_checkpoint": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004333525896072388,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "mixed_native": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.003355182707309723,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.003753483295440674,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "mixed_old_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.003355182707309723,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.008553504943847656,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      }
+    },
+    "times": {
+      "full_selected": {
+        "median_ms": 0.38143599033355713,
+        "samples_ms": [
+          0.38146960735321045,
+          0.3810760021209717,
+          0.3812367916107178,
+          0.38260080814361574,
+          0.3825119972229004,
+          0.38096640110015867,
+          0.3816200017929077,
+          0.38143599033355713,
+          0.3807807922363281,
+          0.3809823989868164,
+          0.3816351890563965
+        ]
+      },
+      "v2_selected": {
+        "median_ms": 0.5414112091064454,
+        "samples_ms": [
+          0.5409128189086914,
+          0.540720796585083,
+          0.5423480033874511,
+          0.540940809249878,
+          0.5415215969085694,
+          0.5410312175750732,
+          0.5414991855621338,
+          0.5417016029357911,
+          0.5414112091064454,
+          0.5421895980834961,
+          0.540876817703247
+        ]
+      },
+      "native_cp_selected": {
+        "median_ms": 0.7893640041351319,
+        "samples_ms": [
+          0.7881624221801757,
+          0.7912280082702636,
+          0.7893712043762207,
+          0.7881216049194336,
+          0.7880536079406738,
+          0.7893832206726075,
+          0.7893640041351319,
+          0.7892223834991455,
+          0.7910664081573486,
+          0.7911295890808105,
+          0.7882503986358642
+        ]
+      },
+      "old_fixup_extraction": {
+        "median_ms": 0.7966479778289794,
+        "samples_ms": [
+          0.797486400604248,
+          0.7986536026000977,
+          0.7984911918640136,
+          0.7966095924377441,
+          0.7983376026153565,
+          0.7952536106109619,
+          0.7966479778289794,
+          0.7965648174285889,
+          0.795304822921753,
+          0.7977344036102295,
+          0.7955336093902587
+        ]
+      },
+      "original_cp_no_checkpoint": {
+        "median_ms": 0.7874544143676758,
+        "samples_ms": [
+          0.7872536182403564,
+          0.7862720012664794,
+          0.7894248008728028,
+          0.7869815826416016,
+          0.7890056133270263,
+          0.7874544143676758,
+          0.7876039981842041,
+          0.7882080078125,
+          0.7890600204467774,
+          0.786187219619751,
+          0.7874015808105469
+        ]
+      },
+      "mixed_native": {
+        "median_ms": 0.598904800415039,
+        "samples_ms": [
+          0.6006792068481446,
+          0.598472785949707,
+          0.5988016128540039,
+          0.5979872226715088,
+          0.6005496025085449,
+          0.5981567859649658,
+          0.5990983963012695,
+          0.5991479873657226,
+          0.6003655910491943,
+          0.5979199886322022,
+          0.598904800415039
+        ]
+      },
+      "mixed_old_extraction": {
+        "median_ms": 0.6003704071044922,
+        "samples_ms": [
+          0.6018871784210205,
+          0.6017335891723633,
+          0.6002264022827148,
+          0.6005080223083497,
+          0.5999328136444092,
+          0.6001431941986084,
+          0.6003151893615722,
+          0.5999207973480225,
+          0.6019207954406738,
+          0.6013855934143066,
+          0.6003704071044922
+        ]
+      }
+    },
+    "orders": [
+      [
+        "mixed_native",
+        "mixed_old_extraction",
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "full_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "full_selected",
+        "original_cp_no_checkpoint",
+        "v2_selected"
+      ],
+      [
+        "full_selected",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "mixed_old_extraction",
+        "v2_selected",
+        "mixed_native",
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "v2_selected",
+        "mixed_old_extraction",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction",
+        "mixed_native",
+        "full_selected",
+        "native_cp_selected"
+      ],
+      [
+        "mixed_native",
+        "old_fixup_extraction",
+        "full_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "mixed_old_extraction"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "mixed_native",
+        "mixed_old_extraction",
+        "v2_selected",
+        "native_cp_selected",
+        "full_selected"
+      ],
+      [
+        "mixed_old_extraction",
+        "mixed_native",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "old_fixup_extraction",
+        "full_selected"
+      ],
+      [
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "mixed_old_extraction",
+        "native_cp_selected",
+        "v2_selected",
+        "old_fixup_extraction",
+        "mixed_native"
+      ],
+      [
+        "native_cp_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "mixed_native",
+        "original_cp_no_checkpoint",
+        "mixed_old_extraction",
+        "full_selected"
+      ]
+    ]
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      8192,
+      8192
+    ],
+    "targets": [
+      4096,
+      4096
+    ],
+    "native_chunk": 2048,
+    "old_chunk": 2048,
+    "checks": {
+      "full_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "v2_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "native_cp_selected": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0050577521324157715,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.003124743700027466,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "old_fixup_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0050577521324157715,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.006619006395339966,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "original_cp_no_checkpoint": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0050577521324157715,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "mixed_native": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0050577521324157715,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.003124743700027466,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "mixed_old_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0050577521324157715,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004975110292434692,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      }
+    },
+    "times": {
+      "full_selected": {
+        "median_ms": 0.7564807891845703,
+        "samples_ms": [
+          0.7569159984588623,
+          0.7537623882293701,
+          0.7536712169647217,
+          0.7564807891845703,
+          0.7566440105438232,
+          0.7565303802490234,
+          0.7563672065734863,
+          0.7570240020751953,
+          0.7535391807556152,
+          0.7566815853118897,
+          0.7561063766479492
+        ]
+      },
+      "v2_selected": {
+        "median_ms": 1.0764023780822753,
+        "samples_ms": [
+          1.0791848182678223,
+          1.0767736434936523,
+          1.0752247810363769,
+          1.0743311882019042,
+          1.079849624633789,
+          1.076157569885254,
+          1.0762231826782227,
+          1.074507236480713,
+          1.0798463821411133,
+          1.0764023780822753,
+          1.0790823936462401
+        ]
+      },
+      "native_cp_selected": {
+        "median_ms": 1.5502688407897949,
+        "samples_ms": [
+          1.5515095710754394,
+          1.5548128128051757,
+          1.548966407775879,
+          1.5550663948059082,
+          1.5490447998046875,
+          1.5549176216125489,
+          1.5516263961791992,
+          1.5502688407897949,
+          1.5490519523620605,
+          1.548964023590088,
+          1.5487055778503418
+        ]
+      },
+      "old_fixup_extraction": {
+        "median_ms": 1.5523688316345214,
+        "samples_ms": [
+          1.5503935813903809,
+          1.5523391723632813,
+          1.5561280250549316,
+          1.5514056205749511,
+          1.5523688316345214,
+          1.5562264442443847,
+          1.5502384185791016,
+          1.5515735626220704,
+          1.5532784461975098,
+          1.5561903953552245,
+          1.5536760330200194
+        ]
+      },
+      "original_cp_no_checkpoint": {
+        "median_ms": 1.5417799949645996,
+        "samples_ms": [
+          1.5404623985290526,
+          1.5462871551513673,
+          1.540169620513916,
+          1.5417799949645996,
+          1.5405424118041993,
+          1.540439987182617,
+          1.5436592102050781,
+          1.5457063674926759,
+          1.5446463584899903,
+          1.5424216270446778,
+          1.5401800155639649
+        ]
+      },
+      "mixed_native": {
+        "median_ms": 1.1343600273132324,
+        "samples_ms": [
+          1.1265192031860352,
+          1.1379976272583008,
+          1.1379816055297851,
+          1.140066432952881,
+          1.1347576141357423,
+          1.1328840255737305,
+          1.1414159774780273,
+          1.1323880195617675,
+          1.1324135780334472,
+          1.1339112281799317,
+          1.1343600273132324
+        ]
+      },
+      "mixed_old_extraction": {
+        "median_ms": 1.1353568077087401,
+        "samples_ms": [
+          1.1353568077087401,
+          1.1306488037109375,
+          1.122586441040039,
+          1.1364472389221192,
+          1.1275511741638184,
+          1.1358823776245117,
+          1.1256752014160156,
+          1.1411151885986328,
+          1.1244392395019531,
+          1.1420840263366698,
+          1.1405192375183106
+        ]
+      }
+    },
+    "orders": [
+      [
+        "mixed_native",
+        "mixed_old_extraction",
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "full_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "full_selected",
+        "original_cp_no_checkpoint",
+        "v2_selected"
+      ],
+      [
+        "full_selected",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "mixed_old_extraction",
+        "v2_selected",
+        "mixed_native",
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "v2_selected",
+        "mixed_old_extraction",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction",
+        "mixed_native",
+        "full_selected",
+        "native_cp_selected"
+      ],
+      [
+        "mixed_native",
+        "old_fixup_extraction",
+        "full_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "mixed_old_extraction"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "mixed_native",
+        "mixed_old_extraction",
+        "v2_selected",
+        "native_cp_selected",
+        "full_selected"
+      ],
+      [
+        "mixed_old_extraction",
+        "mixed_native",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "old_fixup_extraction",
+        "full_selected"
+      ],
+      [
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "mixed_old_extraction",
+        "native_cp_selected",
+        "v2_selected",
+        "old_fixup_extraction",
+        "mixed_native"
+      ],
+      [
+        "native_cp_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "mixed_native",
+        "original_cp_no_checkpoint",
+        "mixed_old_extraction",
+        "full_selected"
+      ]
+    ]
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "targets": [
+      512,
+      512,
+      512,
+      512,
+      512,
+      512,
+      512,
+      512
+    ],
+    "native_chunk": 2048,
+    "old_chunk": 512,
+    "checks": {
+      "full_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "v2_selected": {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      "native_cp_selected": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00462651252746582,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004899144172668457,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "old_fixup_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0046263933181762695,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.007176220417022705,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "original_cp_no_checkpoint": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00462651252746582,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "mixed_native": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004088044166564941,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0041024088859558105,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      "mixed_old_extraction": {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004088044166564941,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "state_checkpoints": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.005938015878200531,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      }
+    },
+    "times": {
+      "full_selected": {
+        "median_ms": 0.39696879386901857,
+        "samples_ms": [
+          0.3970400094985962,
+          0.39712560176849365,
+          0.39696879386901857,
+          0.397104811668396,
+          0.3960288047790527,
+          0.3974056005477905,
+          0.3970632076263428,
+          0.39590160846710204,
+          0.39628560543060304,
+          0.3969536066055298,
+          0.396016788482666
+        ]
+      },
+      "v2_selected": {
+        "median_ms": 0.48480401039123533,
+        "samples_ms": [
+          0.48480401039123533,
+          0.4846648216247559,
+          0.4834464073181152,
+          0.4859176158905029,
+          0.48537840843200686,
+          0.48546562194824217,
+          0.4844240188598633,
+          0.48458080291748046,
+          0.48561840057373046,
+          0.4836719989776611,
+          0.48532800674438475
+        ]
+      },
+      "native_cp_selected": {
+        "median_ms": 0.8598551750183105,
+        "samples_ms": [
+          0.8607687950134277,
+          0.858461570739746,
+          0.8596943855285645,
+          0.8584848403930664,
+          0.8588031768798828,
+          0.8587151527404785,
+          0.8613911628723144,
+          0.8612888336181641,
+          0.8598551750183105,
+          0.8609696388244629,
+          0.8603719711303711
+        ]
+      },
+      "old_fixup_extraction": {
+        "median_ms": 0.8747672080993653,
+        "samples_ms": [
+          0.8742600440979004,
+          0.8747672080993653,
+          0.8773240089416504,
+          0.8761927604675293,
+          0.8748512268066406,
+          0.876955223083496,
+          0.8744440078735352,
+          0.8738136291503906,
+          0.8742688179016114,
+          0.8738816261291504,
+          0.8769295692443848
+        ]
+      },
+      "original_cp_no_checkpoint": {
+        "median_ms": 0.8490991592407227,
+        "samples_ms": [
+          0.85098237991333,
+          0.8509584426879883,
+          0.8490535736083984,
+          0.8477248191833496,
+          0.8507816314697265,
+          0.8487079620361329,
+          0.8490991592407227,
+          0.8478960037231446,
+          0.8507807731628418,
+          0.8509655952453613,
+          0.8484040260314941
+        ]
+      },
+      "mixed_native": {
+        "median_ms": 0.5115071773529053,
+        "samples_ms": [
+          0.5099040031433105,
+          0.5143496036529541,
+          0.5124832153320312,
+          0.5112440109252929,
+          0.5074808120727539,
+          0.5109687805175781,
+          0.5150968074798584,
+          0.5115071773529053,
+          0.5128551959991455,
+          0.5114816188812256,
+          0.5121304035186768
+        ]
+      },
+      "mixed_old_extraction": {
+        "median_ms": 0.43306241035461424,
+        "samples_ms": [
+          0.42902560234069825,
+          0.4300087928771973,
+          0.4354576110839844,
+          0.43474879264831545,
+          0.43239359855651854,
+          0.43306241035461424,
+          0.435864782333374,
+          0.43398637771606446,
+          0.4302224159240723,
+          0.4352575778961182,
+          0.43095197677612307
+        ]
+      }
+    },
+    "orders": [
+      [
+        "mixed_native",
+        "mixed_old_extraction",
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "full_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint"
+      ],
+      [
+        "old_fixup_extraction",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "full_selected",
+        "original_cp_no_checkpoint",
+        "v2_selected"
+      ],
+      [
+        "full_selected",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "full_selected",
+        "mixed_old_extraction",
+        "v2_selected",
+        "mixed_native",
+        "native_cp_selected",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction"
+      ],
+      [
+        "v2_selected",
+        "mixed_old_extraction",
+        "original_cp_no_checkpoint",
+        "old_fixup_extraction",
+        "mixed_native",
+        "full_selected",
+        "native_cp_selected"
+      ],
+      [
+        "mixed_native",
+        "old_fixup_extraction",
+        "full_selected",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "mixed_old_extraction"
+      ],
+      [
+        "old_fixup_extraction",
+        "original_cp_no_checkpoint",
+        "mixed_native",
+        "mixed_old_extraction",
+        "v2_selected",
+        "native_cp_selected",
+        "full_selected"
+      ],
+      [
+        "mixed_old_extraction",
+        "mixed_native",
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "old_fixup_extraction",
+        "native_cp_selected"
+      ],
+      [
+        "v2_selected",
+        "original_cp_no_checkpoint",
+        "native_cp_selected",
+        "mixed_old_extraction",
+        "mixed_native",
+        "old_fixup_extraction",
+        "full_selected"
+      ],
+      [
+        "original_cp_no_checkpoint",
+        "full_selected",
+        "mixed_old_extraction",
+        "native_cp_selected",
+        "v2_selected",
+        "old_fixup_extraction",
+        "mixed_native"
+      ],
+      [
+        "native_cp_selected",
+        "old_fixup_extraction",
+        "v2_selected",
+        "mixed_native",
+        "original_cp_no_checkpoint",
+        "mixed_old_extraction",
+        "full_selected"
+      ]
+    ]
+  }
+]

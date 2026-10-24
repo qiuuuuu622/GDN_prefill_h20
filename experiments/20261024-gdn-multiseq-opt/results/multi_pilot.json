@@ -1,0 +1,380 @@
+[
+  {
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      64,
+      64
+    ],
+    "graph_changed_targets": [
+      64,
+      128
+    ],
+    "resumed_sequences": 2,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.02369920015335083,
+      "graph_samples_ms": [
+        0.024452267090479533,
+        0.023720532655715942,
+        0.02369920015335083,
+        0.023686399062474568,
+        0.023643734057744344
+      ],
+      "eager_event_ms": 0.17243092854817707,
+      "eager_wall_ms": 0.1753784716129303
+    },
+    "baseline": {
+      "graph_median_ms": 0.02402346730232239,
+      "graph_samples_ms": [
+        0.024537599086761473,
+        0.02406186660130819,
+        0.02402346730232239,
+        0.02399359941482544,
+        0.0240064005057017
+      ],
+      "eager_event_ms": 0.19188052813212078,
+      "eager_wall_ms": 0.19382238388061523
+    },
+    "speedup": 1.0136826199565099
+  },
+  {
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      64,
+      64
+    ],
+    "graph_changed_targets": [
+      64,
+      128
+    ],
+    "resumed_sequences": 2,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.028296534220377603,
+      "graph_samples_ms": [
+        0.02905600070953369,
+        0.028309333324432372,
+        0.028296534220377603,
+        0.028253867228825887,
+        0.02824959953625997
+      ],
+      "eager_event_ms": 0.18287359873453776,
+      "eager_wall_ms": 0.18459285298983255
+    },
+    "baseline": {
+      "graph_median_ms": 0.024115200837453207,
+      "graph_samples_ms": [
+        0.024522666136423746,
+        0.024168533086776734,
+        0.024115200837453207,
+        0.02400426665941874,
+        0.024038400252660116
+      ],
+      "eager_event_ms": 0.19182292620340982,
+      "eager_wall_ms": 0.19343818227450052
+    },
+    "speedup": 0.8522316072222996
+  },
+  {
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      64
+    ],
+    "graph_changed_targets": [
+      0,
+      128
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      64
+    ],
+    "graph_changed_targets": [
+      0,
+      128
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      4096,
+      4096
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      2048,
+      2048
+    ],
+    "graph_changed_targets": [
+      4096,
+      4096
+    ],
+    "resumed_sequences": 2,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.3815615971883138,
+      "graph_samples_ms": [
+        0.38220373789469403,
+        0.3814037322998047,
+        0.3815615971883138,
+        0.38138666152954104,
+        0.3815765380859375
+      ],
+      "eager_event_ms": 0.39518934885660806,
+      "eager_wall_ms": 0.3970968226591746
+    },
+    "baseline": {
+      "graph_median_ms": 0.42211411794026693,
+      "graph_samples_ms": [
+        0.4221461296081543,
+        0.42211411794026693,
+        0.42147839864095055,
+        0.4216810544331869,
+        0.4224768002827962
+      ],
+      "eager_event_ms": 0.43705600102742515,
+      "eager_wall_ms": 0.4389608899752299
+    },
+    "speedup": 1.106280404136004
+  },
+  {
+    "lengths": [
+      4096,
+      4096
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      2048,
+      2048
+    ],
+    "graph_changed_targets": [
+      4096,
+      4096
+    ],
+    "resumed_sequences": 2,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.5411968231201172,
+      "graph_samples_ms": [
+        0.5417877197265625,
+        0.5410624186197917,
+        0.541649055480957,
+        0.5409301122029623,
+        0.5411968231201172
+      ],
+      "eager_event_ms": 0.5594837188720703,
+      "eager_wall_ms": 0.5614856878916422
+    },
+    "baseline": {
+      "graph_median_ms": 0.42215681076049805,
+      "graph_samples_ms": [
+        0.42225707372029625,
+        0.4220501263936361,
+        0.42215681076049805,
+        0.4221824010213216,
+        0.4219264030456543
+      ],
+      "eager_event_ms": 0.43782825469970704,
+      "eager_wall_ms": 0.43999825914700824
+    },
+    "speedup": 0.7800430318985843
+  },
+  {
+    "lengths": [
+      4096,
+      4096
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      2048
+    ],
+    "graph_changed_targets": [
+      0,
+      4096
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      4096,
+      4096
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      2048
+    ],
+    "graph_changed_targets": [
+      0,
+      4096
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      128,
+      8064
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      64,
+      4032
+    ],
+    "graph_changed_targets": [
+      128,
+      8064
+    ],
+    "resumed_sequences": 2,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.743882687886556,
+      "graph_samples_ms": [
+        0.743882687886556,
+        0.7431082407633464,
+        0.743116823832194,
+        0.7446549097696941,
+        0.7449706395467123
+      ],
+      "eager_event_ms": 0.7609472274780273,
+      "eager_wall_ms": 0.7629580795764923
+    },
+    "baseline": {
+      "graph_median_ms": 0.817849604288737,
+      "graph_samples_ms": [
+        0.8180565516153971,
+        0.8178794860839844,
+        0.817849604288737,
+        0.8176746368408203,
+        0.817792002360026
+      ],
+      "eager_event_ms": 0.8296192169189454,
+      "eager_wall_ms": 0.8315662542978922
+    },
+    "speedup": 1.0994335768349823
+  },
+  {
+    "lengths": [
+      128,
+      8064
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      64,
+      4032
+    ],
+    "graph_changed_targets": [
+      128,
+      8064
+    ],
+    "resumed_sequences": 2,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.5455146789550781,
+      "graph_samples_ms": [
+        0.5457130432128906,
+        0.5456042607625325,
+        0.5443733215332032,
+        0.5455146789550781,
+        0.5442944208780924
+      ],
+      "eager_event_ms": 0.5608170827229818,
+      "eager_wall_ms": 0.5628444254398346
+    },
+    "baseline": {
+      "graph_median_ms": 0.8153856277465821,
+      "graph_samples_ms": [
+        0.8154453277587891,
+        0.81484375,
+        0.8153856277465821,
+        0.8148735682169597,
+        0.8155114491780598
+      ],
+      "eager_event_ms": 0.8295658747355144,
+      "eager_wall_ms": 0.831328829129537
+    },
+    "speedup": 1.4947088670619022
+  },
+  {
+    "lengths": [
+      128,
+      8064
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      4032
+    ],
+    "graph_changed_targets": [
+      0,
+      8064
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      128,
+      8064
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      4032
+    ],
+    "graph_changed_targets": [
+      0,
+      8064
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  }
+]

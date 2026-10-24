@@ -1,0 +1,43 @@
+{
+  "candidate_checks": 84,
+  "candidate_valid": 84,
+  "candidate_bitwise_equal": 84,
+  "baseline_reference_checks": 36,
+  "baseline_reference_pass": 34,
+  "baseline_reference_failures": [
+    {
+      "lengths": [
+        257
+      ],
+      "gate": "near_one",
+      "initial_state": false,
+      "method": "noncp_vs_fp32_recurrence",
+      "output_max_abs": 0.0010875537991523743,
+      "output_rms": 0.00015338601951953024,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.011404216289520264,
+      "output_state_rms": 0.002021406777203083,
+      "output_state_finite": true,
+      "output_state_close": false,
+      "valid": false
+    },
+    {
+      "lengths": [
+        257
+      ],
+      "gate": "near_one",
+      "initial_state": true,
+      "method": "noncp_vs_fp32_recurrence",
+      "output_max_abs": 0.001001119613647461,
+      "output_rms": 0.00015873277152422816,
+      "output_finite": true,
+      "output_close": true,
+      "output_state_max_abs": 0.011720821261405945,
+      "output_state_rms": 0.002053206553682685,
+      "output_state_finite": true,
+      "output_state_close": false,
+      "valid": false
+    }
+  ]
+}

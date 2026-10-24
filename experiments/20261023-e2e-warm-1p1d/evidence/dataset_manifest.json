@@ -1,0 +1,83 @@
+{
+  "source": "/private/benchmark-data/122b_20260914_2030_2130_clean.jsonl",
+  "source_size": 5750131157,
+  "selection": "First 1000 source lines; deduplicate messages+tools; remove image blocks/placeholders then text-only; 1024..120000 template tokens; midpoint of ten length quantile bins",
+  "candidates": 142,
+  "excluded": {
+    "image_blocks_or_markers_removed": 955,
+    "template_error": 858
+  },
+  "sha256": "d5e8c10e433ea5952eaba44346489dd9161637bd1ed94060f45347f32717b30e",
+  "samples": [
+    {
+      "source_line": 581,
+      "image_blocks_removed": 0,
+      "content_sha256": "ce7f141b93ce92f76ee7d67a1a6b5690bc4f0dc17677e20493dc23b359cd46f0",
+      "prompt_tokens_estimate": 17925,
+      "sample_id": "sample_00"
+    },
+    {
+      "source_line": 762,
+      "image_blocks_removed": 0,
+      "content_sha256": "5598401dbce6da1ef79138f24e26ad8cf9d5a57b0c82d27f5ba884ca58cb06e9",
+      "prompt_tokens_estimate": 18585,
+      "sample_id": "sample_01"
+    },
+    {
+      "source_line": 805,
+      "image_blocks_removed": 0,
+      "content_sha256": "a0da4bcb6cddd84ad2fc4b60780b8827edb310760c4b26cbd0cd193ed6f44251",
+      "prompt_tokens_estimate": 19167,
+      "sample_id": "sample_02"
+    },
+    {
+      "source_line": 612,
+      "image_blocks_removed": 0,
+      "content_sha256": "e1c243cea2ddc531bd36443d868638413121cbd14745d97047195cd921b30123",
+      "prompt_tokens_estimate": 19742,
+      "sample_id": "sample_03"
+    },
+    {
+      "source_line": 246,
+      "image_blocks_removed": 0,
+      "content_sha256": "4169fbc64d44ba59f1fb8b6a6ce10a9fa51a4470d28accddfc25360e0b4ee537",
+      "prompt_tokens_estimate": 20351,
+      "sample_id": "sample_04"
+    },
+    {
+      "source_line": 543,
+      "image_blocks_removed": 0,
+      "content_sha256": "f48bfcb8bdb50e5ebaa958793333455a6d0b938726d10a425274229f185bbd31",
+      "prompt_tokens_estimate": 21976,
+      "sample_id": "sample_05"
+    },
+    {
+      "source_line": 525,
+      "image_blocks_removed": 1,
+      "content_sha256": "737c5aa11cf980cd4f922a99053ef1eb890cb281c1659487eed465fe23685cb0",
+      "prompt_tokens_estimate": 24057,
+      "sample_id": "sample_06"
+    },
+    {
+      "source_line": 949,
+      "image_blocks_removed": 0,
+      "content_sha256": "14583ff1d17d6b0931e41330ff7ef7a07681da5fcc05c6f9e68e4e3042418fd1",
+      "prompt_tokens_estimate": 25865,
+      "sample_id": "sample_07"
+    },
+    {
+      "source_line": 921,
+      "image_blocks_removed": 2,
+      "content_sha256": "252ef0421f5521bba66952f11801c954a40054ceb4a0d10dbd99bc0755ad05c8",
+      "prompt_tokens_estimate": 31773,
+      "sample_id": "sample_08"
+    },
+    {
+      "source_line": 1000,
+      "image_blocks_removed": 8,
+      "content_sha256": "143870febd8dcec3d1b8a5beb5c8eff2e0d8623ef650c5e52f457ecf76f13513",
+      "prompt_tokens_estimate": 39950,
+      "sample_id": "sample_09"
+    }
+  ]
+}

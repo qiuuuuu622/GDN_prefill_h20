@@ -1,0 +1,10 @@
+{
+  "baseline": 1252.2027492523193,
+  "optimized": 1224.3210673332214,
+  "average_full_chunks": 2.4,
+  "average_optimized_gdn_calls_per_request": 72,
+  "isolated_8192_baseline_ms": 0.7633,
+  "isolated_8192_candidate_ms": 0.506,
+  "estimated_saved_kernel_ms": 18.5256,
+  "warning": "Kernel estimate uses earlier isolated microbenchmark, not a trace of this end-to-end run. Handler durations include server-side non-GPU work; paired by serial request order."
+}

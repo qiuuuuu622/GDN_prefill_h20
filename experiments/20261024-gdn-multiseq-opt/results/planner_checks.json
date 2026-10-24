@@ -1,0 +1,92 @@
+{
+  "planner_mapping_cases": 277,
+  "planner_all_valid": true,
+  "gpu_cases": [
+    {
+      "kind": "zero_init_and_fallback",
+      "lengths": [
+        65,
+        129
+      ],
+      "valid": true
+    },
+    {
+      "kind": "zero_init_and_fallback",
+      "lengths": [
+        0,
+        129,
+        7,
+        65
+      ],
+      "valid": true
+    },
+    {
+      "kind": "zero_init_and_fallback",
+      "lengths": [
+        65,
+        127,
+        128,
+        513,
+        1025,
+        2047,
+        2207,
+        2080
+      ],
+      "valid": true
+    },
+    {
+      "kind": "graph_changed_sequence_lengths",
+      "method": "full",
+      "lengths": [
+        4096,
+        4096
+      ],
+      "valid": true
+    },
+    {
+      "kind": "graph_changed_sequence_lengths",
+      "method": "full",
+      "lengths": [
+        128,
+        8064
+      ],
+      "valid": true
+    },
+    {
+      "kind": "graph_changed_sequence_lengths",
+      "method": "full",
+      "lengths": [
+        8064,
+        128
+      ],
+      "valid": true
+    },
+    {
+      "kind": "graph_changed_sequence_lengths",
+      "method": "dv",
+      "lengths": [
+        4096,
+        4096
+      ],
+      "valid": true
+    },
+    {
+      "kind": "graph_changed_sequence_lengths",
+      "method": "dv",
+      "lengths": [
+        128,
+        8064
+      ],
+      "valid": true
+    },
+    {
+      "kind": "graph_changed_sequence_lengths",
+      "method": "dv",
+      "lengths": [
+        8064,
+        128
+      ],
+      "valid": true
+    }
+  ]
+}

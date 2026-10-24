@@ -1,0 +1,1150 @@
+[
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "initial": true,
+    "backend": "v2",
+    "phase": "eager",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "initial": true,
+    "backend": "v2",
+    "phase": "graph",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "initial": true,
+    "backend": "v2",
+    "phase": "changed_metadata",
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      4096,
+      4096
+    ],
+    "initial": true,
+    "backend": "v2",
+    "phase": "eager",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      4096,
+      4096
+    ],
+    "initial": true,
+    "backend": "v2",
+    "phase": "graph",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      4096,
+      4096
+    ],
+    "initial": true,
+    "backend": "v2",
+    "phase": "changed_metadata",
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      129,
+      513
+    ],
+    "initial": true,
+    "backend": "original",
+    "phase": "eager",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      129,
+      513
+    ],
+    "initial": true,
+    "backend": "original",
+    "phase": "graph",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      8192,
+      1024,
+      1024,
+      1024
+    ],
+    "initial": true,
+    "backend": "mixed_cp",
+    "phase": "eager",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      8192,
+      1024,
+      1024,
+      1024
+    ],
+    "initial": true,
+    "backend": "mixed_cp",
+    "phase": "graph",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "initial": false,
+    "backend": "v2",
+    "phase": "eager",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "initial": false,
+    "backend": "v2",
+    "phase": "graph",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "initial": false,
+    "backend": "v2",
+    "phase": "changed_metadata",
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      4096,
+      4096
+    ],
+    "initial": false,
+    "backend": "v2",
+    "phase": "eager",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      4096,
+      4096
+    ],
+    "initial": false,
+    "backend": "v2",
+    "phase": "graph",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      4096,
+      4096
+    ],
+    "initial": false,
+    "backend": "v2",
+    "phase": "changed_metadata",
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      129,
+      513
+    ],
+    "initial": false,
+    "backend": "original",
+    "phase": "eager",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      129,
+      513
+    ],
+    "initial": false,
+    "backend": "original",
+    "phase": "graph",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      8192,
+      1024,
+      1024,
+      1024
+    ],
+    "initial": false,
+    "backend": "mixed_cp",
+    "phase": "eager",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      8192,
+      1024,
+      1024,
+      1024
+    ],
+    "initial": false,
+    "backend": "mixed_cp",
+    "phase": "graph",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "initial": true,
+    "backend": "full",
+    "phase": "eager",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "initial": true,
+    "backend": "full",
+    "phase": "graph",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "initial": true,
+    "backend": "full",
+    "phase": "changed_metadata",
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      4096,
+      4096
+    ],
+    "initial": true,
+    "backend": "full",
+    "phase": "eager",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      4096,
+      4096
+    ],
+    "initial": true,
+    "backend": "full",
+    "phase": "graph",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      4096,
+      4096
+    ],
+    "initial": true,
+    "backend": "full",
+    "phase": "changed_metadata",
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      129,
+      513
+    ],
+    "initial": true,
+    "backend": "original",
+    "phase": "eager",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      129,
+      513
+    ],
+    "initial": true,
+    "backend": "original",
+    "phase": "graph",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      8192,
+      1024,
+      1024,
+      1024
+    ],
+    "initial": true,
+    "backend": "original",
+    "phase": "eager",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      8192,
+      1024,
+      1024,
+      1024
+    ],
+    "initial": true,
+    "backend": "original",
+    "phase": "graph",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "initial": false,
+    "backend": "full",
+    "phase": "eager",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "initial": false,
+    "backend": "full",
+    "phase": "graph",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      0,
+      129,
+      7
+    ],
+    "initial": false,
+    "backend": "full",
+    "phase": "changed_metadata",
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      4096,
+      4096
+    ],
+    "initial": false,
+    "backend": "full",
+    "phase": "eager",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      4096,
+      4096
+    ],
+    "initial": false,
+    "backend": "full",
+    "phase": "graph",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      4096,
+      4096
+    ],
+    "initial": false,
+    "backend": "full",
+    "phase": "changed_metadata",
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      129,
+      513
+    ],
+    "initial": false,
+    "backend": "original",
+    "phase": "eager",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      129,
+      513
+    ],
+    "initial": false,
+    "backend": "original",
+    "phase": "graph",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "checkpoint": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      8192,
+      1024,
+      1024,
+      1024
+    ],
+    "initial": false,
+    "backend": "original",
+    "phase": "eager",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      8192,
+      1024,
+      1024,
+      1024
+    ],
+    "initial": false,
+    "backend": "original",
+    "phase": "graph",
+    "checks": {
+      "output": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      },
+      "final": {
+        "exact": true,
+        "close": true,
+        "max_abs": 0.0,
+        "finite": true
+      }
+    },
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "backend": "cp_checkpoint",
+    "target": 1280,
+    "phase": "graph_checkpoint_vs_cp_prefix",
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "backend": "cp_checkpoint",
+    "target": 4096,
+    "phase": "graph_checkpoint_vs_cp_prefix",
+    "pass_exact": true
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "backend": "cp_checkpoint",
+    "target": 0,
+    "phase": "graph_checkpoint_vs_cp_prefix",
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "backend": "cp_checkpoint",
+    "target": 1280,
+    "phase": "graph_checkpoint_vs_cp_prefix",
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "backend": "cp_checkpoint",
+    "target": 4096,
+    "phase": "graph_checkpoint_vs_cp_prefix",
+    "pass_exact": true
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "backend": "cp_checkpoint",
+    "target": 0,
+    "phase": "graph_checkpoint_vs_cp_prefix",
+    "pass_exact": true
+  }
+]

@@ -1,0 +1,42 @@
+CASE [8192] H 16 32
+READY noncp True 0.12
+READY public_auto True 7.67
+READY cp_auto_total True 0.01
+READY cp_auto_exact True 0.01
+READY cp_c512 True 0.01
+READY cp_c1024 True 0.01
+READY cp_c2048 True 0.01
+READY cp_c4096 True 0.01
+READY cp_c8192 True 0.01
+RESULT [8192] [(0.7542745971679687, 'noncp'), (0.7636201477050781, 'public_auto'), (0.7637286376953125, 'cp_auto_total'), (0.7637830352783204, 'cp_c4096'), (0.7641522979736328, 'cp_auto_exact'), (0.781324462890625, 'cp_c2048'), (0.8203855895996094, 'cp_c512'), (0.8208483123779297, 'cp_c1024'), (1.4241020202636718, 'cp_c8192')]
+CASE [8192, 1024, 1024, 1024] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.01
+READY cp_auto_total True 0.01
+READY cp_auto_exact True 0.01
+READY cp_c512 True 0.01
+READY cp_c1024 True 0.01
+READY cp_c2048 True 0.01
+READY cp_c4096 True 0.01
+READY cp_c8192 True 0.01
+READY split_c1024 True 0.01
+READY split_c2048 True 0.01
+READY split_c4096 True 0.01
+READY split_c8192 True 0.01
+RESULT [8192, 1024, 1024, 1024] [(0.7537062072753906, 'public_auto'), (0.7550208282470703, 'noncp'), (0.8926297760009766, 'split_c2048'), (0.9329199981689453, 'split_c1024'), (0.9685228729248047, 'split_c4096'), (0.9986774444580078, 'cp_c4096'), (1.0205948638916016, 'cp_c2048'), (1.0687993621826173, 'cp_c1024'), (1.0808207702636718, 'cp_auto_total'), (1.1558006286621094, 'cp_c512'), (1.4895622253417968, 'cp_c8192'), (1.4898570251464844, 'cp_auto_exact'), (1.5366473388671875, 'split_c8192')]
+CASE [8192, 8192] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.01
+READY cp_auto_total True 0.01
+READY cp_auto_exact True 0.01
+READY cp_c512 True 0.01
+READY cp_c1024 True 0.01
+READY cp_c2048 True 0.01
+READY cp_c4096 True 0.01
+READY cp_c8192 True 0.01
+READY split_c1024 True 0.01
+READY split_c2048 True 0.01
+READY split_c4096 True 0.01
+READY split_c8192 True 0.01
+RESULT [8192, 8192] [(0.7572102355957031, 'noncp'), (0.7574694061279297, 'public_auto'), (1.0883379364013672, 'split_c1024'), (1.1492454528808593, 'split_c2048'), (1.1696633911132812, 'split_c4096'), (1.4423654174804688, 'split_c8192'), (1.4622962951660157, 'cp_c1024'), (1.4947296142578126, 'cp_auto_exact'), (1.4950997924804688, 'cp_c8192'), (1.5034226989746093, 'cp_auto_total'), (1.5090208435058594, 'cp_c4096'), (1.543757781982422, 'cp_c2048'), (1.6102287292480468, 'cp_c512')]
+COMPLETED evidence/pilot.jsonl

@@ -1,0 +1,121 @@
+{
+  "batches": [
+    {
+      "concurrency": 2,
+      "checkpoint_calls": 300,
+      "selected_calls": 300,
+      "groups": [
+        {
+          "sequences": 1,
+          "checkpoint": false,
+          "selected": false,
+          "method": "original",
+          "calls": 240
+        },
+        {
+          "sequences": 1,
+          "checkpoint": true,
+          "selected": true,
+          "method": "dv",
+          "calls": 210
+        },
+        {
+          "sequences": 2,
+          "checkpoint": true,
+          "selected": true,
+          "method": "dv",
+          "calls": 30
+        },
+        {
+          "sequences": 2,
+          "checkpoint": true,
+          "selected": true,
+          "method": "full",
+          "calls": 60
+        }
+      ]
+    },
+    {
+      "concurrency": 4,
+      "checkpoint_calls": 300,
+      "selected_calls": 300,
+      "groups": [
+        {
+          "sequences": 1,
+          "checkpoint": false,
+          "selected": false,
+          "method": "original",
+          "calls": 240
+        },
+        {
+          "sequences": 1,
+          "checkpoint": true,
+          "selected": true,
+          "method": "dv",
+          "calls": 90
+        },
+        {
+          "sequences": 2,
+          "checkpoint": true,
+          "selected": true,
+          "method": "dv",
+          "calls": 30
+        },
+        {
+          "sequences": 2,
+          "checkpoint": true,
+          "selected": true,
+          "method": "full",
+          "calls": 180
+        }
+      ]
+    },
+    {
+      "concurrency": 8,
+      "checkpoint_calls": 300,
+      "selected_calls": 300,
+      "groups": [
+        {
+          "sequences": 1,
+          "checkpoint": false,
+          "selected": false,
+          "method": "original",
+          "calls": 210
+        },
+        {
+          "sequences": 1,
+          "checkpoint": true,
+          "selected": true,
+          "method": "dv",
+          "calls": 60
+        },
+        {
+          "sequences": 2,
+          "checkpoint": true,
+          "selected": true,
+          "method": "dv",
+          "calls": 120
+        },
+        {
+          "sequences": 2,
+          "checkpoint": true,
+          "selected": true,
+          "method": "full",
+          "calls": 90
+        },
+        {
+          "sequences": 3,
+          "checkpoint": true,
+          "selected": true,
+          "method": "dv",
+          "calls": 30
+        }
+      ]
+    }
+  ],
+  "plans": 30,
+  "dense_checkpoint_snapshots": 92970,
+  "compact_checkpoint_snapshots": 1410,
+  "dense_write_bytes": 194972221440,
+  "compact_write_bytes": 2956984320
+}

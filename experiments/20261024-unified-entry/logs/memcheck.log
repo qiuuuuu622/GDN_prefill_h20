@@ -1,0 +1,19 @@
+========= COMPUTE-SANITIZER
+4 16 [0, 129, 7] True v2 PASS 3
+4 16 [4096, 4096] True v2 PASS 6
+4 16 [129, 513] True original PASS 8
+4 16 [8192, 1024, 1024, 1024] True mixed_cp PASS 10
+4 16 [0, 129, 7] False v2 PASS 13
+4 16 [4096, 4096] False v2 PASS 16
+4 16 [129, 513] False original PASS 18
+4 16 [8192, 1024, 1024, 1024] False mixed_cp PASS 20
+16 32 [0, 129, 7] True full PASS 23
+16 32 [4096, 4096] True full PASS 26
+16 32 [129, 513] True original PASS 28
+16 32 [8192, 1024, 1024, 1024] True original PASS 30
+16 32 [0, 129, 7] False full PASS 33
+16 32 [4096, 4096] False full PASS 36
+16 32 [129, 513] False original PASS 38
+16 32 [8192, 1024, 1024, 1024] False original PASS 40
+COMPLETE 46
+========= ERROR SUMMARY: 0 errors

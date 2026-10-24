@@ -1,0 +1,9 @@
+{
+  "candidate": "all_path_dvsplit",
+  "status": "rejected",
+  "phase": "stage1_live_verify",
+  "failed_requests": 1,
+  "reason": "Final-state comparison against actual no-checkpoint auto-CP failed: 9/524288 elements outside atol=.02,rtol=.02; largest violating absolute difference .03462576866149902.",
+  "remediation": "Preserve original no-checkpoint path; optimize only checkpoint calls with exact baseline parity.",
+  "evidence": "evidence/stage1_logs/p_default.log"
+}

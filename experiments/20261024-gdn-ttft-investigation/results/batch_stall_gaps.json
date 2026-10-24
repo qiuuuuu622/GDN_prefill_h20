@@ -1,0 +1,219 @@
+{
+  "sample_04": [
+    {
+      "start_ms": 776.577826171875,
+      "duration_ms": 68.56136010742188,
+      "before": "Memcpy PtoP (Device -> Device)",
+      "after": "Memcpy PtoP (Device -> Device)",
+      "active_cpu": []
+    },
+    {
+      "start_ms": 408.672119140625,
+      "duration_ms": 44.20123315429687,
+      "before": "Memcpy PtoP (Device -> Device)",
+      "after": "Memcpy PtoP (Device -> Device)",
+      "active_cpu": [
+        {
+          "name": "scheduler.get_next_batch_to_run",
+          "dur_ms": 0.028895,
+          "tid": 258371
+        }
+      ]
+    },
+    {
+      "start_ms": 734.0587314453124,
+      "duration_ms": 42.4477998046875,
+      "before": "Memcpy PtoP (Device -> Device)",
+      "after": "Memcpy PtoP (Device -> Device)",
+      "active_cpu": [
+        {
+          "name": "scheduler.get_next_batch_to_run",
+          "dur_ms": 0.029978,
+          "tid": 258371
+        }
+      ]
+    },
+    {
+      "start_ms": 1004.5886962890625,
+      "duration_ms": 37.70455493164062,
+      "before": "Memcpy PtoP (Device -> Device)",
+      "after": "Memcpy PtoP (Device -> Device)",
+      "active_cpu": [
+        {
+          "name": "scheduler.process_queue",
+          "dur_ms": 0.711938,
+          "tid": 258371
+        }
+      ]
+    },
+    {
+      "start_ms": 967.0990861816406,
+      "duration_ms": 37.480107177734375,
+      "before": "Memcpy PtoP (Device -> Device)",
+      "after": "Memcpy PtoP (Device -> Device)",
+      "active_cpu": []
+    }
+  ],
+  "sample_09": [
+    {
+      "start_ms": 1621.9131240234376,
+      "duration_ms": 479.7203381347656,
+      "before": "void (anonymous namespace)::elementwise_kernel_with_index<int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Tensor&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}>(int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Tensor&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}, function_traits<at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Tensor&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}>::result_type*)",
+      "after": "void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1}>(long, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1})",
+      "active_cpu": [
+        {
+          "name": "cudaLaunchKernel",
+          "dur_ms": 479.516604,
+          "tid": 258371
+        },
+        {
+          "name": "aten::index",
+          "dur_ms": 479.63703999999996,
+          "tid": 258371
+        },
+        {
+          "name": "step[EXTEND bs=1 toks=5481 c_sq=5481 c_sqsq=30041361 c_sqsk=219113937 c_sk=39977]",
+          "dur_ms": 1010.623859,
+          "tid": 258371
+        },
+        {
+          "name": "scheduler.run_batch",
+          "dur_ms": 1444.890846,
+          "tid": 258371
+        }
+      ]
+    },
+    {
+      "start_ms": 1192.821686279297,
+      "duration_ms": 429.09047778320314,
+      "before": "Memcpy DtoD (Device -> Device)",
+      "after": "void (anonymous namespace)::elementwise_kernel_with_index<int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Tensor&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}>(int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Tensor&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}, function_traits<at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Tensor&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}>::result_type*)",
+      "active_cpu": [
+        {
+          "name": "cudaLaunchKernel",
+          "dur_ms": 428.907269,
+          "tid": 258371
+        },
+        {
+          "name": "aten::arange",
+          "dur_ms": 428.968293,
+          "tid": 258371
+        },
+        {
+          "name": "aten::arange",
+          "dur_ms": 428.99958899999996,
+          "tid": 258371
+        },
+        {
+          "name": "step[EXTEND bs=1 toks=5481 c_sq=5481 c_sqsq=30041361 c_sqsk=219113937 c_sk=39977]",
+          "dur_ms": 1010.623859,
+          "tid": 258371
+        },
+        {
+          "name": "scheduler.run_batch",
+          "dur_ms": 1444.890846,
+          "tid": 258371
+        }
+      ]
+    },
+    {
+      "start_ms": 1091.8815512695312,
+      "duration_ms": 43.15161889648437,
+      "before": "Memcpy HtoD (Pinned -> Device)",
+      "after": "Memcpy HtoD (Pinned -> Device)",
+      "active_cpu": [
+        {
+          "name": "cudaMemcpyAsync",
+          "dur_ms": 42.469924,
+          "tid": 258371
+        },
+        {
+          "name": "aten::copy_",
+          "dur_ms": 42.509254,
+          "tid": 258371
+        },
+        {
+          "name": "aten::_to_copy",
+          "dur_ms": 42.550353,
+          "tid": 258371
+        },
+        {
+          "name": "aten::to",
+          "dur_ms": 42.557182999999995,
+          "tid": 258371
+        },
+        {
+          "name": "scheduler.run_batch",
+          "dur_ms": 1444.890846,
+          "tid": 258371
+        }
+      ]
+    },
+    {
+      "start_ms": 1145.2973762207032,
+      "duration_ms": 20.1773388671875,
+      "before": "Memcpy PtoP (Device -> Device)",
+      "after": "Memcpy PtoP (Device -> Device)",
+      "active_cpu": [
+        {
+          "name": "cudaMemcpyAsync",
+          "dur_ms": 19.891847000000002,
+          "tid": 258371
+        },
+        {
+          "name": "aten::copy_",
+          "dur_ms": 19.914278999999997,
+          "tid": 258371
+        },
+        {
+          "name": "aten::_to_copy",
+          "dur_ms": 19.937874,
+          "tid": 258371
+        },
+        {
+          "name": "aten::to",
+          "dur_ms": 19.943822,
+          "tid": 258371
+        },
+        {
+          "name": "scheduler.run_batch",
+          "dur_ms": 1444.890846,
+          "tid": 258371
+        }
+      ]
+    },
+    {
+      "start_ms": 1173.2431340332032,
+      "duration_ms": 7.115776123046875,
+      "before": "Memcpy DtoD (Device -> Device)",
+      "after": "Memcpy DtoD (Device -> Device)",
+      "active_cpu": [
+        {
+          "name": "cudaMemcpyAsync",
+          "dur_ms": 7.048826,
+          "tid": 258371
+        },
+        {
+          "name": "aten::copy_",
+          "dur_ms": 7.079994,
+          "tid": 258371
+        },
+        {
+          "name": "aten::_foreach_copy_",
+          "dur_ms": 19.300053,
+          "tid": 258371
+        },
+        {
+          "name": "step[EXTEND bs=1 toks=5481 c_sq=5481 c_sqsq=30041361 c_sqsk=219113937 c_sk=39977]",
+          "dur_ms": 1010.623859,
+          "tid": 258371
+        },
+        {
+          "name": "scheduler.run_batch",
+          "dur_ms": 1444.890846,
+          "tid": 258371
+        }
+      ]
+    }
+  ]
+}

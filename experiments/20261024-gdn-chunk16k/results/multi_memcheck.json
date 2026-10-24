@@ -1,0 +1,270 @@
+[
+  {
+    "lengths": [
+      16385
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      8192
+    ],
+    "graph_changed_targets": [
+      16384
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      16385
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      8192
+    ],
+    "graph_changed_targets": [
+      16384
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      0,
+      65,
+      16319
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      0,
+      64,
+      8128
+    ],
+    "graph_changed_targets": [
+      0,
+      64,
+      16256
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      0,
+      65,
+      16319
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      0,
+      64,
+      8128
+    ],
+    "graph_changed_targets": [
+      0,
+      64,
+      16256
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      0,
+      65,
+      16319
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      64,
+      0
+    ],
+    "graph_changed_targets": [
+      0,
+      64,
+      0
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      0,
+      65,
+      16319
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      64,
+      0
+    ],
+    "graph_changed_targets": [
+      0,
+      64,
+      0
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      2048,
+      2048,
+      2048,
+      2048,
+      2048,
+      2048,
+      2048,
+      2048
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "graph_changed_targets": [
+      2048,
+      2048,
+      2048,
+      2048,
+      2048,
+      2048,
+      2048,
+      2048
+    ],
+    "resumed_sequences": 8,
+    "valid": true
+  },
+  {
+    "lengths": [
+      2048,
+      2048,
+      2048,
+      2048,
+      2048,
+      2048,
+      2048,
+      2048
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "graph_changed_targets": [
+      2048,
+      2048,
+      2048,
+      2048,
+      2048,
+      2048,
+      2048,
+      2048
+    ],
+    "resumed_sequences": 8,
+    "valid": true
+  },
+  {
+    "lengths": [
+      2048,
+      2048,
+      2048,
+      2048,
+      2048,
+      2048,
+      2048,
+      2048
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      1024,
+      0,
+      1024,
+      0,
+      1024,
+      0,
+      1024
+    ],
+    "graph_changed_targets": [
+      0,
+      2048,
+      0,
+      2048,
+      0,
+      2048,
+      0,
+      2048
+    ],
+    "resumed_sequences": 4,
+    "valid": true
+  },
+  {
+    "lengths": [
+      2048,
+      2048,
+      2048,
+      2048,
+      2048,
+      2048,
+      2048,
+      2048
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      1024,
+      0,
+      1024,
+      0,
+      1024,
+      0,
+      1024
+    ],
+    "graph_changed_targets": [
+      0,
+      2048,
+      0,
+      2048,
+      0,
+      2048,
+      0,
+      2048
+    ],
+    "resumed_sequences": 4,
+    "valid": true
+  }
+]

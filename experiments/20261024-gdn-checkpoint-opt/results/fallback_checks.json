@@ -1,0 +1,17 @@
+[
+  {
+    "file": "t8192_cp64.pt",
+    "target": 128,
+    "valid": true
+  },
+  {
+    "file": "t8192_cp64.pt",
+    "target": 1280,
+    "valid": true
+  },
+  {
+    "file": "t3230_cp64.pt",
+    "target": 3200,
+    "valid": true
+  }
+]

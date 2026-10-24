@@ -1,0 +1,27 @@
+{"lengths": [1541, 14832], "mask": [true, true], "relative": [1541, 129], "packed": [0, 1536, 1, 128], "count": 2}
+{"lengths": [3753], "mask": [true], "relative": [3753], "packed": [0, 3712], "count": 1}
+{"lengths": [16384], "mask": [true], "relative": [1281], "packed": [0, 1280], "count": 1}
+{"lengths": [2655, 13728], "mask": [true, true], "relative": [2655, 13728], "packed": [0, 2624, 1, 13696], "count": 2}
+{"lengths": [4606], "mask": [true], "relative": [4606], "packed": [0, 4544], "count": 1}
+{"lengths": [5247], "mask": [true], "relative": [3009], "packed": [0, 3008], "count": 1}
+{"lengths": [4184], "mask": [true], "relative": [4184], "packed": [0, 4160], "count": 1}
+{"lengths": [5947], "mask": [true], "relative": [5947], "packed": [0, 5888], "count": 1}
+{"lengths": [8073], "mask": [true], "relative": [577], "packed": [0, 576], "count": 1}
+{"lengths": [13665], "mask": [true], "relative": [13665], "packed": [0, 13632], "count": 1}
+{"lengths": [5481], "mask": [true], "relative": [5481], "packed": [0, 5440], "count": 1}
+{"lengths": [1541, 14832], "mask": [true, true], "relative": [1541, 129], "packed": [0, 1536, 1, 128], "count": 2}
+{"lengths": [4335, 12048], "mask": [true, true], "relative": [4335, 12048], "packed": [0, 4288, 1, 12032], "count": 2}
+{"lengths": [7566, 8816], "mask": [true, true], "relative": [7566, 1281], "packed": [0, 7552, 1, 1280], "count": 2}
+{"lengths": [9641, 6736], "mask": [true, true], "relative": [9641, 5953], "packed": [0, 9600, 1, 5952], "count": 2}
+{"lengths": [1455, 14928], "mask": [true, true], "relative": [1455, 14928], "packed": [0, 1408, 1, 14912], "count": 2}
+{"lengths": [5640, 5947], "mask": [true, true], "relative": [5640, 5947], "packed": [0, 5632, 1, 5888], "count": 2}
+{"lengths": [9545], "mask": [true], "relative": [1473], "packed": [0, 1472], "count": 1}
+{"lengths": [13665], "mask": [true], "relative": [13665], "packed": [0, 13632], "count": 1}
+{"lengths": [5481], "mask": [true], "relative": [5481], "packed": [0, 5440], "count": 1}
+{"lengths": [1541, 14832], "mask": [true, true], "relative": [1541, 129], "packed": [0, 1536, 1, 128], "count": 2}
+{"lengths": [3753, 12624], "mask": [true, true], "relative": [3753, 12624], "packed": [0, 3712, 1, 12608], "count": 2}
+{"lengths": [6990, 6431, 2960], "mask": [true, true, true], "relative": [6990, 6431, 1281], "packed": [0, 6976, 1, 6400, 2, 1280], "count": 3}
+{"lengths": [2504, 11323, 2544], "mask": [true, true, true], "relative": [2504, 5377, 2544], "packed": [0, 2496, 1, 5376, 2, 2496], "count": 3}
+{"lengths": [5529, 2239, 8608], "mask": [true, true, true], "relative": [5529, 2239, 8608], "packed": [0, 5504, 1, 2176, 2, 8576], "count": 3}
+{"lengths": [5057, 11312], "mask": [true, true], "relative": [5057, 11312], "packed": [0, 5056, 1, 11264], "count": 2}
+{"lengths": [10553], "mask": [true], "relative": [10553], "packed": [0, 10496], "count": 1}

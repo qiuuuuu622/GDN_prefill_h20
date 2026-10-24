@@ -1,0 +1,52 @@
+{
+  "status": "boundary_fix_verified_native_cp_not_promoted",
+  "boundary_checks": 112,
+  "graph_replays": 200,
+  "memcheck_cases": 32,
+  "memcheck_errors": 0,
+  "none_initial_and_empty_plan_cases": 8,
+  "invalid_inputs_rejected": 6,
+  "paired_boundary_checks": 8,
+  "noncp_tolerances": {
+    "output_atol_rtol": 0.02,
+    "state_atol_rtol": 0.01
+  },
+  "groups": [
+    {
+      "model": "122b_tp4",
+      "gate": "slow",
+      "count": 28,
+      "cp_boundary_exact": 28,
+      "all_noncp_tolerance": 28,
+      "checkpoint_noncp_tolerance": 28,
+      "continuation_noncp_tolerance": 28
+    },
+    {
+      "model": "122b_tp4",
+      "gate": "near_one",
+      "count": 28,
+      "cp_boundary_exact": 28,
+      "all_noncp_tolerance": 12,
+      "checkpoint_noncp_tolerance": 18,
+      "continuation_noncp_tolerance": 24
+    },
+    {
+      "model": "35b_tp1",
+      "gate": "slow",
+      "count": 28,
+      "cp_boundary_exact": 28,
+      "all_noncp_tolerance": 28,
+      "checkpoint_noncp_tolerance": 28,
+      "continuation_noncp_tolerance": 28
+    },
+    {
+      "model": "35b_tp1",
+      "gate": "near_one",
+      "count": 28,
+      "cp_boundary_exact": 28,
+      "all_noncp_tolerance": 7,
+      "checkpoint_noncp_tolerance": 13,
+      "continuation_noncp_tolerance": 22
+    }
+  ]
+}

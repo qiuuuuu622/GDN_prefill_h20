@@ -1,0 +1,177 @@
+[
+  {
+    "source": "/prefill_model/model-00006-of-00008.safetensors",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/prefill_model/model-00006-of-00008.safetensors",
+    "size": 4752613144
+  },
+  {
+    "source": "/prefill_model/model-00001-of-00008.safetensors",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/prefill_model/model-00001-of-00008.safetensors",
+    "size": 4833556728
+  },
+  {
+    "source": "/prefill_model/model-00004-of-00008.safetensors",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/prefill_model/model-00004-of-00008.safetensors",
+    "size": 4779885128
+  },
+  {
+    "source": "/prefill_model/Modelfile",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/prefill_model/Modelfile",
+    "size": 2013
+  },
+  {
+    "source": "/prefill_model/tokenizer.json",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/prefill_model/tokenizer.json",
+    "size": 19989343
+  },
+  {
+    "source": "/prefill_model/model-00003-of-00008.safetensors",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/prefill_model/model-00003-of-00008.safetensors",
+    "size": 4479903400
+  },
+  {
+    "source": "/prefill_model/model.safetensors.index.json",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/prefill_model/model.safetensors.index.json",
+    "size": 134156
+  },
+  {
+    "source": "/prefill_model/config.json",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/prefill_model/config.json",
+    "size": 14608
+  },
+  {
+    "source": "/prefill_model/generation_config.json",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/prefill_model/generation_config.json",
+    "size": 190
+  },
+  {
+    "source": "/prefill_model/model-00002-of-00008.safetensors",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/prefill_model/model-00002-of-00008.safetensors",
+    "size": 4813777200
+  },
+  {
+    "source": "/prefill_model/args.json",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/prefill_model/args.json",
+    "size": 7426
+  },
+  {
+    "source": "/prefill_model/tokenizer_config.json",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/prefill_model/tokenizer_config.json",
+    "size": 1168
+  },
+  {
+    "source": "/prefill_model/processor_config.json",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/prefill_model/processor_config.json",
+    "size": 1294
+  },
+  {
+    "source": "/prefill_model/model-00005-of-00008.safetensors",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/prefill_model/model-00005-of-00008.safetensors",
+    "size": 4479903440
+  },
+  {
+    "source": "/prefill_model/model-00008-of-00008.safetensors",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/prefill_model/model-00008-of-00008.safetensors",
+    "size": 3958583656
+  },
+  {
+    "source": "/prefill_model/preprocessor_config.json",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/prefill_model/preprocessor_config.json",
+    "size": 388
+  },
+  {
+    "source": "/prefill_model/chat_template.jinja",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/prefill_model/chat_template.jinja",
+    "size": 7734
+  },
+  {
+    "source": "/prefill_model/model-00007-of-00008.safetensors",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/prefill_model/model-00007-of-00008.safetensors",
+    "size": 4507175400
+  },
+  {
+    "source": "/decode_model/model-00003-of-00005.safetensors",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/decode_model/model-00003-of-00005.safetensors",
+    "size": 5003371232
+  },
+  {
+    "source": "/decode_model/Modelfile",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/decode_model/Modelfile",
+    "size": 1898
+  },
+  {
+    "source": "/decode_model/tokenizer.json",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/decode_model/tokenizer.json",
+    "size": 19989343
+  },
+  {
+    "source": "/decode_model/model.safetensors.index.json",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/decode_model/model.safetensors.index.json",
+    "size": 10446661
+  },
+  {
+    "source": "/decode_model/model-00001-of-00005.safetensors",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/decode_model/model-00001-of-00005.safetensors",
+    "size": 5001930480
+  },
+  {
+    "source": "/decode_model/config.json",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/decode_model/config.json",
+    "size": 26027
+  },
+  {
+    "source": "/decode_model/model-00002-of-00005.safetensors",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/decode_model/model-00002-of-00005.safetensors",
+    "size": 5003034176
+  },
+  {
+    "source": "/decode_model/generation_config.json",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/decode_model/generation_config.json",
+    "size": 168
+  },
+  {
+    "source": "/decode_model/model-00005-of-00005.safetensors",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/decode_model/model-00005-of-00005.safetensors",
+    "size": 1810848520
+  },
+  {
+    "source": "/decode_model/recipe.yaml",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/decode_model/recipe.yaml",
+    "size": 405
+  },
+  {
+    "source": "/decode_model/model-00004-of-00005.safetensors",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/decode_model/model-00004-of-00005.safetensors",
+    "size": 5002068984
+  },
+  {
+    "source": "/decode_model/tokenizer_config.json",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/decode_model/tokenizer_config.json",
+    "size": 1168
+  },
+  {
+    "source": "/decode_model/processor_config.json",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/decode_model/processor_config.json",
+    "size": 1294
+  },
+  {
+    "source": "/decode_model/preprocessor_config.json",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/decode_model/preprocessor_config.json",
+    "size": 388
+  },
+  {
+    "source": "/decode_model/chat_template.jinja",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/decode_model/chat_template.jinja",
+    "size": 7734
+  },
+  {
+    "source": "/spec_model/config.json",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/spec_model/config.json",
+    "size": 1208
+  },
+  {
+    "source": "/spec_model/model.safetensors",
+    "target": "/root/gdn35/20261023-e2e-1p1d/models/spec_model/model.safetensors",
+    "size": 771819680
+  }
+]

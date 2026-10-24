@@ -1,0 +1,4 @@
+{"rep": 1, "mode": "baseline", "resets": [{"component": "prefill", "responses": [{"status": "success", "message": "KV cache cleared"}]}, {"component": "backend", "responses": [{"status": "success", "message": "KV cache cleared"}]}]}
+{"rep": 1, "mode": "optimized", "resets": [{"component": "prefill", "responses": [{"status": "success", "message": "KV cache cleared"}]}, {"component": "backend", "responses": [{"status": "success", "message": "KV cache cleared"}]}]}
+{"rep": 2, "mode": "optimized", "resets": [{"component": "prefill", "responses": [{"status": "success", "message": "KV cache cleared"}]}, {"component": "backend", "responses": [{"status": "success", "message": "KV cache cleared"}]}]}
+{"rep": 2, "mode": "baseline", "resets": [{"component": "prefill", "responses": [{"status": "success", "message": "KV cache cleared"}]}, {"component": "backend", "responses": [{"status": "success", "message": "KV cache cleared"}]}]}

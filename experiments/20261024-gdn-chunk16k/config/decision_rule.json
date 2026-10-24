@@ -1,0 +1,12 @@
+{
+  "defined_before_formal_results": true,
+  "candidate": "P chunked-prefill-size=16384, fixed new GDN",
+  "baseline": "P chunked-prefill-size=8192, same new GDN",
+  "promotion_rule": {
+    "each_concurrency_2_4_8_each_round_mean_ttft_change_pct_max": 0,
+    "each_concurrency_each_round_throughput_change_pct_min": 0,
+    "each_concurrency_each_round_ttft_p95_change_pct_max": 3
+  },
+  "interpretation": "Conservative screening only; two rounds of ten requests cannot establish production statistical stability. Any failure means do not recommend a universal 2-8 default. Preserve all observations; no outlier exclusion. Throughput uses requests/s; natural output lengths and caching effects audited separately.",
+  "recorded_utc": "2026-10-24T04:44:39.618724+00:00"
+}

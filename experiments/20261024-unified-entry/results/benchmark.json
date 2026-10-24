@@ -1,0 +1,3054 @@
+[
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      8192
+    ],
+    "targets": [
+      1280
+    ],
+    "auto": "v2",
+    "timing": {
+      "original": {
+        "median_ms": 0.8178343772888184,
+        "samples_ms": [
+          0.8175344467163086,
+          0.8176416397094727,
+          0.8176471710205078,
+          0.8178728103637696,
+          0.8176560401916504,
+          0.8173680305480957,
+          0.8184271812438965,
+          0.8178343772888184,
+          0.8183088302612305,
+          0.8196583747863769,
+          0.8215127944946289
+        ]
+      },
+      "full": {
+        "median_ms": 0.7484879970550538,
+        "samples_ms": [
+          0.7486832141876221,
+          0.7496111869812012,
+          0.74961838722229,
+          0.7484608173370362,
+          0.7484560012817383,
+          0.748362398147583,
+          0.7483503818511963,
+          0.7483191967010498,
+          0.7484879970550538,
+          0.7486464023590088,
+          0.7486239910125733
+        ]
+      },
+      "v2": {
+        "median_ms": 0.5368247985839844,
+        "samples_ms": [
+          0.5372911930084229,
+          0.5367792129516602,
+          0.536414384841919,
+          0.5370615959167481,
+          0.5368247985839844,
+          0.5369952201843262,
+          0.5368559837341309,
+          0.536791181564331,
+          0.5368055820465087,
+          0.537112808227539,
+          0.5364952087402344
+        ]
+      },
+      "auto": {
+        "median_ms": 0.5348207950592041,
+        "samples_ms": [
+          0.5348207950592041,
+          0.5356175899505615,
+          0.5356639862060547,
+          0.5352744102478028,
+          0.5344895839691162,
+          0.5352511882781983,
+          0.53476881980896,
+          0.534711217880249,
+          0.5347104072570801,
+          0.5346784114837646,
+          0.5354207992553711
+        ]
+      },
+      "cp_checkpoint": {
+        "median_ms": 0.4184247970581055,
+        "samples_ms": [
+          0.41852560043334963,
+          0.4185368061065674,
+          0.4183824062347412,
+          0.41858558654785155,
+          0.4182839870452881,
+          0.4183544158935547,
+          0.41835918426513674,
+          0.41861920356750487,
+          0.4183375835418701,
+          0.41849441528320314,
+          0.4184247970581055
+        ]
+      }
+    },
+    "orders": [
+      [
+        "auto",
+        "original",
+        "v2",
+        "full",
+        "cp_checkpoint"
+      ],
+      [
+        "full",
+        "cp_checkpoint",
+        "auto",
+        "original",
+        "v2"
+      ],
+      [
+        "auto",
+        "v2",
+        "full",
+        "original",
+        "cp_checkpoint"
+      ],
+      [
+        "v2",
+        "cp_checkpoint",
+        "original",
+        "full",
+        "auto"
+      ],
+      [
+        "original",
+        "full",
+        "v2",
+        "cp_checkpoint",
+        "auto"
+      ],
+      [
+        "original",
+        "auto",
+        "full",
+        "cp_checkpoint",
+        "v2"
+      ],
+      [
+        "v2",
+        "auto",
+        "full",
+        "cp_checkpoint",
+        "original"
+      ],
+      [
+        "cp_checkpoint",
+        "original",
+        "auto",
+        "v2",
+        "full"
+      ],
+      [
+        "auto",
+        "cp_checkpoint",
+        "original",
+        "v2",
+        "full"
+      ],
+      [
+        "auto",
+        "cp_checkpoint",
+        "v2",
+        "original",
+        "full"
+      ],
+      [
+        "full",
+        "cp_checkpoint",
+        "original",
+        "auto",
+        "v2"
+      ]
+    ],
+    "checks": {
+      "original": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "full": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "v2": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "auto": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "cp_checkpoint": {
+        "output": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.0009765625,
+          "finite": true
+        },
+        "final": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.0028295814990997314,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.0030887648463249207,
+          "finite": true
+        }
+      }
+    },
+    "post_timing": {
+      "original": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "full": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "v2": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "auto": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "cp_checkpoint": {
+        "output": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.0009765625,
+          "finite": true
+        },
+        "final": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.0028295814990997314,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.0030887648463249207,
+          "finite": true
+        }
+      }
+    }
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      4096,
+      4096
+    ],
+    "targets": [
+      1280,
+      1280
+    ],
+    "auto": "v2",
+    "timing": {
+      "original": {
+        "median_ms": 0.4237152099609375,
+        "samples_ms": [
+          0.423197603225708,
+          0.4237991809844971,
+          0.423740816116333,
+          0.4234488010406494,
+          0.42378959655761717,
+          0.4236608028411865,
+          0.42368478775024415,
+          0.4237152099609375,
+          0.42369680404663085,
+          0.42393999099731444,
+          0.4237959861755371
+        ]
+      },
+      "full": {
+        "median_ms": 0.3792504072189331,
+        "samples_ms": [
+          0.37845439910888673,
+          0.3790719985961914,
+          0.3795399904251099,
+          0.3795264005661011,
+          0.37924320697784425,
+          0.3792504072189331,
+          0.3793152093887329,
+          0.37955598831176757,
+          0.3791831970214844,
+          0.379420804977417,
+          0.37918639183044434
+        ]
+      },
+      "v2": {
+        "median_ms": 0.27165439128875735,
+        "samples_ms": [
+          0.27165439128875735,
+          0.2717535972595215,
+          0.27162721157073977,
+          0.27163679599761964,
+          0.2715015888214111,
+          0.2719048023223877,
+          0.2717375993728638,
+          0.27140240669250487,
+          0.27201759815216064,
+          0.2715359926223755,
+          0.27177278995513915
+        ]
+      },
+      "auto": {
+        "median_ms": 0.2718519926071167,
+        "samples_ms": [
+          0.27135839462280276,
+          0.27205040454864504,
+          0.2718136072158813,
+          0.2717056035995483,
+          0.27233359813690183,
+          0.27214879989624025,
+          0.27189199924468993,
+          0.27143518924713134,
+          0.2718519926071167,
+          0.27219200134277344,
+          0.27158639430999754
+        ]
+      },
+      "cp_checkpoint": {
+        "median_ms": 0.4268064022064209,
+        "samples_ms": [
+          0.4259136199951172,
+          0.42693281173706055,
+          0.42689199447631837,
+          0.4267551898956299,
+          0.4270296096801758,
+          0.42690081596374513,
+          0.4265927791595459,
+          0.4268439769744873,
+          0.42659602165222166,
+          0.4268064022064209,
+          0.42662801742553713
+        ]
+      }
+    },
+    "orders": [
+      [
+        "v2",
+        "cp_checkpoint",
+        "original",
+        "full",
+        "auto"
+      ],
+      [
+        "full",
+        "cp_checkpoint",
+        "v2",
+        "original",
+        "auto"
+      ],
+      [
+        "v2",
+        "original",
+        "cp_checkpoint",
+        "full",
+        "auto"
+      ],
+      [
+        "full",
+        "auto",
+        "v2",
+        "cp_checkpoint",
+        "original"
+      ],
+      [
+        "v2",
+        "cp_checkpoint",
+        "full",
+        "original",
+        "auto"
+      ],
+      [
+        "v2",
+        "auto",
+        "cp_checkpoint",
+        "original",
+        "full"
+      ],
+      [
+        "original",
+        "full",
+        "auto",
+        "v2",
+        "cp_checkpoint"
+      ],
+      [
+        "full",
+        "auto",
+        "v2",
+        "original",
+        "cp_checkpoint"
+      ],
+      [
+        "auto",
+        "original",
+        "cp_checkpoint",
+        "full",
+        "v2"
+      ],
+      [
+        "cp_checkpoint",
+        "auto",
+        "v2",
+        "full",
+        "original"
+      ],
+      [
+        "cp_checkpoint",
+        "original",
+        "full",
+        "v2",
+        "auto"
+      ]
+    ],
+    "checks": {
+      "original": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "full": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "v2": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "auto": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "cp_checkpoint": {
+        "output": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.0009765625,
+          "finite": true
+        },
+        "final": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.003387756645679474,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.004269629716873169,
+          "finite": true
+        }
+      }
+    },
+    "post_timing": {
+      "original": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "full": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "v2": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "auto": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "cp_checkpoint": {
+        "output": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.0009765625,
+          "finite": true
+        },
+        "final": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.003387756645679474,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.004269629716873169,
+          "finite": true
+        }
+      }
+    }
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      8192,
+      1024,
+      1024,
+      1024
+    ],
+    "targets": [
+      1280,
+      512,
+      512,
+      512
+    ],
+    "auto": "v2",
+    "timing": {
+      "original": {
+        "median_ms": 0.8334312438964844,
+        "samples_ms": [
+          0.8334312438964844,
+          0.8343943595886231,
+          0.8344688415527344,
+          0.8341072082519532,
+          0.8331104278564453,
+          0.837709617614746,
+          0.8325400352478027,
+          0.8322728157043457,
+          0.8324751853942871,
+          0.8317784309387207,
+          0.8335751533508301
+        ]
+      },
+      "full": {
+        "median_ms": 0.7507319927215577,
+        "samples_ms": [
+          0.7509024143218994,
+          0.7514183998107911,
+          0.7516143798828125,
+          0.7505127906799316,
+          0.7512951850891113,
+          0.7538303852081298,
+          0.7505303859710694,
+          0.7501776218414307,
+          0.7492807865142822,
+          0.7493224143981934,
+          0.7507319927215577
+        ]
+      },
+      "v2": {
+        "median_ms": 0.5357927799224853,
+        "samples_ms": [
+          0.5367991924285889,
+          0.5373807907104492,
+          0.5371503829956055,
+          0.5357071876525878,
+          0.5385752201080323,
+          0.5353544235229493,
+          0.5357927799224853,
+          0.5357791900634765,
+          0.5348392009735108,
+          0.5354824066162109,
+          0.5368031978607177
+        ]
+      },
+      "auto": {
+        "median_ms": 0.5368303775787353,
+        "samples_ms": [
+          0.5374296188354493,
+          0.5369224071502685,
+          0.5360568046569825,
+          0.535753583908081,
+          0.5383224010467529,
+          0.5368303775787353,
+          0.5370016098022461,
+          0.5368656158447266,
+          0.5347064018249512,
+          0.5348432064056396,
+          0.5363232135772705
+        ]
+      },
+      "cp_checkpoint": {
+        "median_ms": 0.6487919807434082,
+        "samples_ms": [
+          0.6488088130950928,
+          0.6488383769989013,
+          0.6488759994506836,
+          0.6489535808563233,
+          0.6490168094635009,
+          0.6482560157775878,
+          0.6481512069702149,
+          0.6482295989990234,
+          0.648090410232544,
+          0.6479872226715088,
+          0.6487919807434082
+        ]
+      }
+    },
+    "orders": [
+      [
+        "original",
+        "auto",
+        "v2",
+        "cp_checkpoint",
+        "full"
+      ],
+      [
+        "cp_checkpoint",
+        "auto",
+        "v2",
+        "full",
+        "original"
+      ],
+      [
+        "original",
+        "v2",
+        "cp_checkpoint",
+        "auto",
+        "full"
+      ],
+      [
+        "original",
+        "cp_checkpoint",
+        "v2",
+        "full",
+        "auto"
+      ],
+      [
+        "original",
+        "cp_checkpoint",
+        "full",
+        "auto",
+        "v2"
+      ],
+      [
+        "original",
+        "full",
+        "auto",
+        "cp_checkpoint",
+        "v2"
+      ],
+      [
+        "auto",
+        "cp_checkpoint",
+        "v2",
+        "full",
+        "original"
+      ],
+      [
+        "full",
+        "auto",
+        "v2",
+        "original",
+        "cp_checkpoint"
+      ],
+      [
+        "v2",
+        "original",
+        "cp_checkpoint",
+        "auto",
+        "full"
+      ],
+      [
+        "full",
+        "v2",
+        "cp_checkpoint",
+        "auto",
+        "original"
+      ],
+      [
+        "cp_checkpoint",
+        "v2",
+        "full",
+        "original",
+        "auto"
+      ]
+    ],
+    "checks": {
+      "original": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "full": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "v2": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "auto": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "cp_checkpoint": {
+        "output": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.0009765625,
+          "finite": true
+        },
+        "final": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.004557222127914429,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.0050106048583984375,
+          "finite": true
+        }
+      }
+    },
+    "post_timing": {
+      "original": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "full": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "v2": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "auto": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "cp_checkpoint": {
+        "output": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.0009765625,
+          "finite": true
+        },
+        "final": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.004557222127914429,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.0050106048583984375,
+          "finite": true
+        }
+      }
+    }
+  },
+  {
+    "hq": 4,
+    "hv": 16,
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "targets": [
+      512,
+      512,
+      512,
+      512,
+      512,
+      512,
+      512,
+      512
+    ],
+    "auto": "full",
+    "timing": {
+      "original": {
+        "median_ms": 0.24984560012817383,
+        "samples_ms": [
+          0.24970879554748535,
+          0.24970800876617433,
+          0.24984560012817383,
+          0.2503144025802612,
+          0.2503223896026611,
+          0.24943919181823732,
+          0.24941840171813964,
+          0.2493839979171753,
+          0.2499016046524048,
+          0.2503567934036255,
+          0.25040240287780763
+        ]
+      },
+      "full": {
+        "median_ms": 0.19973839521408082,
+        "samples_ms": [
+          0.19973839521408082,
+          0.19953919649124147,
+          0.20047121047973632,
+          0.19952720403671265,
+          0.20003759860992432,
+          0.19978640079498292,
+          0.199235999584198,
+          0.19943840503692628,
+          0.19965440034866333,
+          0.20010321140289306,
+          0.20012879371643066
+        ]
+      },
+      "v2": {
+        "median_ms": 0.2755824089050293,
+        "samples_ms": [
+          0.2753648042678833,
+          0.27540318965911864,
+          0.2754415988922119,
+          0.2757672071456909,
+          0.2762712001800537,
+          0.2752903938293457,
+          0.27523839473724365,
+          0.2755824089050293,
+          0.27633440494537354,
+          0.27613279819488523,
+          0.2760832071304321
+        ]
+      },
+      "auto": {
+        "median_ms": 0.19984719753265381,
+        "samples_ms": [
+          0.20037200450897216,
+          0.19959280490875245,
+          0.19954960346221923,
+          0.1999824047088623,
+          0.20007519721984862,
+          0.19912079572677613,
+          0.1993407964706421,
+          0.1995344042778015,
+          0.20002079010009766,
+          0.20014479160308837,
+          0.19984719753265381
+        ]
+      },
+      "cp_checkpoint": {
+        "median_ms": 0.5120848178863525,
+        "samples_ms": [
+          0.5120848178863525,
+          0.511891222000122,
+          0.5122407913208008,
+          0.5120391845703125,
+          0.5130847930908203,
+          0.5130680084228516,
+          0.5113247871398926,
+          0.5120287895202636,
+          0.5127520084381103,
+          0.5134592056274414,
+          0.5112463951110839
+        ]
+      }
+    },
+    "orders": [
+      [
+        "auto",
+        "cp_checkpoint",
+        "full",
+        "v2",
+        "original"
+      ],
+      [
+        "cp_checkpoint",
+        "auto",
+        "v2",
+        "full",
+        "original"
+      ],
+      [
+        "auto",
+        "v2",
+        "cp_checkpoint",
+        "full",
+        "original"
+      ],
+      [
+        "cp_checkpoint",
+        "v2",
+        "full",
+        "auto",
+        "original"
+      ],
+      [
+        "original",
+        "full",
+        "cp_checkpoint",
+        "v2",
+        "auto"
+      ],
+      [
+        "cp_checkpoint",
+        "full",
+        "original",
+        "auto",
+        "v2"
+      ],
+      [
+        "cp_checkpoint",
+        "original",
+        "auto",
+        "full",
+        "v2"
+      ],
+      [
+        "original",
+        "v2",
+        "full",
+        "auto",
+        "cp_checkpoint"
+      ],
+      [
+        "original",
+        "v2",
+        "auto",
+        "full",
+        "cp_checkpoint"
+      ],
+      [
+        "v2",
+        "cp_checkpoint",
+        "full",
+        "auto",
+        "original"
+      ],
+      [
+        "full",
+        "v2",
+        "original",
+        "auto",
+        "cp_checkpoint"
+      ]
+    ],
+    "checks": {
+      "original": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "full": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "v2": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "auto": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "cp_checkpoint": {
+        "output": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.00048828125,
+          "finite": true
+        },
+        "final": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.005496025085449219,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.004732668399810791,
+          "finite": true
+        }
+      }
+    },
+    "post_timing": {
+      "original": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "full": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "v2": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "auto": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "cp_checkpoint": {
+        "output": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.00048828125,
+          "finite": true
+        },
+        "final": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.005496025085449219,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.004732668399810791,
+          "finite": true
+        }
+      }
+    }
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      8192
+    ],
+    "targets": [
+      1280
+    ],
+    "auto": "v2",
+    "timing": {
+      "original": {
+        "median_ms": 0.8403384208679199,
+        "samples_ms": [
+          0.8406911849975586,
+          0.84579439163208,
+          0.8403063774108886,
+          0.8419992446899414,
+          0.8400839805603028,
+          0.8401552200317383,
+          0.8403384208679199,
+          0.8405247688293457,
+          0.8412991523742676,
+          0.8394583702087403,
+          0.8399800300598145
+        ]
+      },
+      "full": {
+        "median_ms": 0.7524168014526367,
+        "samples_ms": [
+          0.7528512001037597,
+          0.7525375843048095,
+          0.7549335956573486,
+          0.7507328033447266,
+          0.7524168014526367,
+          0.7522903919219971,
+          0.7523583889007568,
+          0.7524784088134766,
+          0.7549392223358155,
+          0.7505824089050293,
+          0.7523880004882812
+        ]
+      },
+      "v2": {
+        "median_ms": 0.543729591369629,
+        "samples_ms": [
+          0.5427552223205566,
+          0.5434855937957763,
+          0.5458040237426758,
+          0.5457456111907959,
+          0.5440152168273926,
+          0.5440415859222412,
+          0.5432551860809326,
+          0.5431007862091064,
+          0.5439511775970459,
+          0.5429711818695069,
+          0.543729591369629
+        ]
+      },
+      "auto": {
+        "median_ms": 0.5440944194793701,
+        "samples_ms": [
+          0.5436128139495849,
+          0.5434023857116699,
+          0.5441720008850097,
+          0.5429279804229736,
+          0.5446023941040039,
+          0.5440599918365479,
+          0.5436007976531982,
+          0.5443999767303467,
+          0.5440944194793701,
+          0.5450655937194824,
+          0.5445735931396485
+        ]
+      },
+      "cp_checkpoint": {
+        "median_ms": 0.7924767971038819,
+        "samples_ms": [
+          0.7911416053771972,
+          0.7925136089324951,
+          0.7925367832183838,
+          0.7911352157592774,
+          0.7918871879577637,
+          0.792468786239624,
+          0.7924920082092285,
+          0.7925655841827393,
+          0.7924767971038819,
+          0.7913504123687745,
+          0.7925695896148681
+        ]
+      }
+    },
+    "orders": [
+      [
+        "auto",
+        "v2",
+        "cp_checkpoint",
+        "full",
+        "original"
+      ],
+      [
+        "full",
+        "cp_checkpoint",
+        "auto",
+        "v2",
+        "original"
+      ],
+      [
+        "cp_checkpoint",
+        "original",
+        "auto",
+        "full",
+        "v2"
+      ],
+      [
+        "original",
+        "v2",
+        "cp_checkpoint",
+        "auto",
+        "full"
+      ],
+      [
+        "cp_checkpoint",
+        "auto",
+        "original",
+        "v2",
+        "full"
+      ],
+      [
+        "auto",
+        "original",
+        "full",
+        "v2",
+        "cp_checkpoint"
+      ],
+      [
+        "original",
+        "v2",
+        "auto",
+        "full",
+        "cp_checkpoint"
+      ],
+      [
+        "full",
+        "auto",
+        "v2",
+        "cp_checkpoint",
+        "original"
+      ],
+      [
+        "cp_checkpoint",
+        "auto",
+        "v2",
+        "original",
+        "full"
+      ],
+      [
+        "auto",
+        "full",
+        "v2",
+        "cp_checkpoint",
+        "original"
+      ],
+      [
+        "original",
+        "v2",
+        "auto",
+        "cp_checkpoint",
+        "full"
+      ]
+    ],
+    "checks": {
+      "original": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "full": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "v2": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "auto": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "cp_checkpoint": {
+        "output": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.00048828125,
+          "finite": true
+        },
+        "final": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.00419461727142334,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.004696369171142578,
+          "finite": true
+        }
+      }
+    },
+    "post_timing": {
+      "original": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "full": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "v2": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "auto": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "cp_checkpoint": {
+        "output": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.00048828125,
+          "finite": true
+        },
+        "final": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.00419461727142334,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.004696369171142578,
+          "finite": true
+        }
+      }
+    }
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      4096,
+      4096
+    ],
+    "targets": [
+      1280,
+      1280
+    ],
+    "auto": "full",
+    "timing": {
+      "original": {
+        "median_ms": 0.4407495975494385,
+        "samples_ms": [
+          0.4406407833099365,
+          0.44008641242980956,
+          0.44065518379211427,
+          0.4415264129638672,
+          0.44069437980651854,
+          0.4407495975494385,
+          0.4407648086547852,
+          0.4414680004119873,
+          0.44020562171936034,
+          0.44167361259460447,
+          0.4417840003967285
+        ]
+      },
+      "full": {
+        "median_ms": 0.38115520477294923,
+        "samples_ms": [
+          0.3824431896209717,
+          0.3812567949295044,
+          0.38211119174957275,
+          0.3803911924362183,
+          0.3803208112716675,
+          0.38111119270324706,
+          0.38115520477294923,
+          0.3809607982635498,
+          0.3812119960784912,
+          0.38223841190338137,
+          0.3806504011154175
+        ]
+      },
+      "v2": {
+        "median_ms": 0.5406432151794434,
+        "samples_ms": [
+          0.5395487785339356,
+          0.5406432151794434,
+          0.5418983936309815,
+          0.5420968055725097,
+          0.5389408111572266,
+          0.5404543876647949,
+          0.5415631771087647,
+          0.5412464141845703,
+          0.5407023906707764,
+          0.540333604812622,
+          0.539359188079834
+        ]
+      },
+      "auto": {
+        "median_ms": 0.381329607963562,
+        "samples_ms": [
+          0.3822839975357056,
+          0.3807760000228882,
+          0.381329607963562,
+          0.3805191993713379,
+          0.38056480884552,
+          0.38115520477294923,
+          0.38113999366760254,
+          0.38218159675598146,
+          0.38148319721221924,
+          0.3814527988433838,
+          0.38242239952087403
+        ]
+      },
+      "cp_checkpoint": {
+        "median_ms": 0.8049639701843262,
+        "samples_ms": [
+          0.8069175720214844,
+          0.8037360191345215,
+          0.8050080299377441,
+          0.8057047843933105,
+          0.8046208381652832,
+          0.8047368049621582,
+          0.8062088012695312,
+          0.8037055969238281,
+          0.8037551879882813,
+          0.8062159538269043,
+          0.8049639701843262
+        ]
+      }
+    },
+    "orders": [
+      [
+        "full",
+        "cp_checkpoint",
+        "auto",
+        "original",
+        "v2"
+      ],
+      [
+        "original",
+        "cp_checkpoint",
+        "auto",
+        "v2",
+        "full"
+      ],
+      [
+        "cp_checkpoint",
+        "auto",
+        "original",
+        "full",
+        "v2"
+      ],
+      [
+        "original",
+        "v2",
+        "cp_checkpoint",
+        "auto",
+        "full"
+      ],
+      [
+        "full",
+        "auto",
+        "v2",
+        "cp_checkpoint",
+        "original"
+      ],
+      [
+        "cp_checkpoint",
+        "auto",
+        "v2",
+        "full",
+        "original"
+      ],
+      [
+        "original",
+        "full",
+        "auto",
+        "cp_checkpoint",
+        "v2"
+      ],
+      [
+        "v2",
+        "auto",
+        "original",
+        "cp_checkpoint",
+        "full"
+      ],
+      [
+        "cp_checkpoint",
+        "original",
+        "full",
+        "auto",
+        "v2"
+      ],
+      [
+        "v2",
+        "auto",
+        "cp_checkpoint",
+        "original",
+        "full"
+      ],
+      [
+        "original",
+        "auto",
+        "cp_checkpoint",
+        "full",
+        "v2"
+      ]
+    ],
+    "checks": {
+      "original": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "full": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "v2": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "auto": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "cp_checkpoint": {
+        "output": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.00054931640625,
+          "finite": true
+        },
+        "final": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.0047650933265686035,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.004265792667865753,
+          "finite": true
+        }
+      }
+    },
+    "post_timing": {
+      "original": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "full": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "v2": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "auto": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "cp_checkpoint": {
+        "output": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.00054931640625,
+          "finite": true
+        },
+        "final": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.0047650933265686035,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.004265792667865753,
+          "finite": true
+        }
+      }
+    }
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      8192,
+      1024,
+      1024,
+      1024
+    ],
+    "targets": [
+      1280,
+      512,
+      512,
+      512
+    ],
+    "auto": "v2",
+    "timing": {
+      "original": {
+        "median_ms": 0.866327953338623,
+        "samples_ms": [
+          0.865388011932373,
+          0.8632016181945801,
+          0.8644040107727051,
+          0.8647695541381836,
+          0.870965576171875,
+          0.8694791793823242,
+          0.866327953338623,
+          0.8656200408935547,
+          0.8665975570678711,
+          0.8694696426391602,
+          0.8666711807250976
+        ]
+      },
+      "full": {
+        "median_ms": 0.7544335842132568,
+        "samples_ms": [
+          0.757866382598877,
+          0.7528488159179687,
+          0.752459192276001,
+          0.753708791732788,
+          0.757584810256958,
+          0.7543240070343018,
+          0.7548272132873535,
+          0.7538440227508545,
+          0.7557784080505371,
+          0.7544335842132568,
+          0.7562895774841308
+        ]
+      },
+      "v2": {
+        "median_ms": 0.6649343967437744,
+        "samples_ms": [
+          0.665118408203125,
+          0.6666128158569335,
+          0.6647960186004639,
+          0.6656735897064209,
+          0.6649343967437744,
+          0.6641191959381103,
+          0.6645503997802734,
+          0.6653480052947998,
+          0.6641007900238037,
+          0.6659264087677002,
+          0.6648983955383301
+        ]
+      },
+      "auto": {
+        "median_ms": 0.665561580657959,
+        "samples_ms": [
+          0.6662007808685303,
+          0.6658319950103759,
+          0.6649271965026855,
+          0.6656703948974609,
+          0.6658368110656738,
+          0.6645959854125977,
+          0.6641367912292481,
+          0.6650335788726807,
+          0.6664760112762451,
+          0.6643288135528564,
+          0.665561580657959
+        ]
+      },
+      "cp_checkpoint": {
+        "median_ms": 1.061789608001709,
+        "samples_ms": [
+          1.0623831748962402,
+          1.0618960380554199,
+          1.0621312141418457,
+          1.0603520393371582,
+          1.0587112426757812,
+          1.059981632232666,
+          1.062399959564209,
+          1.0604304313659667,
+          1.061789608001709,
+          1.0587167739868164,
+          1.0623439788818358
+        ]
+      }
+    },
+    "orders": [
+      [
+        "auto",
+        "original",
+        "v2",
+        "full",
+        "cp_checkpoint"
+      ],
+      [
+        "original",
+        "full",
+        "auto",
+        "cp_checkpoint",
+        "v2"
+      ],
+      [
+        "cp_checkpoint",
+        "auto",
+        "full",
+        "v2",
+        "original"
+      ],
+      [
+        "v2",
+        "original",
+        "full",
+        "auto",
+        "cp_checkpoint"
+      ],
+      [
+        "auto",
+        "v2",
+        "full",
+        "original",
+        "cp_checkpoint"
+      ],
+      [
+        "auto",
+        "v2",
+        "original",
+        "cp_checkpoint",
+        "full"
+      ],
+      [
+        "original",
+        "cp_checkpoint",
+        "full",
+        "v2",
+        "auto"
+      ],
+      [
+        "original",
+        "v2",
+        "cp_checkpoint",
+        "full",
+        "auto"
+      ],
+      [
+        "original",
+        "v2",
+        "cp_checkpoint",
+        "full",
+        "auto"
+      ],
+      [
+        "v2",
+        "auto",
+        "cp_checkpoint",
+        "full",
+        "original"
+      ],
+      [
+        "v2",
+        "auto",
+        "cp_checkpoint",
+        "full",
+        "original"
+      ]
+    ],
+    "checks": {
+      "original": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "full": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "v2": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "auto": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "cp_checkpoint": {
+        "output": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.00048828125,
+          "finite": true
+        },
+        "final": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.004388481378555298,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.004263550043106079,
+          "finite": true
+        }
+      }
+    },
+    "post_timing": {
+      "original": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "full": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "v2": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "auto": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "cp_checkpoint": {
+        "output": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.00048828125,
+          "finite": true
+        },
+        "final": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.004388481378555298,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.004263550043106079,
+          "finite": true
+        }
+      }
+    }
+  },
+  {
+    "hq": 16,
+    "hv": 32,
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "targets": [
+      512,
+      512,
+      512,
+      512,
+      512,
+      512,
+      512,
+      512
+    ],
+    "auto": "full",
+    "timing": {
+      "original": {
+        "median_ms": 0.4907671928405762,
+        "samples_ms": [
+          0.4905263900756836,
+          0.49068799018859866,
+          0.49098958969116213,
+          0.4918504238128662,
+          0.4900792121887207,
+          0.4907224178314209,
+          0.4903240203857422,
+          0.4907671928405762,
+          0.490934419631958,
+          0.4910344123840332,
+          0.49146318435668945
+        ]
+      },
+      "full": {
+        "median_ms": 0.3958976030349731,
+        "samples_ms": [
+          0.3958976030349731,
+          0.39584400653839114,
+          0.39570720195770265,
+          0.3964472055435181,
+          0.39604640007019043,
+          0.3960720062255859,
+          0.3970072031021118,
+          0.3953336000442505,
+          0.3956759929656982,
+          0.3956736087799072,
+          0.3965984106063843
+        ]
+      },
+      "v2": {
+        "median_ms": 0.4837512016296387,
+        "samples_ms": [
+          0.4838871955871582,
+          0.48386402130126954,
+          0.4837512016296387,
+          0.4831240177154541,
+          0.4836167812347412,
+          0.4836711883544922,
+          0.48539037704467775,
+          0.4835991859436035,
+          0.4836431980133057,
+          0.4838280200958252,
+          0.48471598625183104
+        ]
+      },
+      "auto": {
+        "median_ms": 0.3957632064819336,
+        "samples_ms": [
+          0.39609038829803467,
+          0.395630407333374,
+          0.39651200771331785,
+          0.3965575933456421,
+          0.39517199993133545,
+          0.3962032079696655,
+          0.39542560577392577,
+          0.3957632064819336,
+          0.3957576036453247,
+          0.395738410949707,
+          0.3966439962387085
+        ]
+      },
+      "cp_checkpoint": {
+        "median_ms": 0.9286399841308594,
+        "samples_ms": [
+          0.9286343574523925,
+          0.9285183906555176,
+          0.9286399841308594,
+          0.9304455757141114,
+          0.9277872085571289,
+          0.9306872367858887,
+          0.9296216011047364,
+          0.927783203125,
+          0.9286831855773926,
+          0.9285903930664062,
+          0.9293623924255371
+        ]
+      }
+    },
+    "orders": [
+      [
+        "original",
+        "full",
+        "auto",
+        "v2",
+        "cp_checkpoint"
+      ],
+      [
+        "v2",
+        "original",
+        "full",
+        "cp_checkpoint",
+        "auto"
+      ],
+      [
+        "cp_checkpoint",
+        "v2",
+        "original",
+        "full",
+        "auto"
+      ],
+      [
+        "auto",
+        "original",
+        "full",
+        "cp_checkpoint",
+        "v2"
+      ],
+      [
+        "original",
+        "auto",
+        "cp_checkpoint",
+        "full",
+        "v2"
+      ],
+      [
+        "auto",
+        "full",
+        "original",
+        "v2",
+        "cp_checkpoint"
+      ],
+      [
+        "full",
+        "v2",
+        "cp_checkpoint",
+        "original",
+        "auto"
+      ],
+      [
+        "cp_checkpoint",
+        "full",
+        "original",
+        "auto",
+        "v2"
+      ],
+      [
+        "auto",
+        "full",
+        "v2",
+        "original",
+        "cp_checkpoint"
+      ],
+      [
+        "cp_checkpoint",
+        "original",
+        "v2",
+        "auto",
+        "full"
+      ],
+      [
+        "cp_checkpoint",
+        "original",
+        "auto",
+        "v2",
+        "full"
+      ]
+    ],
+    "checks": {
+      "original": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "full": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "v2": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "auto": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "cp_checkpoint": {
+        "output": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.00048828125,
+          "finite": true
+        },
+        "final": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.004931628704071045,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.004639536142349243,
+          "finite": true
+        }
+      }
+    },
+    "post_timing": {
+      "original": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "full": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "v2": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "auto": {
+        "output": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "final": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "close": true,
+          "max_abs": 0.0,
+          "finite": true
+        }
+      },
+      "cp_checkpoint": {
+        "output": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.00048828125,
+          "finite": true
+        },
+        "final": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.004931628704071045,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": false,
+          "close": true,
+          "max_abs": 0.004639536142349243,
+          "finite": true
+        }
+      }
+    }
+  }
+]

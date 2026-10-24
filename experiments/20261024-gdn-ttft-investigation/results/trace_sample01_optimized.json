@@ -1,0 +1,1568 @@
+{
+  "path": "/local/gdn35-experiments/20261024-gdn-ttft-investigation/profiles/sample01_optimized/sample01_optimized-1792811057.8891587-TP-0.trace.json.gz",
+  "categories": {
+    "user_annotation": 2545,
+    "cpu_op": 16449,
+    "python_function": 357403,
+    "overhead": 1,
+    "gpu_memcpy": 371,
+    "cuda_runtime": 2607,
+    "kernel": 5179,
+    "cuda_driver": 475,
+    "gpu_memset": 11,
+    "gpu_user_annotation": 229,
+    "Trace": 1
+  },
+  "kernel_count": 5179,
+  "kernel_total_ms": 808.4264309999999,
+  "kernel_union_ms": 787.7467292480469,
+  "kernel_span_ms": 918.4137419433594,
+  "kernel_groups": [
+    {
+      "name": "void deep_gemm::sm90_fp8_gemm_1d2d_impl<(cute::UMMA::Major)0, 0u, 0u, 0u, 1u, 256u, 128u, 128u, 128u, 128u, 128u, 3u, 128u, 256u, 1u, false, 78u, (deep_gemm::GemmType)0, cutlass::bfloat16_t, deep_gemm::epilogue::transform::EpilogueIdentity>(float*, int*, unsigned int, unsigned int, unsigned int, CUtensorMap_st, CUtensorMap_st, CUtensorMap_st, CUtensorMap_st)",
+      "count": 480,
+      "sum_ms": 257.25690799999984,
+      "mean_us": 535.9518916666664
+    },
+    {
+      "name": "void cutlass::device_kernel<flash::enable_sm90_or_later<flash::FlashAttnFwdSm90<flash::CollectiveMainloopFwdSm90<2, cute::tuple<cute::C<1>, cute::C<1>, cute::C<1> >, cute::tuple<cute::C<128>, cute::C<80>, cute::C<256> >, 256, cutlass::bfloat16_t, float, cutlass::arch::Sm90, true, false, false, true, true, false, false, false, true, true, true, false, false, cutlass::bfloat16_t, false, 1>, flash::CollectiveEpilogueFwd<cute::tuple<cute::C<128>, cute::C<256>, cute::C<80> >, cute::tuple<cute::C<1>, cute::C<1>, cute::C<1> >, cutlass::bfloat16_t, cutlass::arch::Sm90, 256, true, true, false, false>, flash::VarlenDynamicPersistentTileScheduler<128, 80, 256, 128, false, true, true, true, true, true> > > >(flash::enable_sm90_or_later<flash::FlashAttnFwdSm90<flash::CollectiveMainloopFwdSm90<2, cute::tuple<cute::C<1>, cute::C<1>, cute::C<1> >, cute::tuple<cute::C<128>, cute::C<80>, cute::C<256> >, 256, cutlass::bfloat16_t, float, cutlass::arch::Sm90, true, false, false, true, true, false, false, false, true, true, true, false, false, cutlass::bfloat16_t, false, 1>, flash::CollectiveEpilogueFwd<cute::tuple<cute::C<128>, cute::C<256>, cute::C<80> >, cute::tuple<cute::C<1>, cute::C<1>, cute::C<1> >, cutlass::bfloat16_t, cutlass::arch::Sm90, 256, true, true, false, false>, flash::VarlenDynamicPersistentTileScheduler<128, 80, 256, 128, false, true, true, true, true, true> > >::Params)",
+      "count": 30,
+      "sum_ms": 209.72945899999996,
+      "mean_us": 6990.981966666665
+    },
+    {
+      "name": "fused_moe_kernel",
+      "count": 240,
+      "sum_ms": 171.72635100000025,
+      "mean_us": 715.5264625000011
+    },
+    {
+      "name": "kernel_cutlass_kernel_flashinfergdn_kernelsdelta_rule_dsldelta_rule_sm90_FullyFusedDeltaRuleSm90_object_at__tensorptrf32gmemalign16o1_tensorptrf32gmemalign16o1_CopyAtom_ThrID10_TVLayoutSr_0",
+      "count": 60,
+      "sum_ms": 31.590864,
+      "mean_us": 526.5144
+    },
+    {
+      "name": "kernel_cutlass_kernel_flashinfergdn_kernelsdelta_rule_dsllocal_dvsplit_sm90_DVSplitDeltaRuleSm90_object_at__tensorptrf32gmemalign16o1_tensorptrf32gmemalign16o1_CopyAtom_ThrID10_TVLayoutSr_0",
+      "count": 30,
+      "sum_ms": 15.153701000000002,
+      "mean_us": 505.1233666666667
+    },
+    {
+      "name": "_causal_conv1d_fwd_kernel",
+      "count": 90,
+      "sum_ms": 13.252700999999997,
+      "mean_us": 147.2522333333333
+    },
+    {
+      "name": "void sglang::per_token_group_quant_flat_kernel<sglang::QuantTrait<__nv_bfloat16, __nv_fp8_e4m3, 128u, false, false, true, false>, true>(sglang::QuantKernelParams)",
+      "count": 480,
+      "sum_ms": 12.064546000000012,
+      "mean_us": 25.13447083333336
+    },
+    {
+      "name": "void sglang::act_and_mul_kernel<__nv_bfloat16, (sglang::ActivationKind)0, true, false, false, false>(sglang::ActivationParams)",
+      "count": 240,
+      "sum_ms": 9.565059999999999,
+      "mean_us": 39.854416666666665
+    },
+    {
+      "name": "void moe_sum_reduce_warp_per_token_vec_kernel<8>(c10::BFloat16 const*, c10::BFloat16*, long, long, long, long, long, long, float)",
+      "count": 120,
+      "sum_ms": 8.014398,
+      "mean_us": 66.78665
+    },
+    {
+      "name": "nvjet_sm90_tst_128x192_64x5_2x1_v_bz_coopB_TNN",
+      "count": 2,
+      "sum_ms": 7.968258,
+      "mean_us": 3984.129
+    },
+    {
+      "name": "kernel_cutlass_kernel_flashinfernormkernelsfused_add_rmsnormFusedAddRMSNormKernel_object_at__tensorptrbf16gmemalign128oi64204820481_tensorptrbf16gmemalign128oi64204820481_tensorptrbf16gme_0",
+      "count": 240,
+      "sum_ms": 6.913788000000002,
+      "mean_us": 28.80745000000001
+    },
+    {
+      "name": "void sglang::per_token_group_quant_flat_kernel<sglang::QuantTrait<__nv_bfloat16, __nv_fp8_e4m3, 128u, false, true, true, false>, true>(sglang::QuantKernelParams)",
+      "count": 240,
+      "sum_ms": 6.419288000000002,
+      "mean_us": 26.747033333333338
+    },
+    {
+      "name": "nvjet_sm90_tst_128x256_64x4_2x1_v_bz_coopA_TNN",
+      "count": 80,
+      "sum_ms": 6.330270000000001,
+      "mean_us": 79.12837500000002
+    },
+    {
+      "name": "nvjet_sm90_tst_320x128_64x3_1x2_h_bz_coopB_NNT",
+      "count": 2,
+      "sum_ms": 5.911457,
+      "mean_us": 2955.7285
+    },
+    {
+      "name": "_fused_qk_rmsnorm_rope_gate_kernel",
+      "count": 30,
+      "sum_ms": 5.751069000000001,
+      "mean_us": 191.70230000000004
+    },
+    {
+      "name": "_layer_norm_fwd_1pass_kernel",
+      "count": 90,
+      "sum_ms": 5.676665999999999,
+      "mean_us": 63.07406666666666
+    },
+    {
+      "name": "fused_qkv_split_gdn_prefill_kernel",
+      "count": 90,
+      "sum_ms": 4.932541999999999,
+      "mean_us": 54.806022222222204
+    },
+    {
+      "name": "_fused_gate_sigmoid_mul_add_kernel",
+      "count": 120,
+      "sum_ms": 3.167361000000003,
+      "mean_us": 26.394675000000024
+    },
+    {
+      "name": "l2norm_fwd_kernel",
+      "count": 180,
+      "sum_ms": 3.0529879999999987,
+      "mean_us": 16.96104444444444
+    },
+    {
+      "name": "_router_triton_kernel",
+      "count": 120,
+      "sum_ms": 2.868028999999998,
+      "mean_us": 23.900241666666652
+    },
+    {
+      "name": "memcpy128",
+      "count": 171,
+      "sum_ms": 2.8064009999999993,
+      "mean_us": 16.411701754385962
+    },
+    {
+      "name": "void count_and_sort_expert_tokens_kernel<int>(int const*, int*, int*, unsigned long, bool)",
+      "count": 120,
+      "sum_ms": 2.055647,
+      "mean_us": 17.130391666666664
+    },
+    {
+      "name": "fused_gdn_gating_kernel",
+      "count": 90,
+      "sum_ms": 1.610658,
+      "mean_us": 17.8962
+    },
+    {
+      "name": "void moe_align_block_size_kernel<int>(int const*, int*, int*, int*, int, int, unsigned long, int*, bool, bool, int, int)",
+      "count": 120,
+      "sum_ms": 1.5874899999999998,
+      "mean_us": 13.229083333333332
+    },
+    {
+      "name": "nvjet_sm90_tst_64x128_64x8_1x2_h_bz_TNN",
+      "count": 60,
+      "sum_ms": 1.3671070000000003,
+      "mean_us": 22.78511666666667
+    },
+    {
+      "name": "void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1}>(long, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_kernel_impl<at::native::OpaqueType<4> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1})",
+      "count": 189,
+      "sum_ms": 1.2959739999999995,
+      "mean_us": 6.857005291005288
+    },
+    {
+      "name": "_fused_sigmoid_mul_kernel",
+      "count": 30,
+      "sum_ms": 1.2224979999999996,
+      "mean_us": 40.74993333333332
+    },
+    {
+      "name": "_fused_norm_rope_kernel_stacked",
+      "count": 3,
+      "sum_ms": 1.156,
+      "mean_us": 385.3333333333333
+    },
+    {
+      "name": "nvjet_sm90_tst_192x160_64x4_1x2_h_bz_coopB_TNT",
+      "count": 1,
+      "sum_ms": 1.108225,
+      "mean_us": 1108.225
+    },
+    {
+      "name": "nvjet_sm90_tst_64x128_64x8_2x1_v_bz_TNN",
+      "count": 40,
+      "sum_ms": 0.880865,
+      "mean_us": 22.021625
+    },
+    {
+      "name": "nvjet_sm90_tst_192x192_64x3_1x2_h_bz_coopB_NNN",
+      "count": 1,
+      "sum_ms": 0.832576,
+      "mean_us": 832.576
+    },
+    {
+      "name": "nvjet_sm90_tst_128x8_64x12_2x1_v_bz_TNT",
+      "count": 3,
+      "sum_ms": 0.832481,
+      "mean_us": 277.4936666666667
+    },
+    {
+      "name": "void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_put_kernel_impl<at::native::OpaqueType<4> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_put_kernel_impl<at::native::OpaqueType<4> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1}>(long, at::native::gpu_index_kernel<at::native::index_put_kernel_impl<at::native::OpaqueType<4> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_put_kernel_impl<at::native::OpaqueType<4> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1})",
+      "count": 97,
+      "sum_ms": 0.618209,
+      "mean_us": 6.373288659793815
+    },
+    {
+      "name": "void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<2> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_kernel_impl<at::native::OpaqueType<2> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1}>(long, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<2> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_kernel_impl<at::native::OpaqueType<2> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1})",
+      "count": 117,
+      "sum_ms": 0.4688660000000004,
+      "mean_us": 4.007401709401712
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_vectorized<at::native::(anonymous namespace)::OpaqueType<2u>, unsigned int, 2, 128, 1, 16, 8>(char*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<2u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+      "count": 3,
+      "sum_ms": 0.35664,
+      "mean_us": 118.88
+    },
+    {
+      "name": "void at::native::index_elementwise_kernel<128, 4, at::native::index_copy_kernel_impl<at::native::OpaqueType<4> >(at::TensorIterator&, long, long, long)::{lambda(int)#1}>(long, at::native::index_copy_kernel_impl<at::native::OpaqueType<4> >(at::TensorIterator&, long, long, long)::{lambda(int)#1})",
+      "count": 90,
+      "sum_ms": 0.34223800000000004,
+      "mean_us": 3.802644444444445
+    },
+    {
+      "name": "void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}, std::array<char*, 2ul>, 4, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1> >(int, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}, std::array<char*, 2ul>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1>)",
+      "count": 230,
+      "sum_ms": 0.32588699999999987,
+      "mean_us": 1.4168999999999996
+    },
+    {
+      "name": "void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_put_kernel_impl<at::native::OpaqueType<2> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_put_kernel_impl<at::native::OpaqueType<2> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1}>(long, at::native::gpu_index_kernel<at::native::index_put_kernel_impl<at::native::OpaqueType<2> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_put_kernel_impl<at::native::OpaqueType<2> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1})",
+      "count": 90,
+      "sum_ms": 0.30582300000000007,
+      "mean_us": 3.3980333333333346
+    },
+    {
+      "name": "void sglang::store_kvcache<2048l, 2048l, 4, true, long>(sglang::StoreKVCacheParams)",
+      "count": 18,
+      "sum_ms": 0.292259,
+      "mean_us": 16.236611111111113
+    },
+    {
+      "name": "nvjet_sm90_tst_32x64_64x16_2x1_v_bz_TNN",
+      "count": 30,
+      "sum_ms": 0.24639899999999995,
+      "mean_us": 8.213299999999998
+    },
+    {
+      "name": "void sglang::store_kvcache<1024l, 1024l, 2, true, long>(sglang::StoreKVCacheParams)",
+      "count": 30,
+      "sum_ms": 0.23488499999999995,
+      "mean_us": 7.829499999999999
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<8, at::native::compare_scalar_kernel<int>(at::TensorIteratorBase&, at::native::(anonymous namespace)::OpType, int)::{lambda(int)#1}, std::array<char*, 2ul> >(int, at::native::compare_scalar_kernel<int>(at::TensorIteratorBase&, at::native::(anonymous namespace)::OpType, int)::{lambda(int)#1}, std::array<char*, 2ul>)",
+      "count": 180,
+      "sum_ms": 0.21385099999999993,
+      "mean_us": 1.1880611111111108
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::exp_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#2}::operator()() const::{lambda(float)#1}, std::array<char*, 2ul> >(int, at::native::exp_kernel_cuda(at::TensorIteratorBase&)::{lambda()#2}::operator()() const::{lambda()#2}::operator()() const::{lambda(float)#1}, std::array<char*, 2ul>)",
+      "count": 90,
+      "sum_ms": 0.17312300000000003,
+      "mean_us": 1.923588888888889
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::(anonymous namespace)::where_kernel_impl(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#3}::operator()() const::{lambda(bool, unsigned int, unsigned int)#1}, std::array<char*, 4ul> >(int, at::native::(anonymous namespace)::where_kernel_impl(at::TensorIterator&)::{lambda()#1}::operator()() const::{lambda()#3}::operator()() const::{lambda(bool, unsigned int, unsigned int)#1}, std::array<char*, 4ul>)",
+      "count": 90,
+      "sum_ms": 0.11471999999999999,
+      "mean_us": 1.2746666666666664
+    },
+    {
+      "name": "kernel_cutlass_kernel_flashinfernormkernelsrmsnormRMSNormKernel_object_at__tensorptrbf16gmemalign128oi64204820481_tensorptrbf16gmemalign16o20481_tensorptrbf16gmemalign128oi64204820481___T_0",
+      "count": 6,
+      "sum_ms": 0.099585,
+      "mean_us": 16.5975
+    },
+    {
+      "name": "void flash::prepare_varlen_num_blocks_kernel<1, true>(int, int, int, int const*, int const*, int const*, int const*, int const*, int const*, int, int, int, int, int, cutlass::FastDivmod, cutlass::FastDivmod, int*, int*, int*, int*, int*, bool, bool, bool, int)",
+      "count": 30,
+      "sum_ms": 0.09410800000000004,
+      "mean_us": 3.1369333333333342
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<int>, std::array<char*, 1ul> >(int, at::native::FillFunctor<int>, std::array<char*, 1ul>)",
+      "count": 95,
+      "sum_ms": 0.07008599999999994,
+      "mean_us": 0.737747368421052
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<8, at::native::FillFunctor<c10::BFloat16>, std::array<char*, 1ul> >(int, at::native::FillFunctor<c10::BFloat16>, std::array<char*, 1ul>)",
+      "count": 41,
+      "sum_ms": 0.04831800000000001,
+      "mean_us": 1.178487804878049
+    },
+    {
+      "name": "void at::native::vectorized_gather_kernel<16, long>(char*, char*, long*, int, long, long, long, long, bool)",
+      "count": 3,
+      "sum_ms": 0.04208,
+      "mean_us": 14.026666666666666
+    },
+    {
+      "name": "void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::ArgMaxOps<float>, unsigned int, long, 4, 4> >(at::native::ReduceOp<float, at::native::ArgMaxOps<float>, unsigned int, long, 4, 4>)",
+      "count": 3,
+      "sum_ms": 0.024480000000000002,
+      "mean_us": 8.16
+    },
+    {
+      "name": "write_req_to_token_pool_triton",
+      "count": 3,
+      "sum_ms": 0.020192,
+      "mean_us": 6.730666666666667
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::multi_tensor_apply_kernel<at::native::(anonymous namespace)::TensorListMetadata<2>, at::native::(anonymous namespace)::UnaryOpFunctor<long, 2, 1, 1>, at::native::Copy<long, long> >(at::native::(anonymous namespace)::TensorListMetadata<2>, at::native::(anonymous namespace)::UnaryOpFunctor<long, 2, 1, 1>, at::native::Copy<long, long>)",
+      "count": 2,
+      "sum_ms": 0.016512,
+      "mean_us": 8.256
+    },
+    {
+      "name": "void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#3}::operator()() const::{lambda(int)#1}, std::array<char*, 2ul>, 4, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1> >(int, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#3}::operator()() const::{lambda(int)#1}, std::array<char*, 2ul>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1>)",
+      "count": 12,
+      "sum_ms": 0.016158,
+      "mean_us": 1.3464999999999998
+    },
+    {
+      "name": "void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_put_kernel_impl<at::native::OpaqueType<8> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_put_kernel_impl<at::native::OpaqueType<8> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1}>(long, at::native::gpu_index_kernel<at::native::index_put_kernel_impl<at::native::OpaqueType<8> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_put_kernel_impl<at::native::OpaqueType<8> >(at::TensorIterator&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1})",
+      "count": 9,
+      "sum_ms": 0.014913,
+      "mean_us": 1.6569999999999998
+    },
+    {
+      "name": "compute_position_kernel",
+      "count": 6,
+      "sum_ms": 0.013951999999999999,
+      "mean_us": 2.3253333333333335
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<2, at::native::CUDAFunctorOnSelf_add<long>, std::array<char*, 2ul> >(int, at::native::CUDAFunctorOnSelf_add<long>, std::array<char*, 2ul>)",
+      "count": 9,
+      "sum_ms": 0.011871999999999999,
+      "mean_us": 1.319111111111111
+    },
+    {
+      "name": "void at_cuda_detail::cub::detail::select::DeviceSelectSweepKernel<at_cuda_detail::cub::detail::select::policy_hub<long, bool, int, false, (at_cuda_detail::cub::SelectImpl)0>::Policy1000, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::counting_iterator<long, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default>, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::transform_iterator<at::native::(anonymous namespace)::NonZeroOp<bool>, bool const*, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default>, long*, int*, at_cuda_detail::cub::ScanTileState<int, true>, at_cuda_detail::cub::NullType, at_cuda_detail::cub::NullType, int, at_cuda_detail::cub::detail::select::streaming_context_t<long, true>, (at_cuda_detail::cub::SelectImpl)0>(thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::counting_iterator<long, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default>, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::transform_iterator<at::native::(anonymous namespace)::NonZeroOp<bool>, bool const*, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default>, long*, int*, at_cuda_detail::cub::ScanTileState<int, true>, at_cuda_detail::cub::NullType, at_cuda_detail::cub::NullType, int, int, at_cuda_detail::cub::detail::select::streaming_context_t<long, true>, at_cuda_detail::cub::detail::vsmem_t)",
+      "count": 6,
+      "sum_ms": 0.011616000000000001,
+      "mean_us": 1.9360000000000002
+    },
+    {
+      "name": "void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}, std::array<char*, 2ul>, 4, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1> >(int, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}, std::array<char*, 2ul>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1>)",
+      "count": 3,
+      "sum_ms": 0.011297,
+      "mean_us": 3.7656666666666667
+    },
+    {
+      "name": "void at::native::index_elementwise_kernel<128, 4, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<8> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_kernel_impl<at::native::OpaqueType<8> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1}>(long, at::native::gpu_index_kernel<at::native::index_kernel_impl<at::native::OpaqueType<8> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1}>(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>, at::native::index_kernel_impl<at::native::OpaqueType<8> >(at::TensorIteratorBase&, c10::ArrayRef<long>, c10::ArrayRef<long>)::{lambda(char*, char const*, long)#1} const&, bool)::{lambda(int)#1})",
+      "count": 6,
+      "sum_ms": 0.010879999999999999,
+      "mean_us": 1.8133333333333332
+    },
+    {
+      "name": "void at_cuda_detail::cub::detail::reduce::DeviceReduceSingleTileKernel<at_cuda_detail::cub::detail::reduce::policy_hub<int, unsigned long long, cuda::std::__4::plus<void> >::Policy1000, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::transform_iterator<at::native::(anonymous namespace)::NonZeroOp<bool>, bool const*, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default>, int*, unsigned long long, cuda::std::__4::plus<void>, int, int, cuda::std::__4::__identity>(thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::transform_iterator<at::native::(anonymous namespace)::NonZeroOp<bool>, bool const*, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default, thrust::THRUST_300001_SM_750_800_860_900_1000_1200_NS::use_default>, int*, unsigned long long, cuda::std::__4::plus<void>, int, cuda::std::__4::__identity)",
+      "count": 6,
+      "sum_ms": 0.009503,
+      "mean_us": 1.5838333333333334
+    },
+    {
+      "name": "alloc_extend_kernel",
+      "count": 3,
+      "sum_ms": 0.009441000000000001,
+      "mean_us": 3.1470000000000002
+    },
+    {
+      "name": "void at_cuda_detail::cub::detail::scan::DeviceScanKernel<at_cuda_detail::cub::detail::scan::policy_hub<int, int, int, unsigned int, std::plus<int> >::Policy1000, int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int, int, false, at_cuda_detail::cub::NullType>(int const*, int*, at_cuda_detail::cub::ScanTileState<int, true>, int, std::plus<int>, at_cuda_detail::cub::NullType, unsigned int)",
+      "count": 5,
+      "sum_ms": 0.009152999999999998,
+      "mean_us": 1.8305999999999998
+    },
+    {
+      "name": "void at::native::unrolled_elementwise_kernel<at::native::CUDAFunctor_add<long>, std::array<char*, 3ul>, 4, TrivialOffsetCalculator<2, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<2>, at::native::memory::StoreWithCast<1> >(int, at::native::CUDAFunctor_add<long>, std::array<char*, 3ul>, TrivialOffsetCalculator<2, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<2>, at::native::memory::StoreWithCast<1>)",
+      "count": 6,
+      "sum_ms": 0.009120000000000001,
+      "mean_us": 1.5200000000000002
+    },
+    {
+      "name": "void (anonymous namespace)::elementwise_kernel_with_index<int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Tensor&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}>(int, at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Tensor&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}, function_traits<at::native::arange_cuda_out(c10::Scalar const&, c10::Scalar const&, c10::Scalar const&, at::Tensor&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}>::result_type*)",
+      "count": 6,
+      "sum_ms": 0.0063679999999999995,
+      "mean_us": 1.0613333333333332
+    },
+    {
+      "name": "void at_cuda_detail::cub::detail::scan::DeviceCompactInitKernel<at_cuda_detail::cub::ScanTileState<int, true>, int*>(at_cuda_detail::cub::ScanTileState<int, true>, int, int*)",
+      "count": 6,
+      "sum_ms": 0.006078999999999999,
+      "mean_us": 1.0131666666666665
+    },
+    {
+      "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::BUnaryFunctor<int, int, int, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#3}::operator()() const::{lambda(int, int)#1}> >(at::TensorIteratorBase&, at::native::BUnaryFunctor<int, int, int, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#3}::operator()() const::{lambda(int, int)#1}> const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::BUnaryFunctor<int, int, int, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#3}::operator()() const::{lambda(int, int)#1}> >(at::TensorIteratorBase&, at::native::BUnaryFunctor<int, int, int, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#3}::operator()() const::{lambda(int, int)#1}> const&)::{lambda(int)#1})",
+      "count": 4,
+      "sum_ms": 0.006047,
+      "mean_us": 1.5117500000000001
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::BUnaryFunctor<int, int, int, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#3}::operator()() const::{lambda(int, int)#1}>, std::array<char*, 2ul> >(int, at::native::BUnaryFunctor<int, int, int, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#3}::operator()() const::{lambda(int, int)#1}>, std::array<char*, 2ul>)",
+      "count": 3,
+      "sum_ms": 0.006016,
+      "mean_us": 2.005333333333333
+    },
+    {
+      "name": "void at_cuda_detail::cub::detail::scan::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<int, true> >(at_cuda_detail::cub::ScanTileState<int, true>, int)",
+      "count": 5,
+      "sum_ms": 0.004992,
+      "mean_us": 0.9984
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<2, at::native::BUnaryFunctor<long, long, long, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long, long)#1}>, std::array<char*, 2ul> >(int, at::native::BUnaryFunctor<long, long, long, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long, long)#1}>, std::array<char*, 2ul>)",
+      "count": 3,
+      "sum_ms": 0.004960000000000001,
+      "mean_us": 1.6533333333333335
+    },
+    {
+      "name": "void at_cuda_detail::cub::detail::scan::DeviceScanKernel<at_cuda_detail::cub::detail::scan::policy_hub<long, long, long, unsigned int, std::plus<long> >::Policy1000, long const*, long*, at_cuda_detail::cub::ScanTileState<long, true>, std::plus<long>, at_cuda_detail::cub::NullType, unsigned int, long, false, at_cuda_detail::cub::NullType>(long const*, long*, at_cuda_detail::cub::ScanTileState<long, true>, int, std::plus<long>, at_cuda_detail::cub::NullType, unsigned int)",
+      "count": 3,
+      "sum_ms": 0.004864,
+      "mean_us": 1.6213333333333333
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_vectorized<at::native::(anonymous namespace)::OpaqueType<8u>, unsigned int, 1, 128, 1, 16, 2>(char*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<8u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+      "count": 3,
+      "sum_ms": 0.004607999999999999,
+      "mean_us": 1.5359999999999998
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<2, at::native::(anonymous namespace)::launch_clamp_scalar(at::TensorIteratorBase&, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}, std::array<char*, 2ul> >(int, at::native::(anonymous namespace)::launch_clamp_scalar(at::TensorIteratorBase&, c10::Scalar, c10::Scalar, at::native::detail::ClampLimits)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}, std::array<char*, 2ul>)",
+      "count": 3,
+      "sum_ms": 0.004288,
+      "mean_us": 1.4293333333333333
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<4, at::native::CUDAFunctor_add<int>, std::array<char*, 3ul> >(int, at::native::CUDAFunctor_add<int>, std::array<char*, 3ul>)",
+      "count": 3,
+      "sum_ms": 0.004192,
+      "mean_us": 1.3973333333333333
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::multi_tensor_apply_kernel<at::native::(anonymous namespace)::TensorListMetadata<2>, at::native::(anonymous namespace)::UnaryOpFunctor<bool, 2, 1, 1>, at::native::Copy<bool, bool> >(at::native::(anonymous namespace)::TensorListMetadata<2>, at::native::(anonymous namespace)::UnaryOpFunctor<bool, 2, 1, 1>, at::native::Copy<bool, bool>)",
+      "count": 3,
+      "sum_ms": 0.0041600000000000005,
+      "mean_us": 1.3866666666666667
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::multi_tensor_apply_kernel<at::native::(anonymous namespace)::TensorListMetadata<2>, at::native::(anonymous namespace)::CopyFunctor<int, long, 2, 1, 1>, at::native::Copy<int, long> >(at::native::(anonymous namespace)::TensorListMetadata<2>, at::native::(anonymous namespace)::CopyFunctor<int, long, 2, 1, 1>, at::native::Copy<int, long>)",
+      "count": 3,
+      "sum_ms": 0.003744,
+      "mean_us": 1.248
+    },
+    {
+      "name": "void at::native::unrolled_elementwise_kernel<at::native::CUDAFunctorOnSelf_add<int>, std::array<char*, 2ul>, 4, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, at::native::CUDAFunctorOnSelf_add<int>, std::array<char*, 2ul>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast)",
+      "count": 3,
+      "sum_ms": 0.003617,
+      "mean_us": 1.2056666666666667
+    },
+    {
+      "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::CUDAFunctor_add<long> >(at::TensorIteratorBase&, at::native::CUDAFunctor_add<long> const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::CUDAFunctor_add<long> >(at::TensorIteratorBase&, at::native::CUDAFunctor_add<long> const&)::{lambda(int)#1})",
+      "count": 3,
+      "sum_ms": 0.003552,
+      "mean_us": 1.184
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<2, at::native::AUnaryFunctor<long, long, long, at::native::binary_internal::MulFunctor<long> >, std::array<char*, 2ul> >(int, at::native::AUnaryFunctor<long, long, long, at::native::binary_internal::MulFunctor<long> >, std::array<char*, 2ul>)",
+      "count": 3,
+      "sum_ms": 0.003392,
+      "mean_us": 1.1306666666666667
+    },
+    {
+      "name": "_fused_slot_clear_kernel",
+      "count": 1,
+      "sum_ms": 0.003296,
+      "mean_us": 3.296
+    },
+    {
+      "name": "void at::native::unrolled_elementwise_kernel<at::native::FillFunctor<long>, std::array<char*, 1ul>, 4, TrivialOffsetCalculator<0, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, at::native::FillFunctor<long>, std::array<char*, 1ul>, TrivialOffsetCalculator<0, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast)",
+      "count": 3,
+      "sum_ms": 0.0031360000000000003,
+      "mean_us": 1.0453333333333334
+    },
+    {
+      "name": "void at_cuda_detail::cub::detail::scan::DeviceScanInitKernel<at_cuda_detail::cub::ScanTileState<long, true> >(at_cuda_detail::cub::ScanTileState<long, true>, int)",
+      "count": 3,
+      "sum_ms": 0.0022400000000000002,
+      "mean_us": 0.7466666666666667
+    },
+    {
+      "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#4}::operator()() const::{lambda(long)#1} const&)::{lambda(int)#1})",
+      "count": 1,
+      "sum_ms": 0.002048,
+      "mean_us": 2.048
+    },
+    {
+      "name": "void at::native::vectorized_elementwise_kernel<2, at::native::FillFunctor<long>, std::array<char*, 1ul> >(int, at::native::FillFunctor<long>, std::array<char*, 1ul>)",
+      "count": 2,
+      "sum_ms": 0.00176,
+      "mean_us": 0.88
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_alignedK_contig<at::native::(anonymous namespace)::OpaqueType<8u>, unsigned int, 1, 128, 1, 16>(at::native::(anonymous namespace)::OpaqueType<8u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<8u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+      "count": 1,
+      "sum_ms": 0.001504,
+      "mean_us": 1.504
+    },
+    {
+      "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::BUnaryFunctor<long, long, long, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long, long)#1}> >(at::TensorIteratorBase&, at::native::BUnaryFunctor<long, long, long, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long, long)#1}> const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::BUnaryFunctor<long, long, long, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long, long)#1}> >(at::TensorIteratorBase&, at::native::BUnaryFunctor<long, long, long, at::native::binary_internal::div_floor_kernel_cuda(at::TensorIteratorBase&)::{lambda()#1}::operator()() const::{lambda()#4}::operator()() const::{lambda(long, long)#1}> const&)::{lambda(int)#1})",
+      "count": 1,
+      "sum_ms": 0.001408,
+      "mean_us": 1.408
+    },
+    {
+      "name": "void at::native::(anonymous namespace)::CatArrayBatchedCopy_contig<at::native::(anonymous namespace)::OpaqueType<8u>, unsigned int, 1, 128, 1>(at::native::(anonymous namespace)::OpaqueType<8u>*, at::native::(anonymous namespace)::CatArrInputTensorMetadata<at::native::(anonymous namespace)::OpaqueType<8u>, unsigned int, 128, 1>, at::native::(anonymous namespace)::TensorSizeStride<unsigned int, 4u>, int, unsigned int)",
+      "count": 1,
+      "sum_ms": 0.001216,
+      "mean_us": 1.216
+    },
+    {
+      "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::FillFunctor<long> >(at::TensorIteratorBase&, at::native::FillFunctor<long> const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::FillFunctor<long> >(at::TensorIteratorBase&, at::native::FillFunctor<long> const&)::{lambda(int)#1})",
+      "count": 1,
+      "sum_ms": 0.0011519999999999998,
+      "mean_us": 1.152
+    }
+  ],
+  "scope_stats": {
+    "GDN35/original/tokens=8192/cp=64": {
+      "count": 30,
+      "total_cpu_ms": 24.151692999999998,
+      "min_us": 770.272,
+      "max_us": 1106.786
+    },
+    "GDN35/dvsplit/tokens=8192": {
+      "count": 30,
+      "total_cpu_ms": 25.703201,
+      "min_us": 704.541,
+      "max_us": 2088.653
+    },
+    "GDN35/original/tokens=2201/cp=64": {
+      "count": 30,
+      "total_cpu_ms": 23.286702000000005,
+      "min_us": 734.805,
+      "max_us": 963.925
+    }
+  },
+  "cuda_api": {
+    "cudaStreamSynchronize": {
+      "count": 67,
+      "total_ms": 509.13466600000004,
+      "max_ms": 264.846598
+    },
+    "cudaMemcpyAsync": {
+      "count": 183,
+      "total_ms": 33.43647600000001,
+      "max_ms": 14.537993
+    },
+    "cudaLaunchKernel": {
+      "count": 1479,
+      "total_ms": 16.58449699999999,
+      "max_ms": 1.87874
+    },
+    "cudaGraphLaunch": {
+      "count": 123,
+      "total_ms": 7.690928000000001,
+      "max_ms": 0.101633
+    },
+    "cuLaunchKernelEx": {
+      "count": 475,
+      "total_ms": 3.7062339999999954,
+      "max_ms": 0.125754
+    },
+    "cudaLaunchKernelExC": {
+      "count": 171,
+      "total_ms": 3.3194740000000014,
+      "max_ms": 0.759692
+    },
+    "cudaDeviceSynchronize": {
+      "count": 1,
+      "total_ms": 1.146404,
+      "max_ms": 1.146404
+    },
+    "cudaEventRecordWithFlags": {
+      "count": 59,
+      "total_ms": 0.5264239999999999,
+      "max_ms": 0.321882
+    },
+    "cudaOccupancyMaxActiveBlocksPerMultiprocessorWithFlags": {
+      "count": 8,
+      "total_ms": 0.2682819999999999,
+      "max_ms": 0.142582
+    },
+    "cudaEventQuery": {
+      "count": 51,
+      "total_ms": 0.18563599999999997,
+      "max_ms": 0.01422
+    },
+    "cudaMemsetAsync": {
+      "count": 11,
+      "total_ms": 0.165631,
+      "max_ms": 0.028426
+    },
+    "cudaFuncSetAttribute": {
+      "count": 30,
+      "total_ms": 0.146396,
+      "max_ms": 0.008807
+    },
+    "cudaStreamIsCapturing": {
+      "count": 180,
+      "total_ms": 0.10317700000000002,
+      "max_ms": 0.004671000000000001
+    },
+    "cudaGetDriverEntryPointByVersion": {
+      "count": 150,
+      "total_ms": 0.07181599999999999,
+      "max_ms": 0.0027080000000000003
+    },
+    "cudaEventSynchronize": {
+      "count": 3,
+      "total_ms": 0.02774,
+      "max_ms": 0.011980000000000001
+    },
+    "cudaPointerGetAttributes": {
+      "count": 3,
+      "total_ms": 0.027634,
+      "max_ms": 0.010315
+    },
+    "cudaStreamWaitEvent": {
+      "count": 9,
+      "total_ms": 0.026265,
+      "max_ms": 0.004994
+    },
+    "cudaDeviceGetAttribute": {
+      "count": 8,
+      "total_ms": 0.013601,
+      "max_ms": 0.002882
+    },
+    "cudaPeekAtLastError": {
+      "count": 68,
+      "total_ms": 0.008448,
+      "max_ms": 0.000275
+    },
+    "cudaEventRecord": {
+      "count": 3,
+      "total_ms": 0.004798,
+      "max_ms": 0.002163
+    }
+  },
+  "steps": [
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031919119.244,
+      "dur_ms": 1.106786
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031922230.943,
+      "dur_ms": 0.827016
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031924925.776,
+      "dur_ms": 0.7702720000000001
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031928390.485,
+      "dur_ms": 0.7978569999999999
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031931149.602,
+      "dur_ms": 0.786183
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031933817.987,
+      "dur_ms": 0.774145
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031937123.366,
+      "dur_ms": 0.7921009999999999
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031939837.492,
+      "dur_ms": 0.773846
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031942512.267,
+      "dur_ms": 0.808265
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031946064.214,
+      "dur_ms": 0.791384
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031948720.039,
+      "dur_ms": 0.8069890000000001
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031951434.117,
+      "dur_ms": 0.8011029999999999
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031954722.457,
+      "dur_ms": 0.7992100000000001
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031957425.312,
+      "dur_ms": 0.801591
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031960123.537,
+      "dur_ms": 0.778687
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031963415.515,
+      "dur_ms": 0.8080890000000001
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031966110.904,
+      "dur_ms": 0.785789
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031968756.795,
+      "dur_ms": 0.791902
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031972071.48,
+      "dur_ms": 0.798022
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031974746.124,
+      "dur_ms": 0.8017329999999999
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031977438.16,
+      "dur_ms": 0.781034
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031980699.884,
+      "dur_ms": 0.799238
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031983422.647,
+      "dur_ms": 0.789221
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031986093.289,
+      "dur_ms": 0.804348
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031989413.299,
+      "dur_ms": 0.7888010000000001
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031992105.258,
+      "dur_ms": 0.792141
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031994751.096,
+      "dur_ms": 0.8086960000000001
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031998057.1,
+      "dur_ms": 0.773704
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032000707.855,
+      "dur_ms": 0.800707
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032003490.626,
+      "dur_ms": 0.8128329999999999
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032235854.819,
+      "dur_ms": 2.088653
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032240114.987,
+      "dur_ms": 0.796467
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032242784.243,
+      "dur_ms": 0.769532
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032246359.278,
+      "dur_ms": 1.132452
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032249609.298,
+      "dur_ms": 0.7527659999999999
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032252245.377,
+      "dur_ms": 0.737263
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032255688.259,
+      "dur_ms": 0.7527590000000001
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032258364.933,
+      "dur_ms": 0.740592
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032260944.432,
+      "dur_ms": 0.780058
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032264589.707,
+      "dur_ms": 0.766531
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032267312.613,
+      "dur_ms": 0.766557
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032269958.807,
+      "dur_ms": 0.704627
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032273831.645,
+      "dur_ms": 1.132197
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032277678.931,
+      "dur_ms": 1.149379
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032281476.355,
+      "dur_ms": 1.1515250000000001
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032286234.329,
+      "dur_ms": 1.027567
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032289176.002,
+      "dur_ms": 0.738081
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032291781.865,
+      "dur_ms": 0.73988
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032295094.18,
+      "dur_ms": 0.733058
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032297713.146,
+      "dur_ms": 0.808465
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032300443.203,
+      "dur_ms": 0.755265
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032303711.9,
+      "dur_ms": 0.746563
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032306392.33,
+      "dur_ms": 0.7641979999999999
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032309104.501,
+      "dur_ms": 0.727935
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032312327.004,
+      "dur_ms": 0.782278
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032314975.637,
+      "dur_ms": 0.7045410000000001
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032317626.913,
+      "dur_ms": 0.752482
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032320946.142,
+      "dur_ms": 0.7140019999999999
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032323548.786,
+      "dur_ms": 0.7397140000000001
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032326251.139,
+      "dur_ms": 0.747814
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032650912.08,
+      "dur_ms": 0.9639249999999999
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032653826.789,
+      "dur_ms": 0.776928
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032656464.733,
+      "dur_ms": 0.7873490000000001
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032659894.456,
+      "dur_ms": 0.75586
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032662473.976,
+      "dur_ms": 0.782687
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032665079.273,
+      "dur_ms": 0.756931
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032668294.435,
+      "dur_ms": 0.804
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032670925.341,
+      "dur_ms": 0.748678
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032673494.623,
+      "dur_ms": 0.788378
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032676702.508,
+      "dur_ms": 0.778889
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032679319.298,
+      "dur_ms": 0.7647780000000001
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032681874.97,
+      "dur_ms": 0.7348049999999999
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032685022.811,
+      "dur_ms": 0.7516130000000001
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032687593.96,
+      "dur_ms": 0.775668
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032690207.26,
+      "dur_ms": 0.770462
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032693388.496,
+      "dur_ms": 0.766079
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032695934.225,
+      "dur_ms": 0.758477
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032698544.775,
+      "dur_ms": 0.7779729999999999
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032702124.161,
+      "dur_ms": 0.7735209999999999
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032704697.592,
+      "dur_ms": 0.790156
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032707304.034,
+      "dur_ms": 0.774216
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032710517.511,
+      "dur_ms": 0.775738
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032713110.66,
+      "dur_ms": 0.772596
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032715666.724,
+      "dur_ms": 0.764984
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032718913.167,
+      "dur_ms": 0.743951
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032721482.199,
+      "dur_ms": 0.779792
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032724074.584,
+      "dur_ms": 0.755308
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032727249.858,
+      "dur_ms": 0.774244
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032729824.433,
+      "dur_ms": 0.756966
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032732483.48,
+      "dur_ms": 0.78175
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032771737.778,
+      "dur_ms": 0.226082
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032767615.153,
+      "dur_ms": 0.22573
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032757069.583,
+      "dur_ms": 0.227458
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032755043.118,
+      "dur_ms": 0.227714
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032746503.564,
+      "dur_ms": 0.227746
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032744487.596,
+      "dur_ms": 0.22809800000000002
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032742472.747,
+      "dur_ms": 0.227202
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032731774.152,
+      "dur_ms": 0.22784200000000002
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032729690.344,
+      "dur_ms": 0.22809800000000002
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032721064.39,
+      "dur_ms": 0.227874
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032708334.563,
+      "dur_ms": 0.228354
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032695597.984,
+      "dur_ms": 0.22733
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032693531.647,
+      "dur_ms": 0.229378
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032680787.292,
+      "dur_ms": 0.227202
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032678708.348,
+      "dur_ms": 0.227713
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032665977.881,
+      "dur_ms": 0.22819399999999998
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032657203.862,
+      "dur_ms": 0.227746
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032654556.598,
+      "dur_ms": 0.227938
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032651796.373,
+      "dur_ms": 0.228578
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032572899.138,
+      "dur_ms": 0.503234
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032155683.389,
+      "dur_ms": 0.8279059999999999
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032704229.538,
+      "dur_ms": 0.228226
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032006054.52,
+      "dur_ms": 0.825986
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031983990.707,
+      "dur_ms": 0.823298
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032126877.11,
+      "dur_ms": 0.8256979999999999
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031977446.129,
+      "dur_ms": 0.823074
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032706297.698,
+      "dur_ms": 0.228482
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032104567.472,
+      "dur_ms": 0.82893
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032501136.816,
+      "dur_ms": 0.506658
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031955447.5,
+      "dur_ms": 0.826562
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032120263.444,
+      "dur_ms": 0.8286420000000001
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032098082.926,
+      "dur_ms": 0.822659
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032076491.049,
+      "dur_ms": 0.82589
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031926742.922,
+      "dur_ms": 0.819963
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032091856.845,
+      "dur_ms": 0.8251219999999999
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032069905.864,
+      "dur_ms": 0.82733
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031920168.416,
+      "dur_ms": 0.8220109999999999
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032047745.154,
+      "dur_ms": 0.82813
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032537047.513,
+      "dur_ms": 0.505538
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032063335.718,
+      "dur_ms": 0.827106
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032190765.381,
+      "dur_ms": 0.8273619999999999
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032019070.683,
+      "dur_ms": 0.827779
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032682827.388,
+      "dur_ms": 0.227075
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032034612.191,
+      "dur_ms": 0.821346
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032769671.634,
+      "dur_ms": 0.22621
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032184185.443,
+      "dur_ms": 0.825059
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032162214.974,
+      "dur_ms": 0.8273619999999999
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032530740.952,
+      "dur_ms": 0.506754
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032250276.691,
+      "dur_ms": 0.505443
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032566614.08,
+      "dur_ms": 0.504738
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032286212.38,
+      "dur_ms": 0.506914
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032322155.205,
+      "dur_ms": 0.506146
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032716995.429,
+      "dur_ms": 0.228898
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032358067.278,
+      "dur_ms": 0.504194
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032759087.311,
+      "dur_ms": 0.22723400000000002
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032393862.326,
+      "dur_ms": 0.504226
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032668057.369,
+      "dur_ms": 0.22797
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032429535.167,
+      "dur_ms": 0.502722
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032465461.896,
+      "dur_ms": 0.505602
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031990507.797,
+      "dur_ms": 0.820418
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032719028.837,
+      "dur_ms": 0.228259
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031962015.054,
+      "dur_ms": 0.820546
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032670082.49,
+      "dur_ms": 0.228289
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032177734.85,
+      "dur_ms": 0.823938
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032012527.194,
+      "dur_ms": 0.82509
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032691503.358,
+      "dur_ms": 0.228259
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032524427.702,
+      "dur_ms": 0.505122
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032149086.011,
+      "dur_ms": 0.827266
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032243989.554,
+      "dur_ms": 0.5054420000000001
+    },
+    {
+      "name": "GDN35/original/tokens=2201/cp=64",
+      "ts": 1954032733793.225,
+      "dur_ms": 0.228386
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032560377.727,
+      "dur_ms": 0.5036499999999999
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032279930.683,
+      "dur_ms": 0.504386
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032315874.275,
+      "dur_ms": 0.505827
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032133449.143,
+      "dur_ms": 0.826434
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032351801.42,
+      "dur_ms": 0.5045459999999999
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032387643.093,
+      "dur_ms": 0.5045459999999999
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032423298.877,
+      "dur_ms": 0.504003
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032459210.022,
+      "dur_ms": 0.505634
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032495160.175,
+      "dur_ms": 0.506978
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032237631.952,
+      "dur_ms": 0.506786
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032273652.089,
+      "dur_ms": 0.505794
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032309589.538,
+      "dur_ms": 0.50637
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031948886.666,
+      "dur_ms": 0.821827
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032345553.066,
+      "dur_ms": 0.504323
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032381386.611,
+      "dur_ms": 0.504194
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032417066.236,
+      "dur_ms": 0.503042
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954031933305.204,
+      "dur_ms": 0.822331
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032452917.509,
+      "dur_ms": 0.505186
+    },
+    {
+      "name": "GDN35/original/tokens=8192/cp=64",
+      "ts": 1954032041178.945,
+      "dur_ms": 0.832354
+    },
+    {
+      "name": "GDN35/dvsplit/tokens=8192",
+      "ts": 1954032488905.741,
+      "dur_ms": 0.505763
+    }
+  ]
+}

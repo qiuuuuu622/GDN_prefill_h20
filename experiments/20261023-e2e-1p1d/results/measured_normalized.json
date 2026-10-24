@@ -1,0 +1,1162 @@
+[
+  {
+    "tag": "measured_r1_baseline_sample_00",
+    "phase": "measured",
+    "rep": 1,
+    "mode": "baseline",
+    "sample_id": "sample_00",
+    "source_line": 581,
+    "status": 200,
+    "ttft_ms": 1046.288337558508,
+    "tpot_ms": 1.7600724193857702,
+    "e2e_ms": 1526.7881080508232,
+    "usage": {
+      "prompt_tokens": 17925,
+      "completion_tokens": 274,
+      "total_tokens": 18199,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 76,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 30,
+    "output_sha256": "c5c8ca04ef4ea7852ef47b62b713b647533293a9ab41c41127ae5d138cef8cc4",
+    "normalized_output_sha256": "c5353cbac9d0a2dbaa0ad55a1e576bf3e8b742dcd812a3cef1362c7007e1a8fe"
+  },
+  {
+    "tag": "measured_r1_baseline_sample_01",
+    "phase": "measured",
+    "rep": 1,
+    "mode": "baseline",
+    "sample_id": "sample_01",
+    "source_line": 762,
+    "status": 200,
+    "ttft_ms": 1122.1503056585789,
+    "tpot_ms": 1.9398347502297695,
+    "e2e_ms": 1318.0736154317856,
+    "usage": {
+      "prompt_tokens": 18585,
+      "completion_tokens": 102,
+      "total_tokens": 18687,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 51,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 20,
+    "output_sha256": "ce5aa5f6e9f2cae5124e4974a656c0ef636f30a01af18b60062f017a0825abf9",
+    "normalized_output_sha256": "62e606479c6ff27d511feac7600a4d66f17abaf303549e333056656832c06821"
+  },
+  {
+    "tag": "measured_r1_baseline_sample_02",
+    "phase": "measured",
+    "rep": 1,
+    "mode": "baseline",
+    "sample_id": "sample_02",
+    "source_line": 805,
+    "status": 200,
+    "ttft_ms": 910.3731289505959,
+    "tpot_ms": 1.628291710864666,
+    "e2e_ms": 1260.455846786499,
+    "usage": {
+      "prompt_tokens": 19167,
+      "completion_tokens": 216,
+      "total_tokens": 19383,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 98,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 33,
+    "output_sha256": "77bd67b24db7496a28de406873929f7c661f9bdf6f2c25e675a53c2e1269a57f",
+    "normalized_output_sha256": "b4594d8d96609548c11143f789db8586175cd171713dc8442d30512f384d270f"
+  },
+  {
+    "tag": "measured_r1_baseline_sample_03",
+    "phase": "measured",
+    "rep": 1,
+    "mode": "baseline",
+    "sample_id": "sample_03",
+    "source_line": 612,
+    "status": 200,
+    "ttft_ms": 948.0807222425938,
+    "tpot_ms": 1.8651288182261478,
+    "e2e_ms": 1567.3034898936749,
+    "usage": {
+      "prompt_tokens": 19742,
+      "completion_tokens": 333,
+      "total_tokens": 20075,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 102,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 49,
+    "output_sha256": "148fa8217d2bc0cc26596c4a620840e9d9f26154f33cc970d41e8e25e8726dad",
+    "normalized_output_sha256": "0f26ae880ac4b617dd60e176e6f7aca4a1170da26b739c958cfa1d24d5bed5e2"
+  },
+  {
+    "tag": "measured_r1_baseline_sample_04",
+    "phase": "measured",
+    "rep": 1,
+    "mode": "baseline",
+    "sample_id": "sample_04",
+    "source_line": 246,
+    "status": 200,
+    "ttft_ms": 1007.8495293855667,
+    "tpot_ms": 2.0594788257947223,
+    "e2e_ms": 1695.715457201004,
+    "usage": {
+      "prompt_tokens": 20351,
+      "completion_tokens": 335,
+      "total_tokens": 20686,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 100,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 48,
+    "output_sha256": "c2e2ae9a2e74e25242ebfeb3d7ac454ba4d5b69811d59c17872e2ba3eb02d96f",
+    "normalized_output_sha256": "eb342f1d426f8f860b3fc88eaf4bd7fb057c1b48b5a1c8e205a8ecac2c3d3cce"
+  },
+  {
+    "tag": "measured_r1_baseline_sample_05",
+    "phase": "measured",
+    "rep": 1,
+    "mode": "baseline",
+    "sample_id": "sample_05",
+    "source_line": 543,
+    "status": 200,
+    "ttft_ms": 1055.0745390355587,
+    "tpot_ms": 1.730346508462977,
+    "e2e_ms": 1333.660326898098,
+    "usage": {
+      "prompt_tokens": 21976,
+      "completion_tokens": 162,
+      "total_tokens": 22138,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 75,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 26,
+    "output_sha256": "9336fbf2af45565deafb088fc022661c7b6eb2f67fa3843167a827b641657661",
+    "normalized_output_sha256": "83e73b4bb3239901f1716c16e76eee19754add575f7d2397ee9cf07d51c582c8"
+  },
+  {
+    "tag": "measured_r1_baseline_sample_06",
+    "phase": "measured",
+    "rep": 1,
+    "mode": "baseline",
+    "sample_id": "sample_06",
+    "source_line": 525,
+    "status": 200,
+    "ttft_ms": 1202.6613764464855,
+    "tpot_ms": 1.5053163626705337,
+    "e2e_ms": 1785.218808799982,
+    "usage": {
+      "prompt_tokens": 24059,
+      "completion_tokens": 388,
+      "total_tokens": 24447,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 81,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 33,
+    "output_sha256": "4af88e7e110bc3826e09067977126920ab6142f725cfc93b15289da79f911175",
+    "normalized_output_sha256": "fa0d91e243070f5913241f3cbff2acdb31b11b2ef90969377c354e153c8f05bd"
+  },
+  {
+    "tag": "measured_r1_baseline_sample_07",
+    "phase": "measured",
+    "rep": 1,
+    "mode": "baseline",
+    "sample_id": "sample_07",
+    "source_line": 949,
+    "status": 200,
+    "ttft_ms": 1357.8131832182407,
+    "tpot_ms": 1.9305557786916079,
+    "e2e_ms": 2045.0910404324532,
+    "usage": {
+      "prompt_tokens": 25865,
+      "completion_tokens": 357,
+      "total_tokens": 26222,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 89,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 42,
+    "output_sha256": "78eb1f5ee4bc39680f58f9112f32c5c301a0ba4580d91f4095ab5ef31ad4f9f0",
+    "normalized_output_sha256": "324970318b322eb6b3e77e1f179dc42358c3f513a4b62ba6b1f714b0e93d607a"
+  },
+  {
+    "tag": "measured_r1_baseline_sample_08",
+    "phase": "measured",
+    "rep": 1,
+    "mode": "baseline",
+    "sample_id": "sample_08",
+    "source_line": 921,
+    "status": 200,
+    "ttft_ms": 1735.6520295143127,
+    "tpot_ms": 2.128312000966171,
+    "e2e_ms": 2248.57522174716,
+    "usage": {
+      "prompt_tokens": 31777,
+      "completion_tokens": 242,
+      "total_tokens": 32019,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 98,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 45,
+    "output_sha256": "8a194dc24ca6fc5a6d1287f1380b75e72d01060236ef8df16a367a8cd64b0f83",
+    "normalized_output_sha256": "f472e9c97b3020eef5ce342cad36ed9a71dda5f0d8c65710273889e0938d28f4"
+  },
+  {
+    "tag": "measured_r1_baseline_sample_09",
+    "phase": "measured",
+    "rep": 1,
+    "mode": "baseline",
+    "sample_id": "sample_09",
+    "source_line": 1000,
+    "status": 200,
+    "ttft_ms": 2346.3640846312046,
+    "tpot_ms": 1.974690027549542,
+    "e2e_ms": 3355.4306887090206,
+    "usage": {
+      "prompt_tokens": 39977,
+      "completion_tokens": 512,
+      "total_tokens": 40489,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 78,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "length"
+    ],
+    "stream_events": 132,
+    "output_sha256": "260d03fb58acdbd7de3958f1dd6ac5e252d6387fc81b4f3480586600c978266a",
+    "normalized_output_sha256": "d4f8a71ed548ee1b1e74adf115b44bcf174f371d2dd8dc8419bcdc8f6dcec821"
+  },
+  {
+    "tag": "measured_r1_optimized_sample_00",
+    "phase": "measured",
+    "rep": 1,
+    "mode": "optimized",
+    "sample_id": "sample_00",
+    "source_line": 581,
+    "status": 200,
+    "ttft_ms": 831.6126950085163,
+    "tpot_ms": 1.8604302260660588,
+    "e2e_ms": 1326.487135142088,
+    "usage": {
+      "prompt_tokens": 17925,
+      "completion_tokens": 267,
+      "total_tokens": 18192,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 78,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 28,
+    "output_sha256": "628694607d1b1478e3ff304a8be4affd461a6890d8a3437755a87df0c30376c7",
+    "normalized_output_sha256": "747927ab22e044e71fd338ebbaa0746c2be850858557572e65a3abc55450bdad"
+  },
+  {
+    "tag": "measured_r1_optimized_sample_01",
+    "phase": "measured",
+    "rep": 1,
+    "mode": "optimized",
+    "sample_id": "sample_01",
+    "source_line": 762,
+    "status": 200,
+    "ttft_ms": 878.2864138484001,
+    "tpot_ms": 1.9424577234405103,
+    "e2e_ms": 1074.4746439158916,
+    "usage": {
+      "prompt_tokens": 18585,
+      "completion_tokens": 102,
+      "total_tokens": 18687,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 51,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 20,
+    "output_sha256": "464066654038f52ae64f1871e482c7a00e6a768365ee37201f25b4ce06a44218",
+    "normalized_output_sha256": "62e606479c6ff27d511feac7600a4d66f17abaf303549e333056656832c06821"
+  },
+  {
+    "tag": "measured_r1_optimized_sample_02",
+    "phase": "measured",
+    "rep": 1,
+    "mode": "optimized",
+    "sample_id": "sample_02",
+    "source_line": 805,
+    "status": 200,
+    "ttft_ms": 896.5098150074482,
+    "tpot_ms": 1.77947874698374,
+    "e2e_ms": 1216.8159894645214,
+    "usage": {
+      "prompt_tokens": 19167,
+      "completion_tokens": 181,
+      "total_tokens": 19348,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 63,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 29,
+    "output_sha256": "0df94dafa8beb898a3ebefae7ee518ac480fd34f3c4f21a6ee2a20f21817ae47",
+    "normalized_output_sha256": "dd458dd39b626afbaac19266290b6b8001c441f19143768df2b99d868a307349"
+  },
+  {
+    "tag": "measured_r1_optimized_sample_03",
+    "phase": "measured",
+    "rep": 1,
+    "mode": "optimized",
+    "sample_id": "sample_03",
+    "source_line": 612,
+    "status": 200,
+    "ttft_ms": 922.2879186272621,
+    "tpot_ms": 1.7564199722041718,
+    "e2e_ms": 1472.047369927168,
+    "usage": {
+      "prompt_tokens": 19742,
+      "completion_tokens": 314,
+      "total_tokens": 20056,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 94,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 40,
+    "output_sha256": "8457ce6aff6a31a66d8bb827757fc3a6f78db375370def28697b2107d307f063",
+    "normalized_output_sha256": "aa316b4894e412b6353f753db9dcb7ca79ba7b3191cdebd00d10fec78fd9ae18"
+  },
+  {
+    "tag": "measured_r1_optimized_sample_04",
+    "phase": "measured",
+    "rep": 1,
+    "mode": "optimized",
+    "sample_id": "sample_04",
+    "source_line": 246,
+    "status": 200,
+    "ttft_ms": 1018.3998122811317,
+    "tpot_ms": 1.9980599061541615,
+    "e2e_ms": 1689.74794074893,
+    "usage": {
+      "prompt_tokens": 20351,
+      "completion_tokens": 337,
+      "total_tokens": 20688,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 97,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 49,
+    "output_sha256": "670c84141c43149340dfe6b624df3d729dd9edd37db683106bda0936c6b71cb4",
+    "normalized_output_sha256": "35c8496a97b0029f093d66d9733679d0a9b5e08bb581772f05b0bcaed135171b"
+  },
+  {
+    "tag": "measured_r1_optimized_sample_05",
+    "phase": "measured",
+    "rep": 1,
+    "mode": "optimized",
+    "sample_id": "sample_05",
+    "source_line": 543,
+    "status": 200,
+    "ttft_ms": 1046.9891913235188,
+    "tpot_ms": 1.809511008193192,
+    "e2e_ms": 1419.7484590113163,
+    "usage": {
+      "prompt_tokens": 21976,
+      "completion_tokens": 207,
+      "total_tokens": 22183,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 84,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 32,
+    "output_sha256": "01900bae8104774f597acff1b80ea3af663e0d86bf762336005ee74d718d4098",
+    "normalized_output_sha256": "b6595510145aca810ee46b8fce37153d5416d11b0f0a29132b70189d7ef06510"
+  },
+  {
+    "tag": "measured_r1_optimized_sample_06",
+    "phase": "measured",
+    "rep": 1,
+    "mode": "optimized",
+    "sample_id": "sample_06",
+    "source_line": 525,
+    "status": 200,
+    "ttft_ms": 1155.249647796154,
+    "tpot_ms": 1.5001125337911894,
+    "e2e_ms": 1759.7949989140034,
+    "usage": {
+      "prompt_tokens": 24059,
+      "completion_tokens": 404,
+      "total_tokens": 24463,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 80,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 33,
+    "output_sha256": "56dcea15d9d5f93002d90cffce9e5869b89a6e50f77fe28405eeaf86baa94f65",
+    "normalized_output_sha256": "56f936721629fd6b3b79733fca63b2444c85330212dfbf4a0f487b7e16f4835d"
+  },
+  {
+    "tag": "measured_r1_optimized_sample_07",
+    "phase": "measured",
+    "rep": 1,
+    "mode": "optimized",
+    "sample_id": "sample_07",
+    "source_line": 949,
+    "status": 200,
+    "ttft_ms": 1354.418694972992,
+    "tpot_ms": 1.919792701969039,
+    "e2e_ms": 2034.0253114700317,
+    "usage": {
+      "prompt_tokens": 25865,
+      "completion_tokens": 355,
+      "total_tokens": 26220,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 90,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 44,
+    "output_sha256": "1d014d57220f0b5f78e7f5f3d3b8e6b40d99aaae3533dd69e82593220ea32350",
+    "normalized_output_sha256": "44f18c7f2b5fc8241968d63f44944bfd9885a0645d6ebbd70c5a4ed491a003cc"
+  },
+  {
+    "tag": "measured_r1_optimized_sample_08",
+    "phase": "measured",
+    "rep": 1,
+    "mode": "optimized",
+    "sample_id": "sample_08",
+    "source_line": 921,
+    "status": 200,
+    "ttft_ms": 1677.0237386226654,
+    "tpot_ms": 2.0064042170637664,
+    "e2e_ms": 2066.266156733036,
+    "usage": {
+      "prompt_tokens": 31777,
+      "completion_tokens": 195,
+      "total_tokens": 31972,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 86,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 35,
+    "output_sha256": "96e9ba2048c13c82ea3b77d94dc3093d2a829d226acaa86a247eb527d198b966",
+    "normalized_output_sha256": "16f4996754fa83608909f1e00734af99f6734a482d8f0571f823a0c893120eae"
+  },
+  {
+    "tag": "measured_r1_optimized_sample_09",
+    "phase": "measured",
+    "rep": 1,
+    "mode": "optimized",
+    "sample_id": "sample_09",
+    "source_line": 1000,
+    "status": 200,
+    "ttft_ms": 2304.6265058219433,
+    "tpot_ms": 1.9786903696634064,
+    "e2e_ms": 3315.737284719944,
+    "usage": {
+      "prompt_tokens": 39977,
+      "completion_tokens": 512,
+      "total_tokens": 40489,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 94,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "length"
+    ],
+    "stream_events": 133,
+    "output_sha256": "c82a95fcc5fcf770a91599e1ee0637ecd5f4389314406159cf394932f8aab58a",
+    "normalized_output_sha256": "b434e69a9f4247e72686afebbccb3a58f124a37d75afce5c170211f61b6579b5"
+  },
+  {
+    "tag": "measured_r2_optimized_sample_00",
+    "phase": "measured",
+    "rep": 2,
+    "mode": "optimized",
+    "sample_id": "sample_00",
+    "source_line": 581,
+    "status": 200,
+    "ttft_ms": 852.4754606187344,
+    "tpot_ms": 1.8026030682508023,
+    "e2e_ms": 1299.5210215449333,
+    "usage": {
+      "prompt_tokens": 17925,
+      "completion_tokens": 249,
+      "total_tokens": 18174,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 83,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 32,
+    "output_sha256": "355922140196d99828fa60fe5f589670a5c38c3cab47264bf42aeb5890fd9326",
+    "normalized_output_sha256": "fbb7e7c8b60f9b1dc4d1b11254986f6272eaf186a3ef7d81066158cebf94f285"
+  },
+  {
+    "tag": "measured_r2_optimized_sample_01",
+    "phase": "measured",
+    "rep": 2,
+    "mode": "optimized",
+    "sample_id": "sample_01",
+    "source_line": 762,
+    "status": 200,
+    "ttft_ms": 881.3744783401489,
+    "tpot_ms": 1.8149544872964423,
+    "e2e_ms": 1055.6101091206074,
+    "usage": {
+      "prompt_tokens": 18585,
+      "completion_tokens": 97,
+      "total_tokens": 18682,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 46,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 17,
+    "output_sha256": "044994dbd8f4ddca055b0f33be9b8c469d987d043f7ba6543b120ccbfffc9119",
+    "normalized_output_sha256": "1cefee63eca16850a7e93b5bee213707104962e0b9f3fea4265ae3b91337f2ed"
+  },
+  {
+    "tag": "measured_r2_optimized_sample_02",
+    "phase": "measured",
+    "rep": 2,
+    "mode": "optimized",
+    "sample_id": "sample_02",
+    "source_line": 805,
+    "status": 200,
+    "ttft_ms": 906.5157733857632,
+    "tpot_ms": 2.1385522559285164,
+    "e2e_ms": 1103.2625809311867,
+    "usage": {
+      "prompt_tokens": 19167,
+      "completion_tokens": 93,
+      "total_tokens": 19260,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 49,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 21,
+    "output_sha256": "008502a9b36fd2ad83509b27550949b3f67907dabf27d7534219f81fb96005b2",
+    "normalized_output_sha256": "530097381298231cab4f82db6f9b71f1f66c515db8b04c394745e1c871f6e0a5"
+  },
+  {
+    "tag": "measured_r2_optimized_sample_03",
+    "phase": "measured",
+    "rep": 2,
+    "mode": "optimized",
+    "sample_id": "sample_03",
+    "source_line": 612,
+    "status": 200,
+    "ttft_ms": 936.6051331162453,
+    "tpot_ms": 1.6681561742484923,
+    "e2e_ms": 1500.4419200122356,
+    "usage": {
+      "prompt_tokens": 19742,
+      "completion_tokens": 339,
+      "total_tokens": 20081,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 92,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 41,
+    "output_sha256": "d816fa6e192a778a0110f35471a35d36758d260cbc56b038ad1d58a9f28ca97e",
+    "normalized_output_sha256": "e56086fc8584f1343c027223ec84a51b985324998129d406b380ec97d3d2908b"
+  },
+  {
+    "tag": "measured_r2_optimized_sample_04",
+    "phase": "measured",
+    "rep": 2,
+    "mode": "optimized",
+    "sample_id": "sample_04",
+    "source_line": 246,
+    "status": 200,
+    "ttft_ms": 986.9368597865105,
+    "tpot_ms": 1.9564584089725954,
+    "e2e_ms": 1669.7408445179462,
+    "usage": {
+      "prompt_tokens": 20351,
+      "completion_tokens": 350,
+      "total_tokens": 20701,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 97,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 44,
+    "output_sha256": "a7d04670c6f05f9f2d498eebffc2e9056da25f4b43118cf2d25e16f95f81c60f",
+    "normalized_output_sha256": "f8804724fc3f7717cdaafe2e704cd104b68336cf59df302a8bdb080584bf38e9"
+  },
+  {
+    "tag": "measured_r2_optimized_sample_05",
+    "phase": "measured",
+    "rep": 2,
+    "mode": "optimized",
+    "sample_id": "sample_05",
+    "source_line": 543,
+    "status": 200,
+    "ttft_ms": 1052.9319383203983,
+    "tpot_ms": 1.8309192911622487,
+    "e2e_ms": 1413.6230386793613,
+    "usage": {
+      "prompt_tokens": 21976,
+      "completion_tokens": 198,
+      "total_tokens": 22174,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 75,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 31,
+    "output_sha256": "5e989232f1afe6f9cdd7b553dfbb10fedba1fccefa372a7719f94c85b4227df9",
+    "normalized_output_sha256": "edd4565892c90bdb4347a5b73b0722680e7748285a29e5bb35a62df1fd4e2177"
+  },
+  {
+    "tag": "measured_r2_optimized_sample_06",
+    "phase": "measured",
+    "rep": 2,
+    "mode": "optimized",
+    "sample_id": "sample_06",
+    "source_line": 525,
+    "status": 200,
+    "ttft_ms": 1187.2428469359875,
+    "tpot_ms": 1.4974851032147314,
+    "e2e_ms": 1792.226828634739,
+    "usage": {
+      "prompt_tokens": 24059,
+      "completion_tokens": 405,
+      "total_tokens": 24464,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 80,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 32,
+    "output_sha256": "db77dad25cbcca7777dc11039dbe124f00c4b510df7d46beddc6850994b87cd8",
+    "normalized_output_sha256": "d53a6dbb0ce7f2e764c813a047fc909275edbf05459f6d2b01d8252ee921809b"
+  },
+  {
+    "tag": "measured_r2_optimized_sample_07",
+    "phase": "measured",
+    "rep": 2,
+    "mode": "optimized",
+    "sample_id": "sample_07",
+    "source_line": 949,
+    "status": 200,
+    "ttft_ms": 1521.3032327592373,
+    "tpot_ms": 1.9535823428834027,
+    "e2e_ms": 2208.964217454195,
+    "usage": {
+      "prompt_tokens": 25865,
+      "completion_tokens": 353,
+      "total_tokens": 26218,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 90,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 45,
+    "output_sha256": "c65f8faf1d2a2d1c4999ab31e05c684fcdc8b1832a5e7d8bc0fe27488775c7f7",
+    "normalized_output_sha256": "06943ccd0d05560d89dbd51eec8077798c356629d985238e2d9b316d3253646a"
+  },
+  {
+    "tag": "measured_r2_optimized_sample_08",
+    "phase": "measured",
+    "rep": 2,
+    "mode": "optimized",
+    "sample_id": "sample_08",
+    "source_line": 921,
+    "status": 200,
+    "ttft_ms": 1865.8163882791996,
+    "tpot_ms": 2.002951281903377,
+    "e2e_ms": 2264.4036933779716,
+    "usage": {
+      "prompt_tokens": 31777,
+      "completion_tokens": 200,
+      "total_tokens": 31977,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 86,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 36,
+    "output_sha256": "5f8f3f846210e8df511a00e41eb70c91fe6f8744af1bb95fe835f40347a871d3",
+    "normalized_output_sha256": "767a3c12e3d4d12c506b6bac079afda87b04de6c8570224fbee76ee91a07f323"
+  },
+  {
+    "tag": "measured_r2_optimized_sample_09",
+    "phase": "measured",
+    "rep": 2,
+    "mode": "optimized",
+    "sample_id": "sample_09",
+    "source_line": 1000,
+    "status": 200,
+    "ttft_ms": 2297.9973927140236,
+    "tpot_ms": 1.8473719984817878,
+    "e2e_ms": 3242.004483938217,
+    "usage": {
+      "prompt_tokens": 39977,
+      "completion_tokens": 512,
+      "total_tokens": 40489,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 94,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "length"
+    ],
+    "stream_events": 124,
+    "output_sha256": "32667fe086322b4a13c9a89259e74311b7824fff20e856b9c67e93aa377aa20c",
+    "normalized_output_sha256": "1bc1439236ac11afadf2a10b35b5bd0aff755d9100b20b52b73da9f11077cf3a"
+  },
+  {
+    "tag": "measured_r2_baseline_sample_00",
+    "phase": "measured",
+    "rep": 2,
+    "mode": "baseline",
+    "sample_id": "sample_00",
+    "source_line": 581,
+    "status": 200,
+    "ttft_ms": 859.2836111783981,
+    "tpot_ms": 1.8628758243607275,
+    "e2e_ms": 1451.6781233251095,
+    "usage": {
+      "prompt_tokens": 17925,
+      "completion_tokens": 319,
+      "total_tokens": 18244,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 84,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 40,
+    "output_sha256": "af0c092644f5798b6ce33a45e0205d2d07a6b2fc10cb5f276dc9eaac2e020c06",
+    "normalized_output_sha256": "be5ff1485ffcc2ea4ad6283a0bd4a695ff444349238670d21f83d90579dc1e3f"
+  },
+  {
+    "tag": "measured_r2_baseline_sample_01",
+    "phase": "measured",
+    "rep": 2,
+    "mode": "baseline",
+    "sample_id": "sample_01",
+    "source_line": 762,
+    "status": 200,
+    "ttft_ms": 874.5954409241676,
+    "tpot_ms": 1.9363006669105869,
+    "e2e_ms": 1070.161808282137,
+    "usage": {
+      "prompt_tokens": 18585,
+      "completion_tokens": 102,
+      "total_tokens": 18687,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 51,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 20,
+    "output_sha256": "4ca6a02057d88a97c9c5384a2bd6be1f3c2f427737962a24cbd8bc1015420195",
+    "normalized_output_sha256": "62e606479c6ff27d511feac7600a4d66f17abaf303549e333056656832c06821"
+  },
+  {
+    "tag": "measured_r2_baseline_sample_02",
+    "phase": "measured",
+    "rep": 2,
+    "mode": "baseline",
+    "sample_id": "sample_02",
+    "source_line": 805,
+    "status": 200,
+    "ttft_ms": 941.5460973978043,
+    "tpot_ms": 1.6297466013320656,
+    "e2e_ms": 1291.9416166841984,
+    "usage": {
+      "prompt_tokens": 19167,
+      "completion_tokens": 216,
+      "total_tokens": 19383,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 98,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 33,
+    "output_sha256": "c9e570fbb44f3fafc50b7eedd3b665f79350feb5901cb09727be8e32229a9037",
+    "normalized_output_sha256": "727e27b59c519cd43244c6186daa4dd67a4d7ae905f4af0a8643ee183dd77e55"
+  },
+  {
+    "tag": "measured_r2_baseline_sample_03",
+    "phase": "measured",
+    "rep": 2,
+    "mode": "baseline",
+    "sample_id": "sample_03",
+    "source_line": 612,
+    "status": 200,
+    "ttft_ms": 956.3001953065395,
+    "tpot_ms": 1.952499402495773,
+    "e2e_ms": 1622.1024915575981,
+    "usage": {
+      "prompt_tokens": 19742,
+      "completion_tokens": 342,
+      "total_tokens": 20084,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 99,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 47,
+    "output_sha256": "d7cf85203d1c83f0e97ff9924655532fafa2be69e937db62766406d75996cff0",
+    "normalized_output_sha256": "29c67d7d1e82d6c570f3f499aee44ce4f92965bd91ac611b6ab7277399af9b2d"
+  },
+  {
+    "tag": "measured_r2_baseline_sample_04",
+    "phase": "measured",
+    "rep": 2,
+    "mode": "baseline",
+    "sample_id": "sample_04",
+    "source_line": 246,
+    "status": 200,
+    "ttft_ms": 980.1649712026119,
+    "tpot_ms": 1.801740702910301,
+    "e2e_ms": 1682.8438453376293,
+    "usage": {
+      "prompt_tokens": 20351,
+      "completion_tokens": 391,
+      "total_tokens": 20742,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 80,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 34,
+    "output_sha256": "70927e8116335bd5bee0494a418fb621e9d1688aa374779006e91adb59c0c4f2",
+    "normalized_output_sha256": "8faa16daba98cd7583a2a4a5d49ca5068f581d25e6f068a657734ac326775ee3"
+  },
+  {
+    "tag": "measured_r2_baseline_sample_05",
+    "phase": "measured",
+    "rep": 2,
+    "mode": "baseline",
+    "sample_id": "sample_05",
+    "source_line": 543,
+    "status": 200,
+    "ttft_ms": 1063.8241656124592,
+    "tpot_ms": 1.7082980134297365,
+    "e2e_ms": 1407.1920663118362,
+    "usage": {
+      "prompt_tokens": 21976,
+      "completion_tokens": 202,
+      "total_tokens": 22178,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 78,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 29,
+    "output_sha256": "a58c5bb41a50ec0f37f3fbeac642368985ba8531deb0d6d272978d0e573a8b57",
+    "normalized_output_sha256": "e1aef45bc547b52c0e7e892e3c59dea3fb37d9610664257e3a0311fae1bfef67"
+  },
+  {
+    "tag": "measured_r2_baseline_sample_06",
+    "phase": "measured",
+    "rep": 2,
+    "mode": "baseline",
+    "sample_id": "sample_06",
+    "source_line": 525,
+    "status": 200,
+    "ttft_ms": 1203.1182758510113,
+    "tpot_ms": 1.6079716916595186,
+    "e2e_ms": 1765.9083679318428,
+    "usage": {
+      "prompt_tokens": 24059,
+      "completion_tokens": 351,
+      "total_tokens": 24410,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 81,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 34,
+    "output_sha256": "47c323689827561c14c186d657ffebbb390e139a5eb082a3ec2240d9dcb5fe1e",
+    "normalized_output_sha256": "cb56fc6300155effaabcde2c6b489787c156351ef8060ed1ad07ce0dfd73d486"
+  },
+  {
+    "tag": "measured_r2_baseline_sample_07",
+    "phase": "measured",
+    "rep": 2,
+    "mode": "baseline",
+    "sample_id": "sample_07",
+    "source_line": 949,
+    "status": 200,
+    "ttft_ms": 1361.2334243953228,
+    "tpot_ms": 1.8742119951805158,
+    "e2e_ms": 2019.0818347036839,
+    "usage": {
+      "prompt_tokens": 25865,
+      "completion_tokens": 352,
+      "total_tokens": 26217,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 89,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 41,
+    "output_sha256": "2b074270f1e596607f5010dd60f9525a27aa73cbb671439bb1d2678002a45dd8",
+    "normalized_output_sha256": "724af1f3ba9e5ba823ae44ac20999bb4d56ba7586f9192430ed1c185cd3d3c20"
+  },
+  {
+    "tag": "measured_r2_baseline_sample_08",
+    "phase": "measured",
+    "rep": 2,
+    "mode": "baseline",
+    "sample_id": "sample_08",
+    "source_line": 921,
+    "status": 200,
+    "ttft_ms": 1825.2377957105637,
+    "tpot_ms": 1.947893795878066,
+    "e2e_ms": 2294.6802005171776,
+    "usage": {
+      "prompt_tokens": 31777,
+      "completion_tokens": 242,
+      "total_tokens": 32019,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 88,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "tool_calls"
+    ],
+    "stream_events": 36,
+    "output_sha256": "b8fa5fdc862598dd9e1d85c2579649d02c9dd6122fb4ce619936c8ed73b336f4",
+    "normalized_output_sha256": "831d72cf01d267ac29ed7e4a69fa00c18a922db0ab7c0f6f51b13769bc3a01f6"
+  },
+  {
+    "tag": "measured_r2_baseline_sample_09",
+    "phase": "measured",
+    "rep": 2,
+    "mode": "baseline",
+    "sample_id": "sample_09",
+    "source_line": 1000,
+    "status": 200,
+    "ttft_ms": 2334.6501663327217,
+    "tpot_ms": 1.878957991322426,
+    "e2e_ms": 3294.7976998984814,
+    "usage": {
+      "prompt_tokens": 39977,
+      "completion_tokens": 512,
+      "total_tokens": 40489,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 78,
+        "rejected_prediction_tokens": null
+      }
+    },
+    "finish_reasons": [
+      "length"
+    ],
+    "stream_events": 126,
+    "output_sha256": "cdd7cc0358910bffbc88a4e8ef955304892ee5140f0cf3d05ae8cb555458ddff",
+    "normalized_output_sha256": "757a95be4aa1f799af552f681ee3cd80f6798a1260ad99d5c823522b9a9a1710"
+  }
+]

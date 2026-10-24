@@ -1,0 +1,33 @@
+4 16 [0, 129, 7] True v2 PASS 3
+4 16 [8193] True v2 PASS 6
+4 16 [4096, 4096] True v2 PASS 9
+4 16 [8192, 1024, 1024, 1024] True v2 PASS 12
+4 16 [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024] True full PASS 15
+4 16 [129, 513] True original PASS 17
+4 16 [8192, 1024, 1024, 1024] True mixed_cp PASS 19
+4 16 [512] True original PASS 21
+4 16 [0, 129, 7] False v2 PASS 24
+4 16 [8193] False v2 PASS 27
+4 16 [4096, 4096] False v2 PASS 30
+4 16 [8192, 1024, 1024, 1024] False v2 PASS 33
+4 16 [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024] False full PASS 36
+4 16 [129, 513] False original PASS 38
+4 16 [8192, 1024, 1024, 1024] False mixed_cp PASS 40
+4 16 [512] False original PASS 42
+16 32 [0, 129, 7] True full PASS 45
+16 32 [8193] True v2 PASS 48
+16 32 [4096, 4096] True full PASS 51
+16 32 [8192, 1024, 1024, 1024] True v2 PASS 54
+16 32 [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024] True full PASS 57
+16 32 [129, 513] True original PASS 59
+16 32 [8192, 1024, 1024, 1024] True original PASS 61
+16 32 [512] True original PASS 63
+16 32 [0, 129, 7] False full PASS 66
+16 32 [8193] False v2 PASS 69
+16 32 [4096, 4096] False full PASS 72
+16 32 [8192, 1024, 1024, 1024] False v2 PASS 75
+16 32 [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024] False full PASS 78
+16 32 [129, 513] False original PASS 80
+16 32 [8192, 1024, 1024, 1024] False original PASS 82
+16 32 [512] False original PASS 84
+COMPLETE 90

@@ -1,0 +1,174 @@
+{
+  "trace": "profiles/multi_fixed/multi_fixed-1792816095.6291938-TP-0.trace.json.gz",
+  "sync_calls": 412,
+  "sync_summed_ms": 5561.687636000003,
+  "sync_summed_kernel_overlap_ms": 5540.691450439453,
+  "longest": [
+    {
+      "start_us": 1959077080279.286,
+      "duration_ms": 542.138289,
+      "kernel_overlap_ms": 540.8982958984375,
+      "parent_scopes": [
+        "aten::copy_",
+        "aten::_to_copy",
+        "aten::to",
+        "scheduler.run_batch"
+      ]
+    },
+    {
+      "start_us": 1959075520072.33,
+      "duration_ms": 465.142091,
+      "kernel_overlap_ms": 463.9044074707031,
+      "parent_scopes": [
+        "aten::copy_",
+        "aten::_to_copy",
+        "aten::to",
+        "scheduler.run_batch"
+      ]
+    },
+    {
+      "start_us": 1959076543607.621,
+      "duration_ms": 450.69688,
+      "kernel_overlap_ms": 449.53759033203124,
+      "parent_scopes": [
+        "aten::copy_",
+        "aten::_to_copy",
+        "aten::to",
+        "scheduler.run_batch"
+      ]
+    },
+    {
+      "start_us": 1959073786743.347,
+      "duration_ms": 376.54074099999997,
+      "kernel_overlap_ms": 375.3703571777344,
+      "parent_scopes": [
+        "aten::copy_",
+        "aten::_to_copy",
+        "aten::to",
+        "scheduler.run_batch"
+      ]
+    },
+    {
+      "start_us": 1959075050417.6,
+      "duration_ms": 358.185541,
+      "kernel_overlap_ms": 357.0920573730469,
+      "parent_scopes": [
+        "aten::copy_",
+        "aten::_to_copy",
+        "aten::to",
+        "scheduler.run_batch"
+      ]
+    },
+    {
+      "start_us": 1959071711108.566,
+      "duration_ms": 343.716926,
+      "kernel_overlap_ms": 342.76341357421876,
+      "parent_scopes": [
+        "aten::copy_",
+        "aten::_to_copy",
+        "aten::to",
+        "scheduler.run_batch"
+      ]
+    },
+    {
+      "start_us": 1959076114181.738,
+      "duration_ms": 343.201689,
+      "kernel_overlap_ms": 342.1462971191406,
+      "parent_scopes": [
+        "aten::copy_",
+        "aten::_to_copy",
+        "aten::to",
+        "scheduler.run_batch"
+      ]
+    },
+    {
+      "start_us": 1959072948421.831,
+      "duration_ms": 332.698448,
+      "kernel_overlap_ms": 331.59417041015627,
+      "parent_scopes": [
+        "aten::copy_",
+        "aten::_to_copy",
+        "aten::to",
+        "scheduler.run_batch"
+      ]
+    },
+    {
+      "start_us": 1959070586213.585,
+      "duration_ms": 308.213047,
+      "kernel_overlap_ms": 307.10913940429685,
+      "parent_scopes": [
+        "aten::copy_",
+        "aten::_to_copy",
+        "aten::to",
+        "scheduler.run_batch"
+      ]
+    },
+    {
+      "start_us": 1959071289505.109,
+      "duration_ms": 302.380106,
+      "kernel_overlap_ms": 301.2418054199219,
+      "parent_scopes": [
+        "aten::copy_",
+        "aten::_to_copy",
+        "aten::to",
+        "scheduler.run_batch"
+      ]
+    },
+    {
+      "start_us": 1959072514568.49,
+      "duration_ms": 292.67567099999997,
+      "kernel_overlap_ms": 291.5808522949219,
+      "parent_scopes": [
+        "aten::copy_",
+        "aten::_to_copy",
+        "aten::to",
+        "scheduler.run_batch"
+      ]
+    },
+    {
+      "start_us": 1959073407642.482,
+      "duration_ms": 281.56793,
+      "kernel_overlap_ms": 280.7016535644531,
+      "parent_scopes": [
+        "aten::copy_",
+        "aten::_to_copy",
+        "aten::to",
+        "scheduler.run_batch"
+      ]
+    },
+    {
+      "start_us": 1959074414716.339,
+      "duration_ms": 262.704551,
+      "kernel_overlap_ms": 261.9628903808594,
+      "parent_scopes": [
+        "aten::copy_",
+        "aten::_to_copy",
+        "aten::to",
+        "scheduler.run_batch"
+      ]
+    },
+    {
+      "start_us": 1959070970536.515,
+      "duration_ms": 244.76525099999998,
+      "kernel_overlap_ms": 243.7575895996094,
+      "parent_scopes": [
+        "aten::copy_",
+        "aten::_to_copy",
+        "aten::to",
+        "scheduler.run_batch"
+      ]
+    },
+    {
+      "start_us": 1959072157750.238,
+      "duration_ms": 229.561133,
+      "kernel_overlap_ms": 228.59150268554689,
+      "parent_scopes": [
+        "aten::copy_",
+        "aten::_to_copy",
+        "aten::to",
+        "scheduler.run_batch"
+      ]
+    }
+  ],
+  "caveat": "Temporal GPU activity overlap only; does not prove the exact dependency stream or avoidable host delay."
+}

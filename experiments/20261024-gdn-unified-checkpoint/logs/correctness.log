@@ -1,0 +1,301 @@
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [63, 64, 65, 127], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [63, 64, 65, 127], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [63, 64, 65, 127], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [63, 64, 65, 127], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [63, 64, 65, 127], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [63, 64, 65, 127], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [63, 64, 65, 127], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [63, 64, 65, 127], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [63, 64, 65, 127], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [63, 64, 65, 127], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [8193], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [8193], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [8193], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [8193], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [8193], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [4096, 4096], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [4096, 4096], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [4096, 4096], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [4096, 4096], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [4096, 4096], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [4096, 4096], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [4096, 4096], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [4096, 4096], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [4096, 4096], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [4096, 4096], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [128, 8064], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [128, 8064], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [128, 8064], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [128, 8064], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [128, 8064], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [128, 8064], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [128, 8064], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [128, 8064], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [128, 8064], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [128, 8064], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [2048, 2048, 2048, 2048], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [2048, 2048, 2048, 2048], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [2048, 2048, 2048, 2048], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [2048, 2048, 2048, 2048], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [2048, 2048, 2048, 2048], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [2048, 2048, 2048, 2048], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [2048, 2048, 2048, 2048], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [2048, 2048, 2048, 2048], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [2048, 2048, 2048, 2048], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [2048, 2048, 2048, 2048], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [65, 129], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [0, 129, 7], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [63, 64, 65, 127], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [63, 64, 65, 127], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [63, 64, 65, 127], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [63, 64, 65, 127], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [63, 64, 65, 127], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [63, 64, 65, 127], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [63, 64, 65, 127], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [63, 64, 65, 127], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [63, 64, 65, 127], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [63, 64, 65, 127], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "122b_tp4", "lengths": [8193], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [8193], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [8193], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [8193], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [8193], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": false}
+{"model": "122b_tp4", "lengths": [4096, 4096], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [4096, 4096], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [4096, 4096], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [4096, 4096], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [4096, 4096], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": false}
+{"model": "122b_tp4", "lengths": [4096, 4096], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [4096, 4096], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [4096, 4096], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [4096, 4096], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [4096, 4096], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": false}
+{"model": "122b_tp4", "lengths": [128, 8064], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [128, 8064], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [128, 8064], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [128, 8064], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [128, 8064], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": false}
+{"model": "122b_tp4", "lengths": [128, 8064], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [128, 8064], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [128, 8064], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [128, 8064], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [128, 8064], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": false}
+{"model": "122b_tp4", "lengths": [2048, 2048, 2048, 2048], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [2048, 2048, 2048, 2048], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [2048, 2048, 2048, 2048], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [2048, 2048, 2048, 2048], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [2048, 2048, 2048, 2048], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": false}
+{"model": "122b_tp4", "lengths": [2048, 2048, 2048, 2048], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [2048, 2048, 2048, 2048], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [2048, 2048, 2048, 2048], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [2048, 2048, 2048, 2048], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [2048, 2048, 2048, 2048], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": false}
+{"model": "122b_tp4", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": false}
+{"model": "122b_tp4", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "122b_tp4", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": false}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [63, 64, 65, 127], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [63, 64, 65, 127], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [63, 64, 65, 127], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [63, 64, 65, 127], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [63, 64, 65, 127], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [63, 64, 65, 127], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [63, 64, 65, 127], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [63, 64, 65, 127], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [63, 64, 65, 127], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [63, 64, 65, 127], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [8193], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [8193], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [8193], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [8193], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [8193], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [4096, 4096], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [4096, 4096], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [4096, 4096], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [4096, 4096], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [4096, 4096], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [4096, 4096], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [4096, 4096], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [4096, 4096], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [4096, 4096], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [4096, 4096], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [128, 8064], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [128, 8064], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [128, 8064], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [128, 8064], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [128, 8064], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [128, 8064], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [128, 8064], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [128, 8064], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [128, 8064], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [128, 8064], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [2048, 2048, 2048, 2048], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [2048, 2048, 2048, 2048], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [2048, 2048, 2048, 2048], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [2048, 2048, 2048, 2048], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [2048, 2048, 2048, 2048], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [2048, 2048, 2048, 2048], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [2048, 2048, 2048, 2048], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [2048, 2048, 2048, 2048], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [2048, 2048, 2048, 2048], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [2048, 2048, 2048, 2048], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "slow", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "slow", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "slow", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "slow", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "slow", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [65, 129], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [0, 129, 7], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [63, 64, 65, 127], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [63, 64, 65, 127], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [63, 64, 65, 127], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [63, 64, 65, 127], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [63, 64, 65, 127], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [63, 64, 65, 127], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [63, 64, 65, 127], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [63, 64, 65, 127], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [63, 64, 65, 127], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [63, 64, 65, 127], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": true}
+{"model": "35b_tp1", "lengths": [8193], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [8193], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [8193], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [8193], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [8193], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": false}
+{"model": "35b_tp1", "lengths": [4096, 4096], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [4096, 4096], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [4096, 4096], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [4096, 4096], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [4096, 4096], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": false}
+{"model": "35b_tp1", "lengths": [4096, 4096], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [4096, 4096], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [4096, 4096], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [4096, 4096], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [4096, 4096], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": false}
+{"model": "35b_tp1", "lengths": [128, 8064], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [128, 8064], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [128, 8064], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [128, 8064], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [128, 8064], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": false}
+{"model": "35b_tp1", "lengths": [128, 8064], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [128, 8064], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [128, 8064], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [128, 8064], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [128, 8064], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": false}
+{"model": "35b_tp1", "lengths": [2048, 2048, 2048, 2048], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [2048, 2048, 2048, 2048], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [2048, 2048, 2048, 2048], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [2048, 2048, 2048, 2048], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [2048, 2048, 2048, 2048], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": false}
+{"model": "35b_tp1", "lengths": [2048, 2048, 2048, 2048], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [2048, 2048, 2048, 2048], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [2048, 2048, 2048, 2048], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [2048, 2048, 2048, 2048], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [2048, 2048, 2048, 2048], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": false}
+{"model": "35b_tp1", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": false}
+{"model": "35b_tp1", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "near_one", "method": "full_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "near_one", "method": "full_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "near_one", "method": "dv_dense", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "near_one", "method": "dv_selected", "exact": true, "close": true}
+{"model": "35b_tp1", "lengths": [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024], "gate": "near_one", "method": "segmented_cp_selected", "exact": false, "close": false}
+COMPLETE_CORRECTNESS 300

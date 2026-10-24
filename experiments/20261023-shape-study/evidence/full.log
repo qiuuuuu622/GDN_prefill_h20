@@ -1,0 +1,227 @@
+CASE [512] H 16 32
+READY noncp True 0.11
+READY public_auto True 7.57
+READY cp_auto_total True 0.0
+READY cp_auto_exact True 0.0
+READY cp_c512 True 0.0
+RESULT [512] [(0.05165200233459473, 'noncp'), (0.10547959804534912, 'public_auto'), (0.10560920238494872, 'cp_auto_total'), (0.10577880144119263, 'cp_auto_exact'), (0.11617799997329711, 'cp_c512')]
+CASE [1024] H 16 32
+READY noncp True 0.0
+READY public_auto True 0.0
+READY cp_auto_total True 0.0
+READY cp_auto_exact True 0.0
+READY cp_c512 True 0.0
+READY cp_c1024 True 0.0
+RESULT [1024] [(0.09831119775772094, 'noncp'), (0.12661839723587037, 'cp_auto_exact'), (0.1266576051712036, 'cp_auto_total'), (0.1266576051712036, 'cp_c512'), (0.12680280208587646, 'public_auto'), (0.20356481075286864, 'cp_c1024')]
+CASE [2048] H 16 32
+READY noncp True 0.0
+READY public_auto True 0.0
+READY cp_auto_total True 0.0
+READY cp_auto_exact True 0.0
+READY cp_c512 True 0.0
+READY cp_c1024 True 0.0
+READY cp_c2048 True 0.0
+RESULT [2048] [(0.192631995677948, 'noncp'), (0.21955358982086182, 'cp_auto_exact'), (0.2196131944656372, 'cp_auto_total'), (0.2196444034576416, 'cp_c1024'), (0.2197499990463257, 'public_auto'), (0.24186921119689941, 'cp_c512'), (0.37982161045074464, 'cp_c2048')]
+CASE [4096] H 16 32
+READY noncp True 0.0
+READY public_auto True 0.0
+READY cp_auto_total True 0.0
+READY cp_auto_exact True 0.0
+READY cp_c512 True 0.0
+READY cp_c1024 True 0.0
+READY cp_c2048 True 0.0
+READY cp_c4096 True 0.0
+RESULT [4096] [(0.3790623903274536, 'noncp'), (0.4005228042602539, 'cp_c2048'), (0.40102519989013674, 'cp_auto_exact'), (0.40137882232666017, 'public_auto'), (0.40159759521484373, 'cp_auto_total'), (0.42098240852355956, 'cp_c1024'), (0.46482319831848146, 'cp_c512'), (0.7274856090545654, 'cp_c4096')]
+CASE [8192] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.01
+READY cp_auto_total True 0.01
+READY cp_auto_exact True 0.01
+READY cp_c512 True 0.01
+READY cp_c1024 True 0.01
+READY cp_c2048 True 0.01
+READY cp_c4096 True 0.01
+READY cp_c8192 True 0.01
+RESULT [8192] [(0.7536427974700928, 'noncp'), (0.762417984008789, 'cp_auto_total'), (0.7624760150909424, 'cp_c4096'), (0.7629335880279541, 'public_auto'), (0.7633771896362305, 'cp_auto_exact'), (0.7821032047271729, 'cp_c2048'), (0.818723201751709, 'cp_c512'), (0.8203508377075195, 'cp_c1024'), (1.4242387771606446, 'cp_c8192')]
+CASE [16384] H 16 32
+READY noncp True 0.02
+READY public_auto True 0.01
+READY cp_auto_total True 0.01
+READY cp_auto_exact True 0.01
+READY cp_c512 True 0.01
+READY cp_c1024 True 0.01
+READY cp_c2048 True 0.01
+READY cp_c4096 True 0.01
+READY cp_c8192 True 0.01
+READY cp_c16384 True 0.01
+RESULT [16384] [(1.4530351638793946, 'cp_c1024'), (1.4855635643005372, 'cp_auto_total'), (1.485628032684326, 'public_auto'), (1.4857439994812012, 'cp_auto_exact'), (1.4882960319519043, 'cp_c8192'), (1.501420783996582, 'noncp'), (1.5025896072387694, 'cp_c4096'), (1.5364259719848632, 'cp_c2048'), (1.6021259307861329, 'cp_c512'), (2.820207977294922, 'cp_c16384')]
+CASE [32768] H 16 32
+READY noncp True 0.02
+READY public_auto True 0.02
+READY cp_auto_total True 0.02
+READY cp_auto_exact True 0.02
+READY cp_c512 True 0.02
+READY cp_c1024 True 0.02
+READY cp_c2048 True 0.02
+READY cp_c4096 True 0.02
+READY cp_c8192 True 0.02
+READY cp_c16384 True 0.02
+RESULT [32768] [(2.7242656707763673, 'cp_c2048'), (2.8681051254272463, 'cp_c1024'), (2.9366691589355467, 'public_auto'), (2.938244438171387, 'cp_auto_total'), (2.939051628112793, 'cp_auto_exact'), (2.941328430175781, 'cp_c16384'), (2.94541072845459, 'cp_c8192'), (2.967605972290039, 'cp_c4096'), (2.9942575454711915, 'noncp'), (3.092872428894043, 'cp_c512')]
+CASE [8192, 1024] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.01
+READY cp_auto_total True 0.01
+READY cp_auto_exact True 0.01
+READY cp_c512 True 0.01
+READY cp_c1024 True 0.01
+READY cp_c2048 True 0.01
+READY cp_c4096 True 0.01
+READY cp_c8192 True 0.01
+READY split_c1024 True 0.01
+READY split_c2048 True 0.01
+READY split_c4096 True 0.01
+READY split_c8192 True 0.01
+RESULT [8192, 1024] [(0.7556643962860108, 'noncp'), (0.7577263832092285, 'public_auto'), (0.7836855888366699, 'cp_c4096'), (0.8148675918579101, 'cp_c2048'), (0.8350179672241211, 'split_c1024'), (0.8433196067810058, 'cp_c1024'), (0.8670871734619141, 'cp_auto_total'), (0.8677359580993652, 'split_c4096'), (0.8878600120544433, 'split_c2048'), (0.9232627868652343, 'cp_c512'), (1.4291108131408692, 'split_c8192'), (1.4476408004760741, 'cp_auto_exact'), (1.448259162902832, 'cp_c8192')]
+CASE [8192, 1024, 1024, 1024] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.01
+READY cp_auto_total True 0.01
+READY cp_auto_exact True 0.01
+READY cp_c512 True 0.01
+READY cp_c1024 True 0.01
+READY cp_c2048 True 0.01
+READY cp_c4096 True 0.01
+READY cp_c8192 True 0.01
+READY split_c1024 True 0.01
+READY split_c2048 True 0.01
+READY split_c4096 True 0.01
+READY split_c8192 True 0.01
+RESULT [8192, 1024, 1024, 1024] [(0.7541560173034668, 'noncp'), (0.7552035808563232, 'public_auto'), (0.8927495956420899, 'split_c2048'), (0.9321563720703125, 'split_c1024'), (0.9694864273071289, 'split_c4096'), (0.9995575904846191, 'cp_c4096'), (1.0226736068725586, 'cp_c2048'), (1.0693047523498536, 'cp_c1024'), (1.0802667617797852, 'cp_auto_total'), (1.1557375907897949, 'cp_c512'), (1.488025188446045, 'cp_c8192'), (1.4903595924377442, 'cp_auto_exact'), (1.538535213470459, 'split_c8192')]
+CASE [8192, 1024, 1024, 1024, 1024, 1024, 1024, 1024] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.01
+READY cp_auto_total True 0.01
+READY cp_auto_exact True 0.01
+READY cp_c512 True 0.01
+READY cp_c1024 True 0.01
+READY cp_c2048 True 0.01
+READY cp_c4096 True 0.01
+READY cp_c8192 True 0.01
+READY split_c1024 True 0.01
+READY split_c2048 True 0.01
+READY split_c4096 True 0.01
+READY split_c8192 True 0.01
+RESULT [8192, 1024, 1024, 1024, 1024, 1024, 1024, 1024] [(0.7536384105682373, 'public_auto'), (0.7537404060363769, 'noncp'), (1.0717260360717773, 'split_c4096'), (1.0895028114318848, 'split_c2048'), (1.1285555839538575, 'split_c1024'), (1.4254708290100098, 'cp_c4096'), (1.452999973297119, 'cp_c2048'), (1.5031567573547364, 'cp_c1024'), (1.5055456161499023, 'cp_auto_total'), (1.562689971923828, 'cp_auto_exact'), (1.5632116317749023, 'cp_c8192'), (1.5959303855895997, 'cp_c512'), (1.7352827072143555, 'split_c8192')]
+CASE [16384, 1024, 1024, 1024] H 16 32
+READY noncp True 0.02
+READY public_auto True 0.01
+READY cp_auto_total True 0.01
+READY cp_auto_exact True 0.01
+READY cp_c512 True 0.01
+READY cp_c1024 True 0.01
+READY cp_c2048 True 0.01
+READY cp_c4096 True 0.01
+READY cp_c8192 True 0.01
+READY cp_c16384 True 0.01
+READY split_c1024 True 0.01
+READY split_c2048 True 0.01
+READY split_c4096 True 0.01
+READY split_c8192 True 0.01
+READY split_c16384 True 0.01
+RESULT [16384, 1024, 1024, 1024] [(1.5015048027038573, 'public_auto'), (1.5032664299011231, 'noncp'), (1.5587023735046386, 'cp_c8192'), (1.5673027992248536, 'split_c1024'), (1.6140464782714843, 'split_c4096'), (1.6385387420654296, 'cp_c4096'), (1.6469375610351562, 'split_c2048'), (1.65173397064209, 'cp_c2048'), (1.6935148239135742, 'split_c8192'), (1.7305564880371094, 'cp_c1024'), (1.8128868103027345, 'cp_auto_total'), (1.913975143432617, 'cp_c512'), (2.8958307266235352, 'cp_auto_exact'), (2.896401596069336, 'cp_c16384'), (2.9325115203857424, 'split_c16384')]
+CASE [32768, 1024, 1024, 1024] H 16 32
+READY noncp True 0.02
+READY public_auto True 0.02
+READY cp_auto_total True 0.02
+READY cp_auto_exact True 0.03
+READY cp_c512 True 0.02
+READY cp_c1024 True 0.02
+READY cp_c2048 True 0.02
+READY cp_c4096 True 0.02
+READY cp_c8192 True 0.02
+READY cp_c16384 True 0.02
+READY split_c1024 True 0.02
+READY split_c2048 True 0.02
+READY split_c4096 True 0.02
+READY split_c8192 True 0.02
+READY split_c16384 True 0.02
+RESULT [32768, 1024, 1024, 1024] [(2.83571834564209, 'split_c2048'), (2.9812343597412108, 'split_c1024'), (2.990880012512207, 'cp_c2048'), (2.9926784515380858, 'noncp'), (2.9963119506835936, 'public_auto'), (3.025469970703125, 'cp_c16384'), (3.026297950744629, 'cp_c8192'), (3.0416051864624025, 'cp_c4096'), (3.0572132110595702, 'split_c8192'), (3.07745246887207, 'split_c4096'), (3.143996810913086, 'split_c16384'), (3.1575176239013674, 'cp_c1024'), (3.28135986328125, 'cp_auto_total'), (3.517581558227539, 'cp_c512'), (5.705343246459961, 'cp_auto_exact')]
+CASE [4096, 512, 512, 512] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.0
+READY cp_auto_total True 0.0
+READY cp_auto_exact True 0.0
+READY cp_c512 True 0.0
+READY cp_c1024 True 0.0
+READY cp_c2048 True 0.0
+READY cp_c4096 True 0.0
+READY split_c1024 True 0.0
+READY split_c2048 True 0.0
+READY split_c4096 True 0.0
+RESULT [4096, 512, 512, 512] [(0.38127200603485106, 'noncp'), (0.3813699960708618, 'public_auto'), (0.48486719131469724, 'split_c1024'), (0.5118596076965332, 'split_c2048'), (0.5409152030944824, 'cp_c2048'), (0.5657911777496338, 'cp_c1024'), (0.6131939888000488, 'cp_c512'), (0.6165403842926025, 'cp_auto_total'), (0.7763572216033936, 'cp_auto_exact'), (0.7765972137451171, 'cp_c4096'), (0.7909080028533936, 'split_c4096')]
+CASE [8192, 8192] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.01
+READY cp_auto_total True 0.01
+READY cp_auto_exact True 0.01
+READY cp_c512 True 0.01
+READY cp_c1024 True 0.01
+READY cp_c2048 True 0.01
+READY cp_c4096 True 0.01
+READY cp_c8192 True 0.01
+READY split_c1024 True 0.01
+READY split_c2048 True 0.01
+READY split_c4096 True 0.01
+READY split_c8192 True 0.01
+RESULT [8192, 8192] [(0.7572216033935547, 'noncp'), (0.7572783946990966, 'public_auto'), (1.087546443939209, 'split_c1024'), (1.1494768142700196, 'split_c2048'), (1.1699771881103516, 'split_c4096'), (1.443173599243164, 'split_c8192'), (1.4597224235534667, 'cp_c1024'), (1.49415922164917, 'cp_auto_exact'), (1.4944436073303222, 'cp_c8192'), (1.5031771659851074, 'cp_auto_total'), (1.5103580474853515, 'cp_c4096'), (1.5444047927856446, 'cp_c2048'), (1.6098480224609375, 'cp_c512')]
+CASE [2048, 2048, 2048, 2048] H 16 32
+READY noncp True 0.0
+READY public_auto True 0.0
+READY cp_auto_total True 0.01
+READY cp_auto_exact True 0.01
+READY cp_c512 True 0.01
+READY cp_c1024 True 0.01
+READY cp_c2048 True 0.01
+READY split_c1024 True 0.01
+READY split_c2048 True 0.0
+RESULT [2048, 2048, 2048, 2048] [(0.3852436065673828, 'public_auto'), (0.3856924057006836, 'noncp'), (0.5187580108642578, 'split_c1024'), (0.5918692111968994, 'split_c2048'), (0.796560001373291, 'cp_auto_exact'), (0.7978363990783691, 'cp_c2048'), (0.8162343978881836, 'cp_auto_total'), (0.8386635780334473, 'cp_c1024'), (0.8396371841430664, 'cp_c512')]
+CASE [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024] H 16 32
+READY noncp True 0.0
+READY public_auto True 0.0
+READY cp_auto_total True 0.01
+READY cp_auto_exact True 0.01
+READY cp_c512 True 0.01
+READY cp_c1024 True 0.01
+READY split_c1024 True 0.0
+RESULT [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024] [(0.39273478984832766, 'noncp'), (0.3928879976272583, 'public_auto'), (0.5124884128570557, 'split_c1024'), (0.8436743736267089, 'cp_c512'), (0.8489627838134766, 'cp_c1024'), (0.849697208404541, 'cp_auto_exact'), (0.883394432067871, 'cp_auto_total')]
+CASE [1024, 8192, 1024] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.01
+READY cp_auto_total True 0.01
+READY cp_auto_exact True 0.01
+READY cp_c512 True 0.01
+READY cp_c1024 True 0.01
+READY cp_c2048 True 0.01
+READY cp_c4096 True 0.01
+READY cp_c8192 True 0.01
+READY split_c1024 True 0.01
+READY split_c2048 True 0.01
+READY split_c4096 True 0.01
+READY split_c8192 True 0.01
+RESULT [1024, 8192, 1024] [(0.7546388149261475, 'noncp'), (0.754940414428711, 'public_auto'), (0.8492207527160645, 'split_c1024'), (0.8743492126464844, 'split_c4096'), (0.8915648460388184, 'split_c2048'), (0.9720532417297363, 'cp_auto_total'), (0.9753680229187012, 'cp_c4096'), (0.9947660446166993, 'cp_c2048'), (1.0259172439575195, 'cp_c1024'), (1.0401200294494628, 'cp_c512'), (1.4344528198242188, 'split_c8192'), (1.4655843734741212, 'cp_c8192'), (1.4665163993835448, 'cp_auto_exact')]
+CASE [511, 8193, 0, 1025] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.01
+READY cp_auto_total True 0.01
+READY cp_auto_exact True 0.01
+READY cp_c512 True 0.01
+READY cp_c1024 True 0.01
+READY cp_c2048 True 0.01
+READY cp_c4096 True 0.01
+READY cp_c8192 True 0.01
+READY split_c1024 True 0.01
+READY split_c2048 True 0.01
+READY split_c4096 True 0.01
+READY split_c8192 True 0.01
+RESULT [511, 8193, 0, 1025] [(0.760338020324707, 'public_auto'), (0.7609643936157227, 'noncp'), (0.8301564216613769, 'split_c4096'), (0.8473896026611328, 'split_c2048'), (0.8711420059204101, 'split_c1024'), (0.9001715660095215, 'cp_c4096'), (0.9616716384887696, 'cp_c1024'), (0.9728752136230469, 'cp_auto_total'), (0.9930439949035644, 'cp_c2048'), (1.0011923789978028, 'cp_c512'), (1.4389823913574218, 'split_c8192'), (1.4728816032409668, 'cp_c8192'), (1.477937602996826, 'cp_auto_exact')]
+COMPLETED evidence/full.jsonl

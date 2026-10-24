@@ -1,0 +1,7402 @@
+[
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 0,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 1,
+    "targets": [
+      704,
+      0,
+      4096,
+      2816
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 2,
+    "targets": [
+      0,
+      0,
+      0,
+      3968
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 3,
+    "targets": [
+      2176,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 4,
+    "targets": [
+      0,
+      448,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 5,
+    "targets": [
+      1088,
+      0,
+      3008,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 6,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 7,
+    "targets": [
+      0,
+      896,
+      4032,
+      2880
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 8,
+    "targets": [
+      1984,
+      448,
+      3328,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 9,
+    "targets": [
+      1408,
+      0,
+      1408,
+      3328
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 10,
+    "targets": [
+      1856,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 11,
+    "targets": [
+      1152,
+      3648,
+      3328,
+      2112
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 12,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 13,
+    "targets": [
+      3072,
+      1408,
+      1920,
+      3648
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 14,
+    "targets": [
+      0,
+      2048,
+      2944,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 15,
+    "targets": [
+      2240,
+      2304,
+      0,
+      1984
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 16,
+    "targets": [
+      192,
+      576,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 17,
+    "targets": [
+      3648,
+      0,
+      2496,
+      832
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 18,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 19,
+    "targets": [
+      0,
+      0,
+      0,
+      3264
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 20,
+    "targets": [
+      3584,
+      3520,
+      0,
+      1984
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 21,
+    "targets": [
+      0,
+      0,
+      896,
+      3328
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 22,
+    "targets": [
+      0,
+      1216,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 23,
+    "targets": [
+      3072,
+      0,
+      0,
+      3136
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 24,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 0,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 1,
+    "targets": [
+      0,
+      64,
+      0,
+      576
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 2,
+    "targets": [
+      0,
+      0,
+      3776,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 3,
+    "targets": [
+      0,
+      64,
+      0,
+      64
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 4,
+    "targets": [
+      0,
+      128,
+      0,
+      1024
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 5,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 6,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 7,
+    "targets": [
+      0,
+      0,
+      0,
+      576
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 8,
+    "targets": [
+      0,
+      128,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 9,
+    "targets": [
+      0,
+      0,
+      5184,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 10,
+    "targets": [
+      0,
+      0,
+      0,
+      960
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 11,
+    "targets": [
+      0,
+      128,
+      0,
+      256
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 12,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 13,
+    "targets": [
+      0,
+      64,
+      4032,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 14,
+    "targets": [
+      0,
+      0,
+      5632,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 15,
+    "targets": [
+      0,
+      0,
+      1792,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 16,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 17,
+    "targets": [
+      0,
+      128,
+      2496,
+      576
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 18,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 19,
+    "targets": [
+      0,
+      128,
+      1792,
+      576
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 20,
+    "targets": [
+      0,
+      128,
+      3264,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 21,
+    "targets": [
+      0,
+      0,
+      0,
+      512
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 22,
+    "targets": [
+      0,
+      128,
+      2240,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 23,
+    "targets": [
+      0,
+      64,
+      4032,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 24,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 0,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 1,
+    "targets": [
+      256,
+      1280,
+      0,
+      1344
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 2,
+    "targets": [
+      3008,
+      0,
+      2368,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 3,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 4,
+    "targets": [
+      0,
+      0,
+      320,
+      3904
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 5,
+    "targets": [
+      0,
+      192,
+      0,
+      768
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 6,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 7,
+    "targets": [
+      0,
+      0,
+      2176,
+      1984
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 8,
+    "targets": [
+      0,
+      0,
+      1344,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 9,
+    "targets": [
+      3712,
+      3328,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 10,
+    "targets": [
+      2368,
+      0,
+      640,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 11,
+    "targets": [
+      2432,
+      320,
+      64,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 12,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 13,
+    "targets": [
+      3328,
+      0,
+      0,
+      256
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 14,
+    "targets": [
+      2176,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 15,
+    "targets": [
+      0,
+      0,
+      3712,
+      2048
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 16,
+    "targets": [
+      3648,
+      1984,
+      0,
+      2304
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 17,
+    "targets": [
+      2304,
+      0,
+      1856,
+      3840
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 18,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 19,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 20,
+    "targets": [
+      0,
+      2240,
+      2880,
+      3264
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 21,
+    "targets": [
+      2688,
+      3520,
+      0,
+      3264
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 22,
+    "targets": [
+      2816,
+      0,
+      1216,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 23,
+    "targets": [
+      320,
+      1024,
+      512,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 24,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 0,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 1,
+    "targets": [
+      0,
+      0,
+      3136,
+      512
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 2,
+    "targets": [
+      0,
+      0,
+      5312,
+      192
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 3,
+    "targets": [
+      0,
+      0,
+      2944,
+      64
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 4,
+    "targets": [
+      0,
+      0,
+      3520,
+      896
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 5,
+    "targets": [
+      0,
+      0,
+      5760,
+      640
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 6,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 7,
+    "targets": [
+      0,
+      128,
+      1280,
+      448
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 8,
+    "targets": [
+      0,
+      0,
+      5824,
+      576
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 9,
+    "targets": [
+      0,
+      64,
+      2496,
+      896
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 10,
+    "targets": [
+      0,
+      128,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 11,
+    "targets": [
+      0,
+      0,
+      5376,
+      832
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 12,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 13,
+    "targets": [
+      0,
+      0,
+      7360,
+      576
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 14,
+    "targets": [
+      0,
+      0,
+      0,
+      1024
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 15,
+    "targets": [
+      0,
+      128,
+      5952,
+      256
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 16,
+    "targets": [
+      0,
+      0,
+      1920,
+      896
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 17,
+    "targets": [
+      0,
+      64,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 18,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 19,
+    "targets": [
+      0,
+      64,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 20,
+    "targets": [
+      0,
+      0,
+      4096,
+      896
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 21,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 22,
+    "targets": [
+      0,
+      64,
+      0,
+      960
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 23,
+    "targets": [
+      0,
+      128,
+      4800,
+      1024
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "122b_tp4",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 24,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 0,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 1,
+    "targets": [
+      0,
+      0,
+      896,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 2,
+    "targets": [
+      1408,
+      256,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 3,
+    "targets": [
+      2304,
+      1344,
+      2816,
+      2944
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 4,
+    "targets": [
+      320,
+      2816,
+      2880,
+      1984
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 5,
+    "targets": [
+      2624,
+      0,
+      1216,
+      1856
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 6,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 7,
+    "targets": [
+      1088,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 8,
+    "targets": [
+      0,
+      3072,
+      1856,
+      3264
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 9,
+    "targets": [
+      0,
+      3136,
+      0,
+      3712
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 10,
+    "targets": [
+      576,
+      0,
+      576,
+      2048
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 11,
+    "targets": [
+      2752,
+      0,
+      1728,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 12,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 13,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 14,
+    "targets": [
+      3520,
+      0,
+      3648,
+      2176
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 15,
+    "targets": [
+      1280,
+      1920,
+      3584,
+      1920
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 16,
+    "targets": [
+      0,
+      0,
+      1600,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 17,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 18,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 19,
+    "targets": [
+      0,
+      0,
+      2368,
+      1792
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 20,
+    "targets": [
+      256,
+      576,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 21,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 22,
+    "targets": [
+      3712,
+      3328,
+      1344,
+      3328
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 23,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 24,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 0,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 1,
+    "targets": [
+      0,
+      128,
+      4416,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 2,
+    "targets": [
+      0,
+      0,
+      0,
+      576
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 3,
+    "targets": [
+      0,
+      0,
+      0,
+      960
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 4,
+    "targets": [
+      0,
+      0,
+      0,
+      320
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 5,
+    "targets": [
+      0,
+      0,
+      3904,
+      576
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 6,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 7,
+    "targets": [
+      0,
+      64,
+      6464,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 8,
+    "targets": [
+      0,
+      0,
+      576,
+      256
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 9,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 10,
+    "targets": [
+      0,
+      0,
+      3648,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 11,
+    "targets": [
+      0,
+      0,
+      3648,
+      576
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 12,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 13,
+    "targets": [
+      0,
+      0,
+      7168,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 14,
+    "targets": [
+      0,
+      64,
+      7104,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 15,
+    "targets": [
+      0,
+      0,
+      0,
+      64
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 16,
+    "targets": [
+      0,
+      64,
+      7616,
+      256
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 17,
+    "targets": [
+      0,
+      128,
+      3520,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 18,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 19,
+    "targets": [
+      0,
+      64,
+      640,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 20,
+    "targets": [
+      0,
+      0,
+      0,
+      384
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 21,
+    "targets": [
+      0,
+      0,
+      2304,
+      256
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 22,
+    "targets": [
+      0,
+      128,
+      4928,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 23,
+    "targets": [
+      0,
+      128,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "slow",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 24,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 0,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 1,
+    "targets": [
+      3840,
+      3200,
+      832,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 2,
+    "targets": [
+      896,
+      0,
+      1728,
+      3200
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 3,
+    "targets": [
+      384,
+      1984,
+      1152,
+      1984
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 4,
+    "targets": [
+      0,
+      0,
+      2560,
+      2304
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 5,
+    "targets": [
+      0,
+      3200,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 6,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 7,
+    "targets": [
+      2688,
+      2304,
+      2112,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 8,
+    "targets": [
+      0,
+      512,
+      1472,
+      1856
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 9,
+    "targets": [
+      2112,
+      1920,
+      0,
+      704
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 10,
+    "targets": [
+      1792,
+      0,
+      320,
+      64
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 11,
+    "targets": [
+      2816,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 12,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 13,
+    "targets": [
+      3456,
+      0,
+      2496,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 14,
+    "targets": [
+      2048,
+      0,
+      0,
+      1472
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 15,
+    "targets": [
+      1408,
+      0,
+      576,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 16,
+    "targets": [
+      2624,
+      0,
+      3840,
+      4096
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 17,
+    "targets": [
+      1856,
+      0,
+      2368,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 18,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 19,
+    "targets": [
+      3712,
+      1728,
+      3520,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 20,
+    "targets": [
+      0,
+      0,
+      1216,
+      896
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 21,
+    "targets": [
+      0,
+      3328,
+      896,
+      2496
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 22,
+    "targets": [
+      2240,
+      0,
+      3264,
+      3008
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 23,
+    "targets": [
+      0,
+      0,
+      2112,
+      2048
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      4096,
+      4096,
+      4096,
+      4096
+    ],
+    "step": 24,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 0,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 1,
+    "targets": [
+      0,
+      0,
+      0,
+      256
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 2,
+    "targets": [
+      0,
+      128,
+      2688,
+      1024
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 3,
+    "targets": [
+      0,
+      0,
+      3200,
+      256
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 4,
+    "targets": [
+      0,
+      64,
+      0,
+      960
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 5,
+    "targets": [
+      0,
+      128,
+      8192,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 6,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 7,
+    "targets": [
+      0,
+      64,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 8,
+    "targets": [
+      0,
+      0,
+      0,
+      320
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 9,
+    "targets": [
+      0,
+      0,
+      0,
+      640
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 10,
+    "targets": [
+      0,
+      0,
+      0,
+      832
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 11,
+    "targets": [
+      0,
+      0,
+      7296,
+      704
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 12,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 13,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 14,
+    "targets": [
+      0,
+      128,
+      7104,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 15,
+    "targets": [
+      0,
+      64,
+      7552,
+      576
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 16,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 17,
+    "targets": [
+      0,
+      128,
+      1344,
+      320
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 18,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 19,
+    "targets": [
+      0,
+      0,
+      3904,
+      384
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 20,
+    "targets": [
+      0,
+      128,
+      7680,
+      256
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 21,
+    "targets": [
+      0,
+      0,
+      2112,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 22,
+    "targets": [
+      0,
+      128,
+      2752,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 23,
+    "targets": [
+      0,
+      64,
+      6208,
+      192
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  },
+  {
+    "model": "35b_tp1",
+    "gate": "near_one",
+    "lengths": [
+      0,
+      129,
+      8193,
+      1024
+    ],
+    "step": 24,
+    "targets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "checkpoint": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0,
+      "close": true
+    },
+    "output": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "final": {
+      "exact": true,
+      "finite": true,
+      "max_abs": 0.0,
+      "close": true
+    },
+    "unused_untouched": true,
+    "pass": true
+  }
+]

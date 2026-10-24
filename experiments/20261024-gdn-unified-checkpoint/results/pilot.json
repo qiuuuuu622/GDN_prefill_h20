@@ -1,0 +1,1850 @@
+[
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "slow",
+    "targets": [
+      64,
+      64
+    ],
+    "method": "full_dense",
+    "eager": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "graph": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "resume": [],
+    "changed_targets": null,
+    "exact": true,
+    "close": true
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "slow",
+    "targets": [
+      64,
+      64
+    ],
+    "method": "full_selected",
+    "eager": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "graph": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "resume": [
+      {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      }
+    ],
+    "changed_targets": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "exact": true,
+    "close": true
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "slow",
+    "targets": [
+      64,
+      64
+    ],
+    "method": "dv_dense",
+    "eager": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "graph": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "resume": [],
+    "changed_targets": null,
+    "exact": true,
+    "close": true
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "slow",
+    "targets": [
+      64,
+      64
+    ],
+    "method": "dv_selected",
+    "eager": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "graph": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "resume": [
+      {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      }
+    ],
+    "changed_targets": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "exact": true,
+    "close": true
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "slow",
+    "targets": [
+      64,
+      64
+    ],
+    "method": "segmented_cp_selected",
+    "eager": {
+      "output": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.00048828125,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.005169093608856201,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.00399431586265564,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": false,
+      "close": true
+    },
+    "graph": {
+      "output": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.00048828125,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.005169093608856201,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.00399431586265564,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": false,
+      "close": true
+    },
+    "resume": [
+      {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.000244140625,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0037353932857513428,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.0051239728927612305,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      }
+    ],
+    "changed_targets": null,
+    "exact": false,
+    "close": true
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      8192
+    ],
+    "gate": "slow",
+    "targets": [
+      4096
+    ],
+    "method": "full_dense",
+    "eager": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "graph": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "resume": [],
+    "changed_targets": null,
+    "exact": true,
+    "close": true
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      8192
+    ],
+    "gate": "slow",
+    "targets": [
+      4096
+    ],
+    "method": "full_selected",
+    "eager": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "graph": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "resume": [
+      {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      }
+    ],
+    "changed_targets": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "exact": true,
+    "close": true
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      8192
+    ],
+    "gate": "slow",
+    "targets": [
+      4096
+    ],
+    "method": "dv_dense",
+    "eager": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "graph": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "resume": [],
+    "changed_targets": null,
+    "exact": true,
+    "close": true
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      8192
+    ],
+    "gate": "slow",
+    "targets": [
+      4096
+    ],
+    "method": "dv_selected",
+    "eager": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "graph": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "resume": [
+      {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      }
+    ],
+    "changed_targets": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "exact": true,
+    "close": true
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      8192
+    ],
+    "gate": "slow",
+    "targets": [
+      4096
+    ],
+    "method": "segmented_cp_selected",
+    "eager": {
+      "output": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.00048828125,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.0034232139587402344,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.004233121871948242,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": false,
+      "close": true
+    },
+    "graph": {
+      "output": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.00048828125,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.0034232139587402344,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.004233121871948242,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": false,
+      "close": true
+    },
+    "resume": [
+      {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      }
+    ],
+    "changed_targets": null,
+    "exact": false,
+    "close": true
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "slow",
+    "targets": [
+      64,
+      64
+    ],
+    "method": "full_dense",
+    "eager": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "graph": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "resume": [],
+    "changed_targets": null,
+    "exact": true,
+    "close": true
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "slow",
+    "targets": [
+      64,
+      64
+    ],
+    "method": "full_selected",
+    "eager": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "graph": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "resume": [
+      {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      }
+    ],
+    "changed_targets": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "exact": true,
+    "close": true
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "slow",
+    "targets": [
+      64,
+      64
+    ],
+    "method": "dv_dense",
+    "eager": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "graph": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "resume": [],
+    "changed_targets": null,
+    "exact": true,
+    "close": true
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "slow",
+    "targets": [
+      64,
+      64
+    ],
+    "method": "dv_selected",
+    "eager": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "graph": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "resume": [
+      {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      },
+      {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      }
+    ],
+    "changed_targets": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "exact": true,
+    "close": true
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "slow",
+    "targets": [
+      64,
+      64
+    ],
+    "method": "segmented_cp_selected",
+    "eager": {
+      "output": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.00048828125,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.00385400652885437,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.004612863063812256,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": false,
+      "close": true
+    },
+    "graph": {
+      "output": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.00048828125,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.00385400652885437,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.004612863063812256,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": false,
+      "close": true
+    },
+    "resume": [
+      {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.000244140625,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.003743499517440796,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      },
+      {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.004272162914276123,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      }
+    ],
+    "changed_targets": null,
+    "exact": false,
+    "close": true
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      8192
+    ],
+    "gate": "slow",
+    "targets": [
+      4096
+    ],
+    "method": "full_dense",
+    "eager": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "graph": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "resume": [],
+    "changed_targets": null,
+    "exact": true,
+    "close": true
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      8192
+    ],
+    "gate": "slow",
+    "targets": [
+      4096
+    ],
+    "method": "full_selected",
+    "eager": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "graph": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "resume": [
+      {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      }
+    ],
+    "changed_targets": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "exact": true,
+    "close": true
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      8192
+    ],
+    "gate": "slow",
+    "targets": [
+      4096
+    ],
+    "method": "dv_dense",
+    "eager": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "graph": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "resume": [],
+    "changed_targets": null,
+    "exact": true,
+    "close": true
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      8192
+    ],
+    "gate": "slow",
+    "targets": [
+      4096
+    ],
+    "method": "dv_selected",
+    "eager": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "graph": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "resume": [
+      {
+        "output": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": true,
+        "close": true
+      }
+    ],
+    "changed_targets": {
+      "output": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "finite": true,
+        "max_abs": 0.0,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": true,
+      "close": true
+    },
+    "exact": true,
+    "close": true
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      8192
+    ],
+    "gate": "slow",
+    "targets": [
+      4096
+    ],
+    "method": "segmented_cp_selected",
+    "eager": {
+      "output": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.00048828125,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.004037946462631226,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.004295468330383301,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": false,
+      "close": true
+    },
+    "graph": {
+      "output": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.00048828125,
+        "tolerance": 0.02,
+        "close": true
+      },
+      "output_state": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.004037946462631226,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "state_checkpoints": {
+        "exact": false,
+        "finite": true,
+        "max_abs": 0.004295468330383301,
+        "tolerance": 0.01,
+        "close": true
+      },
+      "exact": false,
+      "close": true
+    },
+    "resume": [
+      {
+        "output": {
+          "exact": false,
+          "finite": true,
+          "max_abs": 0.00048828125,
+          "tolerance": 0.02,
+          "close": true
+        },
+        "output_state": {
+          "exact": true,
+          "finite": true,
+          "max_abs": 0.0,
+          "tolerance": 0.01,
+          "close": true
+        },
+        "exact": false,
+        "close": true
+      }
+    ],
+    "changed_targets": null,
+    "exact": false,
+    "close": true
+  }
+]

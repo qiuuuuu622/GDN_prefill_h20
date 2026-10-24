@@ -1,0 +1,24 @@
+{
+  "args": {
+    "output": "evidence/full.jsonl",
+    "suite": "full",
+    "tp": 1,
+    "iterations": 80,
+    "repeats": 5,
+    "seed": 1234,
+    "gate": "slow"
+  },
+  "versions": {
+    "torch": "2.13.0+cu130",
+    "flashinfer-python": "0.6.18",
+    "nvidia-cutlass-dsl": "4.6.2",
+    "sglang": "0.5.20"
+  },
+  "gpu": "NVIDIA H20",
+  "sms": 78,
+  "source_hashes": {
+    "/opt/sglang/lib/python3.12/site-packages/flashinfer/api_logging.py": "0302b4ff890c9d0de9c91f340794d8805b68b467690fe3fbec3dfb29f05720ad",
+    "/opt/sglang/lib/python3.12/site-packages/flashinfer/gdn_kernels/delta_rule_dsl/delta_rule_cp_sm90.py": "4b137abe0b810b9f74c85642fc10793dfb7156a934e00a8367857fe859385e7d",
+    "/opt/sglang/lib/python3.12/site-packages/flashinfer/gdn_kernels/delta_rule_dsl/delta_rule_sm90.py": "c72398f8f6e57ed2d708d364dd0299ce414e75a27d044ac83c6278c0954290a4"
+  }
+}

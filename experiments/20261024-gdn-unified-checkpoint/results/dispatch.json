@@ -1,0 +1,202 @@
+[
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      512
+    ],
+    "choice": "dv",
+    "selected_ms": 0.03692608118057251,
+    "best_selected_ms": 0.03692608118057251,
+    "over_best": 1.0,
+    "speedup": 1.5403053773324387
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      8192
+    ],
+    "choice": "dv",
+    "selected_ms": 0.5357657623291016,
+    "best_selected_ms": 0.5357657623291016,
+    "over_best": 1.0,
+    "speedup": 1.5155328193866788
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      16384
+    ],
+    "choice": "dv",
+    "selected_ms": 1.0677247619628907,
+    "best_selected_ms": 1.0677247619628907,
+    "over_best": 1.0,
+    "speedup": 1.5139674632483502
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      32768
+    ],
+    "choice": "dv",
+    "selected_ms": 2.135465545654297,
+    "best_selected_ms": 2.135465545654297,
+    "over_best": 1.0,
+    "speedup": 1.511736452488309
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      8192,
+      1024,
+      1024,
+      1024
+    ],
+    "choice": "dv",
+    "selected_ms": 0.5371404647827148,
+    "best_selected_ms": 0.5371404647827148,
+    "over_best": 1.0,
+    "speedup": 1.5174506589284784
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      4096,
+      4096
+    ],
+    "choice": "dv",
+    "selected_ms": 0.2718758392333984,
+    "best_selected_ms": 0.2718758392333984,
+    "over_best": 1.0,
+    "speedup": 1.517285523824544
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      8192,
+      8192
+    ],
+    "choice": "dv",
+    "selected_ms": 0.5384697723388672,
+    "best_selected_ms": 0.5384697723388672,
+    "over_best": 1.0,
+    "speedup": 1.5186512683570916
+  },
+  {
+    "model": "122b_tp4",
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "choice": "full",
+    "selected_ms": 0.19992000579833985,
+    "best_selected_ms": 0.19992000579833985,
+    "over_best": 1.0,
+    "speedup": 1.0921391898882284
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      512
+    ],
+    "choice": "dv",
+    "selected_ms": 0.03752320051193237,
+    "best_selected_ms": 0.03752320051193237,
+    "over_best": 1.0,
+    "speedup": 1.533276474420383
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      8192
+    ],
+    "choice": "dv",
+    "selected_ms": 0.5424492645263672,
+    "best_selected_ms": 0.5424492645263672,
+    "over_best": 1.0,
+    "speedup": 1.5306255661926997
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      16384
+    ],
+    "choice": "dv",
+    "selected_ms": 1.0796134185791015,
+    "best_selected_ms": 1.0796134185791015,
+    "over_best": 1.0,
+    "speedup": 1.5313089966022198
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      32768
+    ],
+    "choice": "dv",
+    "selected_ms": 2.155803527832031,
+    "best_selected_ms": 2.155803527832031,
+    "over_best": 1.0,
+    "speedup": 1.5338608240468723
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      8192,
+      1024,
+      1024,
+      1024
+    ],
+    "choice": "dv",
+    "selected_ms": 0.667734375,
+    "best_selected_ms": 0.667734375,
+    "over_best": 1.0,
+    "speedup": 1.255205705401018
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      4096,
+      4096
+    ],
+    "choice": "full",
+    "selected_ms": 0.3814931106567383,
+    "best_selected_ms": 0.3814931106567383,
+    "over_best": 1.0,
+    "speedup": 1.1103152376759304
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      8192,
+      8192
+    ],
+    "choice": "full",
+    "selected_ms": 0.7547154998779297,
+    "best_selected_ms": 0.7547154998779297,
+    "over_best": 1.0,
+    "speedup": 1.111462184323478
+  },
+  {
+    "model": "35b_tp1",
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "choice": "full",
+    "selected_ms": 0.3961811065673828,
+    "best_selected_ms": 0.3961811065673828,
+    "over_best": 1.0,
+    "speedup": 1.103637519076803
+  }
+]

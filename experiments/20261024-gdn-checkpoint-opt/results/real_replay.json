@@ -1,0 +1,1209 @@
+[
+  {
+    "file": "t1541_cp64.pt",
+    "tokens": 1541,
+    "interval": 64,
+    "dense": {
+      "output": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "finite": true
+      },
+      "output_state": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "finite": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "finite": true
+      }
+    },
+    "timing_dense": {
+      "graph_median_ms": 0.12127573490142822,
+      "graph_samples_ms": [
+        0.12175467014312744,
+        0.12117226918538411,
+        0.12125973701477051,
+        0.12127573490142822,
+        0.12132373650868734
+      ],
+      "eager_event_ms": 0.18023893038431804,
+      "eager_wall_ms": 0.1814826081196467
+    },
+    "timing_baseline": {
+      "graph_median_ms": 0.16623786290486653,
+      "graph_samples_ms": [
+        0.16696853637695314,
+        0.1662549336751302,
+        0.16623679796854654,
+        0.1661802609761556,
+        0.16623786290486653
+      ],
+      "eager_event_ms": 0.20095359484354655,
+      "eager_wall_ms": 0.20268609126408896
+    },
+    "compact": [
+      {
+        "target": 832,
+        "output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "output_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "timing": {
+          "graph_median_ms": 0.10434772968292236,
+          "graph_samples_ms": [
+            0.1050602674484253,
+            0.10437653064727784,
+            0.10434772968292236,
+            0.10430400371551514,
+            0.10427412986755372
+          ],
+          "eager_event_ms": 0.18278932571411133,
+          "eager_wall_ms": 0.18405554195245108
+        }
+      },
+      {
+        "target": 1536,
+        "output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "output_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "timing": {
+          "graph_median_ms": 0.10421013037363688,
+          "graph_samples_ms": [
+            0.10457173188527426,
+            0.10421013037363688,
+            0.10419092973073324,
+            0.10418666998545328,
+            0.10422720114390055
+          ],
+          "eager_event_ms": 0.18009600639343262,
+          "eager_wall_ms": 0.18115540345509848
+        }
+      }
+    ],
+    "fp32_reference": {
+      "output": {
+        "exact": false,
+        "max_abs": 0.01322174072265625,
+        "rms": 0.00022629096929449588,
+        "finite": true
+      },
+      "output_state": {
+        "exact": false,
+        "max_abs": 0.03964662551879883,
+        "rms": 0.0003827386535704136,
+        "finite": true
+      },
+      "state_checkpoints": {
+        "exact": false,
+        "max_abs": 0.04791116714477539,
+        "rms": 0.0003597240138333291,
+        "finite": true
+      }
+    },
+    "fp32_close": {
+      "output": true,
+      "output_state": false,
+      "state_checkpoints": false
+    },
+    "original_fp32_close": {
+      "output": true,
+      "output_state": false,
+      "state_checkpoints": false
+    },
+    "original_fp32_reference": {
+      "output": {
+        "exact": false,
+        "max_abs": 0.01322174072265625,
+        "rms": 0.00022629096929449588,
+        "finite": true
+      },
+      "output_state": {
+        "exact": false,
+        "max_abs": 0.03964662551879883,
+        "rms": 0.0003827386535704136,
+        "finite": true
+      },
+      "state_checkpoints": {
+        "exact": false,
+        "max_abs": 0.04791116714477539,
+        "rms": 0.0003597240138333291,
+        "finite": true
+      }
+    },
+    "short_exact_original": {
+      "output": true,
+      "output_state": true,
+      "state_checkpoints": true
+    },
+    "independent_reference_status": "inherited_baseline_threshold_failure"
+  },
+  {
+    "file": "t2201_cp64.pt",
+    "tokens": 2201,
+    "interval": 64,
+    "dense": {
+      "output": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "finite": true
+      },
+      "output_state": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "finite": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "finite": true
+      }
+    },
+    "timing_dense": {
+      "graph_median_ms": 0.16740479469299316,
+      "graph_samples_ms": [
+        0.16791466077168782,
+        0.16741973559061687,
+        0.16735466321309408,
+        0.16740479469299316,
+        0.16736639340718587
+      ],
+      "eager_event_ms": 0.18002559343973795,
+      "eager_wall_ms": 0.18107195695241293
+    },
+    "timing_baseline": {
+      "graph_median_ms": 0.23018879890441896,
+      "graph_samples_ms": [
+        0.23040960629781088,
+        0.23010773658752443,
+        0.2302069346110026,
+        0.23017172813415526,
+        0.23018879890441896
+      ],
+      "eager_event_ms": 0.23785920143127443,
+      "eager_wall_ms": 0.23883357644081116
+    },
+    "compact": [
+      {
+        "target": 1152,
+        "output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "output_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "timing": {
+          "graph_median_ms": 0.14405973752339682,
+          "graph_samples_ms": [
+            0.144378662109375,
+            0.14405973752339682,
+            0.14397226969401042,
+            0.1441546599070231,
+            0.14401280085245768
+          ],
+          "eager_event_ms": 0.25440425872802735,
+          "eager_wall_ms": 0.25546227892239887
+        }
+      },
+      {
+        "target": 2176,
+        "output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "output_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "timing": {
+          "graph_median_ms": 0.14427413940429687,
+          "graph_samples_ms": [
+            0.14445865948994954,
+            0.14427413940429687,
+            0.14419520696004232,
+            0.14439679781595866,
+            0.14420159657796225
+          ],
+          "eager_event_ms": 0.17398719787597655,
+          "eager_wall_ms": 0.17484202980995178
+        }
+      }
+    ],
+    "fp32_reference": {
+      "output": {
+        "exact": false,
+        "max_abs": 0.011352300643920898,
+        "rms": 0.00022813337272964418,
+        "finite": true
+      },
+      "output_state": {
+        "exact": false,
+        "max_abs": 0.04919314384460449,
+        "rms": 0.0004042103246320039,
+        "finite": true
+      },
+      "state_checkpoints": {
+        "exact": false,
+        "max_abs": 0.054407596588134766,
+        "rms": 0.0003919743176084012,
+        "finite": true
+      }
+    },
+    "fp32_close": {
+      "output": true,
+      "output_state": false,
+      "state_checkpoints": false
+    },
+    "original_fp32_close": {
+      "output": true,
+      "output_state": false,
+      "state_checkpoints": false
+    },
+    "original_fp32_reference": {
+      "output": {
+        "exact": false,
+        "max_abs": 0.011352300643920898,
+        "rms": 0.00022813337272964418,
+        "finite": true
+      },
+      "output_state": {
+        "exact": false,
+        "max_abs": 0.04919314384460449,
+        "rms": 0.0004042103246320039,
+        "finite": true
+      },
+      "state_checkpoints": {
+        "exact": false,
+        "max_abs": 0.054407596588134766,
+        "rms": 0.0003919743176084012,
+        "finite": true
+      }
+    },
+    "short_exact_original": {
+      "output": true,
+      "output_state": true,
+      "state_checkpoints": true
+    },
+    "independent_reference_status": "inherited_baseline_threshold_failure"
+  },
+  {
+    "file": "t2655_cp64.pt",
+    "tokens": 2655,
+    "interval": 64,
+    "dense": {
+      "output": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "finite": true
+      },
+      "output_state": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "finite": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "finite": true
+      }
+    },
+    "timing_dense": {
+      "graph_median_ms": 0.20040213267008464,
+      "graph_samples_ms": [
+        0.20096000035603842,
+        0.20040213267008464,
+        0.20033920605977376,
+        0.2003551959991455,
+        0.20041813850402831
+      ],
+      "eager_event_ms": 0.2073322614034017,
+      "eager_wall_ms": 0.20839720964431763
+    },
+    "timing_baseline": {
+      "graph_median_ms": 0.27178560892740883,
+      "graph_samples_ms": [
+        0.27205867767333985,
+        0.27183574040730796,
+        0.27178560892740883,
+        0.2717664082845052,
+        0.27169920603434244
+      ],
+      "eager_event_ms": 0.28076693216959636,
+      "eager_wall_ms": 0.28196809192498523
+    },
+    "compact": [
+      {
+        "target": 1344,
+        "output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "output_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "timing": {
+          "graph_median_ms": 0.17263253529866537,
+          "graph_samples_ms": [
+            0.17287893295288087,
+            0.17263253529866537,
+            0.17271679242451984,
+            0.1724789301554362,
+            0.17259626388549804
+          ],
+          "eager_event_ms": 0.18308693567911785,
+          "eager_wall_ms": 0.1845040669043859
+        }
+      },
+      {
+        "target": 2624,
+        "output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "output_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "timing": {
+          "graph_median_ms": 0.17237760225931803,
+          "graph_samples_ms": [
+            0.17265920639038085,
+            0.17237760225931803,
+            0.17246400515238444,
+            0.1722592035929362,
+            0.17233173052469888
+          ],
+          "eager_event_ms": 0.18079253832499187,
+          "eager_wall_ms": 0.18178063134352365
+        }
+      }
+    ],
+    "fp32_reference": {
+      "output": {
+        "exact": false,
+        "max_abs": 0.011907100677490234,
+        "rms": 0.0002287422976223752,
+        "finite": true
+      },
+      "output_state": {
+        "exact": false,
+        "max_abs": 0.04963362216949463,
+        "rms": 0.00040005435585044324,
+        "finite": true
+      },
+      "state_checkpoints": {
+        "exact": false,
+        "max_abs": 0.05810713768005371,
+        "rms": 0.0003892676904797554,
+        "finite": true
+      }
+    },
+    "fp32_close": {
+      "output": true,
+      "output_state": false,
+      "state_checkpoints": false
+    },
+    "original_fp32_close": {
+      "output": true,
+      "output_state": false,
+      "state_checkpoints": false
+    },
+    "original_fp32_reference": {
+      "output": {
+        "exact": false,
+        "max_abs": 0.011907100677490234,
+        "rms": 0.0002287422976223752,
+        "finite": true
+      },
+      "output_state": {
+        "exact": false,
+        "max_abs": 0.04963362216949463,
+        "rms": 0.00040005435585044324,
+        "finite": true
+      },
+      "state_checkpoints": {
+        "exact": false,
+        "max_abs": 0.05810713768005371,
+        "rms": 0.0003892676904797554,
+        "finite": true
+      }
+    },
+    "short_exact_original": {
+      "output": true,
+      "output_state": true,
+      "state_checkpoints": true
+    },
+    "independent_reference_status": "inherited_baseline_threshold_failure"
+  },
+  {
+    "file": "t3230_cp64.pt",
+    "tokens": 3230,
+    "interval": 64,
+    "dense": {
+      "output": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "finite": true
+      },
+      "output_state": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "finite": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "finite": true
+      }
+    },
+    "timing_dense": {
+      "graph_median_ms": 0.24180053075154623,
+      "graph_samples_ms": [
+        0.24221653938293458,
+        0.24180053075154623,
+        0.24178239504496257,
+        0.24173119862874348,
+        0.2421493371327718
+      ],
+      "eager_event_ms": 0.2499359925587972,
+      "eager_wall_ms": 0.2509654810031255
+    },
+    "timing_baseline": {
+      "graph_median_ms": 0.3359530766805013,
+      "graph_samples_ms": [
+        0.3362229347229004,
+        0.33564799626668296,
+        0.3357952117919922,
+        0.33600107828776044,
+        0.3359530766805013
+      ],
+      "eager_event_ms": 0.3427477200826009,
+      "eager_wall_ms": 0.34371701379617053
+    },
+    "compact": [
+      {
+        "target": 1600,
+        "output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "output_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "timing": {
+          "graph_median_ms": 0.20822933514912922,
+          "graph_samples_ms": [
+            0.20896213849385578,
+            0.20866880416870118,
+            0.20822933514912922,
+            0.2079477310180664,
+            0.2076639970143636
+          ],
+          "eager_event_ms": 0.2183733304341634,
+          "eager_wall_ms": 0.21928374965985617
+        }
+      },
+      {
+        "target": 1664,
+        "output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "output_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "timing": {
+          "graph_median_ms": 0.2078005313873291,
+          "graph_samples_ms": [
+            0.2081376075744629,
+            0.20794240633646646,
+            0.20771946907043456,
+            0.20764266649882,
+            0.2078005313873291
+          ],
+          "eager_event_ms": 0.2153183937072754,
+          "eager_wall_ms": 0.2162399391333262
+        }
+      },
+      {
+        "target": 3200,
+        "output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "output_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "timing": {
+          "graph_median_ms": 0.20800213813781737,
+          "graph_samples_ms": [
+            0.2082090695699056,
+            0.20783573786417645,
+            0.20800213813781737,
+            0.20805759429931642,
+            0.20797120730082194
+          ],
+          "eager_event_ms": 0.21436479886372883,
+          "eager_wall_ms": 0.2152519921461741
+        }
+      }
+    ],
+    "fp32_reference": {
+      "output": {
+        "exact": false,
+        "max_abs": 0.011907100677490234,
+        "rms": 0.0002287422976223752,
+        "finite": true
+      },
+      "output_state": {
+        "exact": false,
+        "max_abs": 0.04963362216949463,
+        "rms": 0.00040005435585044324,
+        "finite": true
+      },
+      "state_checkpoints": {
+        "exact": false,
+        "max_abs": 0.05810713768005371,
+        "rms": 0.0003892676904797554,
+        "finite": true
+      }
+    },
+    "fp32_close": {
+      "output": true,
+      "output_state": false,
+      "state_checkpoints": false
+    },
+    "original_fp32_close": {
+      "output": true,
+      "output_state": false,
+      "state_checkpoints": false
+    },
+    "original_fp32_reference": {
+      "output": {
+        "exact": false,
+        "max_abs": 0.011907100677490234,
+        "rms": 0.0002287422976223752,
+        "finite": true
+      },
+      "output_state": {
+        "exact": false,
+        "max_abs": 0.04963362216949463,
+        "rms": 0.00040005435585044324,
+        "finite": true
+      },
+      "state_checkpoints": {
+        "exact": false,
+        "max_abs": 0.05810713768005371,
+        "rms": 0.0003892676904797554,
+        "finite": true
+      }
+    },
+    "short_exact_original": {
+      "output": true,
+      "output_state": true,
+      "state_checkpoints": true
+    },
+    "independent_reference_status": "inherited_baseline_threshold_failure"
+  },
+  {
+    "file": "t8192_cp0.pt",
+    "tokens": 8192,
+    "interval": 0,
+    "dense": {
+      "output": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "finite": true
+      },
+      "output_state": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "finite": true
+      }
+    },
+    "timing_dense": {
+      "graph_median_ms": 0.7661738713582357,
+      "graph_samples_ms": [
+        0.7666069030761719,
+        0.7660959879557292,
+        0.7661738713582357,
+        0.7661600112915039,
+        0.7663637161254883
+      ],
+      "eager_event_ms": 0.7755519866943359,
+      "eager_wall_ms": 0.7768049836158752
+    },
+    "timing_baseline": {
+      "graph_median_ms": 0.7663199742635091,
+      "graph_samples_ms": [
+        0.7667413075764974,
+        0.7664831797281901,
+        0.7661184310913086,
+        0.7663199742635091,
+        0.7662623723347982
+      ],
+      "eager_event_ms": 0.7750399907430013,
+      "eager_wall_ms": 0.7764560480912527
+    },
+    "fp32_reference": {
+      "output": {
+        "exact": false,
+        "max_abs": 0.008183121681213379,
+        "rms": 0.00011633623944362625,
+        "finite": true
+      },
+      "output_state": {
+        "exact": false,
+        "max_abs": 0.05161285400390625,
+        "rms": 0.0004184476565569639,
+        "finite": true
+      },
+      "state_checkpoints": {
+        "exact": false,
+        "max_abs": 0.0567626953125,
+        "rms": 0.00038982200203463435,
+        "finite": true
+      }
+    },
+    "fp32_close": {
+      "output": true,
+      "output_state": false,
+      "state_checkpoints": false
+    },
+    "original_fp32_close": {
+      "output": true,
+      "output_state": false,
+      "state_checkpoints": false
+    },
+    "original_fp32_reference": {
+      "output": {
+        "exact": false,
+        "max_abs": 0.008183121681213379,
+        "rms": 0.00011633623944362625,
+        "finite": true
+      },
+      "output_state": {
+        "exact": false,
+        "max_abs": 0.05161285400390625,
+        "rms": 0.0004184476565569639,
+        "finite": true
+      },
+      "state_checkpoints": {
+        "exact": false,
+        "max_abs": 0.0567626953125,
+        "rms": 0.00038982200203463435,
+        "finite": true
+      }
+    },
+    "short_exact_original": {
+      "output": true,
+      "output_state": true,
+      "state_checkpoints": true
+    },
+    "independent_reference_status": "inherited_baseline_threshold_failure"
+  },
+  {
+    "file": "t8192_cp64.pt",
+    "tokens": 8192,
+    "interval": 64,
+    "dense": {
+      "output": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "finite": true
+      },
+      "output_state": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "finite": true
+      },
+      "state_checkpoints": {
+        "exact": true,
+        "max_abs": 0.0,
+        "rms": 0.0,
+        "finite": true
+      }
+    },
+    "timing_dense": {
+      "graph_median_ms": 0.5977834701538086,
+      "graph_samples_ms": [
+        0.5981887817382813,
+        0.5977834701538086,
+        0.597980817159017,
+        0.5974208196004231,
+        0.5977770487467448
+      ],
+      "eager_event_ms": 0.6136800130208333,
+      "eager_wall_ms": 0.6158093611399332
+    },
+    "timing_baseline": {
+      "graph_median_ms": 0.8382656097412109,
+      "graph_samples_ms": [
+        0.8382656097412109,
+        0.8388224283854167,
+        0.8399338404337565,
+        0.8364885330200196,
+        0.8354965209960937
+      ],
+      "eager_event_ms": 0.8486933390299479,
+      "eager_wall_ms": 0.8502412587404251
+    },
+    "compact": [
+      {
+        "target": 128,
+        "output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "output_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "timing": {
+          "graph_median_ms": 0.5141119956970215,
+          "graph_samples_ms": [
+            0.5139818509419759,
+            0.5139391899108887,
+            0.5142325401306153,
+            0.5141119956970215,
+            0.5142453193664551
+          ],
+          "eager_event_ms": 0.5277706782023112,
+          "eager_wall_ms": 0.5296188096205393
+        }
+      },
+      {
+        "target": 1280,
+        "output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "output_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "timing": {
+          "graph_median_ms": 0.5139818509419759,
+          "graph_samples_ms": [
+            0.5135306676228841,
+            0.5140085220336914,
+            0.513914680480957,
+            0.5142154693603516,
+            0.5139818509419759
+          ],
+          "eager_event_ms": 0.5238911946614583,
+          "eager_wall_ms": 0.5252104252576828
+        }
+      },
+      {
+        "target": 4160,
+        "output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "output_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "restart_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "timing": {
+          "graph_median_ms": 0.515229860941569,
+          "graph_samples_ms": [
+            0.5144010543823242,
+            0.5152650515238444,
+            0.5149951934814453,
+            0.5154037475585938,
+            0.515229860941569
+          ],
+          "eager_event_ms": 0.5271797180175781,
+          "eager_wall_ms": 0.5292550971110662
+        }
+      },
+      {
+        "target": 8192,
+        "output": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "output_state": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "checkpoint": {
+          "exact": true,
+          "max_abs": 0.0,
+          "rms": 0.0,
+          "finite": true
+        },
+        "timing": {
+          "graph_median_ms": 0.5134954770406087,
+          "graph_samples_ms": [
+            0.5154154777526856,
+            0.5134805361429851,
+            0.5134389241536458,
+            0.5134954770406087,
+            0.5137440045674642
+          ],
+          "eager_event_ms": 0.5244277318318685,
+          "eager_wall_ms": 0.5262695252895355
+        }
+      }
+    ],
+    "fp32_reference": {
+      "output": {
+        "exact": false,
+        "max_abs": 0.008183121681213379,
+        "rms": 0.00011633623944362625,
+        "finite": true
+      },
+      "output_state": {
+        "exact": false,
+        "max_abs": 0.05161285400390625,
+        "rms": 0.0004184476565569639,
+        "finite": true
+      },
+      "state_checkpoints": {
+        "exact": false,
+        "max_abs": 0.0567626953125,
+        "rms": 0.00038982200203463435,
+        "finite": true
+      }
+    },
+    "fp32_close": {
+      "output": true,
+      "output_state": false,
+      "state_checkpoints": false
+    },
+    "original_fp32_close": {
+      "output": true,
+      "output_state": false,
+      "state_checkpoints": false
+    },
+    "original_fp32_reference": {
+      "output": {
+        "exact": false,
+        "max_abs": 0.008183121681213379,
+        "rms": 0.00011633623944362625,
+        "finite": true
+      },
+      "output_state": {
+        "exact": false,
+        "max_abs": 0.05161285400390625,
+        "rms": 0.0004184476565569639,
+        "finite": true
+      },
+      "state_checkpoints": {
+        "exact": false,
+        "max_abs": 0.0567626953125,
+        "rms": 0.00038982200203463435,
+        "finite": true
+      }
+    },
+    "short_exact_original": {
+      "output": true,
+      "output_state": true,
+      "state_checkpoints": true
+    },
+    "independent_reference_status": "inherited_baseline_threshold_failure"
+  }
+]

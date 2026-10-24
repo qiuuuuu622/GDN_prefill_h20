@@ -1,0 +1,2204 @@
+[
+  {
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      64,
+      64
+    ],
+    "graph_changed_targets": [
+      64,
+      128
+    ],
+    "resumed_sequences": 2,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.02393386761347453,
+      "graph_samples_ms": [
+        0.024755199750264485,
+        0.02399359941482544,
+        0.02393386761347453,
+        0.023931733767191567,
+        0.02390399972597758
+      ],
+      "eager_event_ms": 0.17575680414835612,
+      "eager_wall_ms": 0.17783939838409424
+    },
+    "baseline": {
+      "graph_median_ms": 0.024136533339818318,
+      "graph_samples_ms": [
+        0.024780799945195515,
+        0.02409600019454956,
+        0.024136533339818318,
+        0.02414720058441162,
+        0.02412160038948059
+      ],
+      "eager_event_ms": 0.1898346741994222,
+      "eager_wall_ms": 0.19163191318511963
+    },
+    "speedup": 1.0084677382534568
+  },
+  {
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      64,
+      64
+    ],
+    "graph_changed_targets": [
+      64,
+      128
+    ],
+    "resumed_sequences": 2,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.028450133403142293,
+      "graph_samples_ms": [
+        0.029194666941960653,
+        0.028450133403142293,
+        0.028369067112604777,
+        0.028908799091974895,
+        0.028360533714294433
+      ],
+      "eager_event_ms": 0.18524373372395833,
+      "eager_wall_ms": 0.18745139241218567
+    },
+    "baseline": {
+      "graph_median_ms": 0.024209066232045492,
+      "graph_samples_ms": [
+        0.02455893357594808,
+        0.024219733476638795,
+        0.024187733729680378,
+        0.024132267634073893,
+        0.024209066232045492
+      ],
+      "eager_event_ms": 0.19085440635681153,
+      "eager_wall_ms": 0.19237399101257324
+    },
+    "speedup": 0.8509297966726448
+  },
+  {
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      64
+    ],
+    "graph_changed_targets": [
+      0,
+      128
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      64
+    ],
+    "graph_changed_targets": [
+      0,
+      128
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      63,
+      65,
+      129
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      0,
+      64,
+      64
+    ],
+    "graph_changed_targets": [
+      0,
+      64,
+      128
+    ],
+    "resumed_sequences": 2,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.03291306694348653,
+      "graph_samples_ms": [
+        0.033683200677235924,
+        0.0328874667485555,
+        0.03278719981511434,
+        0.03291306694348653,
+        0.0329258660475413
+      ],
+      "eager_event_ms": 0.1694591999053955,
+      "eager_wall_ms": 0.1712257663408915
+    },
+    "baseline": {
+      "graph_median_ms": 0.033137067159016924,
+      "graph_samples_ms": [
+        0.033693865935007734,
+        0.033188267548878984,
+        0.03306026657422383,
+        0.033137067159016924,
+        0.03305600086847941
+      ],
+      "eager_event_ms": 0.1859754721323649,
+      "eager_wall_ms": 0.18764734268188477
+    },
+    "speedup": 1.0068058141137384
+  },
+  {
+    "lengths": [
+      63,
+      65,
+      129
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      0,
+      64,
+      64
+    ],
+    "graph_changed_targets": [
+      0,
+      64,
+      128
+    ],
+    "resumed_sequences": 2,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.03502080043156942,
+      "graph_samples_ms": [
+        0.035750401020050046,
+        0.035069866975148516,
+        0.03500586748123169,
+        0.03500373363494873,
+        0.03502080043156942
+      ],
+      "eager_event_ms": 0.17897173563639324,
+      "eager_wall_ms": 0.18049453695615134
+    },
+    "baseline": {
+      "graph_median_ms": 0.033192533254623416,
+      "graph_samples_ms": [
+        0.033446399370829265,
+        0.033192533254623416,
+        0.03320320049921672,
+        0.033147732416788735,
+        0.03317546645800273
+      ],
+      "eager_event_ms": 0.18793813387552896,
+      "eager_wall_ms": 0.18958598375320435
+    },
+    "speedup": 0.9477948203805784
+  },
+  {
+    "lengths": [
+      63,
+      65,
+      129
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      64,
+      0
+    ],
+    "graph_changed_targets": [
+      0,
+      64,
+      0
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      63,
+      65,
+      129
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      64,
+      0
+    ],
+    "graph_changed_targets": [
+      0,
+      64,
+      0
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      8193
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      0,
+      64,
+      4096
+    ],
+    "graph_changed_targets": [
+      0,
+      128,
+      8192
+    ],
+    "resumed_sequences": 2,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.7580522537231446,
+      "graph_samples_ms": [
+        0.758137575785319,
+        0.7580138524373372,
+        0.7576682408650716,
+        0.7584831873575847,
+        0.7580522537231446
+      ],
+      "eager_event_ms": 0.7728127797444662,
+      "eager_wall_ms": 0.7746209700902303
+    },
+    "baseline": {
+      "graph_median_ms": 0.8317312240600586,
+      "graph_samples_ms": [
+        0.8324864069620769,
+        0.8320831934611003,
+        0.8317312240600586,
+        0.831492296854655,
+        0.83144105275472
+      ],
+      "eager_event_ms": 0.8462698618570964,
+      "eager_wall_ms": 0.8480300505956014
+    },
+    "speedup": 1.0971951075602542
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      8193
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      0,
+      64,
+      4096
+    ],
+    "graph_changed_targets": [
+      0,
+      128,
+      8192
+    ],
+    "resumed_sequences": 2,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.5620586395263671,
+      "graph_samples_ms": [
+        0.5623466491699218,
+        0.5618111928304036,
+        0.5615338643391927,
+        0.5622037251790365,
+        0.5620586395263671
+      ],
+      "eager_event_ms": 0.5765397389729817,
+      "eager_wall_ms": 0.5784894029299418
+    },
+    "baseline": {
+      "graph_median_ms": 0.8327807744344076,
+      "graph_samples_ms": [
+        0.8352405548095703,
+        0.832531229654948,
+        0.8316458384195964,
+        0.8330325444539388,
+        0.8327807744344076
+      ],
+      "eager_event_ms": 0.8492074966430664,
+      "eager_wall_ms": 0.8514165878295898
+    },
+    "speedup": 1.4816617268549972
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      8193
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      64,
+      0
+    ],
+    "graph_changed_targets": [
+      0,
+      128,
+      0
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      8193
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      64,
+      0
+    ],
+    "graph_changed_targets": [
+      0,
+      128,
+      0
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      4096,
+      4096
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      2048,
+      2048
+    ],
+    "graph_changed_targets": [
+      4096,
+      4096
+    ],
+    "resumed_sequences": 2,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.38224852879842125,
+      "graph_samples_ms": [
+        0.38357760111490885,
+        0.38208001454671225,
+        0.38226985931396484,
+        0.38224852879842125,
+        0.3821674664815267
+      ],
+      "eager_event_ms": 0.39894186655680336,
+      "eager_wall_ms": 0.4009336233139038
+    },
+    "baseline": {
+      "graph_median_ms": 0.42270720799764,
+      "graph_samples_ms": [
+        0.42314240137736003,
+        0.42256641387939453,
+        0.42270720799764,
+        0.42292054494222003,
+        0.42250239054361977
+      ],
+      "eager_event_ms": 0.4432789484659831,
+      "eager_wall_ms": 0.44532616933186847
+    },
+    "speedup": 1.105843910835703
+  },
+  {
+    "lengths": [
+      4096,
+      4096
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      2048,
+      2048
+    ],
+    "graph_changed_targets": [
+      4096,
+      4096
+    ],
+    "resumed_sequences": 2,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.5409322738647461,
+      "graph_samples_ms": [
+        0.5413440068562826,
+        0.5405845642089844,
+        0.5406997044881184,
+        0.5409322738647461,
+        0.5412906646728516
+      ],
+      "eager_event_ms": 0.5560554504394531,
+      "eager_wall_ms": 0.55785005291303
+    },
+    "baseline": {
+      "graph_median_ms": 0.4232938766479492,
+      "graph_samples_ms": [
+        0.42297385533650717,
+        0.42298240661621095,
+        0.4232938766479492,
+        0.42369066874186195,
+        0.42354132334391276
+      ],
+      "eager_event_ms": 0.4383232116699219,
+      "eager_wall_ms": 0.4400809605916341
+    },
+    "speedup": 0.7825265695900944
+  },
+  {
+    "lengths": [
+      4096,
+      4096
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      2048
+    ],
+    "graph_changed_targets": [
+      0,
+      4096
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      4096,
+      4096
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      2048
+    ],
+    "graph_changed_targets": [
+      0,
+      4096
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      128,
+      8064
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      64,
+      4032
+    ],
+    "graph_changed_targets": [
+      128,
+      8064
+    ],
+    "resumed_sequences": 2,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.7437887827555338,
+      "graph_samples_ms": [
+        0.7443967819213867,
+        0.7438506444295248,
+        0.7437887827555338,
+        0.7417621612548828,
+        0.7412949244181315
+      ],
+      "eager_event_ms": 0.7592661539713542,
+      "eager_wall_ms": 0.7613971829414368
+    },
+    "baseline": {
+      "graph_median_ms": 0.8137535730997721,
+      "graph_samples_ms": [
+        0.8139818827311198,
+        0.8139200210571289,
+        0.812667719523112,
+        0.8129642486572266,
+        0.8137535730997721
+      ],
+      "eager_event_ms": 0.8329834620157878,
+      "eager_wall_ms": 0.8350923657417297
+    },
+    "speedup": 1.0940654013159998
+  },
+  {
+    "lengths": [
+      128,
+      8064
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      64,
+      4032
+    ],
+    "graph_changed_targets": [
+      128,
+      8064
+    ],
+    "resumed_sequences": 2,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.545913569132487,
+      "graph_samples_ms": [
+        0.5463551839192708,
+        0.545913569132487,
+        0.5456042607625325,
+        0.5455978393554688,
+        0.5459903717041016
+      ],
+      "eager_event_ms": 0.5620821634928386,
+      "eager_wall_ms": 0.5640233556429545
+    },
+    "baseline": {
+      "graph_median_ms": 0.8143295923868815,
+      "graph_samples_ms": [
+        0.8141141255696615,
+        0.8123114903767904,
+        0.8143295923868815,
+        0.8153130849202473,
+        0.8149802525838216
+      ],
+      "eager_event_ms": 0.8350720087687175,
+      "eager_wall_ms": 0.838228315114975
+    },
+    "speedup": 1.4916822706585866
+  },
+  {
+    "lengths": [
+      128,
+      8064
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      4032
+    ],
+    "graph_changed_targets": [
+      0,
+      8064
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      128,
+      8064
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      4032
+    ],
+    "graph_changed_targets": [
+      0,
+      8064
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      4096,
+      4096
+    ],
+    "graph_changed_targets": [
+      8192,
+      8192
+    ],
+    "resumed_sequences": 2,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.7539285024007162,
+      "graph_samples_ms": [
+        0.7551680246988932,
+        0.7539285024007162,
+        0.7538602828979493,
+        0.7539520263671875,
+        0.7539221445719401
+      ],
+      "eager_event_ms": 0.769482676188151,
+      "eager_wall_ms": 0.7721200585365295
+    },
+    "baseline": {
+      "graph_median_ms": 0.835694948832194,
+      "graph_samples_ms": [
+        0.8349269231160482,
+        0.8348821640014649,
+        0.835694948832194,
+        0.8367509206136068,
+        0.836627197265625
+      ],
+      "eager_event_ms": 0.8534442901611328,
+      "eager_wall_ms": 0.8559028307596842
+    },
+    "speedup": 1.1084538469776788
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      4096,
+      4096
+    ],
+    "graph_changed_targets": [
+      8192,
+      8192
+    ],
+    "resumed_sequences": 2,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 1.0728469848632813,
+      "graph_samples_ms": [
+        1.0768021901448568,
+        1.0767679850260417,
+        1.0713813781738282,
+        1.0724608103434246,
+        1.0728469848632813
+      ],
+      "eager_event_ms": 1.0914624532063801,
+      "eager_wall_ms": 1.09406312306722
+    },
+    "baseline": {
+      "graph_median_ms": 0.8363349278767903,
+      "graph_samples_ms": [
+        0.8363349278767903,
+        0.8358165105183919,
+        0.8354389190673828,
+        0.8363818486531576,
+        0.8365333557128907
+      ],
+      "eager_event_ms": 0.8521621068318684,
+      "eager_wall_ms": 0.854343424240748
+    },
+    "speedup": 0.77954726039834
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      4096
+    ],
+    "graph_changed_targets": [
+      0,
+      8192
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      4096
+    ],
+    "graph_changed_targets": [
+      0,
+      8192
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      2048,
+      2048,
+      2048,
+      2048
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "graph_changed_targets": [
+      2048,
+      2048,
+      2048,
+      2048
+    ],
+    "resumed_sequences": 4,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.3884309450785319,
+      "graph_samples_ms": [
+        0.38842026392618817,
+        0.38786773681640624,
+        0.38847999572753905,
+        0.3884309450785319,
+        0.3887616157531738
+      ],
+      "eager_event_ms": 0.401527468363444,
+      "eager_wall_ms": 0.40348594387372333
+    },
+    "baseline": {
+      "graph_median_ms": 0.4257002512613932,
+      "graph_samples_ms": [
+        0.4264896074930827,
+        0.4257941246032715,
+        0.42560211817423504,
+        0.4257002512613932,
+        0.4255423863728841
+      ],
+      "eager_event_ms": 0.4424895922342936,
+      "eager_wall_ms": 0.44428855180740356
+    },
+    "speedup": 1.095948344628738
+  },
+  {
+    "lengths": [
+      2048,
+      2048,
+      2048,
+      2048
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "graph_changed_targets": [
+      2048,
+      2048,
+      2048,
+      2048
+    ],
+    "resumed_sequences": 4,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.5424725214640299,
+      "graph_samples_ms": [
+        0.5434005101521809,
+        0.5429802576700846,
+        0.5424725214640299,
+        0.5410133361816406,
+        0.5413653055826823
+      ],
+      "eager_event_ms": 0.5823040008544922,
+      "eager_wall_ms": 0.5909398198127747
+    },
+    "baseline": {
+      "graph_median_ms": 0.4243136088053385,
+      "graph_samples_ms": [
+        0.4251711845397949,
+        0.4243797302246094,
+        0.4240832010904948,
+        0.4241877237955729,
+        0.4243136088053385
+      ],
+      "eager_event_ms": 0.438374392191569,
+      "eager_wall_ms": 0.44061119357744855
+    },
+    "speedup": 0.7821845199830527
+  },
+  {
+    "lengths": [
+      2048,
+      2048,
+      2048,
+      2048
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      1024,
+      0,
+      1024
+    ],
+    "graph_changed_targets": [
+      0,
+      2048,
+      0,
+      2048
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      2048,
+      2048,
+      2048,
+      2048
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      1024,
+      0,
+      1024
+    ],
+    "graph_changed_targets": [
+      0,
+      2048,
+      0,
+      2048
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      512,
+      512,
+      512,
+      512,
+      512,
+      512,
+      512,
+      512
+    ],
+    "graph_changed_targets": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "resumed_sequences": 8,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.39827200571695964,
+      "graph_samples_ms": [
+        0.3990762710571289,
+        0.3982677459716797,
+        0.39826345443725586,
+        0.39827200571695964,
+        0.3982890764872233
+      ],
+      "eager_event_ms": 0.41261440912882485,
+      "eager_wall_ms": 0.4144152005513509
+    },
+    "baseline": {
+      "graph_median_ms": 0.43185494740804037,
+      "graph_samples_ms": [
+        0.432642141977946,
+        0.43178027470906577,
+        0.4322069485982259,
+        0.43185494740804037,
+        0.43160533905029297
+      ],
+      "eager_event_ms": 0.4469951947530111,
+      "eager_wall_ms": 0.4488694171110789
+    },
+    "speedup": 1.0843216224314474
+  },
+  {
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      512,
+      512,
+      512,
+      512,
+      512,
+      512,
+      512,
+      512
+    ],
+    "graph_changed_targets": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "resumed_sequences": 8,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.4851327896118164,
+      "graph_samples_ms": [
+        0.4858517328898112,
+        0.48517119089762367,
+        0.4850367863972982,
+        0.4851327896118164,
+        0.48502187728881835
+      ],
+      "eager_event_ms": 0.5007893244425455,
+      "eager_wall_ms": 0.5026782552401224
+    },
+    "baseline": {
+      "graph_median_ms": 0.4317610740661621,
+      "graph_samples_ms": [
+        0.4322517395019531,
+        0.4317930539449056,
+        0.4315648078918457,
+        0.43149652481079104,
+        0.4317610740661621
+      ],
+      "eager_event_ms": 0.44731518427530925,
+      "eager_wall_ms": 0.44907281796137494
+    },
+    "speedup": 0.8899853469225195
+  },
+  {
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      512,
+      0,
+      512,
+      0,
+      512,
+      0,
+      512
+    ],
+    "graph_changed_targets": [
+      0,
+      1024,
+      0,
+      1024,
+      0,
+      1024,
+      0,
+      1024
+    ],
+    "resumed_sequences": 4,
+    "valid": true
+  },
+  {
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      512,
+      0,
+      512,
+      0,
+      512,
+      0,
+      512
+    ],
+    "graph_changed_targets": [
+      0,
+      1024,
+      0,
+      1024,
+      0,
+      1024,
+      0,
+      1024
+    ],
+    "resumed_sequences": 4,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65,
+      127,
+      128,
+      513,
+      1025,
+      2047,
+      2207,
+      2080
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      64,
+      64,
+      64,
+      256,
+      512,
+      960,
+      1088,
+      1024
+    ],
+    "graph_changed_targets": [
+      64,
+      64,
+      128,
+      512,
+      1024,
+      1984,
+      2176,
+      2048
+    ],
+    "resumed_sequences": 8,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.4651946703592936,
+      "graph_samples_ms": [
+        0.4664127985636393,
+        0.46513067881266273,
+        0.4650965372721354,
+        0.4653034528096517,
+        0.4651946703592936
+      ],
+      "eager_event_ms": 0.4769536018371582,
+      "eager_wall_ms": 0.47874872883160907
+    },
+    "baseline": {
+      "graph_median_ms": 0.5001066525777181,
+      "graph_samples_ms": [
+        0.5011349360148112,
+        0.5001066525777181,
+        0.5000981330871582,
+        0.5003967920939127,
+        0.4999701182047526
+      ],
+      "eager_event_ms": 0.5138709386189778,
+      "eager_wall_ms": 0.5157507956027985
+    },
+    "speedup": 1.0750481130651395
+  },
+  {
+    "lengths": [
+      65,
+      127,
+      128,
+      513,
+      1025,
+      2047,
+      2207,
+      2080
+    ],
+    "gate": "slow",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      64,
+      64,
+      64,
+      256,
+      512,
+      960,
+      1088,
+      1024
+    ],
+    "graph_changed_targets": [
+      64,
+      64,
+      128,
+      512,
+      1024,
+      1984,
+      2176,
+      2048
+    ],
+    "resumed_sequences": 8,
+    "valid": true,
+    "timing": {
+      "graph_median_ms": 0.5543829600016276,
+      "graph_samples_ms": [
+        0.5543829600016276,
+        0.5540949503580729,
+        0.5539690653483073,
+        0.5550656000773112,
+        0.5551509221394857
+      ],
+      "eager_event_ms": 0.5696277618408203,
+      "eager_wall_ms": 0.5715891718864441
+    },
+    "baseline": {
+      "graph_median_ms": 0.5016789436340332,
+      "graph_samples_ms": [
+        0.5028842608133952,
+        0.5012821197509766,
+        0.501742935180664,
+        0.5008618672688802,
+        0.5016789436340332
+      ],
+      "eager_event_ms": 0.5157504081726074,
+      "eager_wall_ms": 0.5176266034444174
+    },
+    "speedup": 0.9049321134122889
+  },
+  {
+    "lengths": [
+      65,
+      127,
+      128,
+      513,
+      1025,
+      2047,
+      2207,
+      2080
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      64,
+      0,
+      256,
+      0,
+      960,
+      0,
+      1024
+    ],
+    "graph_changed_targets": [
+      0,
+      64,
+      0,
+      512,
+      0,
+      1984,
+      0,
+      2048
+    ],
+    "resumed_sequences": 4,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65,
+      127,
+      128,
+      513,
+      1025,
+      2047,
+      2207,
+      2080
+    ],
+    "gate": "slow",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      64,
+      0,
+      256,
+      0,
+      960,
+      0,
+      1024
+    ],
+    "graph_changed_targets": [
+      0,
+      64,
+      0,
+      512,
+      0,
+      1984,
+      0,
+      2048
+    ],
+    "resumed_sequences": 4,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "near_one",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      64,
+      64
+    ],
+    "graph_changed_targets": [
+      64,
+      128
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "near_one",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      64,
+      64
+    ],
+    "graph_changed_targets": [
+      64,
+      128
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "near_one",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      64
+    ],
+    "graph_changed_targets": [
+      0,
+      128
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65,
+      129
+    ],
+    "gate": "near_one",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      64
+    ],
+    "graph_changed_targets": [
+      0,
+      128
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      63,
+      65,
+      129
+    ],
+    "gate": "near_one",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      0,
+      64,
+      64
+    ],
+    "graph_changed_targets": [
+      0,
+      64,
+      128
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      63,
+      65,
+      129
+    ],
+    "gate": "near_one",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      0,
+      64,
+      64
+    ],
+    "graph_changed_targets": [
+      0,
+      64,
+      128
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      63,
+      65,
+      129
+    ],
+    "gate": "near_one",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      64,
+      0
+    ],
+    "graph_changed_targets": [
+      0,
+      64,
+      0
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      63,
+      65,
+      129
+    ],
+    "gate": "near_one",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      64,
+      0
+    ],
+    "graph_changed_targets": [
+      0,
+      64,
+      0
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      8193
+    ],
+    "gate": "near_one",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      0,
+      64,
+      4096
+    ],
+    "graph_changed_targets": [
+      0,
+      128,
+      8192
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      8193
+    ],
+    "gate": "near_one",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      0,
+      64,
+      4096
+    ],
+    "graph_changed_targets": [
+      0,
+      128,
+      8192
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      8193
+    ],
+    "gate": "near_one",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      64,
+      0
+    ],
+    "graph_changed_targets": [
+      0,
+      128,
+      0
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      0,
+      129,
+      8193
+    ],
+    "gate": "near_one",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      64,
+      0
+    ],
+    "graph_changed_targets": [
+      0,
+      128,
+      0
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      4096,
+      4096
+    ],
+    "gate": "near_one",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      2048,
+      2048
+    ],
+    "graph_changed_targets": [
+      4096,
+      4096
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      4096,
+      4096
+    ],
+    "gate": "near_one",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      2048,
+      2048
+    ],
+    "graph_changed_targets": [
+      4096,
+      4096
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      4096,
+      4096
+    ],
+    "gate": "near_one",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      2048
+    ],
+    "graph_changed_targets": [
+      0,
+      4096
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      4096,
+      4096
+    ],
+    "gate": "near_one",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      2048
+    ],
+    "graph_changed_targets": [
+      0,
+      4096
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      128,
+      8064
+    ],
+    "gate": "near_one",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      64,
+      4032
+    ],
+    "graph_changed_targets": [
+      128,
+      8064
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      128,
+      8064
+    ],
+    "gate": "near_one",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      64,
+      4032
+    ],
+    "graph_changed_targets": [
+      128,
+      8064
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      128,
+      8064
+    ],
+    "gate": "near_one",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      4032
+    ],
+    "graph_changed_targets": [
+      0,
+      8064
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      128,
+      8064
+    ],
+    "gate": "near_one",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      4032
+    ],
+    "graph_changed_targets": [
+      0,
+      8064
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "near_one",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      4096,
+      4096
+    ],
+    "graph_changed_targets": [
+      8192,
+      8192
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "near_one",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      4096,
+      4096
+    ],
+    "graph_changed_targets": [
+      8192,
+      8192
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "near_one",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      4096
+    ],
+    "graph_changed_targets": [
+      0,
+      8192
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      8192,
+      8192
+    ],
+    "gate": "near_one",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      4096
+    ],
+    "graph_changed_targets": [
+      0,
+      8192
+    ],
+    "resumed_sequences": 1,
+    "valid": true
+  },
+  {
+    "lengths": [
+      2048,
+      2048,
+      2048,
+      2048
+    ],
+    "gate": "near_one",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "graph_changed_targets": [
+      2048,
+      2048,
+      2048,
+      2048
+    ],
+    "resumed_sequences": 4,
+    "valid": true
+  },
+  {
+    "lengths": [
+      2048,
+      2048,
+      2048,
+      2048
+    ],
+    "gate": "near_one",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "graph_changed_targets": [
+      2048,
+      2048,
+      2048,
+      2048
+    ],
+    "resumed_sequences": 4,
+    "valid": true
+  },
+  {
+    "lengths": [
+      2048,
+      2048,
+      2048,
+      2048
+    ],
+    "gate": "near_one",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      1024,
+      0,
+      1024
+    ],
+    "graph_changed_targets": [
+      0,
+      2048,
+      0,
+      2048
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      2048,
+      2048,
+      2048,
+      2048
+    ],
+    "gate": "near_one",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      1024,
+      0,
+      1024
+    ],
+    "graph_changed_targets": [
+      0,
+      2048,
+      0,
+      2048
+    ],
+    "resumed_sequences": 2,
+    "valid": true
+  },
+  {
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "gate": "near_one",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      512,
+      512,
+      512,
+      512,
+      512,
+      512,
+      512,
+      512
+    ],
+    "graph_changed_targets": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "resumed_sequences": 8,
+    "valid": true
+  },
+  {
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "gate": "near_one",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      512,
+      512,
+      512,
+      512,
+      512,
+      512,
+      512,
+      512
+    ],
+    "graph_changed_targets": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "resumed_sequences": 8,
+    "valid": true
+  },
+  {
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "gate": "near_one",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      512,
+      0,
+      512,
+      0,
+      512,
+      0,
+      512
+    ],
+    "graph_changed_targets": [
+      0,
+      1024,
+      0,
+      1024,
+      0,
+      1024,
+      0,
+      1024
+    ],
+    "resumed_sequences": 4,
+    "valid": true
+  },
+  {
+    "lengths": [
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024,
+      1024
+    ],
+    "gate": "near_one",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      512,
+      0,
+      512,
+      0,
+      512,
+      0,
+      512
+    ],
+    "graph_changed_targets": [
+      0,
+      1024,
+      0,
+      1024,
+      0,
+      1024,
+      0,
+      1024
+    ],
+    "resumed_sequences": 4,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65,
+      127,
+      128,
+      513,
+      1025,
+      2047,
+      2207,
+      2080
+    ],
+    "gate": "near_one",
+    "pattern": "all",
+    "method": "full",
+    "targets": [
+      64,
+      64,
+      64,
+      256,
+      512,
+      960,
+      1088,
+      1024
+    ],
+    "graph_changed_targets": [
+      64,
+      64,
+      128,
+      512,
+      1024,
+      1984,
+      2176,
+      2048
+    ],
+    "resumed_sequences": 8,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65,
+      127,
+      128,
+      513,
+      1025,
+      2047,
+      2207,
+      2080
+    ],
+    "gate": "near_one",
+    "pattern": "all",
+    "method": "dv",
+    "targets": [
+      64,
+      64,
+      64,
+      256,
+      512,
+      960,
+      1088,
+      1024
+    ],
+    "graph_changed_targets": [
+      64,
+      64,
+      128,
+      512,
+      1024,
+      1984,
+      2176,
+      2048
+    ],
+    "resumed_sequences": 8,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65,
+      127,
+      128,
+      513,
+      1025,
+      2047,
+      2207,
+      2080
+    ],
+    "gate": "near_one",
+    "pattern": "mixed",
+    "method": "full",
+    "targets": [
+      0,
+      64,
+      0,
+      256,
+      0,
+      960,
+      0,
+      1024
+    ],
+    "graph_changed_targets": [
+      0,
+      64,
+      0,
+      512,
+      0,
+      1984,
+      0,
+      2048
+    ],
+    "resumed_sequences": 4,
+    "valid": true
+  },
+  {
+    "lengths": [
+      65,
+      127,
+      128,
+      513,
+      1025,
+      2047,
+      2207,
+      2080
+    ],
+    "gate": "near_one",
+    "pattern": "mixed",
+    "method": "dv",
+    "targets": [
+      0,
+      64,
+      0,
+      256,
+      0,
+      960,
+      0,
+      1024
+    ],
+    "graph_changed_targets": [
+      0,
+      64,
+      0,
+      512,
+      0,
+      1984,
+      0,
+      2048
+    ],
+    "resumed_sequences": 4,
+    "valid": true
+  }
+]

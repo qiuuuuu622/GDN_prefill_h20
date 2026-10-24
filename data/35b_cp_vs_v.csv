@@ -1,0 +1,10 @@
+lengths,noncp_ms,best_scanned_cp_strategy,best_scanned_cp_ms,dv_ms,caveat
+[512],0.05165200233459473,cp_auto_total,0.10560920238494872,0.035495679378509525,"CP and V measured in separate historical scans; synthetic, no checkpoints"
+[4096],0.3790623903274536,cp_c2048,0.4005228042602539,0.2564713668823242,"CP and V measured in separate historical scans; synthetic, no checkpoints"
+[8192],0.7536427974700928,cp_auto_total,0.762417984008789,0.5060281753540039,"CP and V measured in separate historical scans; synthetic, no checkpoints"
+[16384],1.501420783996582,cp_c1024,1.4530351638793946,1.0063033294677735,"CP and V measured in separate historical scans; synthetic, no checkpoints"
+[32768],2.9942575454711915,cp_c2048,2.7242656707763673,2.0093711853027343,"CP and V measured in separate historical scans; synthetic, no checkpoints"
+"[8192, 1024, 1024, 1024]",0.7541560173034668,split_c2048,0.8927495956420899,0.631415672302246,"CP and V measured in separate historical scans; synthetic, no checkpoints"
+"[32768, 1024, 1024, 1024]",2.9926784515380858,split_c2048,2.83571834564209,2.005113525390625,"CP and V measured in separate historical scans; synthetic, no checkpoints"
+"[8192, 8192]",0.7572216033935547,split_c1024,1.087546443939209,1.0067705535888671,"CP and V measured in separate historical scans; synthetic, no checkpoints"
+"[2048, 2048, 2048, 2048]",0.3856924057006836,split_c1024,0.5187580108642578,0.5115385437011719,"CP and V measured in separate historical scans; synthetic, no checkpoints"

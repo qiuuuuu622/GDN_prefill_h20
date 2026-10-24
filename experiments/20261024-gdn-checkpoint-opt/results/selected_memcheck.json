@@ -1,0 +1,26 @@
+[
+  {
+    "tokens": 65,
+    "target": 64,
+    "initial_nonzero": true,
+    "valid": true
+  },
+  {
+    "tokens": 8192,
+    "target": 64,
+    "initial_nonzero": true,
+    "valid": true
+  },
+  {
+    "tokens": 8192,
+    "target": 4096,
+    "initial_nonzero": true,
+    "valid": true
+  },
+  {
+    "tokens": 8192,
+    "target": 8192,
+    "initial_nonzero": true,
+    "valid": true
+  }
+]

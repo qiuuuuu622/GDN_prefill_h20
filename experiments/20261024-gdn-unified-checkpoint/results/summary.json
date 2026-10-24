@@ -1,0 +1,18 @@
+{
+  "exact_cases": 240,
+  "exact_passed": 240,
+  "segmented_cp_cases": 60,
+  "segmented_cp_close": 42,
+  "boundary_cases": 48,
+  "boundary_close": 25,
+  "boundary_same_cp_output_final_exact": true,
+  "edge_cases": 16,
+  "empty_plan_cases": 4,
+  "invalid_plans_rejected": 7,
+  "memcheck_errors": 0,
+  "dispatch_best_observed": 16,
+  "dispatch_cases": 16,
+  "benchmark_shapes": 16,
+  "e2e_tested": false,
+  "published": false
+}

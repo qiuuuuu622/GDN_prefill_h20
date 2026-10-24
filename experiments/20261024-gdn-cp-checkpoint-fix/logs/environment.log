@@ -1,0 +1,38 @@
+{
+  "python": "3.12.3",
+  "versions": {
+    "torch": "2.13.0+cu130",
+    "flashinfer-python": "0.6.18",
+    "sglang": "0.5.20",
+    "nvidia-cutlass-dsl": "4.6.2"
+  },
+  "gpu": "_CudaDeviceProperties(name='NVIDIA H20', major=9, minor=0, total_memory=97272MB, multi_processor_count=78, uuid=70ecd83a-e80e-e8e0-f1c8-801d4d9995c0, pci_bus_id=24, pci_device_id=0, pci_domain_id=0, L2_cache_size=60MB)",
+  "files": {
+    "/opt/sglang/lib/python3.12/site-packages/flashinfer/gdn_kernels/delta_rule_dsl/delta_rule_cp_sm90.py": "4b137abe0b810b9f74c85642fc10793dfb7156a934e00a8367857fe859385e7d",
+    "/opt/sglang/lib/python3.12/site-packages/flashinfer/gdn_kernels/delta_rule_dsl/delta_rule_sm90.py": "c72398f8f6e57ed2d708d364dd0299ce414e75a27d044ac83c6278c0954290a4"
+  },
+  "script_hashes": {
+    "01_experiment.py": "264c21f5abfe9d3260daf3b397571070bff34847754659d5ef3b3ee4e2f4ace1",
+    "02_pilot.py": "724a2ab306b0f89e6deaee07075ba6abfe58c9c92fd5053fe5dcf7b09810fbd5",
+    "03_validate.py": "67ac0849e57a2610a4a3aba44c516deb6ee60d6a7bb7b465040fe0e6d9cc1c79",
+    "04_benchmark.py": "659cc8f88840b4bb106847f87abe250e83b8a673cd6099fba2ed41ec5e481284",
+    "05_graph_stress.py": "0b7eac4b3cbb377581b0a0a87072fb3e74601870bf5d9f9ea517d1f58af26ea9",
+    "06_precision_probe.py": "09d8088cd4068bf07e70f478a4a8de8df6063e1e04b11f75772eb9d396993753",
+    "07_edge_contract.py": "7fa1f0485f0b8369040a14f3cdf3c910d12fa8260bf6843f3bb9d58477eff514",
+    "08_boundary_audit.py": "6beece5e63ab9efbe7e88d343de8e870f20b769c4f30baf82ad408c5e62f9705",
+    "09_environment.py": "c1f481810c1ed4ade7a01e629fb6a36ec60c9fce8fdcb437af5e2aab53e9667c",
+    "21_report.py": "2bfbfe8f367c5add13d79957473d60d93c98e42b783bbac3b97ea707ecceaf70",
+    "22_manifest.py": "af34e9665137619e1b45361ddaf8e68d6961cc27091b939585b60c1218e2ff1d",
+    "cp_boundary.py": "d51c03b0cc62a6be645ea4a5755e57756b7201f8247905b1f9a0aa1a29f39dec",
+    "cp_selected_kernel.py": "bf09d7c6dafedcccff56fa52a9f1c0177eb922c37cee1f110364f6070b66bd38",
+    "dvsplit.py": "70446108a9ef3fe8770251bb6d02b720aca266392a894e0f71aa9b5ea5cc0a95",
+    "dvsplit_kernel.py": "ee9fceaeb44bd7d2518ffe057604d447d68450590904a3d565a0bb764fc7ea4c",
+    "generate_cp_selected.py": "48359f83d2b356a6cf13273c2a51f3c86d1cedd3cf99e9c5259580381995b613",
+    "mixed_native.py": "2eed266899471d35589709ff1d0e6564d1ef58998b26063ab64cd9fac17fefd5",
+    "native_cp.py": "66c4a52d91d593141ad0ee8c9621c036c7e3d090ea01614067288137da1c9039",
+    "original_gdn_split.py": "efc2d6d04cb33f231b484b8ec636eb907043fff7f10b6b0cbccdc4e3577da726",
+    "selected.py": "cbdb7b666025c320cd11dc698f858f0ebbafe835240c651a0fe15f48d9ebefdb",
+    "selected_kernel.py": "101344b354facf827c4f1597734c2ec44e4c613c27d40c9af2a11fa7108e69f4",
+    "unified.py": "67ea4ae13668f45001c9aa916b969eabdbf9f5402a077420112f43d2a604f28b"
+  }
+}

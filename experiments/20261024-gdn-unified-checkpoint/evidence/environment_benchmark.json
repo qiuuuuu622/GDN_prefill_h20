@@ -1,0 +1,29 @@
+{
+  "args": {
+    "mode": "benchmark",
+    "pilot": false,
+    "memcheck": false,
+    "repeats": 7,
+    "replays": 50
+  },
+  "versions": {
+    "torch": "2.13.0+cu130",
+    "flashinfer-python": "0.6.18",
+    "sglang": "0.5.20",
+    "nvidia-cutlass-dsl": "4.6.2"
+  },
+  "gpu": "NVIDIA H20",
+  "sms": 78,
+  "source_sha256": {
+    "scripts/generate_kernels.py": "a3c2d04dd6657911995094f6f7e0cd396cb99a7e3d5f41decb6908590653c194",
+    "scripts/unified.py": "9fde364987d21b870954711859902e53a7ef86c4d83e8be6953646c3bfb3f70a",
+    "scripts/dvsplit.py": "70446108a9ef3fe8770251bb6d02b720aca266392a894e0f71aa9b5ea5cc0a95",
+    "scripts/dvsplit_kernel.py": "ee9fceaeb44bd7d2518ffe057604d447d68450590904a3d565a0bb764fc7ea4c",
+    "scripts/original_gdn_split.py": "efc2d6d04cb33f231b484b8ec636eb907043fff7f10b6b0cbccdc4e3577da726",
+    "scripts/01_experiment.py": "264c21f5abfe9d3260daf3b397571070bff34847754659d5ef3b3ee4e2f4ace1",
+    "scripts/selected.py": "cbdb7b666025c320cd11dc698f858f0ebbafe835240c651a0fe15f48d9ebefdb",
+    "scripts/selected_kernel.py": "101344b354facf827c4f1597734c2ec44e4c613c27d40c9af2a11fa7108e69f4",
+    "scripts/generate_dvsplit.py": "e7a8aa170645a9c5dd48aec7188cc0490cd0c15d5dbbbfc084eca6db21abb22b",
+    "scripts/20_run.py": "c8f4e845d6b38b19b0d353e106fbc08130b8ac930987eac2156cf356dcbb11c3"
+  }
+}

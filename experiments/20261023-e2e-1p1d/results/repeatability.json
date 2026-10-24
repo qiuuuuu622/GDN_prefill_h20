@@ -1,0 +1,254 @@
+{
+  "baseline": {
+    "within_mode_equal": 1,
+    "mean_output_tokens": 297.5,
+    "samples": [
+      {
+        "sample_id": "sample_00",
+        "token_counts": [
+          274,
+          319
+        ],
+        "output_equal": false,
+        "ttft_ms": [
+          1046.29,
+          859.28
+        ]
+      },
+      {
+        "sample_id": "sample_01",
+        "token_counts": [
+          102,
+          102
+        ],
+        "output_equal": true,
+        "ttft_ms": [
+          1122.15,
+          874.6
+        ]
+      },
+      {
+        "sample_id": "sample_02",
+        "token_counts": [
+          216,
+          216
+        ],
+        "output_equal": false,
+        "ttft_ms": [
+          910.37,
+          941.55
+        ]
+      },
+      {
+        "sample_id": "sample_03",
+        "token_counts": [
+          333,
+          342
+        ],
+        "output_equal": false,
+        "ttft_ms": [
+          948.08,
+          956.3
+        ]
+      },
+      {
+        "sample_id": "sample_04",
+        "token_counts": [
+          335,
+          391
+        ],
+        "output_equal": false,
+        "ttft_ms": [
+          1007.85,
+          980.16
+        ]
+      },
+      {
+        "sample_id": "sample_05",
+        "token_counts": [
+          162,
+          202
+        ],
+        "output_equal": false,
+        "ttft_ms": [
+          1055.07,
+          1063.82
+        ]
+      },
+      {
+        "sample_id": "sample_06",
+        "token_counts": [
+          388,
+          351
+        ],
+        "output_equal": false,
+        "ttft_ms": [
+          1202.66,
+          1203.12
+        ]
+      },
+      {
+        "sample_id": "sample_07",
+        "token_counts": [
+          357,
+          352
+        ],
+        "output_equal": false,
+        "ttft_ms": [
+          1357.81,
+          1361.23
+        ]
+      },
+      {
+        "sample_id": "sample_08",
+        "token_counts": [
+          242,
+          242
+        ],
+        "output_equal": false,
+        "ttft_ms": [
+          1735.65,
+          1825.24
+        ]
+      },
+      {
+        "sample_id": "sample_09",
+        "token_counts": [
+          512,
+          512
+        ],
+        "output_equal": false,
+        "ttft_ms": [
+          2346.36,
+          2334.65
+        ]
+      }
+    ]
+  },
+  "optimized": {
+    "within_mode_equal": 0,
+    "mean_output_tokens": 283.5,
+    "samples": [
+      {
+        "sample_id": "sample_00",
+        "token_counts": [
+          267,
+          249
+        ],
+        "output_equal": false,
+        "ttft_ms": [
+          831.61,
+          852.48
+        ]
+      },
+      {
+        "sample_id": "sample_01",
+        "token_counts": [
+          102,
+          97
+        ],
+        "output_equal": false,
+        "ttft_ms": [
+          878.29,
+          881.37
+        ]
+      },
+      {
+        "sample_id": "sample_02",
+        "token_counts": [
+          181,
+          93
+        ],
+        "output_equal": false,
+        "ttft_ms": [
+          896.51,
+          906.52
+        ]
+      },
+      {
+        "sample_id": "sample_03",
+        "token_counts": [
+          314,
+          339
+        ],
+        "output_equal": false,
+        "ttft_ms": [
+          922.29,
+          936.61
+        ]
+      },
+      {
+        "sample_id": "sample_04",
+        "token_counts": [
+          337,
+          350
+        ],
+        "output_equal": false,
+        "ttft_ms": [
+          1018.4,
+          986.94
+        ]
+      },
+      {
+        "sample_id": "sample_05",
+        "token_counts": [
+          207,
+          198
+        ],
+        "output_equal": false,
+        "ttft_ms": [
+          1046.99,
+          1052.93
+        ]
+      },
+      {
+        "sample_id": "sample_06",
+        "token_counts": [
+          404,
+          405
+        ],
+        "output_equal": false,
+        "ttft_ms": [
+          1155.25,
+          1187.24
+        ]
+      },
+      {
+        "sample_id": "sample_07",
+        "token_counts": [
+          355,
+          353
+        ],
+        "output_equal": false,
+        "ttft_ms": [
+          1354.42,
+          1521.3
+        ]
+      },
+      {
+        "sample_id": "sample_08",
+        "token_counts": [
+          195,
+          200
+        ],
+        "output_equal": false,
+        "ttft_ms": [
+          1677.02,
+          1865.82
+        ]
+      },
+      {
+        "sample_id": "sample_09",
+        "token_counts": [
+          512,
+          512
+        ],
+        "output_equal": false,
+        "ttft_ms": [
+          2304.63,
+          2298.0
+        ]
+      }
+    ]
+  }
+}

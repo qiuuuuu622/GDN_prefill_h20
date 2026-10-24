@@ -1,0 +1,9 @@
+{
+  "target_gdn_baseline_ms": 23.07163,
+  "target_gdn_optimized_ms": 15.153701000000002,
+  "target_gdn_speedup": 1.522507933870412,
+  "target_gdn_saved_ms": 7.917928999999997,
+  "baseline_target_gpu_share": 0.02821913205104857,
+  "kernel_total_baseline_ms": 817.5882219999995,
+  "kernel_total_optimized_ms": 808.4264309999999
+}

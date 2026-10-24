@@ -1,0 +1,11 @@
+{
+  "python": "3.12.3",
+  "versions": {
+    "torch": "2.13.0+cu130",
+    "flashinfer-python": "0.6.18",
+    "sglang": "0.5.20",
+    "nvidia-cutlass-dsl": "4.6.2"
+  },
+  "gpu": "H20 SM90 78 SM; physical device 6",
+  "seed": 20261024
+}

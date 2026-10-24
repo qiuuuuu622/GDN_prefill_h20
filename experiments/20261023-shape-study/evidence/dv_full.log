@@ -1,0 +1,102 @@
+CASE [512] H 16 32
+READY noncp True 0.12
+READY public_auto True 7.62
+READY dvsplit True 3.24
+RESULT [512] [(0.035495679378509525, 'dvsplit'), (0.051743998527526855, 'noncp'), (0.10566847801208495, 'public_auto')]
+CASE [1024] H 16 32
+READY noncp True 0.0
+READY public_auto True 0.0
+READY dvsplit True 0.0
+RESULT [1024] [(0.06720640182495118, 'dvsplit'), (0.09847935676574707, 'noncp'), (0.1269974422454834, 'public_auto')]
+CASE [2048] H 16 32
+READY noncp True 0.0
+READY public_auto True 0.0
+READY dvsplit True 0.0
+RESULT [2048] [(0.13145952224731444, 'dvsplit'), (0.192607364654541, 'noncp'), (0.21967039108276368, 'public_auto')]
+CASE [4096] H 16 32
+READY noncp True 0.0
+READY public_auto True 0.0
+READY dvsplit True 0.0
+RESULT [4096] [(0.2564713668823242, 'dvsplit'), (0.37985950469970703, 'noncp'), (0.40161952972412107, 'public_auto')]
+CASE [8192] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.01
+READY dvsplit True 0.0
+RESULT [8192] [(0.5060281753540039, 'dvsplit'), (0.7524198150634765, 'noncp'), (0.7632905578613282, 'public_auto')]
+CASE [16384] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.01
+READY dvsplit True 0.01
+RESULT [16384] [(1.0063033294677735, 'dvsplit'), (1.4862168884277345, 'public_auto'), (1.499720001220703, 'noncp')]
+CASE [32768] H 16 32
+READY noncp True 0.05
+READY public_auto True 0.02
+READY dvsplit True 0.02
+RESULT [32768] [(2.0093711853027343, 'dvsplit'), (2.9406640625, 'public_auto'), (2.9921060180664063, 'noncp')]
+CASE [8192, 1024] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.01
+READY dvsplit True 0.0
+READY dv_long_only True 0.01
+RESULT [8192, 1024] [(0.5059872055053711, 'dvsplit'), (0.510830078125, 'dv_long_only'), (0.7524765014648438, 'noncp'), (0.7559343719482422, 'public_auto')]
+CASE [8192, 1024, 1024, 1024] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.01
+READY dvsplit True 0.01
+READY dv_long_only True 0.01
+RESULT [8192, 1024, 1024, 1024] [(0.6053907012939453, 'dv_long_only'), (0.631415672302246, 'dvsplit'), (0.7527881622314453, 'public_auto'), (0.7529865264892578, 'noncp')]
+CASE [8192, 1024, 1024, 1024, 1024, 1024, 1024, 1024] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.01
+READY dvsplit True 0.01
+READY dv_long_only True 0.01
+RESULT [8192, 1024, 1024, 1024, 1024, 1024, 1024, 1024] [(0.7068335723876953, 'dv_long_only'), (0.7549292755126953, 'public_auto'), (0.754967041015625, 'noncp'), (0.8291622161865234, 'dvsplit')]
+CASE [16384, 1024, 1024, 1024] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.01
+READY dvsplit True 0.01
+READY dv_long_only True 0.01
+RESULT [16384, 1024, 1024, 1024] [(1.0076863861083984, 'dvsplit'), (1.018427505493164, 'dv_long_only'), (1.5020661926269532, 'public_auto'), (1.5023858642578125, 'noncp')]
+CASE [32768, 1024, 1024, 1024] H 16 32
+READY noncp True 0.02
+READY public_auto True 0.02
+READY dvsplit True 0.02
+READY dv_long_only True 0.02
+RESULT [32768, 1024, 1024, 1024] [(2.005113525390625, 'dvsplit'), (2.015760650634766, 'dv_long_only'), (2.9908709716796875, 'public_auto'), (2.9910382080078124, 'noncp')]
+CASE [4096, 512, 512, 512] H 16 32
+READY noncp True 0.0
+READY public_auto True 0.0
+READY dvsplit True 0.0
+READY dv_long_only True 0.0
+RESULT [4096, 512, 512, 512] [(0.3110032081604004, 'dv_long_only'), (0.32120193481445314, 'dvsplit'), (0.38049407958984377, 'noncp'), (0.3805206298828125, 'public_auto')]
+CASE [8192, 8192] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.01
+READY dvsplit True 0.01
+READY dv_long_only True 0.01
+RESULT [8192, 8192] [(0.7558051300048828, 'public_auto'), (0.7558316802978515, 'noncp'), (1.0067705535888671, 'dvsplit'), (1.2577561950683593, 'dv_long_only')]
+CASE [2048, 2048, 2048, 2048] H 16 32
+READY noncp True 0.0
+READY public_auto True 0.0
+READY dvsplit True 0.0
+READY dv_long_only True 0.0
+RESULT [2048, 2048, 2048, 2048] [(0.38448257446289064, 'public_auto'), (0.384486083984375, 'noncp'), (0.5115385437011719, 'dvsplit'), (0.5146355056762695, 'dv_long_only')]
+CASE [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024] H 16 32
+READY noncp True 0.0
+READY public_auto True 0.0
+READY dvsplit True 0.0
+READY dv_long_only True 0.0
+RESULT [1024, 1024, 1024, 1024, 1024, 1024, 1024, 1024] [(0.3660153579711914, 'dv_long_only'), (0.39294593811035156, 'public_auto'), (0.3929657745361328, 'noncp'), (0.458873291015625, 'dvsplit')]
+CASE [1024, 8192, 1024] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.01
+READY dvsplit True 0.01
+READY dv_long_only True 0.01
+RESULT [1024, 8192, 1024] [(0.5720492935180664, 'dvsplit'), (0.5955516815185546, 'dv_long_only'), (0.75501953125, 'public_auto'), (0.7553059387207032, 'noncp')]
+CASE [511, 8193, 0, 1025] H 16 32
+READY noncp True 0.01
+READY public_auto True 0.01
+READY dvsplit True 0.01
+READY dv_long_only True 0.01
+RESULT [511, 8193, 0, 1025] [(0.5176627349853515, 'dv_long_only'), (0.5454188919067383, 'dvsplit'), (0.7600233459472656, 'public_auto'), (0.7600860595703125, 'noncp')]
+COMPLETED evidence/dv_full.jsonl

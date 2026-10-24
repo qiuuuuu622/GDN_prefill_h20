@@ -1,0 +1,371 @@
+--- installed_delta_rule_sm90.py
++++ dvsplit_kernel.py
+@@ -1,3 +1,4 @@
++# Experimental generated specialization. Regenerate with generate_dvsplit.py.
+ from enum import IntEnum
+ 
+ import torch
+@@ -28,7 +29,7 @@
+     LDST = 0
+     MATH_STATE0 = 1
+     MATH_STATE1 = 2
+-    MATH_AUX = 3
++    MATH_AUX = 2
+ 
+ 
+ class LoadStoreWarpRole(IntEnum):
+@@ -55,7 +56,7 @@
+ # inside the kernel without any parameter-passing trickery.
+ 
+ 
+-class _FullyFusedDeltaRuleSm90(KeyedCompileMixin):
++class _DVSplitDeltaRuleSm90(KeyedCompileMixin):
+     @staticmethod
+     def get_register_requirements(
+         max_threads_per_block: int,
+@@ -136,6 +137,7 @@
+         self.BLK_Q = 64
+         self.BLK_KV = 64
+         self.D = 128
++        self.DV = 64
+         self.q_stage = 2
+         self.k_stage = 3
+         self.v_stage = 2
+@@ -154,6 +156,7 @@
+             "BLK_Q",
+             "BLK_KV",
+             "D",
++            "DV",
+             "q_stage",
+             "k_stage",
+             "v_stage",
+@@ -531,7 +534,7 @@
+             (cutlass.Int32(0), blk_tok),
+             tma_tensor_v[None, None, v_head_idx],
+         )
+-        gV = cute.zipped_divide(mV, (self.D, self.BLK_KV))[
++        gV = cute.zipped_divide(mV, (self.DV, self.BLK_KV))[
+             ((None, None), (cutlass.Int32(0), cutlass.Int32(0)))
+         ]
+         tVsV, tVgV = cpasync.tma_partition(
+@@ -575,7 +578,7 @@
+             tok = blk_tok + row
+             if tok < tok_end:
+                 sAlpha_k[row, AlphaProcessor.CUMSUM_LOG] = g_alpha[
+-                    tok * num_sab_heads + sab_head_idx
++                    tok * (num_sab_heads // 2) + sab_head_idx // 2
+                 ]
+             else:
+                 sAlpha_k[row, AlphaProcessor.CUMSUM_LOG] = cutlass.Float32(1.0)
+@@ -601,7 +604,7 @@
+             row = cutlass.Int32(i * 32) + lane_id
+             tok = blk_tok + row
+             if tok < tok_end:
+-                sBeta_k[row] = g_beta[tok * num_sab_heads + sab_head_idx]
++                sBeta_k[row] = g_beta[tok * (num_sab_heads // 2) + sab_head_idx // 2]
+             else:
+                 sBeta_k[row] = cutlass.Float32(0.0)
+ 
+@@ -658,15 +661,13 @@
+         if cutlass.const_expr(self.needs_checkpointing):
+             if (
+                 block_end <= seq_len
+-                and block_end % checkpoint_every_n_tokens == cutlass.Int32(0)
++                and ((checkpoint_every_n_tokens > 0 and block_end % checkpoint_every_n_tokens == cutlass.Int32(0)) or (checkpoint_every_n_tokens < 0 and block_end == -checkpoint_every_n_tokens))
+             ):
+-                checkpoint_idx = (
+-                    cutlass.Int32(checkpoint_cu_starts[seq_idx])
+-                    + block_end // checkpoint_every_n_tokens
+-                    - cutlass.Int32(1)
+-                )
++                checkpoint_idx = cutlass.Int32(checkpoint_cu_starts[seq_idx])
++                if checkpoint_every_n_tokens > 0:
++                    checkpoint_idx += block_end // checkpoint_every_n_tokens - cutlass.Int32(1)
+                 checkpoint_layout = cute.make_ordered_layout(
+-                    (self.D, self.D, num_sab_heads, total_checkpoints),
++                    (self.D, self.DV, num_sab_heads, total_checkpoints),
+                     order=(0, 1, 2, 3),
+                 )
+                 mCheckpoint = cute.make_tensor(
+@@ -725,7 +726,7 @@
+         # ── TiledMMAs ─────────────────────────────────────────────────────────
+         blk_q = cute.size(sQ_SD, mode=[0])
+         blk_kv = cute.size(sK_SD, mode=[0])
+-        d = cute.size(sQ_SD, mode=[1])
++        d = self.DV
+         mma_atom_o1 = cute.make_mma_atom(
+             warpgroup.MmaF16BF16Op(
+                 self.dtype,
+@@ -768,10 +769,10 @@
+         )
+ 
+         # O1/O2/SK/NewV: two state warpgroups cooperate as in the C++ Hopper GMMA path.
+-        o1_tiled_mma = cute.make_tiled_mma(mma_atom_o1, cute.make_layout((2, 1, 1)))
+-        o2_tiled_mma = cute.make_tiled_mma(mma_atom_o2, cute.make_layout((2, 1, 1)))
+-        sk_tiled_mma = cute.make_tiled_mma(mma_atom_sk, cute.make_layout((2, 1, 1)))
+-        newv_tiled_mma = cute.make_tiled_mma(mma_atom_newv, cute.make_layout((2, 1, 1)))
++        o1_tiled_mma = cute.make_tiled_mma(mma_atom_o1, cute.make_layout((1, 1, 1)))
++        o2_tiled_mma = cute.make_tiled_mma(mma_atom_o2, cute.make_layout((1, 1, 1)))
++        sk_tiled_mma = cute.make_tiled_mma(mma_atom_sk, cute.make_layout((1, 1, 1)))
++        newv_tiled_mma = cute.make_tiled_mma(mma_atom_newv, cute.make_layout((1, 1, 1)))
+ 
+         # ── Thread slices ─────────────────────────────────────────────────────
+         sk_thr_mma = sk_tiled_mma.get_slice(thread_idx)
+@@ -833,7 +834,7 @@
+             SM90.warpgroup_fence_operand(tOrKV)
+             SM90.warpgroup_fence_operand(tOrO)
+             cute.nvgpu.warpgroup.fence()
+-            self._math_order_wait(wg_idx)
++
+             SM90.wgmma_gemm_zero_acc(
+                 o1_tiled_mma,
+                 tOrO,
+@@ -841,7 +842,7 @@
+                 tOrQ[None, None, None, q_consumer_state.index],
+             )
+             cute.nvgpu.warpgroup.commit_group()
+-            self._math_order_notify(wg_idx)
++
+             cute.nvgpu.warpgroup.wait_group(0)
+             self.o1_epi(tOrO, tOcO, sAlpha, alpha_consumer_state.index, scale)
+         q_pipeline.consumer_release(q_consumer_state)
+@@ -855,7 +856,7 @@
+             SM90.warpgroup_fence_operand(tSKrSK)
+             SM90.warpgroup_fence_operand(tSKrS)
+             cute.nvgpu.warpgroup.fence()
+-            self._math_order_wait(wg_idx)
++
+             SM90.wgmma_gemm_zero_acc(
+                 sk_tiled_mma,
+                 tSKrSK,
+@@ -863,7 +864,7 @@
+                 tSKrK[None, None, None, k_consumer_state.index],
+             )
+             cute.nvgpu.warpgroup.commit_group()
+-            self._math_order_notify(wg_idx)
++
+             cute.nvgpu.warpgroup.wait_group(0)
+ 
+         # ── Load V from smem ──────────────────────────────────────────────────
+@@ -891,7 +892,7 @@
+         SM90.warpgroup_fence_operand(tNewVrA)
+         SM90.warpgroup_fence_operand(tNewVrC)
+         cute.nvgpu.warpgroup.fence()
+-        self._math_order_wait(wg_idx)
++
+         SM90.wgmma_gemm_zero_acc(
+             newv_tiled_mma,
+             tNewVrC,
+@@ -899,7 +900,7 @@
+             tNewVrB[None, None, None, kk_consumer_state.index],
+         )
+         cute.nvgpu.warpgroup.commit_group()
+-        self._math_order_notify(wg_idx)
++
+         cute.nvgpu.warpgroup.wait_group(0)
+         v_pipeline.consumer_release(v_consumer_state)
+         v_consumer_state.advance()
+@@ -912,7 +913,7 @@
+         SM90.warpgroup_fence_operand(tOrV_or_tKVrV)
+         SM90.warpgroup_fence_operand(tOrO)
+         cute.nvgpu.warpgroup.fence()
+-        self._math_order_wait(wg_idx)
++
+         SM90.wgmma_gemm(
+             o2_tiled_mma,
+             tOrO,
+@@ -921,7 +922,7 @@
+             not is_first_block,
+         )
+         cute.nvgpu.warpgroup.commit_group()
+-        self._math_order_notify(wg_idx)
++
+         cute.nvgpu.warpgroup.wait_group(0)
+         qk_pipeline.consumer_release(qk_consumer_state)
+         qk_consumer_state.advance()
+@@ -959,7 +960,7 @@
+         SM90.warpgroup_fence_operand(tOrV_or_tKVrV)
+         SM90.warpgroup_fence_operand(tKVrKV)
+         cute.nvgpu.warpgroup.fence()
+-        self._math_order_wait(wg_idx)
++
+         SM90.wgmma_gemm(
+             kv_tiled_mma,
+             tKVrKV,
+@@ -968,7 +969,7 @@
+             True,
+         )
+         cute.nvgpu.warpgroup.commit_group()
+-        self._math_order_notify(wg_idx)
++
+         cute.nvgpu.warpgroup.wait_group(0)
+         k_pipeline.consumer_release(k_consumer_state)
+         k_consumer_state.advance()
+@@ -1152,7 +1153,7 @@
+         total_checkpoints: cutlass.Int32,
+         checkpoint_every_n_tokens: cutlass.Int32,
+     ):
+-        self._math_order_init(wg_idx)
++
+         q_consumer_state = pipeline.make_pipeline_state(
+             pipeline.PipelineUserType.Consumer, self.q_stage
+         )
+@@ -1186,16 +1187,16 @@
+                     cute.nvgpu.OperandMajorMode.MN,
+                 )
+             ),
+-            cute.make_layout((2, 1, 1)),
++            cute.make_layout((1, 1, 1)),
+         )
+         kv_thr_mma = kv_tiled_mma.get_slice(math_tidx)
+         tKVrKV = kv_thr_mma.make_fragment_C(
+-            kv_thr_mma.partition_shape_C((self.D, self.D))
++            kv_thr_mma.partition_shape_C((self.DV, self.D))
+         )
+         tKVrKV.fill(self.acc_dtype(0.0))
+ 
+         state_layout = cute.make_ordered_layout(
+-            (self.D, self.D, num_sab_heads, num_seqs), order=(0, 1, 2, 3)
++            (self.D, self.DV, num_sab_heads, num_seqs), order=(0, 1, 2, 3)
+         )
+         o_head_idx = work_desc.o_head_idx(num_q_heads, num_v_heads)
+         mState = cute.make_tensor(g_state.iterator, state_layout)
+@@ -1780,7 +1781,7 @@
+         v_storage_layout_sd = cute.coalesce(
+             cute.tile_to_shape(
+                 qkv_smem_layout_atom,
+-                (self.BLK_KV, self.D, self.v_stage),
++                (self.BLK_KV, self.DV, self.v_stage),
+                 order=(0, 1, 2),
+             ),
+             target_profile=(1, 1, 1),
+@@ -1794,7 +1795,7 @@
+         )
+         o_storage_layout = cute.tile_to_shape(
+             o_smem_layout_atom,
+-            (self.D, self.BLK_Q, self.o_stage),
++            (self.DV, self.BLK_Q, self.o_stage),
+             order=(1, 0, 2),
+         )
+         o_smem_layout = cute.slice_(o_storage_layout, (None, None, 0))
+@@ -1807,12 +1808,12 @@
+             tma_load_op, g_k, k_smem_layout, (self.D, self.BLK_KV)
+         )
+         tma_atom_v, tma_tensor_v = cpasync.make_tiled_tma_atom(
+-            tma_load_op, g_v, v_smem_layout, (self.D, self.BLK_KV)
++            tma_load_op, g_v, v_smem_layout, (self.DV, self.BLK_KV)
+         )
+ 
+         tma_store_op = cpasync.CopyBulkTensorTileS2GOp()
+         tma_atom_o, tma_tensor_o = cpasync.make_tiled_tma_atom(
+-            tma_store_op, g_o, o_smem_layout, (self.D, self.BLK_Q)
++            tma_store_op, g_o, o_smem_layout, (self.DV, self.BLK_Q)
+         )
+ 
+         dtype_bytes = self.dtype.width // 8
+@@ -1913,8 +1914,8 @@
+             checkpoint_every_n_tokens,
+         ).launch(
+             grid=(grid_x, 1, 1),
+-            block=(512, 1, 1),
+-            max_number_threads=(512, 1, 1),
++            block=(384, 1, 1),
++            max_number_threads=(384, 1, 1),
+             stream=stream,
+             min_blocks_per_mp=1,
+         )
+@@ -1948,7 +1949,7 @@
+         checkpoint_every_n_tokens: cutlass.Int32,
+     ):
+         NUM_LOAD_WARP_GROUPS = 1
+-        NUM_STATE_MMA_WARP_GROUPS = 2
++        NUM_STATE_MMA_WARP_GROUPS = 1
+         NUM_AUX_MMA_WARP_GROUPS = 1
+         THREADS_PER_WARP_GROUP = 128
+         WARPS_PER_WARP_GROUP = 4
+@@ -2030,7 +2031,7 @@
+         v_layout_sd = cute.coalesce(
+             cute.tile_to_shape(
+                 qkv_smem_layout_atom,
+-                (self.BLK_KV, self.D, self.v_stage),
++                (self.BLK_KV, self.DV, self.v_stage),
+                 order=(0, 1, 2),
+             ),
+             target_profile=(1, 1, 1),
+@@ -2057,7 +2058,7 @@
+         )
+         o_layout = cute.tile_to_shape(
+             o_smem_layout_atom,
+-            (self.D, self.BLK_Q, self.o_stage),
++            (self.DV, self.BLK_Q, self.o_stage),
+             order=(1, 0, 2),
+         )
+         sO = storage.smem_o.get_tensor(o_layout.outer, swizzle=o_layout.inner)
+@@ -2188,7 +2189,7 @@
+                     work_desc.v_head_idx(),
+                 )
+             elif ldst_warp_role == LoadStoreWarpRole.STORE_O:
+-                CollectiveStoreTma(self.BLK_Q, self.D).run(
++                CollectiveStoreTma(self.BLK_Q, self.DV).run(
+                     sO,
+                     tma_atom_o,
+                     tma_tensor_o,
+@@ -2305,6 +2306,8 @@
+     import cuda.bindings.driver as cuda_driver
+ 
+     D = q.shape[-1]
++    DV = v.shape[-1]
++    assert D == 128 and DV == 64
+ 
+     num_seqs = cu_seqlens.shape[0] - 1
+     num_q_heads = q.shape[1]
+@@ -2312,7 +2315,7 @@
+     num_v_heads = v.shape[1]
+     num_sab_heads = max(num_q_heads, num_v_heads)
+ 
+-    if not _FullyFusedDeltaRuleSm90.can_implement(
++    if not _DVSplitDeltaRuleSm90.can_implement(
+         num_q_heads, num_k_heads, num_v_heads, D, q.element_size()
+     ):
+         raise RuntimeError("can_implement failed")
+@@ -2322,7 +2325,7 @@
+     needs_alpha = alpha is not None
+     needs_beta = beta is not None
+     needs_init_state = init_state is not None
+-    needs_checkpointing = checkpoint_every_n_tokens > 0
++    needs_checkpointing = checkpoint_every_n_tokens != 0
+     kernel_dtype = {
+         torch.float16: cutlass.Float16,
+         torch.bfloat16: cutlass.BFloat16,
+@@ -2374,17 +2377,17 @@
+         (1, num_k_heads * D, D),
+     )
+     v_tma = v.as_strided(
+-        (D, total_seqlen, num_v_heads),
+-        (1, num_v_heads * D, D),
++        (DV, total_seqlen, num_v_heads),
++        (1, num_v_heads * DV, DV),
+     )
+     o_tma = o.as_strided(
+-        (D, total_seqlen, num_o_heads),
+-        (1, num_o_heads * D, D),
++        (DV, total_seqlen, num_o_heads),
++        (1, num_o_heads * DV, DV),
+     )
+     total_checkpoints = state_checkpoints.shape[0] if needs_checkpointing else 1
+ 
+     workspace_size = get_device_sm_count(q.device) * 128
+-    tensormaps_t = _get_cache_buf("gdn_prefill_tensormaps", workspace_size, q.device)
++    tensormaps_t = _get_cache_buf("gdn_dvsplit_prefill_tensormaps", workspace_size, q.device)
+ 
+     stream_val = torch.cuda.current_stream().cuda_stream
+     stream = cuda_driver.CUstream(stream_val)
+@@ -2431,7 +2434,7 @@
+     tensormaps_cute = from_dlpack(tensormaps_t, assumed_align=128).mark_layout_dynamic()
+     cu_cute = from_dlpack(cu_seqlens, assumed_align=8).mark_layout_dynamic()
+ 
+-    delta_rule_kernel = _FullyFusedDeltaRuleSm90(
++    delta_rule_kernel = _DVSplitDeltaRuleSm90(
+         needs_alpha, needs_beta, needs_init_state, needs_checkpointing, kernel_dtype
+     )
+ 

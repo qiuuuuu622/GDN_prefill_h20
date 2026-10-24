@@ -1,0 +1,19 @@
+========= COMPUTE-SANITIZER
+{"model": "122b_tp4", "zero_init": false, "method": "full", "exact": true, "close": true}
+{"model": "122b_tp4", "zero_init": false, "method": "dv", "exact": true, "close": true}
+{"model": "122b_tp4", "zero_init": false, "method": "cp_boundary", "exact": false, "close": true}
+{"model": "122b_tp4", "zero_init": false, "method": "mixed_boundary", "exact": false, "close": true}
+{"model": "122b_tp4", "zero_init": true, "method": "full", "exact": true, "close": true}
+{"model": "122b_tp4", "zero_init": true, "method": "dv", "exact": true, "close": true}
+{"model": "122b_tp4", "zero_init": true, "method": "cp_boundary", "exact": false, "close": true}
+{"model": "122b_tp4", "zero_init": true, "method": "mixed_boundary", "exact": false, "close": true}
+{"model": "35b_tp1", "zero_init": false, "method": "full", "exact": true, "close": true}
+{"model": "35b_tp1", "zero_init": false, "method": "dv", "exact": true, "close": true}
+{"model": "35b_tp1", "zero_init": false, "method": "cp_boundary", "exact": false, "close": true}
+{"model": "35b_tp1", "zero_init": false, "method": "mixed_boundary", "exact": false, "close": true}
+{"model": "35b_tp1", "zero_init": true, "method": "full", "exact": true, "close": true}
+{"model": "35b_tp1", "zero_init": true, "method": "dv", "exact": true, "close": true}
+{"model": "35b_tp1", "zero_init": true, "method": "cp_boundary", "exact": false, "close": true}
+{"model": "35b_tp1", "zero_init": true, "method": "mixed_boundary", "exact": false, "close": true}
+COMPLETE_EDGE 16
+========= ERROR SUMMARY: 0 errors

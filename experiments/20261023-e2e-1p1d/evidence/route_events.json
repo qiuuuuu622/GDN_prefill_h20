@@ -1,0 +1,2990 @@
+[
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 30,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 60,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 90,
+    "tokens": 7680,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 120,
+    "tokens": 7680,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 150,
+    "tokens": 7168,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 180,
+    "tokens": 7168,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 210,
+    "tokens": 6656,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 240,
+    "tokens": 6656,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 270,
+    "tokens": 6144,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 300,
+    "tokens": 6144,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 330,
+    "tokens": 5632,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 360,
+    "tokens": 5632,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 390,
+    "tokens": 5120,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 420,
+    "tokens": 5120,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 450,
+    "tokens": 4608,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 480,
+    "tokens": 4608,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 510,
+    "tokens": 4096,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 540,
+    "tokens": 4096,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 570,
+    "tokens": 3840,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 600,
+    "tokens": 3840,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 630,
+    "tokens": 3584,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 660,
+    "tokens": 3584,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 690,
+    "tokens": 3328,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 720,
+    "tokens": 3328,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 750,
+    "tokens": 3072,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 780,
+    "tokens": 3072,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 810,
+    "tokens": 2816,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 840,
+    "tokens": 2816,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 870,
+    "tokens": 2560,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 900,
+    "tokens": 2560,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 930,
+    "tokens": 2304,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 960,
+    "tokens": 2304,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 990,
+    "tokens": 2048,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1020,
+    "tokens": 2048,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1050,
+    "tokens": 1792,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1080,
+    "tokens": 1792,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1110,
+    "tokens": 1536,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1140,
+    "tokens": 1536,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1170,
+    "tokens": 1280,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1200,
+    "tokens": 1280,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1230,
+    "tokens": 1024,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1260,
+    "tokens": 1024,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1290,
+    "tokens": 960,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1320,
+    "tokens": 960,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1350,
+    "tokens": 896,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1380,
+    "tokens": 896,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1410,
+    "tokens": 832,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1440,
+    "tokens": 832,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1470,
+    "tokens": 768,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1500,
+    "tokens": 768,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1530,
+    "tokens": 704,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1560,
+    "tokens": 704,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1590,
+    "tokens": 640,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1620,
+    "tokens": 640,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1650,
+    "tokens": 576,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1680,
+    "tokens": 576,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1710,
+    "tokens": 512,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1740,
+    "tokens": 512,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1770,
+    "tokens": 480,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1800,
+    "tokens": 480,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1830,
+    "tokens": 448,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1860,
+    "tokens": 448,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1890,
+    "tokens": 416,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1920,
+    "tokens": 416,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1950,
+    "tokens": 384,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 1980,
+    "tokens": 384,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2010,
+    "tokens": 352,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2040,
+    "tokens": 352,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2070,
+    "tokens": 320,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2100,
+    "tokens": 320,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2130,
+    "tokens": 288,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2160,
+    "tokens": 288,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2190,
+    "tokens": 256,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2220,
+    "tokens": 256,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2250,
+    "tokens": 240,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2280,
+    "tokens": 240,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2310,
+    "tokens": 224,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2340,
+    "tokens": 224,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2370,
+    "tokens": 208,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2400,
+    "tokens": 208,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2430,
+    "tokens": 192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2460,
+    "tokens": 192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2490,
+    "tokens": 176,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2520,
+    "tokens": 176,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2550,
+    "tokens": 160,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2580,
+    "tokens": 160,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2610,
+    "tokens": 144,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2640,
+    "tokens": 144,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2670,
+    "tokens": 128,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2700,
+    "tokens": 128,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2730,
+    "tokens": 112,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2760,
+    "tokens": 112,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2790,
+    "tokens": 96,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2820,
+    "tokens": 96,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2850,
+    "tokens": 80,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2880,
+    "tokens": 80,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2910,
+    "tokens": 64,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2940,
+    "tokens": 64,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 2970,
+    "tokens": 48,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3000,
+    "tokens": 48,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3030,
+    "tokens": 32,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3060,
+    "tokens": 32,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3090,
+    "tokens": 28,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3120,
+    "tokens": 28,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3150,
+    "tokens": 24,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3180,
+    "tokens": 24,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3210,
+    "tokens": 20,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3240,
+    "tokens": 20,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3270,
+    "tokens": 16,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3300,
+    "tokens": 16,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3330,
+    "tokens": 12,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3360,
+    "tokens": 12,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3390,
+    "tokens": 8,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3420,
+    "tokens": 8,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3450,
+    "tokens": 4,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3480,
+    "tokens": 4,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3510,
+    "tokens": 4,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3540,
+    "tokens": 16,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "verify",
+    "selected": true,
+    "count": 1,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "verify",
+    "selected": true,
+    "count": 30,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "verify",
+    "selected": true,
+    "count": 60,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "verify",
+    "selected": false,
+    "count": 30,
+    "tokens": 1541,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3541,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3570,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3600,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3630,
+    "tokens": 1541,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3660,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3690,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3720,
+    "tokens": 2201,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3750,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3780,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3810,
+    "tokens": 2783,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3840,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3870,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3900,
+    "tokens": 3358,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3930,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3960,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 3990,
+    "tokens": 3967,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4020,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4050,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4080,
+    "tokens": 5592,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4110,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4140,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4170,
+    "tokens": 7675,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4200,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4230,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4260,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4290,
+    "tokens": 1289,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4320,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4350,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4380,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4410,
+    "tokens": 7201,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4440,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4470,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4500,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4530,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4560,
+    "tokens": 7209,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 30,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 60,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 30,
+    "tokens": 1541,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 90,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 120,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 60,
+    "tokens": 2201,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 150,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 180,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 90,
+    "tokens": 2783,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 210,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 240,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 120,
+    "tokens": 3358,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 270,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 300,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 150,
+    "tokens": 3967,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 330,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 360,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 180,
+    "tokens": 5592,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 390,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 420,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 210,
+    "tokens": 7675,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 450,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 480,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 510,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 240,
+    "tokens": 1289,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 540,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 570,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 600,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 270,
+    "tokens": 7201,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 630,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 660,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 690,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 720,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 300,
+    "tokens": 7209,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4561,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4590,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4620,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4650,
+    "tokens": 1541,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4680,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4710,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4740,
+    "tokens": 2201,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4770,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4800,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4830,
+    "tokens": 2783,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4860,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4890,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4920,
+    "tokens": 3358,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4950,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 4980,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5010,
+    "tokens": 3967,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5040,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5070,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5100,
+    "tokens": 5592,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5130,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5160,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5190,
+    "tokens": 7675,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5220,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5250,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5280,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5310,
+    "tokens": 1289,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5340,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5370,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5400,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5430,
+    "tokens": 7201,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5460,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5490,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5520,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5550,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5580,
+    "tokens": 7209,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 721,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 750,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 780,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 330,
+    "tokens": 1541,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 810,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 840,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 360,
+    "tokens": 2201,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 870,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 900,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 390,
+    "tokens": 2783,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 930,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 960,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 420,
+    "tokens": 3358,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 990,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1020,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 450,
+    "tokens": 3967,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1050,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1080,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 480,
+    "tokens": 5592,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1110,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1140,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 510,
+    "tokens": 7675,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1170,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1200,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1230,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 540,
+    "tokens": 1289,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1260,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1290,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1320,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 570,
+    "tokens": 7201,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1350,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1380,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1410,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1440,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 600,
+    "tokens": 7209,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1470,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1500,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 630,
+    "tokens": 1541,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1530,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1560,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 660,
+    "tokens": 2201,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1590,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1620,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 690,
+    "tokens": 2783,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1650,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1680,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 720,
+    "tokens": 3358,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1710,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1740,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 750,
+    "tokens": 3967,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1770,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1800,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 780,
+    "tokens": 5592,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1830,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1860,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 810,
+    "tokens": 7675,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1890,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1920,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1950,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 840,
+    "tokens": 1289,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 1980,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 2010,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 2040,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 870,
+    "tokens": 7201,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 2070,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 2100,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 2130,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": true,
+    "count": 2160,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "optimized",
+    "selected": false,
+    "count": 900,
+    "tokens": 7209,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5581,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5610,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5640,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5670,
+    "tokens": 1541,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5700,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5730,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5760,
+    "tokens": 2201,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5790,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5820,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5850,
+    "tokens": 2783,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5880,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5910,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5940,
+    "tokens": 3358,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 5970,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 6000,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 6030,
+    "tokens": 3967,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 6060,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 6090,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 6120,
+    "tokens": 5592,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 6150,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 6180,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 6210,
+    "tokens": 7675,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 6240,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 6270,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 6300,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 6330,
+    "tokens": 1289,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 6360,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 6390,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 6420,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 6450,
+    "tokens": 7201,
+    "sequences": 1,
+    "checkpoint": 64
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 6480,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 6510,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 6540,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 6570,
+    "tokens": 8192,
+    "sequences": 1,
+    "checkpoint": 0
+  },
+  {
+    "pid": 160445,
+    "mode": "baseline",
+    "selected": false,
+    "count": 6600,
+    "tokens": 7209,
+    "sequences": 1,
+    "checkpoint": 64
+  }
+]

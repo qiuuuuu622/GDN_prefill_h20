@@ -1,0 +1,823 @@
+{
+  "successful_requests": 40,
+  "total_requests": 44,
+  "reset_calls": 4,
+  "resets_during_batch": 0,
+  "cache_pairs": [
+    {
+      "rep": 1,
+      "sample_id": "sample_00",
+      "equal": true
+    },
+    {
+      "rep": 1,
+      "sample_id": "sample_01",
+      "equal": true
+    },
+    {
+      "rep": 1,
+      "sample_id": "sample_02",
+      "equal": true
+    },
+    {
+      "rep": 1,
+      "sample_id": "sample_03",
+      "equal": true
+    },
+    {
+      "rep": 1,
+      "sample_id": "sample_04",
+      "equal": true
+    },
+    {
+      "rep": 1,
+      "sample_id": "sample_05",
+      "equal": true
+    },
+    {
+      "rep": 1,
+      "sample_id": "sample_06",
+      "equal": true
+    },
+    {
+      "rep": 1,
+      "sample_id": "sample_07",
+      "equal": true
+    },
+    {
+      "rep": 1,
+      "sample_id": "sample_08",
+      "equal": true
+    },
+    {
+      "rep": 1,
+      "sample_id": "sample_09",
+      "equal": true
+    },
+    {
+      "rep": 2,
+      "sample_id": "sample_00",
+      "equal": true
+    },
+    {
+      "rep": 2,
+      "sample_id": "sample_01",
+      "equal": true
+    },
+    {
+      "rep": 2,
+      "sample_id": "sample_02",
+      "equal": true
+    },
+    {
+      "rep": 2,
+      "sample_id": "sample_03",
+      "equal": true
+    },
+    {
+      "rep": 2,
+      "sample_id": "sample_04",
+      "equal": true
+    },
+    {
+      "rep": 2,
+      "sample_id": "sample_05",
+      "equal": true
+    },
+    {
+      "rep": 2,
+      "sample_id": "sample_06",
+      "equal": true
+    },
+    {
+      "rep": 2,
+      "sample_id": "sample_07",
+      "equal": true
+    },
+    {
+      "rep": 2,
+      "sample_id": "sample_08",
+      "equal": true
+    },
+    {
+      "rep": 2,
+      "sample_id": "sample_09",
+      "equal": true
+    }
+  ],
+  "requests": [
+    {
+      "rep": 1,
+      "mode": "baseline",
+      "sample_id": "sample_00",
+      "prompt": 17925,
+      "cached": 0,
+      "new": 17925,
+      "batches": [
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 1541,
+          "cached_tokens": 0
+        }
+      ]
+    },
+    {
+      "rep": 1,
+      "mode": "baseline",
+      "sample_id": "sample_01",
+      "prompt": 18585,
+      "cached": 0,
+      "new": 18585,
+      "batches": [
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 2201,
+          "cached_tokens": 0
+        }
+      ]
+    },
+    {
+      "rep": 1,
+      "mode": "baseline",
+      "sample_id": "sample_02",
+      "prompt": 19167,
+      "cached": 128,
+      "new": 19039,
+      "batches": [
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 128
+        },
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 2655,
+          "cached_tokens": 0
+        }
+      ]
+    },
+    {
+      "rep": 1,
+      "mode": "baseline",
+      "sample_id": "sample_03",
+      "prompt": 19742,
+      "cached": 16512,
+      "new": 3230,
+      "batches": [
+        {
+          "new_tokens": 3230,
+          "cached_tokens": 16512
+        }
+      ]
+    },
+    {
+      "rep": 1,
+      "mode": "baseline",
+      "sample_id": "sample_04",
+      "prompt": 20351,
+      "cached": 18112,
+      "new": 2239,
+      "batches": [
+        {
+          "new_tokens": 2239,
+          "cached_tokens": 18112
+        }
+      ]
+    },
+    {
+      "rep": 1,
+      "mode": "baseline",
+      "sample_id": "sample_05",
+      "prompt": 21976,
+      "cached": 16384,
+      "new": 5592,
+      "batches": [
+        {
+          "new_tokens": 5592,
+          "cached_tokens": 16384
+        }
+      ]
+    },
+    {
+      "rep": 1,
+      "mode": "baseline",
+      "sample_id": "sample_06",
+      "prompt": 24059,
+      "cached": 18112,
+      "new": 5947,
+      "batches": [
+        {
+          "new_tokens": 5947,
+          "cached_tokens": 18112
+        }
+      ]
+    },
+    {
+      "rep": 1,
+      "mode": "baseline",
+      "sample_id": "sample_07",
+      "prompt": 25865,
+      "cached": 17792,
+      "new": 8073,
+      "batches": [
+        {
+          "new_tokens": 8073,
+          "cached_tokens": 17792
+        }
+      ]
+    },
+    {
+      "rep": 1,
+      "mode": "baseline",
+      "sample_id": "sample_08",
+      "prompt": 31777,
+      "cached": 18112,
+      "new": 13665,
+      "batches": [
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 18112
+        },
+        {
+          "new_tokens": 5473,
+          "cached_tokens": 0
+        }
+      ]
+    },
+    {
+      "rep": 1,
+      "mode": "baseline",
+      "sample_id": "sample_09",
+      "prompt": 39977,
+      "cached": 18112,
+      "new": 21865,
+      "batches": [
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 18112
+        },
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 5481,
+          "cached_tokens": 0
+        }
+      ]
+    },
+    {
+      "rep": 1,
+      "mode": "optimized",
+      "sample_id": "sample_00",
+      "prompt": 17925,
+      "cached": 0,
+      "new": 17925,
+      "batches": [
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 1541,
+          "cached_tokens": 0
+        }
+      ]
+    },
+    {
+      "rep": 1,
+      "mode": "optimized",
+      "sample_id": "sample_01",
+      "prompt": 18585,
+      "cached": 0,
+      "new": 18585,
+      "batches": [
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 2201,
+          "cached_tokens": 0
+        }
+      ]
+    },
+    {
+      "rep": 1,
+      "mode": "optimized",
+      "sample_id": "sample_02",
+      "prompt": 19167,
+      "cached": 128,
+      "new": 19039,
+      "batches": [
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 128
+        },
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 2655,
+          "cached_tokens": 0
+        }
+      ]
+    },
+    {
+      "rep": 1,
+      "mode": "optimized",
+      "sample_id": "sample_03",
+      "prompt": 19742,
+      "cached": 16512,
+      "new": 3230,
+      "batches": [
+        {
+          "new_tokens": 3230,
+          "cached_tokens": 16512
+        }
+      ]
+    },
+    {
+      "rep": 1,
+      "mode": "optimized",
+      "sample_id": "sample_04",
+      "prompt": 20351,
+      "cached": 18112,
+      "new": 2239,
+      "batches": [
+        {
+          "new_tokens": 2239,
+          "cached_tokens": 18112
+        }
+      ]
+    },
+    {
+      "rep": 1,
+      "mode": "optimized",
+      "sample_id": "sample_05",
+      "prompt": 21976,
+      "cached": 16384,
+      "new": 5592,
+      "batches": [
+        {
+          "new_tokens": 5592,
+          "cached_tokens": 16384
+        }
+      ]
+    },
+    {
+      "rep": 1,
+      "mode": "optimized",
+      "sample_id": "sample_06",
+      "prompt": 24059,
+      "cached": 18112,
+      "new": 5947,
+      "batches": [
+        {
+          "new_tokens": 5947,
+          "cached_tokens": 18112
+        }
+      ]
+    },
+    {
+      "rep": 1,
+      "mode": "optimized",
+      "sample_id": "sample_07",
+      "prompt": 25865,
+      "cached": 17792,
+      "new": 8073,
+      "batches": [
+        {
+          "new_tokens": 8073,
+          "cached_tokens": 17792
+        }
+      ]
+    },
+    {
+      "rep": 1,
+      "mode": "optimized",
+      "sample_id": "sample_08",
+      "prompt": 31777,
+      "cached": 18112,
+      "new": 13665,
+      "batches": [
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 18112
+        },
+        {
+          "new_tokens": 5473,
+          "cached_tokens": 0
+        }
+      ]
+    },
+    {
+      "rep": 1,
+      "mode": "optimized",
+      "sample_id": "sample_09",
+      "prompt": 39977,
+      "cached": 18112,
+      "new": 21865,
+      "batches": [
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 18112
+        },
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 5481,
+          "cached_tokens": 0
+        }
+      ]
+    },
+    {
+      "rep": 2,
+      "mode": "optimized",
+      "sample_id": "sample_00",
+      "prompt": 17925,
+      "cached": 0,
+      "new": 17925,
+      "batches": [
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 1541,
+          "cached_tokens": 0
+        }
+      ]
+    },
+    {
+      "rep": 2,
+      "mode": "optimized",
+      "sample_id": "sample_01",
+      "prompt": 18585,
+      "cached": 0,
+      "new": 18585,
+      "batches": [
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 2201,
+          "cached_tokens": 0
+        }
+      ]
+    },
+    {
+      "rep": 2,
+      "mode": "optimized",
+      "sample_id": "sample_02",
+      "prompt": 19167,
+      "cached": 128,
+      "new": 19039,
+      "batches": [
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 128
+        },
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 2655,
+          "cached_tokens": 0
+        }
+      ]
+    },
+    {
+      "rep": 2,
+      "mode": "optimized",
+      "sample_id": "sample_03",
+      "prompt": 19742,
+      "cached": 16512,
+      "new": 3230,
+      "batches": [
+        {
+          "new_tokens": 3230,
+          "cached_tokens": 16512
+        }
+      ]
+    },
+    {
+      "rep": 2,
+      "mode": "optimized",
+      "sample_id": "sample_04",
+      "prompt": 20351,
+      "cached": 18112,
+      "new": 2239,
+      "batches": [
+        {
+          "new_tokens": 2239,
+          "cached_tokens": 18112
+        }
+      ]
+    },
+    {
+      "rep": 2,
+      "mode": "optimized",
+      "sample_id": "sample_05",
+      "prompt": 21976,
+      "cached": 16384,
+      "new": 5592,
+      "batches": [
+        {
+          "new_tokens": 5592,
+          "cached_tokens": 16384
+        }
+      ]
+    },
+    {
+      "rep": 2,
+      "mode": "optimized",
+      "sample_id": "sample_06",
+      "prompt": 24059,
+      "cached": 18112,
+      "new": 5947,
+      "batches": [
+        {
+          "new_tokens": 5947,
+          "cached_tokens": 18112
+        }
+      ]
+    },
+    {
+      "rep": 2,
+      "mode": "optimized",
+      "sample_id": "sample_07",
+      "prompt": 25865,
+      "cached": 17792,
+      "new": 8073,
+      "batches": [
+        {
+          "new_tokens": 8073,
+          "cached_tokens": 17792
+        }
+      ]
+    },
+    {
+      "rep": 2,
+      "mode": "optimized",
+      "sample_id": "sample_08",
+      "prompt": 31777,
+      "cached": 18112,
+      "new": 13665,
+      "batches": [
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 18112
+        },
+        {
+          "new_tokens": 5473,
+          "cached_tokens": 0
+        }
+      ]
+    },
+    {
+      "rep": 2,
+      "mode": "optimized",
+      "sample_id": "sample_09",
+      "prompt": 39977,
+      "cached": 18112,
+      "new": 21865,
+      "batches": [
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 18112
+        },
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 5481,
+          "cached_tokens": 0
+        }
+      ]
+    },
+    {
+      "rep": 2,
+      "mode": "baseline",
+      "sample_id": "sample_00",
+      "prompt": 17925,
+      "cached": 0,
+      "new": 17925,
+      "batches": [
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 1541,
+          "cached_tokens": 0
+        }
+      ]
+    },
+    {
+      "rep": 2,
+      "mode": "baseline",
+      "sample_id": "sample_01",
+      "prompt": 18585,
+      "cached": 0,
+      "new": 18585,
+      "batches": [
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 2201,
+          "cached_tokens": 0
+        }
+      ]
+    },
+    {
+      "rep": 2,
+      "mode": "baseline",
+      "sample_id": "sample_02",
+      "prompt": 19167,
+      "cached": 128,
+      "new": 19039,
+      "batches": [
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 128
+        },
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 2655,
+          "cached_tokens": 0
+        }
+      ]
+    },
+    {
+      "rep": 2,
+      "mode": "baseline",
+      "sample_id": "sample_03",
+      "prompt": 19742,
+      "cached": 16512,
+      "new": 3230,
+      "batches": [
+        {
+          "new_tokens": 3230,
+          "cached_tokens": 16512
+        }
+      ]
+    },
+    {
+      "rep": 2,
+      "mode": "baseline",
+      "sample_id": "sample_04",
+      "prompt": 20351,
+      "cached": 18112,
+      "new": 2239,
+      "batches": [
+        {
+          "new_tokens": 2239,
+          "cached_tokens": 18112
+        }
+      ]
+    },
+    {
+      "rep": 2,
+      "mode": "baseline",
+      "sample_id": "sample_05",
+      "prompt": 21976,
+      "cached": 16384,
+      "new": 5592,
+      "batches": [
+        {
+          "new_tokens": 5592,
+          "cached_tokens": 16384
+        }
+      ]
+    },
+    {
+      "rep": 2,
+      "mode": "baseline",
+      "sample_id": "sample_06",
+      "prompt": 24059,
+      "cached": 18112,
+      "new": 5947,
+      "batches": [
+        {
+          "new_tokens": 5947,
+          "cached_tokens": 18112
+        }
+      ]
+    },
+    {
+      "rep": 2,
+      "mode": "baseline",
+      "sample_id": "sample_07",
+      "prompt": 25865,
+      "cached": 17792,
+      "new": 8073,
+      "batches": [
+        {
+          "new_tokens": 8073,
+          "cached_tokens": 17792
+        }
+      ]
+    },
+    {
+      "rep": 2,
+      "mode": "baseline",
+      "sample_id": "sample_08",
+      "prompt": 31777,
+      "cached": 18112,
+      "new": 13665,
+      "batches": [
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 18112
+        },
+        {
+          "new_tokens": 5473,
+          "cached_tokens": 0
+        }
+      ]
+    },
+    {
+      "rep": 2,
+      "mode": "baseline",
+      "sample_id": "sample_09",
+      "prompt": 39977,
+      "cached": 18112,
+      "new": 21865,
+      "batches": [
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 18112
+        },
+        {
+          "new_tokens": 8192,
+          "cached_tokens": 0
+        },
+        {
+          "new_tokens": 5481,
+          "cached_tokens": 0
+        }
+      ]
+    }
+  ],
+  "route_totals": {
+    "baseline": {
+      "baseline:False": 1140
+    },
+    "optimized": {
+      "optimized:True": 420,
+      "optimized:False": 720
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/opt/sglang/bin/python",
+    "-u",
+    "scripts/01_experiment.py",
+    "--mode",
+    "correctness"
+  ],
+  "CUDA_VISIBLE_DEVICES": "6",
+  "pid": 299009,
+  "started": 1792820456.6719813
+}
